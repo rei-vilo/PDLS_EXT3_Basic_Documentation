@@ -1,4 +1,6 @@
 var a00158 =
 [
-    [ "PDLS_EXT3_BASIC_RELEASE", "a00158.html#a6a442e2660dcbf6abc571571c20e28c0", null ]
+    [ "hV_Colours565", "a00184.html", "a00184" ],
+    [ "hV_COLOURS_RELEASE", "a00158.html#ad04b95af5737630651211d49cf779995", null ],
+    [ "myColours", "a00158.html#aa178466696f7432d6da667d514bee379", null ]
 ];

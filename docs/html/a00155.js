@@ -1,20 +1,11 @@
 var a00155 =
 [
-    [ "hV_UTILITIES_RELEASE", "a00155.html#a9181b73f355c545c61257008ed6515c1", null ],
-    [ "max", "a00155.html#affe776513b24d84b39af8ab0930fef7f", null ],
-    [ "min", "a00155.html#ac6afabdc09a49a433ee19d8a9486056d", null ],
-    [ "ORIENTATION_LANDSCAPE", "a00155.html#accc06995e9834c793d2cc9e96ded0560", null ],
-    [ "ORIENTATION_PORTRAIT", "a00155.html#a0f166aa542c69097847cfc189cd48057", null ],
-    [ "checkRange", "a00155.html#a86af3529c58c3ba135667030a75a5917", null ],
-    [ "cos32x100", "a00155.html#ae5fee0ae2d4737a35b38f31aa48ece9f", null ],
-    [ "delay_ms", "a00155.html#ab7cce8122024d7ba47bf10f434956de4", null ],
-    [ "formatString", "a00155.html#aa405c9a5b808e428554e540028085dd3", null ],
-    [ "roundUp", "a00155.html#a9e10a8bc35f3b1ae121655e335de4513", null ],
-    [ "setMinMax", "a00155.html#ac8a17fff09aa92a8b27434044c138bc0", null ],
-    [ "sin32x100", "a00155.html#a6843a856b41ae0c0fbe919efb535aa9f", null ],
-    [ "swap", "a00155.html#a149f55c1d6b6336ef751e247856198ce", null ],
-    [ "swap", "a00155.html#a7989671d14dda7f19b8d289e359404e9", null ],
-    [ "swap", "a00155.html#a46562f812c731ac4a846ee4bb29b0397", null ],
-    [ "trimString", "a00155.html#a311c694a8a5722683dd6739c55323036", null ],
-    [ "utf2iso", "a00155.html#a3051dd153db86ba3b56a69e93f1ca22a", null ]
+    [ "hV_Font_Terminal", "a00218.html", "a00218" ],
+    [ "hV_FONT_TERMINAL_RELEASE", "a00155.html#a2c1b31917210e8dd59e9d780d3285e12", null ],
+    [ "fontNumber_e", "a00155.html#afb304f88fec3d0fe39131d0aa83a0c1a", [
+      [ "Font_Terminal6x8", "a00155.html#afb304f88fec3d0fe39131d0aa83a0c1aa211f327e3cdf7f9eb742f0bd6f662e62", null ],
+      [ "Font_Terminal8x12", "a00155.html#afb304f88fec3d0fe39131d0aa83a0c1aaa96d44e108f1189328d2412a373d5685", null ],
+      [ "Font_Terminal12x16", "a00155.html#afb304f88fec3d0fe39131d0aa83a0c1aa65191b1c4df15b6a2a5f2b147f1f16d9", null ],
+      [ "Font_Terminal16x24", "a00155.html#afb304f88fec3d0fe39131d0aa83a0c1aadab5c016442270214928562ac2319015", null ]
+    ] ]
 ];

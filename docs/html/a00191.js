@@ -1,5 +1,6 @@
 var a00191 =
 [
-    [ "index", "a00191.html#a7ad7fe2d62cc875ebf7a14389541e66a", null ],
-    [ "pixel", "a00191.html#a68591191be4ff122ee2a26f8b977f2e7", null ]
+    [ "width_s", "a00210.html", "a00210" ],
+    [ "font_s", "a00214.html", "a00214" ],
+    [ "hV_FONT_HEADER_STRUCTURE_RELEASE", "a00191.html#a7a0568c346f7cb957cd4c3f56454673e", null ]
 ];

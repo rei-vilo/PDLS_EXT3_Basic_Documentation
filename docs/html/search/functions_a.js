@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['point_265',['point',['../a00203.html#af56437354e69149a2da933a458b05f04',1,'hV_Screen_Buffer::point()'],['../a00207.html#a4fe7dd69f57d2cf40adef054ce54af34',1,'Screen_EPD_EXT3::point()']]]
+  ['movehuman_0',['moveHuman',['../a00110.html#acea0796956ea2a8f46c845e6bf96c77a',1,'Basic_Touch_TicTacToe.ino']]],
+  ['movemcu_1',['moveMCU',['../a00110.html#ad9713f29c890b87e62b7cccf52ec97b4',1,'Basic_Touch_TicTacToe.ino']]]
 ];

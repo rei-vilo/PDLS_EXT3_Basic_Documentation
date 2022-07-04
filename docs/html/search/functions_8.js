@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['invert_262',['invert',['../a00207.html#a6fb49e3dc7184a532d2324f923c074eb',1,'Screen_EPD_EXT3']]]
+  ['invert_0',['invert',['../a00220.html#af47e927e81ba4a69c0a549a8cb03950b',1,'Screen_EPD_EXT3_Fast']]],
+  ['istouch_1',['isTouch',['../a00216.html#a19bf90368a4167cf6c894f1a2b47861b',1,'hV_Screen_Buffer']]],
+  ['istouchevent_2',['isTouchEvent',['../a00216.html#a0e841a84ee60528a35f99c78162222a1',1,'hV_Screen_Buffer']]]
 ];
