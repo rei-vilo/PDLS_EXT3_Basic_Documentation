@@ -6,7 +6,7 @@ Documentation of the library for Pervasive Displays [EPD Extension Kit Gen 3 (EX
 
 + Go to the [documentation](https://rei-vilo.github.io/PDLS_EXT3_Basic_Documentation/index.html) 
 
-+ Please refer to [PDLS_EXT3_Basic](https://github.com/rei-vilo/PDLS_EXT3_Basic/issues) for reporting issues.
++ Please refer to [PDLS_EXT3_Basic](https://github.com/rei-vilo/PDLS_EXT3_Basic/issues) for reporting issues and contributing pull requests.
 
 ## Licence
 
