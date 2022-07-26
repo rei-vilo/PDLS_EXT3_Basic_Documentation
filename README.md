@@ -10,4 +10,6 @@ Documentation of the library for Pervasive Displays [EPD Extension Kit Gen 3 (EX
 
 ## Licence
 
-[Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](./LICENSE.md)
+[Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](./LICENCE.md)
+
+![](./by-nc-sa.svg)
