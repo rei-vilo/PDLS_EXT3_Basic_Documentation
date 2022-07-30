@@ -1,7 +1,6 @@
 var a00119 =
 [
-    [ "flush_ms", "a00119.html#a3bec8a8883209b74549c344fa2a4375c", null ],
-    [ "loop", "a00119.html#afe461d27b9c48d5921c00d521181f12f", null ],
-    [ "setup", "a00119.html#a4fc01d736fe50cf5b977f755b675f11d", null ],
-    [ "wait", "a00119.html#a92d9142cd31b37b7b3944dc8d9c9f454", null ]
+    [ "hV_Colours565", "a00184.html", "a00184" ],
+    [ "hV_COLOURS_RELEASE", "a00119.html#ad04b95af5737630651211d49cf779995", null ],
+    [ "myColours", "a00119.html#aa178466696f7432d6da667d514bee379", null ]
 ];
