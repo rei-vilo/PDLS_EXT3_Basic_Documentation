@@ -1,6 +1,6 @@
-<map id="Common_WhoAmI.ino" name="Common_WhoAmI.ino">
-<area shape="rect" id="node1" title="Example of features for basic edition." alt="" coords="57,5,224,32"/>
+<map id="Basic_Touch_Draw.ino" name="Basic_Touch_Draw.ino">
+<area shape="rect" id="node1" title="Example of features for basic edition." alt="" coords="63,5,229,32"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,80,89,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="113,80,168,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="193,80,342,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="114,80,178,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="203,80,257,107"/>
 </map>

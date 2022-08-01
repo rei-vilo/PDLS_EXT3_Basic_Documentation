@@ -1,5 +1,4 @@
-<map id="Screen_EPD_EXT3_Fast" name="Screen_EPD_EXT3_Fast">
-<area shape="rect" id="node1" title="Class for Pervasive Displays iTC monochome touch screens." alt="" coords="5,155,179,181"/>
-<area shape="rect" id="node2" href="$a00216.html" title="Generic class for buffered LCD." alt="" coords="23,80,161,107"/>
-<area shape="rect" id="node3" href="$a00200.html" title="Class for font as header file." alt="" coords="23,5,161,32"/>
+<map id="button" name="button">
+<area shape="rect" id="node1" title="Button." alt="" coords="5,80,69,107"/>
+<area shape="rect" id="node2" href="$a00217.html" title="Text." alt="" coords="13,5,61,32"/>
 </map>
