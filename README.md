@@ -2,6 +2,8 @@
 
 The Pervasive Displays Library Suite is specifically designed for the [Pervasive Displays](https://www.pervasivedisplays.com) e-paper screens and EXT3 extension board.
 
+![](https://pdls.pervasivedisplays.com/userguide/img/Logo_PDI_text_320.png)
+
 The documentation covers different variants of the library:
 
 * **PDLS_EXT3_Basic** for [monochrome](https://www.pervasivedisplays.com/products/?_sft_product_colour=black-white) and [colour (black-white-red)](https://www.pervasivedisplays.com/products/?_sft_product_colour=black-white-red) screens;
