@@ -1,4 +1,4 @@
 var a00179 =
 [
-    [ "TERMINAL6E_FONT_RELEASE", "a00179.html#ae334fa4c1c475b47ca1f6e86589b5510", null ]
+    [ "TERMINAL12E_FONT_RELEASE", "a00179.html#a37a4e331a66a7c2283c3a82cbb5e8459", null ]
 ];
