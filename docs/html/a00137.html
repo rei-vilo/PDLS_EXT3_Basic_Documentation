@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="Logo-PDI-white.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Pervasive Displays Library Suite - Basic edition
-   &#160;<span id="projectnumber">5.4.1</span>
+   &#160;<span id="projectnumber">5.4.2</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -127,7 +127,7 @@ Data Structures</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a3bcfa67129cf269c0672a66e4705cc21"><td class="memItemLeft" align="right" valign="top"><a id="a3bcfa67129cf269c0672a66e4705cc21"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00137.html#a3bcfa67129cf269c0672a66e4705cc21">hV_CONFIGURATION_RELEASE</a>&#160;&#160;&#160;533</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00137.html#a3bcfa67129cf269c0672a66e4705cc21">hV_CONFIGURATION_RELEASE</a>&#160;&#160;&#160;542</td></tr>
 <tr class="memdesc:a3bcfa67129cf269c0672a66e4705cc21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release. <br /></td></tr>
 <tr class="separator:a3bcfa67129cf269c0672a66e4705cc21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66b2ce216c9fb1c332b3f3a4dbc0882b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00137.html#a66b2ce216c9fb1c332b3f3a4dbc0882b">MAX_FONT_SIZE</a>&#160;&#160;&#160;4</td></tr>
@@ -328,7 +328,7 @@ Macros</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">3- Set font mode</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>From header files or from external flash</p><ul>
 <li>Basic edition: Terminal font</li>
-<li>Advanced edition: DejaVu font as header</li>
+<li>Evaluation edition: DejaVu font as header</li>
 <li>Commercial edition: DejaVu font as either header or external SPI Flash <dl class="section note"><dt>Note</dt><dd>USE_FONT_HEADER requires addFont() </dd>
 <dd>
 Font Manager requires USE_FONT_HEADER </dd></dl>
@@ -348,7 +348,7 @@ Font Manager requires USE_FONT_HEADER </dd></dl>
 <tr><td colspan="2"><div class="groupText"><p>From internal MCU or external SPI</p><ul>
 <li>Basic edition: MCU internal SRAM</li>
 <li>Commercial edition: MCU internal SRAM</li>
-<li>Advanced edition: MCU internal or SPI external SRAM </li>
+<li>Evaluation edition: MCU internal or SPI external SRAM </li>
 </ul>
 </div></td></tr>
 <tr class="memitem:a5ae3237253d77826843fc9d90700d5a1"><td class="memItemLeft" align="right" valign="top"><a id="a5ae3237253d77826843fc9d90700d5a1"></a>
@@ -363,7 +363,7 @@ Font Manager requires USE_FONT_HEADER </dd></dl>
 <tr><td colspan="2"><div class="groupText"><p>From hV_Screen_Virtual.h for extended compability </p><dl class="section note"><dt>Note</dt><dd>Declare additional variables if USE_hV_SCREEN_SELF <br  />
  Virtual object requires ~1 kB bytes.<ul>
 <li>Basic edition: self option</li>
-<li>Advanced edition: virtual option</li>
+<li>Evaluation edition: virtual option</li>
 <li>Commercial edition: self and virtual options </li>
 </ul>
 </dd>
@@ -382,7 +382,7 @@ Recommended: USE_hV_SCREEN_VIRTUAL </dd></dl>
 <tr><td colspan="2"><div class="groupHeader">7- Set touch mode</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Only two screens are ready for touch</p><ul>
 <li>Basic edition: iTC 2.70 BW and iTC 3.70 BW</li>
-<li>Advanced edition: iTC 2.70 BW and iTC 3.70 BW</li>
+<li>Evaluation edition: iTC 2.70 BW and iTC 3.70 BW</li>
 <li>Commercial edition: iTC 2.70 BW and iTC 3.70 BW <dl class="section note"><dt>Note</dt><dd>Touch uses I2C and polling over interrupt </dd></dl>
 </li>
 </ul>
@@ -497,8 +497,8 @@ const <a class="el" href="a00203.html">pins_t</a>&#160;</td><td class="memItemRi
 <li>Set storage mode, not implemented</li>
 </ol>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>07 Jun 2022 </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>533</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>31 Aug 2022 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>542</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2022 </dd>
 <dd>
 All rights reserved</dd></dl>
@@ -508,9 +508,9 @@ All rights reserved</dd></dl>
 </ul>
 <dl class="section see"><dt>See also</dt><dd><a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></dd></dl>
 <p><br  />
- Consider the advanced or commercial editions for professionals or organisations and for commercial usage</p>
+ Consider the Evaluation or Commercial editions for professionals or organisations and for commercial usage</p>
 <ul>
-<li>Advanced edition: for professionals or organisations, no commercial usage <br  />
+<li>Evaluation edition: for professionals or organisations, evaluation only, no commercial usage <br  />
  All rights reserved</li>
 <li>Commercial edition: for professionals or organisations, commercial usage <br  />
  All rights reserved </li>
@@ -721,7 +721,7 @@ All rights reserved</dd></dl>
 <p>10- Set string mode </p>
 <ul>
 <li>Basic edition: String object</li>
-<li>Advanced edition: char array</li>
+<li>Evaluation edition: char array</li>
 <li>Commercial edition: String object or char array </li>
 </ul>
 
@@ -742,7 +742,7 @@ All rights reserved</dd></dl>
 <p>9- Set GPIO expander mode </p>
 <ul>
 <li>Basic edition: no expander</li>
-<li>Advanced edition: PCF8574 or PCA9536</li>
+<li>Evaluation edition: PCF8574 or PCA9536</li>
 <li>Commercial edition: PCF8574 or PCA9536 No I2C expander </li>
 </ul>
 
@@ -763,7 +763,7 @@ All rights reserved</dd></dl>
 <p>8- Set haptic feedback mode </p>
 <ul>
 <li>Basic edition: no haptic feedback</li>
-<li>Advanced edition: ERM or LRA</li>
+<li>Evaluation edition: ERM or LRA</li>
 <li>Commercial edition: ERM or LRA No motor </li>
 </ul>
 
@@ -784,7 +784,7 @@ All rights reserved</dd></dl>
 <p>11- Storage mode </p>
 <ul>
 <li>Basic edition: none</li>
-<li>Advanced edition: none</li>
+<li>Evaluation edition: none</li>
 <li>Commercial edition: option No storage </li>
 </ul>
 
@@ -805,7 +805,7 @@ All rights reserved</dd></dl>
 <p>10- Set string mode </p>
 <ul>
 <li>Basic edition: String object</li>
-<li>Advanced edition: char array</li>
+<li>Evaluation edition: char array</li>
 <li>Commercial edition: String object or char array </li>
 </ul>
 
