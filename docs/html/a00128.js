@@ -1,6 +1,7 @@
 var a00128 =
 [
-    [ "hV_Colours565", "a00193.html", "a00193" ],
-    [ "hV_COLOURS_RELEASE", "a00128.html#ad04b95af5737630651211d49cf779995", null ],
-    [ "myColours", "a00128.html#aa178466696f7432d6da667d514bee379", null ]
+    [ "displayTouch", "a00128.html#a0fdd7aa6b76c30a2df98d750cf7a8420", null ],
+    [ "loop", "a00128.html#afe461d27b9c48d5921c00d521181f12f", null ],
+    [ "setup", "a00128.html#a4fc01d736fe50cf5b977f755b675f11d", null ],
+    [ "wait", "a00128.html#a92d9142cd31b37b7b3944dc8d9c9f454", null ]
 ];

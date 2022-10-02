@@ -1,6 +1,11 @@
 var a00158 =
 [
-    [ "hV_Colours565", "a00184.html", "a00184" ],
-    [ "hV_COLOURS_RELEASE", "a00158.html#ad04b95af5737630651211d49cf779995", null ],
-    [ "myColours", "a00158.html#aa178466696f7432d6da667d514bee379", null ]
+    [ "hV_Font_Terminal", "a00215.html", "a00215" ],
+    [ "hV_FONT_TERMINAL_RELEASE", "a00158.html#a2c1b31917210e8dd59e9d780d3285e12", null ],
+    [ "fontNumber_e", "a00158.html#afb304f88fec3d0fe39131d0aa83a0c1a", [
+      [ "Font_Terminal6x8", "a00158.html#afb304f88fec3d0fe39131d0aa83a0c1aa211f327e3cdf7f9eb742f0bd6f662e62", null ],
+      [ "Font_Terminal8x12", "a00158.html#afb304f88fec3d0fe39131d0aa83a0c1aaa96d44e108f1189328d2412a373d5685", null ],
+      [ "Font_Terminal12x16", "a00158.html#afb304f88fec3d0fe39131d0aa83a0c1aa65191b1c4df15b6a2a5f2b147f1f16d9", null ],
+      [ "Font_Terminal16x24", "a00158.html#afb304f88fec3d0fe39131d0aa83a0c1aadab5c016442270214928562ac2319015", null ]
+    ] ]
 ];
