@@ -11,7 +11,7 @@ var searchData=
   ['boardesp32picodevkitm2_8',['boardESP32PicoDevKitM2',['../a00149.html#a42d79caf3b60b7ea197dab4c533acffb',1,'hV_Configuration.h']]],
   ['boardesp32picokitv4_9',['boardESP32PicoKitV4',['../a00149.html#ae4b299ac38da68b050a1fd653ad6e114',1,'hV_Configuration.h']]],
   ['boardfeatherm0m4_10',['boardFeatherM0M4',['../a00149.html#a8d1357629d2b81eb7e9e0c3469b46c5e',1,'hV_Configuration.h']]],
-  ['boardfeathernrf52831_11',['boardFeatherNRF52831',['../a00149.html#a49e38675e6d643e838e9747601617e3d',1,'hV_Configuration.h']]],
+  ['boardfeathernrf52832_11',['boardFeatherNRF52832',['../a00149.html#abe43bcf6a282df9d337919fbca47cd5b',1,'hV_Configuration.h']]],
   ['boardfeathernrf52840_12',['boardFeatherNRF52840',['../a00149.html#aa5d0b4cf7cc2750c9332f2c0a9e12f1b',1,'hV_Configuration.h']]],
   ['boardlaunchpad_13',['boardLaunchPad',['../a00149.html#a18504c4b88869b52971ed406679d794e',1,'hV_Configuration.h']]],
   ['boardmsp430fr5994_14',['boardMSP430FR5994',['../a00149.html#ab0c34bc6b39ca5dd09835a0ee5a3a41a',1,'hV_Configuration.h']]],
