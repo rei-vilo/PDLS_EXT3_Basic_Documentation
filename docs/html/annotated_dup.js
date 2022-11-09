@@ -1,14 +1,14 @@
 var annotated_dup =
 [
-    [ "button", "a00227.html", "a00227" ],
-    [ "coordinates_s", "a00195.html", null ],
-    [ "font_s", "a00211.html", "a00211" ],
-    [ "GUI", "a00219.html", "a00219" ],
-    [ "hV_Colours565", "a00199.html", "a00199" ],
-    [ "hV_Font_Terminal", "a00215.html", "a00215" ],
-    [ "hV_Screen_Buffer", "a00231.html", "a00231" ],
-    [ "pins_t", "a00203.html", "a00203" ],
-    [ "Screen_EPD_EXT3_Fast", "a00235.html", "a00235" ],
-    [ "text", "a00223.html", "a00223" ],
-    [ "width_s", "a00207.html", "a00207" ]
+    [ "button", "a00254.html", "a00254" ],
+    [ "coordinates_s", "a00222.html", null ],
+    [ "font_s", "a00238.html", "a00238" ],
+    [ "GUI", "a00246.html", "a00246" ],
+    [ "hV_Colours565", "a00226.html", "a00226" ],
+    [ "hV_Font_Terminal", "a00242.html", "a00242" ],
+    [ "hV_Screen_Buffer", "a00258.html", "a00258" ],
+    [ "pins_t", "a00230.html", "a00230" ],
+    [ "Screen_EPD_EXT3_Fast", "a00262.html", "a00262" ],
+    [ "text", "a00250.html", "a00250" ],
+    [ "width_s", "a00234.html", "a00234" ]
 ];

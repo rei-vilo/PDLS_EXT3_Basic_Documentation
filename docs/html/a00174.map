@@ -1,4 +1,6 @@
-<map id="hV_Colours565.h" name="hV_Colours565.h">
-<area shape="rect" id="node1" title="Class Library for 5&#45;6&#45;5 coded colours." alt="" coords="5,5,136,31"/>
-<area shape="rect" id="node2" title=" " alt="" coords="29,79,113,104"/>
+<map id="hV_Configuration.h" name="hV_Configuration.h">
+<area shape="rect" id="node1" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="39,5,184,31"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,79,89,104"/>
+<area shape="rect" id="node3" href="$a00182.html" title="Constants for Pervasive Displays Library Suite." alt="" coords="114,79,237,104"/>
+<area shape="rect" id="node4" title=" " alt="" coords="140,152,211,177"/>
 </map>

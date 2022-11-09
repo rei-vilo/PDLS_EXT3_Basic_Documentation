@@ -1,9 +1,11 @@
 var a00185 =
 [
-    [ "hV_Screen_Buffer", "a00231.html", "a00231" ],
-    [ "hV_SCREEN_BUFFER_RELEASE", "a00185.html#a851c703d9610377daa95f386e7505bfb", null ],
-    [ "TOUCH_EVENT_MOVE", "a00185.html#a9d95a414d6b61be2ef60d6f6685289ab", null ],
-    [ "TOUCH_EVENT_NONE", "a00185.html#addb7ea466d16e54b3ac29e652392bfe7", null ],
-    [ "TOUCH_EVENT_PRESS", "a00185.html#a1b58d5fdc01d6f6c5a090e6d31725d36", null ],
-    [ "TOUCH_EVENT_RELEASE", "a00185.html#a28e03e87baac6e935b2ef802d3d698f9", null ]
+    [ "hV_Font_Terminal", "a00242.html", "a00242" ],
+    [ "hV_FONT_TERMINAL_RELEASE", "a00185.html#a2c1b31917210e8dd59e9d780d3285e12", null ],
+    [ "fontNumber_e", "a00185.html#afb304f88fec3d0fe39131d0aa83a0c1a", [
+      [ "Font_Terminal6x8", "a00185.html#afb304f88fec3d0fe39131d0aa83a0c1aa211f327e3cdf7f9eb742f0bd6f662e62", null ],
+      [ "Font_Terminal8x12", "a00185.html#afb304f88fec3d0fe39131d0aa83a0c1aaa96d44e108f1189328d2412a373d5685", null ],
+      [ "Font_Terminal12x16", "a00185.html#afb304f88fec3d0fe39131d0aa83a0c1aa65191b1c4df15b6a2a5f2b147f1f16d9", null ],
+      [ "Font_Terminal16x24", "a00185.html#afb304f88fec3d0fe39131d0aa83a0c1aadab5c016442270214928562ac2319015", null ]
+    ] ]
 ];
