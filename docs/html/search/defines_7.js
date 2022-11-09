@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['screen_5fepd_5fext3_5frelease_0',['SCREEN_EPD_EXT3_RELEASE',['../a00176.html#ab75eb2c0ba5e190f5c52fcddd3f64ccb',1,'Screen_EPD_EXT3.h']]],
-  ['sram_5fmode_1',['SRAM_MODE',['../a00149.html#a1e2fdad38cc1a287c1119e44d94ca0fd',1,'hV_Configuration.h']]],
-  ['storage_5fmode_2',['STORAGE_MODE',['../a00149.html#ab9794b07ad5c45a1b1d2b29af9c81138',1,'hV_Configuration.h']]],
-  ['string_5fmode_3',['STRING_MODE',['../a00149.html#a772c0af3dc7e04934854547bc08ca6ed',1,'hV_Configuration.h']]]
+  ['panel_5fcs_5fboth_0',['PANEL_CS_BOTH',['../a00182.html#a44856533ff9be33825723a8f273b89aa',1,'hV_Constants.h']]],
+  ['panel_5fcs_5ffirst_1',['PANEL_CS_FIRST',['../a00182.html#abd3e5fcf1ce2139e76df8038b2846bad',1,'hV_Constants.h']]],
+  ['panel_5fcs_5fsecond_2',['PANEL_CS_SECOND',['../a00182.html#a26d53e5618608c18345c2898a71fc611',1,'hV_Constants.h']]],
+  ['partial_5foff_3',['PARTIAL_OFF',['../a00182.html#aec7aa1d3ba1e17fb2b855592142e912a',1,'hV_Constants.h']]],
+  ['partial_5fon_4',['PARTIAL_ON',['../a00182.html#adb2111d5ebf6d8b7b1531796f810c466',1,'hV_Constants.h']]],
+  ['partial_5fvalues_5',['PARTIAL_VALUES',['../a00182.html#aaf9fc54aee3356cedc3b65c4041ca652',1,'hV_Constants.h']]]
 ];

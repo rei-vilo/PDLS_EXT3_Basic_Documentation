@@ -1,5 +1,8 @@
-<map id="hV_Font_Terminal" name="hV_Font_Terminal">
-<area shape="rect" id="node1" title="Class for font as header file." alt="" coords="23,5,160,32"/>
-<area shape="rect" id="node2" href="$a00225.html" title="Generic class for buffered LCD." alt="" coords="23,80,159,107"/>
-<area shape="rect" id="node3" href="$a00229.html" title="Class for Pervasive Displays iTC monochome touch screens." alt="" coords="5,155,177,181"/>
+<map id="Terminal12x16e.h" name="Terminal12x16e.h">
+<area shape="rect" id="node1" title="Font Terminal 12 x 16." alt="" coords="14,5,153,31"/>
+<area shape="rect" id="node2" href="$a00185.html" title="hV_Font_Terminal" alt="" coords="9,79,158,104"/>
+<area shape="rect" id="node3" href="$a00212.html" title="Class Generic LCD with buffer class library." alt="" coords="10,152,157,177"/>
+<area shape="rect" id="node4" href="$a00203.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT&#45;Touch boards." alt="" coords="8,225,159,251"/>
+<area shape="rect" id="node5" href="$a00167.html" title="Basic GUI with text and button." alt="" coords="42,299,125,324"/>
+<area shape="rect" id="node6" href="$a00125.html" title="Example of features for Evaluation edition." alt="" coords="5,372,161,397"/>
 </map>

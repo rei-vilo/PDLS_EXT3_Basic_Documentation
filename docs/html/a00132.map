@@ -1,4 +1,6 @@
-<map id="hV_Configuration.h" name="hV_Configuration.h">
-<area shape="rect" id="node1" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="5,5,151,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="36,80,120,107"/>
+<map id="Common_Fonts.ino" name="Common_Fonts.ino">
+<area shape="rect" id="node1" title="Example of features for basic edition." alt="" coords="67,5,214,31"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,79,89,104"/>
+<area shape="rect" id="node3" title=" " alt="" coords="113,79,168,104"/>
+<area shape="rect" id="node4" title=" " alt="" coords="193,79,342,104"/>
 </map>

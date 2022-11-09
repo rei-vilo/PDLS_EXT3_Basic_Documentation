@@ -1,4 +1,6 @@
 var a00179 =
 [
-    [ "TERMINAL12E_FONT_RELEASE", "a00179.html#a37a4e331a66a7c2283c3a82cbb5e8459", null ]
+    [ "width_s", "a00234.html", "a00234" ],
+    [ "font_s", "a00238.html", "a00238" ],
+    [ "hV_FONT_HEADER_STRUCTURE_RELEASE", "a00179.html#a7a0568c346f7cb957cd4c3f56454673e", null ]
 ];
