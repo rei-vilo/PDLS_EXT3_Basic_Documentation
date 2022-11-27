@@ -532,7 +532,6 @@ dt.alphachar{
 	}
 }
 
-
 /* @group Link Styling */
 
 a {
@@ -674,7 +673,6 @@ div.line.glow {
 	background-color: var(--glow-color);
 	box-shadow: 0 0 10px var(--glow-color);
 }
-
 
 span.lineno {
 	padding-right: 4px;
@@ -1113,8 +1111,6 @@ span.mlabel {
 	vertical-align: middle;
 }
 
-
-
 /* @end */
 
 /* these are for tree view inside a (index) page */
@@ -1349,7 +1345,6 @@ table.fieldtable {
         border-bottom: 1px solid var(--memdef-border-color);
 }
 
-
 .tabsearch {
 	top: 0px;
 	left: 10px;
@@ -1417,7 +1412,6 @@ table.fieldtable {
         color: var(--footer-foreground-color);
         font-size: 8pt;
 }
-
 
 div.summary
 {
@@ -1538,7 +1532,6 @@ dl.bug {
 dl.section dd {
 	margin-bottom: 6px;
 }
-
 
 #projectrow
 {
