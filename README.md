@@ -1,6 +1,6 @@
 # Pervasive Displays Library Suite - Basic Edition - Documentation
 
-[![GitHub issues](https://img.shields.io/github/issues/rei-vilo/PDLS_EXT3_Basic)](https://github.com/rei-vilo/PDLS_EXT3_Basic/issues) [![](https://img.shields.io/badge/-Documentation-blue)](https://rei-vilo.github.io/PDLS_EXT3_Basic_Documentation/html/index.html)
+[![Release](https://img.shields.io/github/v/release/rei-vilo/PDLS_EXT3_Basic_Documentation)](https://github.com/rei-vilo.github.io/PDLS_EXT3_Basic_Documentation/html/index.html) [![GitHub issues](https://img.shields.io/github/issues/rei-vilo/PDLS_EXT3_Basic)](https://github.com/rei-vilo/PDLS_EXT3_Basic/issues) [![](https://img.shields.io/badge/-Documentation-blue)](https://rei-vilo.github.io/PDLS_EXT3_Basic_Documentation/html/index.html)
 
 The Pervasive Displays Library Suite is specifically designed for the [Pervasive Displays](https://www.pervasivedisplays.com) e-paper screens and EXT3 extension board.
 
