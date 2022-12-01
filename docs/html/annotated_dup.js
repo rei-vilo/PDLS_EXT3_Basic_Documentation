@@ -1,7 +1,7 @@
 var annotated_dup =
 [
     [ "button", "a00254.html", "a00254" ],
-    [ "coordinates_s", "a00222.html", null ],
+    [ "coordinates_s", "a00222.html", "a00222" ],
     [ "font_s", "a00238.html", "a00238" ],
     [ "GUI", "a00246.html", "a00246" ],
     [ "hV_Colours565", "a00226.html", "a00226" ],
