@@ -1,19 +1,13 @@
 var a00182 =
 [
-    [ "FEATURE_ARMOR", "a00182.html#a65f16e7a8d178ebe8ff7a9c4ceb5b81e", null ],
-    [ "FEATURE_FAST", "a00182.html#aa88ce3237b213c4cf8d3a773b4adbebf", null ],
-    [ "FEATURE_TOUCH", "a00182.html#acabd435fc4d0dce644a2c378776fab61", null ],
-    [ "FSM_POWER_ON", "a00182.html#af78b93cdbd86bd39076e2a5444405b36", null ],
-    [ "FSM_POWER_SLEEP", "a00182.html#a924397e200b8be70cf93b0e3af0f1426", null ],
-    [ "FSM_POWER_UNKNOWN", "a00182.html#aca020478bacbe400fde38e069ef2fffb", null ],
-    [ "hV_CONSTANTS_RELEASE", "a00182.html#ae5646da5dbd251257bb35c6db0a16153", null ],
-    [ "PANEL_CS_BOTH", "a00182.html#a44856533ff9be33825723a8f273b89aa", null ],
-    [ "PANEL_CS_FIRST", "a00182.html#abd3e5fcf1ce2139e76df8038b2846bad", null ],
-    [ "PANEL_CS_SECOND", "a00182.html#a26d53e5618608c18345c2898a71fc611", null ],
-    [ "PARTIAL_OFF", "a00182.html#aec7aa1d3ba1e17fb2b855592142e912a", null ],
-    [ "PARTIAL_ON", "a00182.html#adb2111d5ebf6d8b7b1531796f810c466", null ],
-    [ "PARTIAL_VALUES", "a00182.html#aaf9fc54aee3356cedc3b65c4041ca652", null ],
-    [ "UPDATE_FAST", "a00182.html#a42b862bcf9303a95a0a9b450a5ba1b7d", null ],
-    [ "UPDATE_GLOBAL", "a00182.html#a7b29ab255c91e207b903f08a78562ef1", null ],
-    [ "UPDATE_PARTIAL", "a00182.html#aa8fca364ce99c2f18cc81fe95c5c543a", null ]
+    [ "GUI", "a00246.html", "a00246" ],
+    [ "text", "a00250.html", "a00250" ],
+    [ "button", "a00254.html", "a00254" ],
+    [ "checkInstant", "a00182.html#ada270c7144643ff2b7d50a564a3dbdc0", null ],
+    [ "checkNormal", "a00182.html#a436b4a5140acee407da61a0097dca9c0", null ],
+    [ "hV_GUI_BASIC_RELEASE", "a00182.html#a2071496e55eb3c5e00faed997f19654c", null ],
+    [ "fsmGUI_e", "a00182.html#ad98973f41a35ca658799fbd07a8fb82b", [
+      [ "fsmReleased", "a00182.html#ad98973f41a35ca658799fbd07a8fb82bae88708812c4ed26e1a35fc58fa103d7c", null ],
+      [ "fsmTouched", "a00182.html#ad98973f41a35ca658799fbd07a8fb82bac02bae32a14b2f2024c9f32f2a0e0c45", null ]
+    ] ]
 ];
