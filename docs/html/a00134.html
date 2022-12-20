@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: Common_Fonts.ino File Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: Basic_Touch_Draw.ino File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="Logo-PDI-white.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Pervasive Displays Library Suite - Basic edition
-   &#160;<span id="projectnumber">6.0.3</span>
+   &#160;<span id="projectnumber">6.0.4</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -85,40 +85,46 @@ $(document).ready(function(){initNavTree('a00134.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">Common_Fonts.ino File Reference</div>  </div>
+<div class="title">Basic_Touch_Draw.ino File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p>Example of features for basic edition.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;Arduino.h&quot;</code><br />
+<code>#include &quot;Wire.h&quot;</code><br />
 <code>#include &quot;SPI.h&quot;</code><br />
-<code>#include &quot;PDLS_EXT3_Basic.h&quot;</code><br />
+<code>#include &quot;PDLS_EXT3_Basic_Touch.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Common_Fonts.ino:</div>
+Include dependency graph for Basic_Touch_Draw.ino:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00135.png" border="0" usemap="#aCommon__Fonts_8ino" alt=""/></div>
-<map name="aCommon__Fonts_8ino" id="aCommon__Fonts_8ino">
-<area shape="rect" title="Example of features for basic edition." alt="" coords="67,5,214,32"/>
+<div class="center"><img src="a00135.png" border="0" usemap="#aBasic__Touch__Draw_8ino" alt=""/></div>
+<map name="aBasic__Touch__Draw_8ino" id="aBasic__Touch__Draw_8ino">
+<area shape="rect" title="Example of features for basic edition." alt="" coords="63,5,229,32"/>
 <area shape="rect" title=" " alt="" coords="5,80,89,107"/>
-<area shape="rect" title=" " alt="" coords="113,80,168,107"/>
-<area shape="rect" title=" " alt="" coords="193,80,342,107"/>
+<area shape="rect" title=" " alt="" coords="114,80,178,107"/>
+<area shape="rect" title=" " alt="" coords="203,80,257,107"/>
 </map>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a13c617f32c0c4c4b6e91164ce408da43"><td class="memItemLeft" align="right" valign="top"><a id="a13c617f32c0c4c4b6e91164ce408da43"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_TOUCH</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a13c617f32c0c4c4b6e91164ce408da43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9e2d9faeb344fc9722f336a2e46a9c7e"><td class="memItemLeft" align="right" valign="top"><a id="a9e2d9faeb344fc9722f336a2e46a9c7e"></a>
-Screen_EPD_EXT3&#160;</td><td class="memItemRight" valign="bottom"><b>myScreen</b> (<a class="el" href="a00161.html#a758a5dc1cb9a923d9915621f490636eb">eScreen_EPD_EXT3_370</a>, <a class="el" href="a00161.html#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a>)</td></tr>
-<tr class="separator:a9e2d9faeb344fc9722f336a2e46a9c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00134.html#a92d9142cd31b37b7b3944dc8d9c9f454">wait</a> (uint8_t second)</td></tr>
 <tr class="memdesc:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait with countdown.  <a href="a00134.html#a92d9142cd31b37b7b3944dc8d9c9f454">More...</a><br /></td></tr>
 <tr class="separator:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a264683b43036a589246ec5194f5cc0a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00134.html#a264683b43036a589246ec5194f5cc0a8">displayFonts</a> (bool flag=true)</td></tr>
-<tr class="memdesc:a264683b43036a589246ec5194f5cc0a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonts test screen.  <a href="a00134.html#a264683b43036a589246ec5194f5cc0a8">More...</a><br /></td></tr>
-<tr class="separator:a264683b43036a589246ec5194f5cc0a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fdd7aa6b76c30a2df98d750cf7a8420"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00134.html#a0fdd7aa6b76c30a2df98d750cf7a8420">displayTouch</a> (bool flag=true)</td></tr>
+<tr class="memdesc:a0fdd7aa6b76c30a2df98d750cf7a8420"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimal test screen.  <a href="a00134.html#a0fdd7aa6b76c30a2df98d750cf7a8420">More...</a><br /></td></tr>
+<tr class="separator:a0fdd7aa6b76c30a2df98d750cf7a8420"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top"><a id="a4fc01d736fe50cf5b977f755b675f11d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00134.html#a4fc01d736fe50cf5b977f755b675f11d">setup</a> ()</td></tr>
 <tr class="memdesc:a4fc01d736fe50cf5b977f755b675f11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup. <br /></td></tr>
@@ -127,28 +133,33 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a001
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00134.html#afe461d27b9c48d5921c00d521181f12f">loop</a> ()</td></tr>
 <tr class="memdesc:afe461d27b9c48d5921c00d521181f12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loop, empty. <br /></td></tr>
 <tr class="separator:afe461d27b9c48d5921c00d521181f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ae6c0d64d34e7ed2bb07dac1278531d32"><td class="memItemLeft" align="right" valign="top"><a id="ae6c0d64d34e7ed2bb07dac1278531d32"></a>
+<a class="el" href="a00283.html">Screen_EPD_EXT3_Fast</a>&#160;</td><td class="memItemRight" valign="bottom"><b>myScreen</b> (<a class="el" href="a00182.html#a1ec853e5b8e261ba44ae150e8fab6165">eScreen_EPD_EXT3_370_Touch</a>, <a class="el" href="a00182.html#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a>)</td></tr>
+<tr class="separator:ae6c0d64d34e7ed2bb07dac1278531d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Example of features for basic edition. </p>
-<p>Project Pervasive Displays Library Suite <br  />
- Based on highView technology</p>
+<p>Library for Pervasive Displays EXT3 - Basic level</p>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>21 Nov 2022 </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>602</dd></dl>
-<dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2022 </dd>
+<dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2023 </dd>
 <dd>
-Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</dd></dl>
+CC = BY SA NC</dd></dl>
 <dl class="section see"><dt>See also</dt><dd>ReadMe.txt for references <br  />
 </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a264683b43036a589246ec5194f5cc0a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a264683b43036a589246ec5194f5cc0a8">&#9670;&nbsp;</a></span>displayFonts()</h2>
+<a id="a0fdd7aa6b76c30a2df98d750cf7a8420"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fdd7aa6b76c30a2df98d750cf7a8420">&#9670;&nbsp;</a></span>displayTouch()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void displayFonts </td>
+          <td class="memname">void displayTouch </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>flag</em> = <code>true</code></td><td>)</td>
@@ -157,18 +168,14 @@ Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</dd></d
       </table>
 </div><div class="memdoc">
 
-<p>Fonts test screen. </p>
+<p>Minimal test screen. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">flag</td><td>true = default = perform flush, otherwise no</td></tr>
+    <tr><td class="paramname">flag</td><td>true=default=perform flush, otherwise no </td></tr>
   </table>
   </dd>
 </dl>
-<div class="image">
-<img src="T2_FONTS" alt=""/>
-<div class="caption">
-..jpg</div></div>
-  
+
 </div>
 </div>
 <a id="a92d9142cd31b37b7b3944dc8d9c9f454"></a>
@@ -203,8 +210,8 @@ Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</dd></d
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="dir_e68187fce5e071568be3fddce3f70b94.html">Common_Fonts</a></li><li class="navelem"><a class="el" href="a00134.html">Common_Fonts.ino</a></li>
-    <li class="footer"><b>&copy; Rei Vilo, 2010-2022 &bullet; All rights reserved &bullet;</b> Generated by
+    <li class="navelem"><a class="el" href="dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="dir_3b1a1cc510f7263b17e63c8d196e59fd.html">Basic_Touch_Draw</a></li><li class="navelem"><a class="el" href="a00134.html">Basic_Touch_Draw.ino</a></li>
+    <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.9.1 </li>
   </ul>

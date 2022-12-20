@@ -1,6 +1,6 @@
 var a00179 =
 [
-    [ "width_s", "a00234.html", "a00234" ],
-    [ "font_s", "a00238.html", "a00238" ],
-    [ "hV_FONT_HEADER_STRUCTURE_RELEASE", "a00179.html#a7a0568c346f7cb957cd4c3f56454673e", null ]
+    [ "hV_Colours565", "a00247.html", "a00247" ],
+    [ "hV_COLOURS_RELEASE", "a00179.html#ad04b95af5737630651211d49cf779995", null ],
+    [ "myColours", "a00179.html#aa178466696f7432d6da667d514bee379", null ]
 ];

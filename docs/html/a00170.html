@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: hV_Font.h File Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: Example_Global_Speed.ino File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="Logo-PDI-white.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Pervasive Displays Library Suite - Basic edition
-   &#160;<span id="projectnumber">6.0.3</span>
+   &#160;<span id="projectnumber">6.0.4</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -85,97 +85,116 @@ $(document).ready(function(){initNavTree('a00170.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Data Structures</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">hV_Font.h File Reference</div>  </div>
+<div class="title">Example_Global_Speed.ino File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Font structure.  
+<p>Protocol for speed test.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;Arduino.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="a00161.html">hV_Configuration.h</a>&quot;</code><br />
+<code>#include &quot;SPI.h&quot;</code><br />
+<code>#include &quot;PDLS_EXT3_Basic.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for hV_Font.h:</div>
+Include dependency graph for Example_Global_Speed.ino:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00171.png" border="0" usemap="#ahV__Font_8h" alt=""/></div>
-<map name="ahV__Font_8h" id="ahV__Font_8h">
-<area shape="rect" title="Font structure." alt="" coords="59,5,145,32"/>
-<area shape="rect" title=" " alt="" coords="5,155,89,181"/>
-<area shape="rect" href="a00161.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="85,80,231,107"/>
-<area shape="rect" href="a00164.html" title="Constants for Pervasive Displays Library Suite." alt="" coords="114,155,237,181"/>
-<area shape="rect" title=" " alt="" coords="140,229,211,256"/>
-</map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00172.png" border="0" usemap="#ahV__Font_8hdep" alt=""/></div>
-<map name="ahV__Font_8hdep" id="ahV__Font_8hdep">
-<area shape="rect" title="Font structure." alt="" coords="40,5,127,32"/>
-<area shape="rect" href="a00176.html" title="hV_Font_Terminal" alt="" coords="9,80,158,107"/>
-<area shape="rect" href="a00188.html" title="Class Generic LCD with buffer class library." alt="" coords="10,155,157,181"/>
-<area shape="rect" href="a00203.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT&#45;Touch boards." alt="" coords="8,229,159,256"/>
-<area shape="rect" href="a00182.html" title="Basic GUI with text and button." alt="" coords="42,304,125,331"/>
-<area shape="rect" href="a00125.html" title="Example of features for Evaluation edition." alt="" coords="5,379,161,405"/>
+<div class="center"><img src="a00171.png" border="0" usemap="#aExample__Global__Speed_8ino" alt=""/></div>
+<map name="aExample__Global__Speed_8ino" id="aExample__Global__Speed_8ino">
+<area shape="rect" title="Protocol for speed test." alt="" coords="41,5,240,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,89,107"/>
+<area shape="rect" title=" " alt="" coords="113,80,168,107"/>
+<area shape="rect" title=" " alt="" coords="193,80,342,107"/>
 </map>
 </div>
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00234.html">width_s</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure for character width.  <a href="a00234.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00238.html">font_s</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure for font.  <a href="a00238.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a9e2d9faeb344fc9722f336a2e46a9c7e"><td class="memItemLeft" align="right" valign="top"><a id="a9e2d9faeb344fc9722f336a2e46a9c7e"></a>
+Screen_EPD_EXT3&#160;</td><td class="memItemRight" valign="bottom"><b>myScreen</b> (<a class="el" href="a00182.html#a758a5dc1cb9a923d9915621f490636eb">eScreen_EPD_EXT3_370</a>, <a class="el" href="a00182.html#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a>)</td></tr>
+<tr class="separator:a9e2d9faeb344fc9722f336a2e46a9c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a92d9142cd31b37b7b3944dc8d9c9f454">wait</a> (uint8_t second)</td></tr>
+<tr class="memdesc:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait with countdown.  <a href="a00170.html#a92d9142cd31b37b7b3944dc8d9c9f454">More...</a><br /></td></tr>
+<tr class="separator:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ead2ecbed56fc3642b497dd06184234"><td class="memItemLeft" align="right" valign="top"><a id="a5ead2ecbed56fc3642b497dd06184234"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a5ead2ecbed56fc3642b497dd06184234">performTest</a> ()</td></tr>
+<tr class="memdesc:a5ead2ecbed56fc3642b497dd06184234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform the speed test. <br /></td></tr>
+<tr class="separator:a5ead2ecbed56fc3642b497dd06184234"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top"><a id="a4fc01d736fe50cf5b977f755b675f11d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a4fc01d736fe50cf5b977f755b675f11d">setup</a> ()</td></tr>
+<tr class="memdesc:a4fc01d736fe50cf5b977f755b675f11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup. <br /></td></tr>
+<tr class="separator:a4fc01d736fe50cf5b977f755b675f11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe461d27b9c48d5921c00d521181f12f"><td class="memItemLeft" align="right" valign="top"><a id="afe461d27b9c48d5921c00d521181f12f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#afe461d27b9c48d5921c00d521181f12f">loop</a> ()</td></tr>
+<tr class="memdesc:afe461d27b9c48d5921c00d521181f12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loop, empty. <br /></td></tr>
+<tr class="separator:afe461d27b9c48d5921c00d521181f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a7a0568c346f7cb957cd4c3f56454673e"><td class="memItemLeft" align="right" valign="top"><a id="a7a0568c346f7cb957cd4c3f56454673e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a7a0568c346f7cb957cd4c3f56454673e">hV_FONT_HEADER_STRUCTURE_RELEASE</a>&#160;&#160;&#160;507</td></tr>
-<tr class="memdesc:a7a0568c346f7cb957cd4c3f56454673e"><td class="mdescLeft">&#160;</td><td class="mdescRight">hV_Font release number <br /></td></tr>
-<tr class="separator:a7a0568c346f7cb957cd4c3f56454673e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:aa44cbf8633096f92b229a6420e8e175e"><td class="memItemLeft" align="right" valign="top"><a id="aa44cbf8633096f92b229a6420e8e175e"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fontVery</b></td></tr>
+<tr class="separator:aa44cbf8633096f92b229a6420e8e175e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad570950d5f04e84644e4f86ee3d6b047"><td class="memItemLeft" align="right" valign="top"><a id="ad570950d5f04e84644e4f86ee3d6b047"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fontLarge</b></td></tr>
+<tr class="separator:ad570950d5f04e84644e4f86ee3d6b047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d22cfc629e971be8737006ba4b8201e"><td class="memItemLeft" align="right" valign="top"><a id="a5d22cfc629e971be8737006ba4b8201e"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fontMedium</b></td></tr>
+<tr class="separator:a5d22cfc629e971be8737006ba4b8201e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8db9c333bf3940fadb38e15a8ffa0378"><td class="memItemLeft" align="right" valign="top"><a id="a8db9c333bf3940fadb38e15a8ffa0378"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fontSmall</b></td></tr>
+<tr class="separator:a8db9c333bf3940fadb38e15a8ffa0378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aeba73fd25d5e79e3647ca43776131d"><td class="memItemLeft" align="right" valign="top"><a id="a9aeba73fd25d5e79e3647ca43776131d"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>myOrientation</b> = <a class="el" href="a00215.html#accc06995e9834c793d2cc9e96ded0560">ORIENTATION_LANDSCAPE</a></td></tr>
+<tr class="separator:a9aeba73fd25d5e79e3647ca43776131d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Font structure. </p>
+<div class="textblock"><p>Protocol for speed test. </p>
 <p>Project Pervasive Displays Library Suite <br  />
  Based on highView technology</p>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>02 Aug 2021 </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>507</dd></dl>
-<dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2022 </dd>
+<dl class="section date"><dt>Date</dt><dd>21 Dec 2022 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>604</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2023 </dd>
 <dd>
-All rights reserved</dd></dl>
-<ul>
-<li>Basic edition: for hobbyists and for basic usage <br  />
- Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</li>
-<li>Evaluation edition: for professionals or organisations, evaluation only, no commercial usage <br  />
- All rights reserved</li>
-<li>Commercial edition: for professionals or organisations, commercial usage <br  />
- All rights reserved</li>
-</ul>
-<dl class="section warning"><dt>Warning</dt><dd>8- and 16-bit limitations</dd></dl>
-<p>Some 8- and 16-bit platforms limit arrays to 16 KB. Some header fonts require higher arrays.</p>
-<ul>
-<li>Use a 32-bit platform in that case (USE_FONT_HEADER).</li>
-<li>Use small fonts on a 8- and 16-bit platform (USE_FONT_HEADER).</li>
-<li>Save the fonts to the external SPI Flash memory (USE_FONT_FLASH).</li>
-</ul>
-<p>For the last option,</p>
-<ul>
-<li>Use hV_Fonts_Manager on a 32-bit platform to save the fonts on the external SPI Flash memory.</li>
-<li>Flash the compiled Fonts_3.hex on the external SPI Flash with Segger J-Flash or similar </li>
-</ul>
-</div></div><!-- contents -->
+All Rights Reserved</dd></dl>
+<dl class="section see"><dt>See also</dt><dd>ReadMe.md for references <br  />
+ Release 542: First release Release 604: Global and fast variants </dd></dl>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a92d9142cd31b37b7b3944dc8d9c9f454"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92d9142cd31b37b7b3944dc8d9c9f454">&#9670;&nbsp;</a></span>wait()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wait </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>second</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Wait with countdown. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">second</td><td>duration, s </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="a00170.html">hV_Font.h</a></li>
-    <li class="footer"><b>&copy; Rei Vilo, 2010-2022 &bullet; All rights reserved &bullet;</b> Generated by
+    <li class="navelem"><a class="el" href="dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="dir_c58be0fc4a3470de12d2de486b368288.html">Example_Global_Speed</a></li><li class="navelem"><a class="el" href="a00170.html">Example_Global_Speed.ino</a></li>
+    <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
