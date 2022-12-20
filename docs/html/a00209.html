@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: Terminal16x24e.h File Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: hV_Screen_Buffer.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="Logo-PDI-white.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Pervasive Displays Library Suite - Basic edition
-   &#160;<span id="projectnumber">6.0.3</span>
+   &#160;<span id="projectnumber">6.0.4</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -85,61 +85,125 @@ $(document).ready(function(){initNavTree('a00209.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
-<div class="title">Terminal16x24e.h File Reference</div>  </div>
+<div class="title">hV_Screen_Buffer.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Font Terminal 16 x 24.  
+<p>Class Generic LCD with buffer class library.  
 <a href="#details">More...</a></p>
-<div class="textblock"><div class="dynheader">
+<div class="textblock"><code>#include &quot;Arduino.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="a00182.html">hV_Configuration.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="a00179.html">hV_Colours565.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="a00215.html">hV_Utilities.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="a00197.html">hV_Font_Terminal.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for hV_Screen_Buffer.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00210.png" border="0" usemap="#ahV__Screen__Buffer_8h" alt=""/></div>
+<map name="ahV__Screen__Buffer_8h" id="ahV__Screen__Buffer_8h">
+<area shape="rect" title="Class Generic LCD with buffer class library." alt="" coords="173,5,320,32"/>
+<area shape="rect" title=" " alt="" coords="230,304,314,331"/>
+<area shape="rect" href="a00182.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="671,229,817,256"/>
+<area shape="rect" href="a00179.html" title="Class Library for 5&#45;6&#45;5 coded colours." alt="" coords="5,229,136,256"/>
+<area shape="rect" href="a00215.html" title="Utilities for highView Library Suite." alt="" coords="100,155,209,181"/>
+<area shape="rect" href="a00197.html" title="hV_Font_Terminal" alt="" coords="492,80,641,107"/>
+<area shape="rect" href="a00185.html" title="Constants for Pervasive Displays Library Suite." alt="" coords="683,304,805,331"/>
+<area shape="rect" title=" " alt="" coords="709,379,779,405"/>
+<area shape="rect" href="a00191.html" title="Font structure." alt="" coords="661,155,747,181"/>
+<area shape="rect" href="a00233.html" title="Font Terminal 6 x 8." alt="" coords="823,155,945,181"/>
+<area shape="rect" href="a00236.html" title="Font Terminal 8 x 12." alt="" coords="969,155,1100,181"/>
+<area shape="rect" href="a00227.html" title="Font Terminal 12 x 16." alt="" coords="335,155,473,181"/>
+<area shape="rect" href="a00230.html" title="Font Terminal 16 x 24." alt="" coords="497,155,636,181"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00211.png" border="0" usemap="#aTerminal16x24e_8hdep" alt=""/></div>
-<map name="aTerminal16x24e_8hdep" id="aTerminal16x24e_8hdep">
-<area shape="rect" title="Font Terminal 16 x 24." alt="" coords="14,5,153,32"/>
-<area shape="rect" href="a00176.html" title="hV_Font_Terminal" alt="" coords="9,80,158,107"/>
-<area shape="rect" href="a00188.html" title="Class Generic LCD with buffer class library." alt="" coords="10,155,157,181"/>
-<area shape="rect" href="a00203.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT&#45;Touch boards." alt="" coords="8,229,159,256"/>
-<area shape="rect" href="a00182.html" title="Basic GUI with text and button." alt="" coords="42,304,125,331"/>
-<area shape="rect" href="a00125.html" title="Example of features for Evaluation edition." alt="" coords="5,379,161,405"/>
+<div class="center"><img src="a00211.png" border="0" usemap="#ahV__Screen__Buffer_8hdep" alt=""/></div>
+<map name="ahV__Screen__Buffer_8hdep" id="ahV__Screen__Buffer_8hdep">
+<area shape="rect" title="Class Generic LCD with buffer class library." alt="" coords="10,5,157,32"/>
+<area shape="rect" href="a00224.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT&#45;Touch boards." alt="" coords="8,80,159,107"/>
+<area shape="rect" href="a00203.html" title="Basic GUI with text and button." alt="" coords="42,155,125,181"/>
+<area shape="rect" href="a00137.html" title="Example of features for Evaluation edition." alt="" coords="5,229,161,256"/>
 </map>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00279.html">hV_Screen_Buffer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic class for buffered LCD.  <a href="a00279.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:aeb3695041f15eb5b1e45bcebe5026e18"><td class="memItemLeft" align="right" valign="top"><a id="aeb3695041f15eb5b1e45bcebe5026e18"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00209.html#aeb3695041f15eb5b1e45bcebe5026e18">TERMINAL16E_FONT_RELEASE</a>&#160;&#160;&#160;507</td></tr>
-<tr class="memdesc:aeb3695041f15eb5b1e45bcebe5026e18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Library release number. <br /></td></tr>
-<tr class="separator:aeb3695041f15eb5b1e45bcebe5026e18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a851c703d9610377daa95f386e7505bfb"><td class="memItemLeft" align="right" valign="top"><a id="a851c703d9610377daa95f386e7505bfb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00209.html#a851c703d9610377daa95f386e7505bfb">hV_SCREEN_BUFFER_RELEASE</a>&#160;&#160;&#160;523</td></tr>
+<tr class="memdesc:a851c703d9610377daa95f386e7505bfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Library release number. <br /></td></tr>
+<tr class="separator:a851c703d9610377daa95f386e7505bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:addb7ea466d16e54b3ac29e652392bfe7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00209.html#addb7ea466d16e54b3ac29e652392bfe7">TOUCH_EVENT_NONE</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:addb7ea466d16e54b3ac29e652392bfe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Touch events.  <a href="a00209.html#addb7ea466d16e54b3ac29e652392bfe7">More...</a><br /></td></tr>
+<tr class="separator:addb7ea466d16e54b3ac29e652392bfe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b58d5fdc01d6f6c5a090e6d31725d36"><td class="memItemLeft" align="right" valign="top"><a id="a1b58d5fdc01d6f6c5a090e6d31725d36"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00209.html#a1b58d5fdc01d6f6c5a090e6d31725d36">TOUCH_EVENT_PRESS</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:a1b58d5fdc01d6f6c5a090e6d31725d36"><td class="mdescLeft">&#160;</td><td class="mdescRight">press event <br /></td></tr>
+<tr class="separator:a1b58d5fdc01d6f6c5a090e6d31725d36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28e03e87baac6e935b2ef802d3d698f9"><td class="memItemLeft" align="right" valign="top"><a id="a28e03e87baac6e935b2ef802d3d698f9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00209.html#a28e03e87baac6e935b2ef802d3d698f9">TOUCH_EVENT_RELEASE</a>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:a28e03e87baac6e935b2ef802d3d698f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">release event <br /></td></tr>
+<tr class="separator:a28e03e87baac6e935b2ef802d3d698f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d95a414d6b61be2ef60d6f6685289ab"><td class="memItemLeft" align="right" valign="top"><a id="a9d95a414d6b61be2ef60d6f6685289ab"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00209.html#a9d95a414d6b61be2ef60d6f6685289ab">TOUCH_EVENT_MOVE</a>&#160;&#160;&#160;3</td></tr>
+<tr class="memdesc:a9d95a414d6b61be2ef60d6f6685289ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">move event <br /></td></tr>
+<tr class="separator:a9d95a414d6b61be2ef60d6f6685289ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Font Terminal 16 x 24. </p>
+<div class="textblock"><p>Class Generic LCD with buffer class library. </p>
 <p>Project Pervasive Displays Library Suite <br  />
  Based on highView technology</p>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>02 Aug 2021 </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>507</dd></dl>
-<dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2022 </dd>
+<dl class="section date"><dt>Date</dt><dd>24 Nov 2021 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>523</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2023 </dd>
 <dd>
-All rights reserved</dd></dl>
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</dd></dl>
+<p>The highView Library Suite is shared under the Creative Commons licence Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).</p>
 <ul>
 <li>Basic edition: for hobbyists and for basic usage <br  />
  Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</li>
-<li>Evaluation edition: for professionals or organisations, evaluation only, no commercial usage <br  />
- All rights reserved</li>
-<li>Commercial edition: for professionals or organisations, commercial usage <br  />
- All rights reserved </li>
 </ul>
-</div></div><!-- contents -->
+<dl class="section see"><dt>See also</dt><dd><a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></dd></dl>
+<p><br  />
+ Consider the Evaluation or Commercial editions for professionals or organisations and for commercial usage </p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="addb7ea466d16e54b3ac29e652392bfe7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addb7ea466d16e54b3ac29e652392bfe7">&#9670;&nbsp;</a></span>TOUCH_EVENT_NONE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TOUCH_EVENT_NONE&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Touch events. </p>
+<p>no event </p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="a00209.html">Terminal16x24e.h</a></li>
-    <li class="footer"><b>&copy; Rei Vilo, 2010-2022 &bullet; All rights reserved &bullet;</b> Generated by
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="a00209.html">hV_Screen_Buffer.h</a></li>
+    <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.9.1 </li>
   </ul>

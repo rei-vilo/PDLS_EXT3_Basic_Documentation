@@ -1,9 +1,13 @@
 var a00203 =
 [
-    [ "Screen_EPD_EXT3_Fast", "a00262.html", "a00262" ],
-    [ "SCREEN_EPD_EXT3_RELEASE", "a00203.html#ab75eb2c0ba5e190f5c52fcddd3f64ccb", null ],
-    [ "TOUCH_EVENT_MOVE", "a00203.html#a9d95a414d6b61be2ef60d6f6685289ab", null ],
-    [ "TOUCH_EVENT_NONE", "a00203.html#addb7ea466d16e54b3ac29e652392bfe7", null ],
-    [ "TOUCH_EVENT_PRESS", "a00203.html#a1b58d5fdc01d6f6c5a090e6d31725d36", null ],
-    [ "TOUCH_EVENT_RELEASE", "a00203.html#a28e03e87baac6e935b2ef802d3d698f9", null ]
+    [ "GUI", "a00267.html", "a00267" ],
+    [ "text", "a00271.html", "a00271" ],
+    [ "button", "a00275.html", "a00275" ],
+    [ "checkInstant", "a00203.html#ada270c7144643ff2b7d50a564a3dbdc0", null ],
+    [ "checkNormal", "a00203.html#a436b4a5140acee407da61a0097dca9c0", null ],
+    [ "hV_GUI_BASIC_RELEASE", "a00203.html#a2071496e55eb3c5e00faed997f19654c", null ],
+    [ "fsmGUI_e", "a00203.html#ad98973f41a35ca658799fbd07a8fb82b", [
+      [ "fsmReleased", "a00203.html#ad98973f41a35ca658799fbd07a8fb82bae88708812c4ed26e1a35fc58fa103d7c", null ],
+      [ "fsmTouched", "a00203.html#ad98973f41a35ca658799fbd07a8fb82bac02bae32a14b2f2024c9f32f2a0e0c45", null ]
+    ] ]
 ];
