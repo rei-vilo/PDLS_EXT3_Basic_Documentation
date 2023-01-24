@@ -1,29 +1,5 @@
 var files_dup =
 [
-    [ "Basic_Touch_Draw.ino", "a00134.html", "a00134" ],
-    [ "Basic_Touch_GUI.ino", "a00137.html", "a00137" ],
-    [ "Basic_Touch_TicTacToe.ino", "a00140.html", "a00140" ],
-    [ "Common_Colours.ino", "a00143.html", "a00143" ],
-    [ "Common_Fonts.ino", "a00146.html", "a00146" ],
-    [ "Common_Forms.ino", "a00149.html", "a00149" ],
-    [ "Common_Orientation.ino", "a00152.html", "a00152" ],
-    [ "Common_Text.ino", "a00155.html", "a00155" ],
-    [ "Common_WhoAmI.ino", "a00158.html", "a00158" ],
-    [ "Example_Fast_Line.ino", "a00161.html", "a00161" ],
-    [ "Example_Fast_Orientation.ino", "a00164.html", "a00164" ],
-    [ "Example_Fast_Speed.ino", "a00167.html", "a00167" ],
-    [ "Example_Global_Speed.ino", "a00170.html", "a00170" ],
-    [ "hV_Colours565.h", "a00179.html", "a00179" ],
-    [ "hV_Configuration.h", "a00182.html", "a00182" ],
-    [ "hV_Constants.h", "a00185.html", "a00185" ],
-    [ "hV_Font.h", "a00191.html", "a00191" ],
-    [ "hV_Font_Terminal.h", "a00197.html", "a00197" ],
-    [ "hV_GUI.h", "a00203.html", "a00203" ],
-    [ "hV_Screen_Buffer.h", "a00209.html", "a00209" ],
-    [ "hV_Utilities.h", "a00215.html", "a00215" ],
-    [ "Screen_EPD_EXT3.h", "a00224.html", "a00224" ],
-    [ "Terminal12x16e.h", "a00227.html", "a00227" ],
-    [ "Terminal16x24e.h", "a00230.html", "a00230" ],
-    [ "Terminal6x8e.h", "a00233.html", "a00233" ],
-    [ "Terminal8x12e.h", "a00236.html", "a00236" ]
+    [ "examples", "dir_d28a4824dc47e487b107a5db32ef43c4.html", "dir_d28a4824dc47e487b107a5db32ef43c4" ],
+    [ "src", "dir_68267d1309a1af8e8297ef4c3efbcdba.html", "dir_68267d1309a1af8e8297ef4c3efbcdba" ]
 ];

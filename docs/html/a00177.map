@@ -1,13 +1,4 @@
-<map id="hV_Font_Terminal.h" name="hV_Font_Terminal.h">
-<area shape="rect" id="node1" title="hV_Font_Terminal" alt="" coords="289,5,439,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="127,229,211,256"/>
-<area shape="rect" id="node3" href="$a00161.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="241,155,386,181"/>
-<area shape="rect" id="node6" href="$a00194.html" title="Utilities for highView Library Suite." alt="" coords="5,155,115,181"/>
-<area shape="rect" id="node7" href="$a00170.html" title="Font structure." alt="" coords="190,80,277,107"/>
-<area shape="rect" id="node8" href="$a00212.html" title="Font Terminal 6 x 8." alt="" coords="352,80,475,107"/>
-<area shape="rect" id="node9" href="$a00215.html" title="Font Terminal 8 x 12." alt="" coords="499,80,629,107"/>
-<area shape="rect" id="node10" href="$a00206.html" title="Font Terminal 12 x 16." alt="" coords="653,80,792,107"/>
-<area shape="rect" id="node11" href="$a00209.html" title="Font Terminal 16 x 24." alt="" coords="816,80,955,107"/>
-<area shape="rect" id="node4" href="$a00164.html" title="Constants for Pervasive Displays Library Suite." alt="" coords="252,229,375,256"/>
-<area shape="rect" id="node5" title=" " alt="" coords="278,304,349,331"/>
+<map id="hV_Constants.h" name="hV_Constants.h">
+<area shape="rect" id="node1" title="Constants for Pervasive Displays Library Suite." alt="" coords="5,5,128,31"/>
+<area shape="rect" id="node2" title=" " alt="" coords="31,79,102,104"/>
 </map>
