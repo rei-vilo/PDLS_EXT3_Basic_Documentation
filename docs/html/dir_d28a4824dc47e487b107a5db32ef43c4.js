@@ -10,5 +10,7 @@ var dir_d28a4824dc47e487b107a5db32ef43c4 =
     [ "Common_Text", "dir_ab28db0d71c3b8559607137da2533669.html", "dir_ab28db0d71c3b8559607137da2533669" ],
     [ "Common_WhoAmI", "dir_491c3bb0427b2191265c570e950df1f1.html", "dir_491c3bb0427b2191265c570e950df1f1" ],
     [ "Example_Fast_Line", "dir_cd06f76a5baa677f8f8141087062d7a2.html", "dir_cd06f76a5baa677f8f8141087062d7a2" ],
-    [ "Example_Fast_Orientation", "dir_368d6981d269dbf78b5703ce50b19cf7.html", "dir_368d6981d269dbf78b5703ce50b19cf7" ]
+    [ "Example_Fast_Orientation", "dir_368d6981d269dbf78b5703ce50b19cf7.html", "dir_368d6981d269dbf78b5703ce50b19cf7" ],
+    [ "Example_Fast_Speed", "dir_212bdaace0f5763736572fd22b028a82.html", "dir_212bdaace0f5763736572fd22b028a82" ],
+    [ "Example_Global_Speed", "dir_c58be0fc4a3470de12d2de486b368288.html", "dir_c58be0fc4a3470de12d2de486b368288" ]
 ];
