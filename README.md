@@ -12,7 +12,7 @@ The documentation covers different variants of the library:
 
 * **PDLS_EXT3_Basic_Fast** for [monochrome screens with embedded fast update](https://www.pervasivedisplays.com/product/2-71-e-ink-display-aurora-mb-v231/);
 
-* **PDLS_EXT3_Basic_Touch** for [monochrome screens with capacitive touch](https://www.pervasivedisplays.com/product/2-71-e-ink-display-aurora-mb-v231/).
+* **PDLS_EXT3_Basic_Touch** for [monochrome screens with capacitive touch](https://www.pervasivedisplays.com/products/?_sft_etc_itc=tp).
 
 The screens are connected to the [EPD Extension Kit Gen 3 (EXT3 or EXT3-1)](https://www.pervasivedisplays.com/product/epd-extension-kit-gen-3-EXT3/) and [Touch Expansion Board for EXT3 (EXT3-Touch)](https://www.pervasivedisplays.com/product/touch-expansion-board-ext3-touch/).
 
