@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.0.7</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.0.8</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -128,7 +128,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:ae5646da5dbd251257bb35c6db0a16153"><td class="memItemLeft" align="right" valign="top"><a id="ae5646da5dbd251257bb35c6db0a16153" name="ae5646da5dbd251257bb35c6db0a16153"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>hV_CONSTANTS_RELEASE</b>&#160;&#160;&#160;606</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>hV_CONSTANTS_RELEASE</b>&#160;&#160;&#160;608</td></tr>
 <tr class="memdesc:ae5646da5dbd251257bb35c6db0a16153"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release. <br /></td></tr>
 <tr class="separator:ae5646da5dbd251257bb35c6db0a16153"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">1- List of supported Pervasive Displays screens</div></td></tr>
@@ -150,6 +150,10 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>FEATURE_ARMOR</b>&#160;&#160;&#160;0x04</td></tr>
 <tr class="memdesc:a65f16e7a8d178ebe8ff7a9c4ceb5b81e"><td class="mdescLeft">&#160;</td><td class="mdescRight">With protection. <br /></td></tr>
 <tr class="separator:a65f16e7a8d178ebe8ff7a9c4ceb5b81e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58a6c16e6c5beae1d67010fc12994dbe"><td class="memItemLeft" align="right" valign="top"><a id="a58a6c16e6c5beae1d67010fc12994dbe" name="a58a6c16e6c5beae1d67010fc12994dbe"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>FEATURE_WIDE_TEMPERATURE</b>&#160;&#160;&#160;0x08</td></tr>
+<tr class="memdesc:a58a6c16e6c5beae1d67010fc12994dbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">With wide operating temperature. <br /></td></tr>
+<tr class="separator:a58a6c16e6c5beae1d67010fc12994dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a7b29ab255c91e207b903f08a78562ef1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00173.html#a7b29ab255c91e207b903f08a78562ef1">UPDATE_GLOBAL</a>&#160;&#160;&#160;0x00</td></tr>
 <tr class="memdesc:a7b29ab255c91e207b903f08a78562ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update mode.  <br /></td></tr>
@@ -214,14 +218,22 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>TOUCH_EVENT_MOVE</b>&#160;&#160;&#160;3</td></tr>
 <tr class="memdesc:a9d95a414d6b61be2ef60d6f6685289ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Touch move event. <br /></td></tr>
 <tr class="separator:a9d95a414d6b61be2ef60d6f6685289ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:a7cc1753a05a0821f6c70dd2bccfbab5c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00173.html#a7cc1753a05a0821f6c70dd2bccfbab5c">RESULT_SUCCESS</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:a7cc1753a05a0821f6c70dd2bccfbab5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Results.  <br /></td></tr>
+<tr class="separator:a7cc1753a05a0821f6c70dd2bccfbab5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0655911839d066af13b9530353a59285"><td class="memItemLeft" align="right" valign="top"><a id="a0655911839d066af13b9530353a59285" name="a0655911839d066af13b9530353a59285"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RESULT_ERROR</b>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:a0655911839d066af13b9530353a59285"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error. <br /></td></tr>
+<tr class="separator:a0655911839d066af13b9530353a59285"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Constants for Pervasive Displays Library Suite. </p>
 <p>Project Pervasive Displays Library Suite <br  />
  Based on highView technology</p>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>22 Feb 2023 </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>606</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>20 Apr 2023 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>608</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2023 </dd>
 <dd>
 All rights reserved</dd></dl>
@@ -282,6 +294,23 @@ All rights reserved</dd></dl>
 
 <p>Partial update state. </p>
 <p>Non-activated </p>
+
+</div>
+</div>
+<a id="a7cc1753a05a0821f6c70dd2bccfbab5c" name="a7cc1753a05a0821f6c70dd2bccfbab5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cc1753a05a0821f6c70dd2bccfbab5c">&#9670;&#160;</a></span>RESULT_SUCCESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RESULT_SUCCESS&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Results. </p>
+<p>Success </p>
 
 </div>
 </div>

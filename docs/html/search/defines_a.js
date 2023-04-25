@@ -1,16 +1,12 @@
 var searchData=
 [
-  ['update_5ffast_0',['UPDATE_FAST',['../a00173.html#a42b862bcf9303a95a0a9b450a5ba1b7d',1,'hV_Constants.h']]],
-  ['update_5fglobal_1',['UPDATE_GLOBAL',['../a00173.html#a7b29ab255c91e207b903f08a78562ef1',1,'hV_Constants.h']]],
-  ['update_5fpartial_2',['UPDATE_PARTIAL',['../a00173.html#aa8fca364ce99c2f18cc81fe95c5c543a',1,'hV_Constants.h']]],
-  ['use_5fexpander_5fnone_3',['USE_EXPANDER_NONE',['../a00233.html#a860f4bce384204ab9821f3323ad37428',1,'hV_Configuration.h']]],
-  ['use_5ffont_5fterminal_4',['USE_FONT_TERMINAL',['../a00233.html#a8957d8cdb41ab8149747bc778762044e',1,'hV_Configuration.h']]],
-  ['use_5fhaptics_5fnone_5',['USE_HAPTICS_NONE',['../a00233.html#a2c0c9d99d443328964c910321320b517',1,'hV_Configuration.h']]],
-  ['use_5fhv_5fscreen_6',['USE_hV_SCREEN',['../a00233.html#add4d69b5067bbc2cf56d4fb522dd6541',1,'hV_Configuration.h']]],
-  ['use_5fhv_5fscreen_5fself_7',['USE_hV_SCREEN_SELF',['../a00233.html#aab4e357f20ccd08a66b382176fdee38f',1,'hV_Configuration.h']]],
-  ['use_5finternal_5fmcu_8',['USE_INTERNAL_MCU',['../a00233.html#a5ae3237253d77826843fc9d90700d5a1',1,'hV_Configuration.h']]],
-  ['use_5fnone_9',['USE_NONE',['../a00233.html#a64a99352a7dde2b861163fdb8f8abd89',1,'hV_Configuration.h']]],
-  ['use_5fstring_5fobject_10',['USE_STRING_OBJECT',['../a00233.html#a1aa630d1906e358b320b4e00fcd9d7d7',1,'hV_Configuration.h']]],
-  ['use_5ftouch_5fnone_11',['USE_TOUCH_NONE',['../a00233.html#ac0b08ef537f6a6c42bceab5c3b8da75c',1,'hV_Configuration.h']]],
-  ['use_5ftouch_5fyes_12',['USE_TOUCH_YES',['../a00233.html#af48880fea70dcb52dfb9c43d689bf6aa',1,'hV_Configuration.h']]]
+  ['terminal12e_5ffont_5frelease_0',['TERMINAL12E_FONT_RELEASE',['../a00188.html#a37a4e331a66a7c2283c3a82cbb5e8459',1,'Terminal12x16e.h']]],
+  ['terminal16e_5ffont_5frelease_1',['TERMINAL16E_FONT_RELEASE',['../a00224.html#aeb3695041f15eb5b1e45bcebe5026e18',1,'Terminal16x24e.h']]],
+  ['terminal6e_5ffont_5frelease_2',['TERMINAL6E_FONT_RELEASE',['../a00212.html#ae334fa4c1c475b47ca1f6e86589b5510',1,'Terminal6x8e.h']]],
+  ['terminal8e_5ffont_5frelease_3',['TERMINAL8E_FONT_RELEASE',['../a00194.html#a88f5626ffb335bab69bfe70b793b4cbb',1,'Terminal8x12e.h']]],
+  ['touch_5fevent_5fmove_4',['TOUCH_EVENT_MOVE',['../a00173.html#a9d95a414d6b61be2ef60d6f6685289ab',1,'hV_Constants.h']]],
+  ['touch_5fevent_5fnone_5',['TOUCH_EVENT_NONE',['../a00173.html#addb7ea466d16e54b3ac29e652392bfe7',1,'hV_Constants.h']]],
+  ['touch_5fevent_5fpress_6',['TOUCH_EVENT_PRESS',['../a00173.html#a1b58d5fdc01d6f6c5a090e6d31725d36',1,'hV_Constants.h']]],
+  ['touch_5fevent_5frelease_7',['TOUCH_EVENT_RELEASE',['../a00173.html#a28e03e87baac6e935b2ef802d3d698f9',1,'hV_Constants.h']]],
+  ['touch_5fmode_8',['TOUCH_MODE',['../a00233.html#a11320f76b1b3395290d1e97bb7ac9c2a',1,'hV_Configuration.h']]]
 ];

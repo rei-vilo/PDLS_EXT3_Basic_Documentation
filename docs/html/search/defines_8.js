@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['screen_5fepd_5fext3_5frelease_0',['SCREEN_EPD_EXT3_RELEASE',['../a00218.html#ab75eb2c0ba5e190f5c52fcddd3f64ccb',1,'Screen_EPD_EXT3.h']]],
-  ['sram_5fmode_1',['SRAM_MODE',['../a00233.html#a1e2fdad38cc1a287c1119e44d94ca0fd',1,'hV_Configuration.h']]],
-  ['storage_5fmode_2',['STORAGE_MODE',['../a00233.html#ab9794b07ad5c45a1b1d2b29af9c81138',1,'hV_Configuration.h']]],
-  ['string_5fmode_3',['STRING_MODE',['../a00233.html#a772c0af3dc7e04934854547bc08ca6ed',1,'hV_Configuration.h']]]
+  ['result_5ferror_0',['RESULT_ERROR',['../a00173.html#a0655911839d066af13b9530353a59285',1,'hV_Constants.h']]],
+  ['result_5fsuccess_1',['RESULT_SUCCESS',['../a00173.html#a7cc1753a05a0821f6c70dd2bccfbab5c',1,'hV_Constants.h']]]
 ];
