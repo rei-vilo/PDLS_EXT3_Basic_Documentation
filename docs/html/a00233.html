@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.0.8</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.0.9</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -130,20 +130,22 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00248.html">pins_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Board configuration structure.  <a href="a00248.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00250.html">pins_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Board configuration structure.  <a href="a00250.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a3bcfa67129cf269c0672a66e4705cc21"><td class="memItemLeft" align="right" valign="top"><a id="a3bcfa67129cf269c0672a66e4705cc21" name="a3bcfa67129cf269c0672a66e4705cc21"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>hV_CONFIGURATION_RELEASE</b>&#160;&#160;&#160;607</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>hV_CONFIGURATION_RELEASE</b>&#160;&#160;&#160;609</td></tr>
 <tr class="memdesc:a3bcfa67129cf269c0672a66e4705cc21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release. <br /></td></tr>
 <tr class="separator:a3bcfa67129cf269c0672a66e4705cc21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66b2ce216c9fb1c332b3f3a4dbc0882b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a66b2ce216c9fb1c332b3f3a4dbc0882b">MAX_FONT_SIZE</a>&#160;&#160;&#160;4</td></tr>
 <tr class="memdesc:a66b2ce216c9fb1c332b3f3a4dbc0882b"><td class="mdescLeft">&#160;</td><td class="mdescRight">4- Maximum number of fonts  <br /></td></tr>
 <tr class="separator:a66b2ce216c9fb1c332b3f3a4dbc0882b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">1- List of supported Pervasive Displays screens</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><dl class="section note"><dt>Note</dt><dd>Legacy screens are listed in the corresponding screen libraries </dd></dl>
+</div></td></tr>
 <tr class="memitem:abb9652c681cf187793df76c4d5f4bc50"><td class="memItemLeft" align="right" valign="top"><a id="abb9652c681cf187793df76c4d5f4bc50" name="abb9652c681cf187793df76c4d5f4bc50"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_t</b>&#160;&#160;&#160;uint32_t</td></tr>
 <tr class="memdesc:abb9652c681cf187793df76c4d5f4bc50"><td class="mdescLeft">&#160;</td><td class="mdescRight">screen type <br /></td></tr>
@@ -203,13 +205,68 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_B98</b>&#160;&#160;&#160;(uint32_t)0xB90B</td></tr>
 <tr class="memdesc:a81cd1509c979ac885afa651128aed8ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2B98CS0Bx <br /></td></tr>
 <tr class="separator:a81cd1509c979ac885afa651128aed8ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bd83e40714d03bc62b6694944c0ffb8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a4bd83e40714d03bc62b6694944c0ffb8">eScreen_EPD_EXT3_270_09_Touch</a>&#160;&#160;&#160;(uint32_t)0x032709</td></tr>
-<tr class="memdesc:a4bd83e40714d03bc62b6694944c0ffb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xTP270PGH0x  <br /></td></tr>
-<tr class="separator:a4bd83e40714d03bc62b6694944c0ffb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae21a2748b6fe4f8d6a8648dc08b3fbb7"><td class="memItemLeft" align="right" valign="top"><a id="ae21a2748b6fe4f8d6a8648dc08b3fbb7" name="ae21a2748b6fe4f8d6a8648dc08b3fbb7"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_271_09_Touch</b>&#160;&#160;&#160;(uint32_t)0x032709</td></tr>
-<tr class="memdesc:ae21a2748b6fe4f8d6a8648dc08b3fbb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xTP271PGH0x <br /></td></tr>
+<tr class="memitem:a24fb78f5190520a9492913aa15bc09b4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a24fb78f5190520a9492913aa15bc09b4">eScreen_EPD_EXT3_154_Red</a>&#160;&#160;&#160;(uint32_t)0x101500</td></tr>
+<tr class="memdesc:a24fb78f5190520a9492913aa15bc09b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2154CSxxx  <br /></td></tr>
+<tr class="separator:a24fb78f5190520a9492913aa15bc09b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee2011a13624861fa2566ef282955590"><td class="memItemLeft" align="right" valign="top"><a id="aee2011a13624861fa2566ef282955590" name="aee2011a13624861fa2566ef282955590"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_213_Red</b>&#160;&#160;&#160;(uint32_t)0x102100</td></tr>
+<tr class="memdesc:aee2011a13624861fa2566ef282955590"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2213CSxxx <br /></td></tr>
+<tr class="separator:aee2011a13624861fa2566ef282955590"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed4ad7ce602f054d72128f44cf227f87"><td class="memItemLeft" align="right" valign="top"><a id="aed4ad7ce602f054d72128f44cf227f87" name="aed4ad7ce602f054d72128f44cf227f87"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_266_Red</b>&#160;&#160;&#160;(uint32_t)0x102600</td></tr>
+<tr class="memdesc:aed4ad7ce602f054d72128f44cf227f87"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2266CSxxx <br /></td></tr>
+<tr class="separator:aed4ad7ce602f054d72128f44cf227f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5215ba22c7a2ccabace6d002dbefe9e8"><td class="memItemLeft" align="right" valign="top"><a id="a5215ba22c7a2ccabace6d002dbefe9e8" name="a5215ba22c7a2ccabace6d002dbefe9e8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_271_Red</b>&#160;&#160;&#160;(uint32_t)0x102700</td></tr>
+<tr class="memdesc:a5215ba22c7a2ccabace6d002dbefe9e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2271CSxxx <br /></td></tr>
+<tr class="separator:a5215ba22c7a2ccabace6d002dbefe9e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acad460011f8a479c7aa9249a637bce7c"><td class="memItemLeft" align="right" valign="top"><a id="acad460011f8a479c7aa9249a637bce7c" name="acad460011f8a479c7aa9249a637bce7c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_287_Red</b>&#160;&#160;&#160;(uint32_t)0x102800</td></tr>
+<tr class="memdesc:acad460011f8a479c7aa9249a637bce7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2287CSxxx <br /></td></tr>
+<tr class="separator:acad460011f8a479c7aa9249a637bce7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa54e6954de004d2a8b05c3a240cb9e1f"><td class="memItemLeft" align="right" valign="top"><a id="aa54e6954de004d2a8b05c3a240cb9e1f" name="aa54e6954de004d2a8b05c3a240cb9e1f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_290_Red</b>&#160;&#160;&#160;(uint32_t)0x102900</td></tr>
+<tr class="memdesc:aa54e6954de004d2a8b05c3a240cb9e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2290CSxxx <br /></td></tr>
+<tr class="separator:aa54e6954de004d2a8b05c3a240cb9e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace177808d21b38658f20d0c0e15bbc33"><td class="memItemLeft" align="right" valign="top"><a id="ace177808d21b38658f20d0c0e15bbc33" name="ace177808d21b38658f20d0c0e15bbc33"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_370_Red</b>&#160;&#160;&#160;(uint32_t)0x103700</td></tr>
+<tr class="memdesc:ace177808d21b38658f20d0c0e15bbc33"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2370CSxxx <br /></td></tr>
+<tr class="separator:ace177808d21b38658f20d0c0e15bbc33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdc7117589016697afbbbd966bd02111"><td class="memItemLeft" align="right" valign="top"><a id="acdc7117589016697afbbbd966bd02111" name="acdc7117589016697afbbbd966bd02111"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_417_Red</b>&#160;&#160;&#160;(uint32_t)0x104100</td></tr>
+<tr class="memdesc:acdc7117589016697afbbbd966bd02111"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2417CSxxx <br /></td></tr>
+<tr class="separator:acdc7117589016697afbbbd966bd02111"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc672c2f67905159b43097aeade83544"><td class="memItemLeft" align="right" valign="top"><a id="afc672c2f67905159b43097aeade83544" name="afc672c2f67905159b43097aeade83544"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_437_Red</b>&#160;&#160;&#160;(uint32_t)0x104300</td></tr>
+<tr class="memdesc:afc672c2f67905159b43097aeade83544"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2437CSxxx <br /></td></tr>
+<tr class="separator:afc672c2f67905159b43097aeade83544"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe9f061ef0d4c101361a46f924e39af6"><td class="memItemLeft" align="right" valign="top"><a id="afe9f061ef0d4c101361a46f924e39af6" name="afe9f061ef0d4c101361a46f924e39af6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_565_Red</b>&#160;&#160;&#160;(uint32_t)0x105600</td></tr>
+<tr class="memdesc:afe9f061ef0d4c101361a46f924e39af6"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2565CSxxx <br /></td></tr>
+<tr class="separator:afe9f061ef0d4c101361a46f924e39af6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d457c8ce5659711fd7477445f9632e6"><td class="memItemLeft" align="right" valign="top"><a id="a2d457c8ce5659711fd7477445f9632e6" name="a2d457c8ce5659711fd7477445f9632e6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_581_0B_Red</b>&#160;&#160;&#160;(uint32_t)0x10580B</td></tr>
+<tr class="memdesc:a2d457c8ce5659711fd7477445f9632e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2581CS0Bx <br /></td></tr>
+<tr class="separator:a2d457c8ce5659711fd7477445f9632e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e5533c0593230632a9c0fa615862c3f"><td class="memItemLeft" align="right" valign="top"><a id="a4e5533c0593230632a9c0fa615862c3f" name="a4e5533c0593230632a9c0fa615862c3f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_741_0B_Red</b>&#160;&#160;&#160;(uint32_t)0x10740B</td></tr>
+<tr class="memdesc:a4e5533c0593230632a9c0fa615862c3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2741CS0Bx <br /></td></tr>
+<tr class="separator:a4e5533c0593230632a9c0fa615862c3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad075cda527ba1dbcab199b8d4ce90d45"><td class="memItemLeft" align="right" valign="top"><a id="ad075cda527ba1dbcab199b8d4ce90d45" name="ad075cda527ba1dbcab199b8d4ce90d45"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_969_0B_Red</b>&#160;&#160;&#160;(uint32_t)0x10960B</td></tr>
+<tr class="memdesc:ad075cda527ba1dbcab199b8d4ce90d45"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2969CS0Bx <br /></td></tr>
+<tr class="separator:ad075cda527ba1dbcab199b8d4ce90d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fa274c7051b3e59e1b2880a55cb6932"><td class="memItemLeft" align="right" valign="top"><a id="a6fa274c7051b3e59e1b2880a55cb6932" name="a6fa274c7051b3e59e1b2880a55cb6932"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_B98_0B_Red</b>&#160;&#160;&#160;(uint32_t)0x10B90B</td></tr>
+<tr class="memdesc:a6fa274c7051b3e59e1b2880a55cb6932"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2B98CS0Bx <br /></td></tr>
+<tr class="separator:a6fa274c7051b3e59e1b2880a55cb6932"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae21a2748b6fe4f8d6a8648dc08b3fbb7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#ae21a2748b6fe4f8d6a8648dc08b3fbb7">eScreen_EPD_EXT3_271_09_Touch</a>&#160;&#160;&#160;(uint32_t)0x032709</td></tr>
+<tr class="memdesc:ae21a2748b6fe4f8d6a8648dc08b3fbb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xTP271PGH0x  <br /></td></tr>
 <tr class="separator:ae21a2748b6fe4f8d6a8648dc08b3fbb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bd83e40714d03bc62b6694944c0ffb8"><td class="memItemLeft" align="right" valign="top"><a id="a4bd83e40714d03bc62b6694944c0ffb8" name="a4bd83e40714d03bc62b6694944c0ffb8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_270_09_Touch</b>&#160;&#160;&#160;(uint32_t)0x032709</td></tr>
+<tr class="memdesc:a4bd83e40714d03bc62b6694944c0ffb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xTP270PGH0x, legacy name <br /></td></tr>
+<tr class="separator:a4bd83e40714d03bc62b6694944c0ffb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec9ddd241fb9597b63519a0775fafe72"><td class="memItemLeft" align="right" valign="top"><a id="aec9ddd241fb9597b63519a0775fafe72" name="aec9ddd241fb9597b63519a0775fafe72"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_370_0C_Touch</b>&#160;&#160;&#160;(uint32_t)0x03370C</td></tr>
 <tr class="memdesc:aec9ddd241fb9597b63519a0775fafe72"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xTP370PGH0x <br /></td></tr>
@@ -235,7 +292,7 @@ Macros</h2></td></tr>
 <tr class="separator:ab6f8b7461cb873de89ab4d3751103fb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeca52211df8cf9e675bfacd55ba67a4a"><td class="memItemLeft" align="right" valign="top"><a id="aeca52211df8cf9e675bfacd55ba67a4a" name="aeca52211df8cf9e675bfacd55ba67a4a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_266_0C_Fast</b>&#160;&#160;&#160;(uint32_t)0x01260C</td></tr>
-<tr class="memdesc:aeca52211df8cf9e675bfacd55ba67a4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2266PS0Cx, not tested <br /></td></tr>
+<tr class="memdesc:aeca52211df8cf9e675bfacd55ba67a4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2266PS0Cx <br /></td></tr>
 <tr class="separator:aeca52211df8cf9e675bfacd55ba67a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57429d36b0d5992d29ec92bf6b856c60"><td class="memItemLeft" align="right" valign="top"><a id="a57429d36b0d5992d29ec92bf6b856c60" name="a57429d36b0d5992d29ec92bf6b856c60"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_271_09_Fast</b>&#160;&#160;&#160;(uint32_t)0x012709</td></tr>
@@ -255,28 +312,53 @@ Macros</h2></td></tr>
 <tr class="separator:ad8d8f9e6de88fbcba034ef0f476f0f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa83ba7438b4f3bcea6e52a1f8ea8d855"><td class="memItemLeft" align="right" valign="top"><a id="aa83ba7438b4f3bcea6e52a1f8ea8d855" name="aa83ba7438b4f3bcea6e52a1f8ea8d855"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_417_0D_Fast</b>&#160;&#160;&#160;(uint32_t)0x01410D</td></tr>
-<tr class="memdesc:aa83ba7438b4f3bcea6e52a1f8ea8d855"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2417PS0Dx, not tested <br /></td></tr>
+<tr class="memdesc:aa83ba7438b4f3bcea6e52a1f8ea8d855"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2417PS0Dx <br /></td></tr>
 <tr class="separator:aa83ba7438b4f3bcea6e52a1f8ea8d855"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a842d06b1c18a0781b06c8814c40432fc"><td class="memItemLeft" align="right" valign="top"><a id="a842d06b1c18a0781b06c8814c40432fc" name="a842d06b1c18a0781b06c8814c40432fc"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_437_0C_Fast</b>&#160;&#160;&#160;(uint32_t)0x01430C</td></tr>
-<tr class="memdesc:a842d06b1c18a0781b06c8814c40432fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2437PS0Cx <br /></td></tr>
+<tr class="memitem:a842d06b1c18a0781b06c8814c40432fc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a842d06b1c18a0781b06c8814c40432fc">eScreen_EPD_EXT3_437_0C_Fast</a>&#160;&#160;&#160;(uint32_t)0x01430C</td></tr>
 <tr class="separator:a842d06b1c18a0781b06c8814c40432fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5995b2aba9a0cbc350b07d664df0e12"><td class="memItemLeft" align="right" valign="top"><a id="ab5995b2aba9a0cbc350b07d664df0e12" name="ab5995b2aba9a0cbc350b07d664df0e12"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_581_0B_Fast</b>&#160;&#160;&#160;(uint32_t)0x01580B</td></tr>
-<tr class="memdesc:ab5995b2aba9a0cbc350b07d664df0e12"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2581PS0Bx, not tested <br /></td></tr>
+<tr class="memitem:ab5995b2aba9a0cbc350b07d664df0e12"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#ab5995b2aba9a0cbc350b07d664df0e12">eScreen_EPD_EXT3_581_0B_Fast</a>&#160;&#160;&#160;(uint32_t)0x01580B</td></tr>
 <tr class="separator:ab5995b2aba9a0cbc350b07d664df0e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0b12bb378c7e3742c6ea4d351d2c1c6"><td class="memItemLeft" align="right" valign="top"><a id="ab0b12bb378c7e3742c6ea4d351d2c1c6" name="ab0b12bb378c7e3742c6ea4d351d2c1c6"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_741_0B_Fast</b>&#160;&#160;&#160;(uint32_t)0x01740B</td></tr>
-<tr class="memdesc:ab0b12bb378c7e3742c6ea4d351d2c1c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2741PS0Bx, not tested <br /></td></tr>
+<tr class="memitem:ab0b12bb378c7e3742c6ea4d351d2c1c6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#ab0b12bb378c7e3742c6ea4d351d2c1c6">eScreen_EPD_EXT3_741_0B_Fast</a>&#160;&#160;&#160;(uint32_t)0x01740B</td></tr>
 <tr class="separator:ab0b12bb378c7e3742c6ea4d351d2c1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6eb368a415b787fba5252d8e1d6c7b28"><td class="memItemLeft" align="right" valign="top"><a id="a6eb368a415b787fba5252d8e1d6c7b28" name="a6eb368a415b787fba5252d8e1d6c7b28"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_969_0B_Fast</b>&#160;&#160;&#160;(uint32_t)0x01960B</td></tr>
-<tr class="memdesc:a6eb368a415b787fba5252d8e1d6c7b28"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2969PS0Bx, not tested <br /></td></tr>
+<tr class="memitem:a6eb368a415b787fba5252d8e1d6c7b28"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a6eb368a415b787fba5252d8e1d6c7b28">eScreen_EPD_EXT3_969_0B_Fast</a>&#160;&#160;&#160;(uint32_t)0x01960B</td></tr>
 <tr class="separator:a6eb368a415b787fba5252d8e1d6c7b28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba71efeae652bab863d10aa7262f143c"><td class="memItemLeft" align="right" valign="top"><a id="aba71efeae652bab863d10aa7262f143c" name="aba71efeae652bab863d10aa7262f143c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_B98_0B_Fast</b>&#160;&#160;&#160;(uint32_t)0x01B90B</td></tr>
-<tr class="memdesc:aba71efeae652bab863d10aa7262f143c"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2B98PS0Bx, not tested <br /></td></tr>
+<tr class="memitem:aba71efeae652bab863d10aa7262f143c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#aba71efeae652bab863d10aa7262f143c">eScreen_EPD_EXT3_B98_0B_Fast</a>&#160;&#160;&#160;(uint32_t)0x01B90B</td></tr>
+<tr class="memdesc:aba71efeae652bab863d10aa7262f143c"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2B98PS0Bx, not tested  <br /></td></tr>
 <tr class="separator:aba71efeae652bab863d10aa7262f143c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4705b6248c7303e654484b8d8e8ff0f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#ad4705b6248c7303e654484b8d8e8ff0f">eScreen_EPD_EXT3_154_0C_Wide</a>&#160;&#160;&#160;(uint32_t)0x09150C</td></tr>
+<tr class="memdesc:ad4705b6248c7303e654484b8d8e8ff0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2154KS0Cx  <br /></td></tr>
+<tr class="separator:ad4705b6248c7303e654484b8d8e8ff0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abefa12e516520b56530df20225c8be1d"><td class="memItemLeft" align="right" valign="top"><a id="abefa12e516520b56530df20225c8be1d" name="abefa12e516520b56530df20225c8be1d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_213_0E_Wide</b>&#160;&#160;&#160;(uint32_t)0x09210E</td></tr>
+<tr class="memdesc:abefa12e516520b56530df20225c8be1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2213KS0Ex <br /></td></tr>
+<tr class="separator:abefa12e516520b56530df20225c8be1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5cf4a03002c4a250aeab640a8a31357"><td class="memItemLeft" align="right" valign="top"><a id="aa5cf4a03002c4a250aeab640a8a31357" name="aa5cf4a03002c4a250aeab640a8a31357"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_266_0C_Wide</b>&#160;&#160;&#160;(uint32_t)0x09260C</td></tr>
+<tr class="memdesc:aa5cf4a03002c4a250aeab640a8a31357"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2266KS0Cx <br /></td></tr>
+<tr class="separator:aa5cf4a03002c4a250aeab640a8a31357"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3f29c8c483f98f8b465b176d689c9a3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#af3f29c8c483f98f8b465b176d689c9a3">eScreen_EPD_EXT3_271_09_Wide</a>&#160;&#160;&#160;(uint32_t)0x092709</td></tr>
+<tr class="separator:af3f29c8c483f98f8b465b176d689c9a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb8cdc84829985862f8a1bbbf2adb0b7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#aeb8cdc84829985862f8a1bbbf2adb0b7">eScreen_EPD_EXT3_287_09_Wide</a>&#160;&#160;&#160;(uint32_t)0x092809</td></tr>
+<tr class="memdesc:aeb8cdc84829985862f8a1bbbf2adb0b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2287PS09x, not tested  <br /></td></tr>
+<tr class="separator:aeb8cdc84829985862f8a1bbbf2adb0b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39768a01cf06be57499d263d40891802"><td class="memItemLeft" align="right" valign="top"><a id="a39768a01cf06be57499d263d40891802" name="a39768a01cf06be57499d263d40891802"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_EXT3_370_0C_Wide</b>&#160;&#160;&#160;(uint32_t)0x09370C</td></tr>
+<tr class="memdesc:a39768a01cf06be57499d263d40891802"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2370KS0Cx <br /></td></tr>
+<tr class="separator:a39768a01cf06be57499d263d40891802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf2c62221ffeae52c266a8bc812bc4d6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#aaf2c62221ffeae52c266a8bc812bc4d6">eScreen_EPD_EXT3_417_0D_Wide</a>&#160;&#160;&#160;(uint32_t)0x09410D</td></tr>
+<tr class="separator:aaf2c62221ffeae52c266a8bc812bc4d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1d860e526a7f38dbc368a97094278d9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#ae1d860e526a7f38dbc368a97094278d9">eScreen_EPD_EXT3_437_0C_Wide</a>&#160;&#160;&#160;(uint32_t)0x09430C</td></tr>
+<tr class="memdesc:ae1d860e526a7f38dbc368a97094278d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2437KS0Cx, not tested  <br /></td></tr>
+<tr class="separator:ae1d860e526a7f38dbc368a97094278d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a2f487f6e2579784d9ef5c47ae9c486"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a0a2f487f6e2579784d9ef5c47ae9c486">eScreen_EPD_EXT3_581_06_Wide</a>&#160;&#160;&#160;(uint32_t)0x09580B</td></tr>
+<tr class="separator:a0a2f487f6e2579784d9ef5c47ae9c486"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2158f8bbb51fd46339315c3c8b62c1d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a2158f8bbb51fd46339315c3c8b62c1d1">eScreen_EPD_EXT3_741_0B_Wide</a>&#160;&#160;&#160;(uint32_t)0x09740B</td></tr>
+<tr class="separator:a2158f8bbb51fd46339315c3c8b62c1d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b3ee085894ced64393df93bf42be9c8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a1b3ee085894ced64393df93bf42be9c8">eScreen_EPD_EXT3_969_0B_Wide</a>&#160;&#160;&#160;(uint32_t)0x09960B</td></tr>
+<tr class="separator:a1b3ee085894ced64393df93bf42be9c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b3d032f3aabbdd7c4426135b7a066ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a6b3d032f3aabbdd7c4426135b7a066ec">eScreen_EPD_EXT3_B98_0B_Wide</a>&#160;&#160;&#160;(uint32_t)0x09B90B</td></tr>
+<tr class="memdesc:a6b3d032f3aabbdd7c4426135b7a066ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2B98KS0Bx, not tested  <br /></td></tr>
+<tr class="separator:a6b3d032f3aabbdd7c4426135b7a066ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2fde0eadbbd254b1dd7ea0e6f049693"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#ab2fde0eadbbd254b1dd7ea0e6f049693">frameSize_EPD_EXT3_154</a>&#160;&#160;&#160;(uint32_t)(5776)</td></tr>
 <tr class="memdesc:ab2fde0eadbbd254b1dd7ea0e6f049693"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frame Frame-buffer sizes.  <br /></td></tr>
 <tr class="separator:ab2fde0eadbbd254b1dd7ea0e6f049693"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -443,60 +525,60 @@ Recommended: USE_hV_SCREEN_VIRTUAL </dd></dl>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>NOT_CONNECTED</b>&#160;&#160;&#160;(uint8_t)0xff</td></tr>
 <tr class="memdesc:a0e9795e3bb758850785e6ebc676ab01b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not connected pin. <br /></td></tr>
 <tr class="separator:a0e9795e3bb758850785e6ebc676ab01b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a894b0bb2d9979d677cae8a66db5ca563"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00248.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a></td></tr>
+<tr class="memitem:a894b0bb2d9979d677cae8a66db5ca563"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00250.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a></td></tr>
 <tr class="memdesc:a894b0bb2d9979d677cae8a66db5ca563"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raspberry Pi Pico and Pico W.  <br /></td></tr>
 <tr class="separator:a894b0bb2d9979d677cae8a66db5ca563"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5d0b4cf7cc2750c9332f2c0a9e12f1b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00248.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#aa5d0b4cf7cc2750c9332f2c0a9e12f1b">boardFeatherNRF52840</a></td></tr>
+<tr class="memitem:aa5d0b4cf7cc2750c9332f2c0a9e12f1b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00250.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#aa5d0b4cf7cc2750c9332f2c0a9e12f1b">boardFeatherNRF52840</a></td></tr>
 <tr class="memdesc:aa5d0b4cf7cc2750c9332f2c0a9e12f1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adafruit Feather nRF52840 configuration, tested.  <br /></td></tr>
 <tr class="separator:aa5d0b4cf7cc2750c9332f2c0a9e12f1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad900dca7592c68bce6641a7fa5cae41f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00248.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#ad900dca7592c68bce6641a7fa5cae41f">boardESP32DevKitC</a></td></tr>
+<tr class="memitem:ad900dca7592c68bce6641a7fa5cae41f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00250.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#ad900dca7592c68bce6641a7fa5cae41f">boardESP32DevKitC</a></td></tr>
 <tr class="memdesc:ad900dca7592c68bce6641a7fa5cae41f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Espressif ESP32-DevKitC.  <br /></td></tr>
 <tr class="separator:ad900dca7592c68bce6641a7fa5cae41f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18504c4b88869b52971ed406679d794e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00248.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a18504c4b88869b52971ed406679d794e">boardLaunchPad</a></td></tr>
+<tr class="memitem:a18504c4b88869b52971ed406679d794e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00250.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a18504c4b88869b52971ed406679d794e">boardLaunchPad</a></td></tr>
 <tr class="memdesc:a18504c4b88869b52971ed406679d794e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Texas Instruments LaunchPad MSP430 and MSP432 LaunchPad configuration, tested.  <br /></td></tr>
 <tr class="separator:a18504c4b88869b52971ed406679d794e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0c34bc6b39ca5dd09835a0ee5a3a41a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00248.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#ab0c34bc6b39ca5dd09835a0ee5a3a41a">boardMSP430FR5994</a></td></tr>
+<tr class="memitem:ab0c34bc6b39ca5dd09835a0ee5a3a41a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00250.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#ab0c34bc6b39ca5dd09835a0ee5a3a41a">boardMSP430FR5994</a></td></tr>
 <tr class="memdesc:ab0c34bc6b39ca5dd09835a0ee5a3a41a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Texas Instruments LaunchPad MSP430FR5994 LaunchPad with SD-card configuration, tested.  <br /></td></tr>
 <tr class="separator:ab0c34bc6b39ca5dd09835a0ee5a3a41a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87edfbded5d6f32d1854a1ee879ef87d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00248.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a87edfbded5d6f32d1854a1ee879ef87d">boardCC1352</a></td></tr>
+<tr class="memitem:a87edfbded5d6f32d1854a1ee879ef87d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00250.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a87edfbded5d6f32d1854a1ee879ef87d">boardCC1352</a></td></tr>
 <tr class="memdesc:a87edfbded5d6f32d1854a1ee879ef87d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Texas Instruments LaunchPad CC1352 configuration, tested.  <br /></td></tr>
 <tr class="separator:a87edfbded5d6f32d1854a1ee879ef87d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abacdc5c8e1313cf3a7a716cf1ace4741"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00248.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#abacdc5c8e1313cf3a7a716cf1ace4741">boardRaspberryPiZeroB_RasPiArduino</a></td></tr>
+<tr class="memitem:abacdc5c8e1313cf3a7a716cf1ace4741"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00250.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#abacdc5c8e1313cf3a7a716cf1ace4741">boardRaspberryPiZeroB_RasPiArduino</a></td></tr>
 <tr class="memdesc:abacdc5c8e1313cf3a7a716cf1ace4741"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raspberry Pi Zero, 2B, 3B, 4B configuration with RasPiArduino, tested.  <br /></td></tr>
 <tr class="separator:abacdc5c8e1313cf3a7a716cf1ace4741"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d2067293296d6d5d4aeebc8e56d90bc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00248.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a3d2067293296d6d5d4aeebc8e56d90bc">boardRaspberryPiPico_Arduino</a></td></tr>
+<tr class="memitem:a3d2067293296d6d5d4aeebc8e56d90bc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00250.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a3d2067293296d6d5d4aeebc8e56d90bc">boardRaspberryPiPico_Arduino</a></td></tr>
 <tr class="memdesc:a3d2067293296d6d5d4aeebc8e56d90bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raspberry Pi Pico Arduino mbed configuration, tested.  <br /></td></tr>
 <tr class="separator:a3d2067293296d6d5d4aeebc8e56d90bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d1357629d2b81eb7e9e0c3469b46c5e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00248.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a8d1357629d2b81eb7e9e0c3469b46c5e">boardFeatherM0M4</a></td></tr>
+<tr class="memitem:a8d1357629d2b81eb7e9e0c3469b46c5e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00250.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a8d1357629d2b81eb7e9e0c3469b46c5e">boardFeatherM0M4</a></td></tr>
 <tr class="memdesc:a8d1357629d2b81eb7e9e0c3469b46c5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adafruit Feather M0 and M4 configuration, tested.  <br /></td></tr>
 <tr class="separator:a8d1357629d2b81eb7e9e0c3469b46c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe43bcf6a282df9d337919fbca47cd5b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00248.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#abe43bcf6a282df9d337919fbca47cd5b">boardFeatherNRF52832</a></td></tr>
+<tr class="memitem:abe43bcf6a282df9d337919fbca47cd5b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00250.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#abe43bcf6a282df9d337919fbca47cd5b">boardFeatherNRF52832</a></td></tr>
 <tr class="memdesc:abe43bcf6a282df9d337919fbca47cd5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adafruit Feather nRF52832 configuration, tested.  <br /></td></tr>
 <tr class="separator:abe43bcf6a282df9d337919fbca47cd5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47cc4f37c263fb4355a5da27de205511"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00248.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a47cc4f37c263fb4355a5da27de205511">boardArduinoZero</a></td></tr>
+<tr class="memitem:a47cc4f37c263fb4355a5da27de205511"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00250.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a47cc4f37c263fb4355a5da27de205511">boardArduinoZero</a></td></tr>
 <tr class="memdesc:a47cc4f37c263fb4355a5da27de205511"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arduino Zero configuration, tested.  <br /></td></tr>
 <tr class="separator:a47cc4f37c263fb4355a5da27de205511"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afad37f2188fa8b28b3b9806de35e2fd7"><td class="memItemLeft" align="right" valign="top"><a id="afad37f2188fa8b28b3b9806de35e2fd7" name="afad37f2188fa8b28b3b9806de35e2fd7"></a>
-const <a class="el" href="a00248.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>boardNucleo64</b> = <a class="el" href="a00233.html#a47cc4f37c263fb4355a5da27de205511">boardArduinoZero</a></td></tr>
+const <a class="el" href="a00250.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>boardNucleo64</b> = <a class="el" href="a00233.html#a47cc4f37c263fb4355a5da27de205511">boardArduinoZero</a></td></tr>
 <tr class="memdesc:afad37f2188fa8b28b3b9806de35e2fd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">ST Nucleo 64, tested. <br /></td></tr>
 <tr class="separator:afad37f2188fa8b28b3b9806de35e2fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad33d22d1addf1e28379474443ebde2c7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00248.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#ad33d22d1addf1e28379474443ebde2c7">boardParticlePhoton</a></td></tr>
+<tr class="memitem:ad33d22d1addf1e28379474443ebde2c7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00250.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#ad33d22d1addf1e28379474443ebde2c7">boardParticlePhoton</a></td></tr>
 <tr class="memdesc:ad33d22d1addf1e28379474443ebde2c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Particle Photon configuration, tested.  <br /></td></tr>
 <tr class="separator:ad33d22d1addf1e28379474443ebde2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfebc28da306dfd986d08d1a31fc7fe2"><td class="memItemLeft" align="right" valign="top"><a id="acfebc28da306dfd986d08d1a31fc7fe2" name="acfebc28da306dfd986d08d1a31fc7fe2"></a>
-const <a class="el" href="a00248.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>boardRedBearDuo</b> = <a class="el" href="a00233.html#ad33d22d1addf1e28379474443ebde2c7">boardParticlePhoton</a></td></tr>
+const <a class="el" href="a00250.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>boardRedBearDuo</b> = <a class="el" href="a00233.html#ad33d22d1addf1e28379474443ebde2c7">boardParticlePhoton</a></td></tr>
 <tr class="memdesc:acfebc28da306dfd986d08d1a31fc7fe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">RedBear Duo configuration, tested. <br /></td></tr>
 <tr class="separator:acfebc28da306dfd986d08d1a31fc7fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4b299ac38da68b050a1fd653ad6e114"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00248.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#ae4b299ac38da68b050a1fd653ad6e114">boardESP32PicoKitV4</a></td></tr>
+<tr class="memitem:ae4b299ac38da68b050a1fd653ad6e114"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00250.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#ae4b299ac38da68b050a1fd653ad6e114">boardESP32PicoKitV4</a></td></tr>
 <tr class="memdesc:ae4b299ac38da68b050a1fd653ad6e114"><td class="mdescLeft">&#160;</td><td class="mdescRight">Espressif ESP32-Pico-v4.  <br /></td></tr>
 <tr class="separator:ae4b299ac38da68b050a1fd653ad6e114"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42d79caf3b60b7ea197dab4c533acffb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00248.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a42d79caf3b60b7ea197dab4c533acffb">boardESP32PicoDevKitM2</a></td></tr>
+<tr class="memitem:a42d79caf3b60b7ea197dab4c533acffb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00250.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a42d79caf3b60b7ea197dab4c533acffb">boardESP32PicoDevKitM2</a></td></tr>
 <tr class="memdesc:a42d79caf3b60b7ea197dab4c533acffb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Espressif ESP32-Pico-DevKitM-2.  <br /></td></tr>
 <tr class="separator:a42d79caf3b60b7ea197dab4c533acffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a646cd3a7adc1907316e2ccade7c008"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00248.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a3a646cd3a7adc1907316e2ccade7c008">boardXiaoRP2040</a></td></tr>
+<tr class="memitem:a3a646cd3a7adc1907316e2ccade7c008"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00250.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#a3a646cd3a7adc1907316e2ccade7c008">boardXiaoRP2040</a></td></tr>
 <tr class="memdesc:a3a646cd3a7adc1907316e2ccade7c008"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seeed Xiao RP240.  <br /></td></tr>
 <tr class="separator:a3a646cd3a7adc1907316e2ccade7c008"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af60f33c49506c359daef98201e4ae16c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00248.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#af60f33c49506c359daef98201e4ae16c">boardTeensy3x</a></td></tr>
+<tr class="memitem:af60f33c49506c359daef98201e4ae16c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00250.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00233.html#af60f33c49506c359daef98201e4ae16c">boardTeensy3x</a></td></tr>
 <tr class="memdesc:af60f33c49506c359daef98201e4ae16c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Teensy 3.x configuration, tested.  <br /></td></tr>
 <tr class="separator:af60f33c49506c359daef98201e4ae16c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -519,8 +601,8 @@ const <a class="el" href="a00248.html">pins_t</a>&#160;</td><td class="memItemRi
 <li>11. Set storage mode, not implemented</li>
 </ul>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>20 Mar 2023 </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>607</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>02 May 2023 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>609</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2023 </dd>
 <dd>
 All rights reserved</dd></dl>
@@ -549,7 +631,8 @@ All rights reserved</dd></dl>
 
 <p>reference xE2154CSxxx </p>
 <ul>
-<li>Monochrome and colour screens, global update <dl class="section see"><dt>See also</dt><dd><a href="https://www.pervasivedisplays.com/products/">https://www.pervasivedisplays.com/products/</a> </dd></dl>
+<li>Monochrome and colour screens <dl class="section note"><dt>Note</dt><dd>Update: global </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://www.pervasivedisplays.com/products/">https://www.pervasivedisplays.com/products/</a> </dd></dl>
 </li>
 </ul>
 
@@ -569,29 +652,272 @@ All rights reserved</dd></dl>
 
 <p>reference xE2154PS0Cx </p>
 <ul>
-<li>Monochrome screens with embedded fast update, fast and partial update <dl class="section see"><dt>See also</dt><dd><a href="https://www.pervasivedisplays.com/products/?_sft_etc_itc=pu">https://www.pervasivedisplays.com/products/?_sft_etc_itc=pu</a> </dd></dl>
+<li>Monochrome screens with embedded fast update <dl class="section note"><dt>Note</dt><dd>Update: fast update </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://www.pervasivedisplays.com/products/?_sft_etc_itc=pu">https://www.pervasivedisplays.com/products/?_sft_etc_itc=pu</a> </dd></dl>
 </li>
 </ul>
 
 </div>
 </div>
-<a id="a4bd83e40714d03bc62b6694944c0ffb8" name="a4bd83e40714d03bc62b6694944c0ffb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bd83e40714d03bc62b6694944c0ffb8">&#9670;&#160;</a></span>eScreen_EPD_EXT3_270_09_Touch</h2>
+<a id="ad4705b6248c7303e654484b8d8e8ff0f" name="ad4705b6248c7303e654484b8d8e8ff0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4705b6248c7303e654484b8d8e8ff0f">&#9670;&#160;</a></span>eScreen_EPD_EXT3_154_0C_Wide</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define eScreen_EPD_EXT3_270_09_Touch&#160;&#160;&#160;(uint32_t)0x032709</td>
+          <td class="memname">#define eScreen_EPD_EXT3_154_0C_Wide&#160;&#160;&#160;(uint32_t)0x09150C</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>reference xTP270PGH0x </p>
+<p>reference xE2154KS0Cx </p>
 <ul>
-<li>Monochrome touch screens with embedded fast update <dl class="section see"><dt>See also</dt><dd><a href="https://www.pervasivedisplays.com/products/?_sft_etc_itc=tp">https://www.pervasivedisplays.com/products/?_sft_etc_itc=tp</a> </dd></dl>
+<li>Monochrome screens with embedded fast update and wide temperature <dl class="section note"><dt>Note</dt><dd>Update: global, fast and partial update </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://www.pervasivedisplays.com/products/?_sft_temperature_range=m15c-to-p60c">https://www.pervasivedisplays.com/products/?_sft_temperature_range=m15c-to-p60c</a> </dd></dl>
 </li>
 </ul>
+
+</div>
+</div>
+<a id="a24fb78f5190520a9492913aa15bc09b4" name="a24fb78f5190520a9492913aa15bc09b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24fb78f5190520a9492913aa15bc09b4">&#9670;&#160;</a></span>eScreen_EPD_EXT3_154_Red</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_EXT3_154_Red&#160;&#160;&#160;(uint32_t)0x101500</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>reference xE2154CSxxx </p>
+<ul>
+<li>Colour screens <dl class="section note"><dt>Note</dt><dd>Update: global </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://www.pervasivedisplays.com/products/">https://www.pervasivedisplays.com/products/</a> </dd></dl>
+</li>
+</ul>
+
+</div>
+</div>
+<a id="ae21a2748b6fe4f8d6a8648dc08b3fbb7" name="ae21a2748b6fe4f8d6a8648dc08b3fbb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae21a2748b6fe4f8d6a8648dc08b3fbb7">&#9670;&#160;</a></span>eScreen_EPD_EXT3_271_09_Touch</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_EXT3_271_09_Touch&#160;&#160;&#160;(uint32_t)0x032709</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>reference xTP271PGH0x </p>
+<ul>
+<li>Monochrome touch screens with embedded fast update <dl class="section note"><dt>Note</dt><dd>Update: fast update </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://www.pervasivedisplays.com/products/?_sft_etc_itc=tp">https://www.pervasivedisplays.com/products/?_sft_etc_itc=tp</a> </dd></dl>
+</li>
+</ul>
+
+</div>
+</div>
+<a id="af3f29c8c483f98f8b465b176d689c9a3" name="af3f29c8c483f98f8b465b176d689c9a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3f29c8c483f98f8b465b176d689c9a3">&#9670;&#160;</a></span>eScreen_EPD_EXT3_271_09_Wide</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_EXT3_271_09_Wide&#160;&#160;&#160;(uint32_t)0x092709</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>reference xE2271KS09x </p>
+
+</div>
+</div>
+<a id="aeb8cdc84829985862f8a1bbbf2adb0b7" name="aeb8cdc84829985862f8a1bbbf2adb0b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb8cdc84829985862f8a1bbbf2adb0b7">&#9670;&#160;</a></span>eScreen_EPD_EXT3_287_09_Wide</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_EXT3_287_09_Wide&#160;&#160;&#160;(uint32_t)0x092809</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>reference xE2287PS09x, not tested </p>
+
+</div>
+</div>
+<a id="aaf2c62221ffeae52c266a8bc812bc4d6" name="aaf2c62221ffeae52c266a8bc812bc4d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf2c62221ffeae52c266a8bc812bc4d6">&#9670;&#160;</a></span>eScreen_EPD_EXT3_417_0D_Wide</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_EXT3_417_0D_Wide&#160;&#160;&#160;(uint32_t)0x09410D</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>reference xE2417KS0Dx </p>
+
+</div>
+</div>
+<a id="a842d06b1c18a0781b06c8814c40432fc" name="a842d06b1c18a0781b06c8814c40432fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a842d06b1c18a0781b06c8814c40432fc">&#9670;&#160;</a></span>eScreen_EPD_EXT3_437_0C_Fast</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_EXT3_437_0C_Fast&#160;&#160;&#160;(uint32_t)0x01430C</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>reference xE2437PS0Cx </p>
+
+</div>
+</div>
+<a id="ae1d860e526a7f38dbc368a97094278d9" name="ae1d860e526a7f38dbc368a97094278d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1d860e526a7f38dbc368a97094278d9">&#9670;&#160;</a></span>eScreen_EPD_EXT3_437_0C_Wide</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_EXT3_437_0C_Wide&#160;&#160;&#160;(uint32_t)0x09430C</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>reference xE2437KS0Cx, not tested </p>
+
+</div>
+</div>
+<a id="a0a2f487f6e2579784d9ef5c47ae9c486" name="a0a2f487f6e2579784d9ef5c47ae9c486"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a2f487f6e2579784d9ef5c47ae9c486">&#9670;&#160;</a></span>eScreen_EPD_EXT3_581_06_Wide</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_EXT3_581_06_Wide&#160;&#160;&#160;(uint32_t)0x09580B</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>reference xE2581KS0Bx </p>
+
+</div>
+</div>
+<a id="ab5995b2aba9a0cbc350b07d664df0e12" name="ab5995b2aba9a0cbc350b07d664df0e12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5995b2aba9a0cbc350b07d664df0e12">&#9670;&#160;</a></span>eScreen_EPD_EXT3_581_0B_Fast</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_EXT3_581_0B_Fast&#160;&#160;&#160;(uint32_t)0x01580B</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>reference xE2581PS0Bx, not tested </p>
+
+</div>
+</div>
+<a id="ab0b12bb378c7e3742c6ea4d351d2c1c6" name="ab0b12bb378c7e3742c6ea4d351d2c1c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0b12bb378c7e3742c6ea4d351d2c1c6">&#9670;&#160;</a></span>eScreen_EPD_EXT3_741_0B_Fast</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_EXT3_741_0B_Fast&#160;&#160;&#160;(uint32_t)0x01740B</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>reference xE2741PS0Bx, not tested </p>
+
+</div>
+</div>
+<a id="a2158f8bbb51fd46339315c3c8b62c1d1" name="a2158f8bbb51fd46339315c3c8b62c1d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2158f8bbb51fd46339315c3c8b62c1d1">&#9670;&#160;</a></span>eScreen_EPD_EXT3_741_0B_Wide</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_EXT3_741_0B_Wide&#160;&#160;&#160;(uint32_t)0x09740B</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>reference xE2741KS0Bx, not tested </p>
+
+</div>
+</div>
+<a id="a6eb368a415b787fba5252d8e1d6c7b28" name="a6eb368a415b787fba5252d8e1d6c7b28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6eb368a415b787fba5252d8e1d6c7b28">&#9670;&#160;</a></span>eScreen_EPD_EXT3_969_0B_Fast</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_EXT3_969_0B_Fast&#160;&#160;&#160;(uint32_t)0x01960B</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>reference xE2969PS0Bx, not tested </p>
+
+</div>
+</div>
+<a id="a1b3ee085894ced64393df93bf42be9c8" name="a1b3ee085894ced64393df93bf42be9c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b3ee085894ced64393df93bf42be9c8">&#9670;&#160;</a></span>eScreen_EPD_EXT3_969_0B_Wide</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_EXT3_969_0B_Wide&#160;&#160;&#160;(uint32_t)0x09960B</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>reference xE2969KS0Bx, not tested </p>
+
+</div>
+</div>
+<a id="aba71efeae652bab863d10aa7262f143c" name="aba71efeae652bab863d10aa7262f143c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba71efeae652bab863d10aa7262f143c">&#9670;&#160;</a></span>eScreen_EPD_EXT3_B98_0B_Fast</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_EXT3_B98_0B_Fast&#160;&#160;&#160;(uint32_t)0x01B90B</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>reference xE2B98PS0Bx, not tested </p>
+
+</div>
+</div>
+<a id="a6b3d032f3aabbdd7c4426135b7a066ec" name="a6b3d032f3aabbdd7c4426135b7a066ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b3d032f3aabbdd7c4426135b7a066ec">&#9670;&#160;</a></span>eScreen_EPD_EXT3_B98_0B_Wide</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_EXT3_B98_0B_Wide&#160;&#160;&#160;(uint32_t)0x09B90B</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>reference xE2B98KS0Bx, not tested </p>
 
 </div>
 </div>
@@ -749,7 +1075,7 @@ All rights reserved</dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00248.html">pins_t</a> boardArduinoZero</td>
+          <td class="memname">const <a class="el" href="a00250.html">pins_t</a> boardArduinoZero</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -785,7 +1111,7 @@ All rights reserved</dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00248.html">pins_t</a> boardCC1352</td>
+          <td class="memname">const <a class="el" href="a00250.html">pins_t</a> boardCC1352</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -816,7 +1142,7 @@ All rights reserved</dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00248.html">pins_t</a> boardESP32DevKitC</td>
+          <td class="memname">const <a class="el" href="a00250.html">pins_t</a> boardESP32DevKitC</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -854,7 +1180,7 @@ Recommended board </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00248.html">pins_t</a> boardESP32PicoDevKitM2</td>
+          <td class="memname">const <a class="el" href="a00250.html">pins_t</a> boardESP32PicoDevKitM2</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -887,7 +1213,7 @@ Recommended board </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00248.html">pins_t</a> boardESP32PicoKitV4</td>
+          <td class="memname">const <a class="el" href="a00250.html">pins_t</a> boardESP32PicoKitV4</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -920,7 +1246,7 @@ Recommended board </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00248.html">pins_t</a> boardFeatherM0M4</td>
+          <td class="memname">const <a class="el" href="a00250.html">pins_t</a> boardFeatherM0M4</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -951,7 +1277,7 @@ Recommended board </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00248.html">pins_t</a> boardFeatherNRF52832</td>
+          <td class="memname">const <a class="el" href="a00250.html">pins_t</a> boardFeatherNRF52832</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -982,7 +1308,7 @@ Recommended board </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00248.html">pins_t</a> boardFeatherNRF52840</td>
+          <td class="memname">const <a class="el" href="a00250.html">pins_t</a> boardFeatherNRF52840</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1014,7 +1340,7 @@ Recommended board </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00248.html">pins_t</a> boardLaunchPad</td>
+          <td class="memname">const <a class="el" href="a00250.html">pins_t</a> boardLaunchPad</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1048,7 +1374,7 @@ Recommended board </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00248.html">pins_t</a> boardMSP430FR5994</td>
+          <td class="memname">const <a class="el" href="a00250.html">pins_t</a> boardMSP430FR5994</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1079,7 +1405,7 @@ Recommended board </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00248.html">pins_t</a> boardParticlePhoton</td>
+          <td class="memname">const <a class="el" href="a00250.html">pins_t</a> boardParticlePhoton</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1111,7 +1437,7 @@ Recommended board </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00248.html">pins_t</a> boardRaspberryPiPico_Arduino</td>
+          <td class="memname">const <a class="el" href="a00250.html">pins_t</a> boardRaspberryPiPico_Arduino</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1144,7 +1470,7 @@ Recommended board </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00248.html">pins_t</a> boardRaspberryPiPico_RP2040</td>
+          <td class="memname">const <a class="el" href="a00250.html">pins_t</a> boardRaspberryPiPico_RP2040</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1184,7 +1510,7 @@ Recommended board </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00248.html">pins_t</a> boardRaspberryPiZeroB_RasPiArduino</td>
+          <td class="memname">const <a class="el" href="a00250.html">pins_t</a> boardRaspberryPiZeroB_RasPiArduino</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1217,7 +1543,7 @@ Recommended board </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00248.html">pins_t</a> boardTeensy3x</td>
+          <td class="memname">const <a class="el" href="a00250.html">pins_t</a> boardTeensy3x</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1248,7 +1574,7 @@ Recommended board </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00248.html">pins_t</a> boardXiaoRP2040</td>
+          <td class="memname">const <a class="el" href="a00250.html">pins_t</a> boardXiaoRP2040</td>
         </tr>
       </table>
 </div><div class="memdoc">

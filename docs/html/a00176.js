@@ -1,6 +1,6 @@
 var a00176 =
 [
-    [ "FEATURE_ARMOR", "a00176.html#a65f16e7a8d178ebe8ff7a9c4ceb5b81e", null ],
+    [ "FEATURE_OTHER", "a00176.html#a65f16e7a8d178ebe8ff7a9c4ceb5b81e", null ],
     [ "FEATURE_FAST", "a00176.html#aa88ce3237b213c4cf8d3a773b4adbebf", null ],
     [ "FEATURE_TOUCH", "a00176.html#acabd435fc4d0dce644a2c378776fab61", null ],
     [ "FSM_POWER_ON", "a00176.html#af78b93cdbd86bd39076e2a5444405b36", null ],

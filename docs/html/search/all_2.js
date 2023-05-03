@@ -3,9 +3,9 @@ var searchData=
   ['basic_5ftouch_5fdraw_2eino_0',['Basic_Touch_Draw.ino',['../a00158.html',1,'']]],
   ['basic_5ftouch_5fgui_2eino_1',['Basic_Touch_GUI.ino',['../a00164.html',1,'']]],
   ['basic_5ftouch_5ftictactoe_2eino_2',['Basic_Touch_TicTacToe.ino',['../a00149.html',1,'']]],
-  ['begin_3',['begin',['../a00264.html#ae1d260db348b96766c0c51e579c0c1c7',1,'GUI::begin()'],['../a00276.html#af9e8681c51d4511d3844a8289346e4cf',1,'hV_Screen_Buffer::begin()'],['../a00280.html#ae21cc69f1d24e46aba95e85c5fbf9063',1,'Screen_EPD_EXT3_Fast::begin()']]],
-  ['black_4',['black',['../a00244.html#a6af5b0a2a8b194db2e777dd669609270',1,'hV_Colours565']]],
-  ['blue_5',['blue',['../a00244.html#af00f72504fd2397a01a4c18ea4a07011',1,'hV_Colours565']]],
+  ['begin_3',['begin',['../a00266.html#ae1d260db348b96766c0c51e579c0c1c7',1,'GUI::begin()'],['../a00278.html#af9e8681c51d4511d3844a8289346e4cf',1,'hV_Screen_Buffer::begin()'],['../a00282.html#ae21cc69f1d24e46aba95e85c5fbf9063',1,'Screen_EPD_EXT3_Fast::begin()']]],
+  ['black_4',['black',['../a00246.html#a6af5b0a2a8b194db2e777dd669609270',1,'hV_Colours565']]],
+  ['blue_5',['blue',['../a00246.html#af00f72504fd2397a01a4c18ea4a07011',1,'hV_Colours565']]],
   ['boardarduinozero_6',['boardArduinoZero',['../a00233.html#a47cc4f37c263fb4355a5da27de205511',1,'hV_Configuration.h']]],
   ['boardcc1352_7',['boardCC1352',['../a00233.html#a87edfbded5d6f32d1854a1ee879ef87d',1,'hV_Configuration.h']]],
   ['boardesp32devkitc_8',['boardESP32DevKitC',['../a00233.html#ad900dca7592c68bce6641a7fa5cae41f',1,'hV_Configuration.h']]],
@@ -24,6 +24,6 @@ var searchData=
   ['boardredbearduo_21',['boardRedBearDuo',['../a00233.html#acfebc28da306dfd986d08d1a31fc7fe2',1,'hV_Configuration.h']]],
   ['boardteensy3x_22',['boardTeensy3x',['../a00233.html#af60f33c49506c359daef98201e4ae16c',1,'hV_Configuration.h']]],
   ['boardxiaorp2040_23',['boardXiaoRP2040',['../a00233.html#a3a646cd3a7adc1907316e2ccade7c008',1,'hV_Configuration.h']]],
-  ['brown_24',['brown',['../a00244.html#af609c9a4563f05df95d16889ccde8106',1,'hV_Colours565']]],
-  ['button_25',['Button',['../a00272.html',1,'Button'],['../a00272.html#a8d6739555a993e9beb7c541b82e39810',1,'Button::Button()']]]
+  ['brown_24',['brown',['../a00246.html#af609c9a4563f05df95d16889ccde8106',1,'hV_Colours565']]],
+  ['button_25',['Button',['../a00274.html',1,'Button'],['../a00274.html#a8d6739555a993e9beb7c541b82e39810',1,'Button::Button()']]]
 ];

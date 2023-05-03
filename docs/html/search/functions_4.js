@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['ddefine_0',['dDefine',['../a00268.html#a50c8fed521e578e20d1f6f1cef395407',1,'Text']]],
+  ['ddefine_0',['dDefine',['../a00270.html#a50c8fed521e578e20d1f6f1cef395407',1,'Text']]],
   ['delay_5fms_1',['delay_ms',['../a00221.html#ab7cce8122024d7ba47bf10f434956de4',1,'hV_Utilities.cpp']]],
-  ['delegate_2',['delegate',['../a00264.html#a556f1d9e1dd2c21a162b935f3e753e9d',1,'GUI']]],
+  ['delegate_2',['delegate',['../a00266.html#a556f1d9e1dd2c21a162b935f3e753e9d',1,'GUI']]],
   ['displaycenteredtext_3',['displayCenteredText',['../a00149.html#a973e3e233fd99ca5f72dfd48a776e3c5',1,'Basic_Touch_TicTacToe.ino']]],
   ['displaycharacters_4',['displayCharacters',['../a00170.html#a05b4a53fae2c90c1c61b9cba27ab7e5f',1,'Common_Text.ino']]],
   ['displayfonts_5',['displayFonts',['../a00167.html#a264683b43036a589246ec5194f5cc0a8',1,'Common_Fonts.ino']]],
@@ -11,13 +11,13 @@ var searchData=
   ['displaypalette_8',['displayPalette',['../a00134.html#a76959ba07cbc5acffa1bd59ee599edf4',1,'Common_Colours.ino']]],
   ['displaytouch_9',['displayTouch',['../a00158.html#a0fdd7aa6b76c30a2df98d750cf7a8420',1,'Basic_Touch_Draw.ino']]],
   ['displaywhoami_10',['displayWhoAmI',['../a00152.html#a29909f586a479684ca6e68db470af5b6',1,'Common_WhoAmI.ino']]],
-  ['dline_11',['dLine',['../a00276.html#a81e8f6810b95cb69f7464d0ca48a299a',1,'hV_Screen_Buffer']]],
-  ['draw_12',['draw',['../a00272.html#a5e3a8109fee801f4f2a27526ee6a3d22',1,'Button::draw()'],['../a00268.html#a297f516f564d811b78c4e5c472edc67d',1,'Text::draw()']]],
+  ['dline_11',['dLine',['../a00278.html#a81e8f6810b95cb69f7464d0ca48a299a',1,'hV_Screen_Buffer']]],
+  ['draw_12',['draw',['../a00274.html#a5e3a8109fee801f4f2a27526ee6a3d22',1,'Button::draw()'],['../a00270.html#a297f516f564d811b78c4e5c472edc67d',1,'Text::draw()']]],
   ['drawgameoverscreen_13',['drawGameOverScreen',['../a00149.html#ab05b08492d779ac47d66827b1ab88bfd',1,'Basic_Touch_TicTacToe.ino']]],
   ['drawgamescreen_14',['drawGameScreen',['../a00149.html#a95edf0babb9f3e83f589cc44f2a830e1',1,'Basic_Touch_TicTacToe.ino']]],
   ['drawmoveplayer_15',['drawMovePlayer',['../a00149.html#a154f8ebae2bc5a3ffd6ae1865dfca50d',1,'Basic_Touch_TicTacToe.ino']]],
   ['drawstartscreen_16',['drawStartScreen',['../a00149.html#a3749a8bc9033ec5ab38818202276bec7',1,'Basic_Touch_TicTacToe.ino']]],
   ['drawwinnerplayer_17',['drawWinnerPlayer',['../a00149.html#a93c9bf9c70280a8803c4175c0bd1218d',1,'Basic_Touch_TicTacToe.ino']]],
-  ['drectangle_18',['dRectangle',['../a00276.html#a90fe82e9c2481d8e2419d2cb9a97cd72',1,'hV_Screen_Buffer']]],
-  ['dstringdefine_19',['dStringDefine',['../a00272.html#a914828eb0f08637e3e55ea64d244bb99',1,'Button']]]
+  ['drectangle_18',['dRectangle',['../a00278.html#a90fe82e9c2481d8e2419d2cb9a97cd72',1,'hV_Screen_Buffer']]],
+  ['dstringdefine_19',['dStringDefine',['../a00274.html#a914828eb0f08637e3e55ea64d244bb99',1,'Button']]]
 ];

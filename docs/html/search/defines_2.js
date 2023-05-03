@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['feature_5farmor_0',['FEATURE_ARMOR',['../a00173.html#a65f16e7a8d178ebe8ff7a9c4ceb5b81e',1,'hV_Constants.h']]],
-  ['feature_5ffast_1',['FEATURE_FAST',['../a00173.html#aa88ce3237b213c4cf8d3a773b4adbebf',1,'hV_Constants.h']]],
+  ['feature_5ffast_0',['FEATURE_FAST',['../a00173.html#aa88ce3237b213c4cf8d3a773b4adbebf',1,'hV_Constants.h']]],
+  ['feature_5fother_1',['FEATURE_OTHER',['../a00173.html#ac434967da9795a84cd1af9fb1ad0fe54',1,'hV_Constants.h']]],
   ['feature_5ftouch_2',['FEATURE_TOUCH',['../a00173.html#acabd435fc4d0dce644a2c378776fab61',1,'hV_Constants.h']]],
   ['feature_5fwide_5ftemperature_3',['FEATURE_WIDE_TEMPERATURE',['../a00173.html#a58a6c16e6c5beae1d67010fc12994dbe',1,'hV_Constants.h']]],
   ['font_5fmode_4',['FONT_MODE',['../a00233.html#ac7790c7c49429aaa3e6bfba18956447e',1,'hV_Configuration.h']]],

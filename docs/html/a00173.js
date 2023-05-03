@@ -1,7 +1,7 @@
 var a00173 =
 [
-    [ "FEATURE_ARMOR", "a00173.html#a65f16e7a8d178ebe8ff7a9c4ceb5b81e", null ],
     [ "FEATURE_FAST", "a00173.html#aa88ce3237b213c4cf8d3a773b4adbebf", null ],
+    [ "FEATURE_OTHER", "a00173.html#ac434967da9795a84cd1af9fb1ad0fe54", null ],
     [ "FEATURE_TOUCH", "a00173.html#acabd435fc4d0dce644a2c378776fab61", null ],
     [ "FEATURE_WIDE_TEMPERATURE", "a00173.html#a58a6c16e6c5beae1d67010fc12994dbe", null ],
     [ "FSM_POWER_ON", "a00173.html#af78b93cdbd86bd39076e2a5444405b36", null ],

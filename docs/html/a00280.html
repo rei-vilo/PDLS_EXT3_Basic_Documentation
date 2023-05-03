@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.0.8</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.0.9</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -146,6 +146,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a046ae950af4cf31d0ac19e340e7d2ba2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00280.html#a046ae950af4cf31d0ac19e340e7d2ba2">regenerate</a> ()</td></tr>
 <tr class="memdesc:a046ae950af4cf31d0ac19e340e7d2ba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Regenerate the panel.  <br /></td></tr>
 <tr class="separator:a046ae950af4cf31d0ac19e340e7d2ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85753fb3f9f7ce60ae1d9bf3ca04824d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00280.html#a85753fb3f9f7ce60ae1d9bf3ca04824d">setTemperatureC</a> (int8_t temperatureC=25)</td></tr>
+<tr class="memdesc:a85753fb3f9f7ce60ae1d9bf3ca04824d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set temperature in Celsius.  <br /></td></tr>
+<tr class="separator:a85753fb3f9f7ce60ae1d9bf3ca04824d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1418346ef6ac57b22201d4ee4e24202c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00280.html#a1418346ef6ac57b22201d4ee4e24202c">setTemperatureF</a> (int16_t temperatureF=77)</td></tr>
+<tr class="memdesc:a1418346ef6ac57b22201d4ee4e24202c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set temperature in Fahrenheit.  <br /></td></tr>
+<tr class="separator:a1418346ef6ac57b22201d4ee4e24202c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d13ff620786b197843cd4377dca8e32"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00280.html#a9d13ff620786b197843cd4377dca8e32">checkTemperatureMode</a> (uint8_t updateMode=0x01)</td></tr>
+<tr class="memdesc:a9d13ff620786b197843cd4377dca8e32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the mode against the temperature.  <br /></td></tr>
+<tr class="separator:a9d13ff620786b197843cd4377dca8e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada86ebc68a49876ffb379e6c5dfeb599"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00280.html#ada86ebc68a49876ffb379e6c5dfeb599">flushMode</a> (uint8_t updateMode=0x01)</td></tr>
+<tr class="memdesc:ada86ebc68a49876ffb379e6c5dfeb599"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the display.  <br /></td></tr>
+<tr class="separator:ada86ebc68a49876ffb379e6c5dfeb599"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab90d26097191b10b57745a61991a0178"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00280.html#ab90d26097191b10b57745a61991a0178">point</a> (uint16_t x1, uint16_t y1, uint16_t colour)</td></tr>
 <tr class="memdesc:ab90d26097191b10b57745a61991a0178"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw pixel.  <br /></td></tr>
 <tr class="separator:ab90d26097191b10b57745a61991a0178"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -404,6 +416,35 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_f_fontSolid</b></td>
 
 </div>
 </div>
+<a id="a9d13ff620786b197843cd4377dca8e32" name="a9d13ff620786b197843cd4377dca8e32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d13ff620786b197843cd4377dca8e32">&#9670;&#160;</a></span>checkTemperatureMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t Screen_EPD_EXT3_Fast::checkTemperatureMode </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>updateMode</em> = <code>0x01</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check the mode against the temperature. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">updateMode</td><td>expected update mode </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>uint8_t recommended mode </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If required, defaulting to UPDATE_NONE </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>Default temperature is 25 °C, otherwise set by <a class="el" href="a00280.html#a85753fb3f9f7ce60ae1d9bf3ca04824d" title="Set temperature in Celsius.">setTemperatureC()</a> or <a class="el" href="a00280.html#a1418346ef6ac57b22201d4ee4e24202c" title="Set temperature in Fahrenheit.">setTemperatureF()</a> </dd></dl>
+
+</div>
+</div>
 <a id="a2b6756dd05ae8442558b91518379fcf3" name="a2b6756dd05ae8442558b91518379fcf3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b6756dd05ae8442558b91518379fcf3">&#9670;&#160;</a></span>clear()</h2>
 
@@ -468,6 +509,34 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_f_fontSolid</b></td>
 <dl class="section note"><dt>Note</dt><dd>Display next frame-buffer on screen and copy next frame-buffer into old frame-buffer </dd></dl>
 
 <p>Implements <a class="el" href="a00276.html#ae12eb3335304819c9eb94386371d995e">hV_Screen_Buffer</a>.</p>
+
+</div>
+</div>
+<a id="ada86ebc68a49876ffb379e6c5dfeb599" name="ada86ebc68a49876ffb379e6c5dfeb599"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada86ebc68a49876ffb379e6c5dfeb599">&#9670;&#160;</a></span>flushMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t Screen_EPD_EXT3_Fast::flushMode </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>updateMode</em> = <code>0x01</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update the display. </p>
+<p>Display next frame-buffer on screen and copy next frame-buffer into old frame-buffer </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">updateMode</td><td>expected update mode </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>uint8_t recommended mode </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Mode checked with <a class="el" href="a00280.html#a9d13ff620786b197843cd4377dca8e32" title="Check the mode against the temperature.">checkTemperatureMode()</a> </dd></dl>
 
 </div>
 </div>
@@ -610,6 +679,60 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_f_fontSolid</b></td>
 
 <p>Regenerate the panel. </p>
 <p>White-to-black-to-white cycle to reduce ghosting </p>
+
+</div>
+</div>
+<a id="a85753fb3f9f7ce60ae1d9bf3ca04824d" name="a85753fb3f9f7ce60ae1d9bf3ca04824d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85753fb3f9f7ce60ae1d9bf3ca04824d">&#9670;&#160;</a></span>setTemperatureC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Screen_EPD_EXT3_Fast::setTemperatureC </td>
+          <td>(</td>
+          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramname"><em>temperatureC</em> = <code>25</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set temperature in Celsius. </p>
+<p>Set the temperature for update </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">temperatureC</td><td>temperature in °C, default = 25 °C </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Refer to data-sheets for authorised operating temperatures </dd></dl>
+
+</div>
+</div>
+<a id="a1418346ef6ac57b22201d4ee4e24202c" name="a1418346ef6ac57b22201d4ee4e24202c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1418346ef6ac57b22201d4ee4e24202c">&#9670;&#160;</a></span>setTemperatureF()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Screen_EPD_EXT3_Fast::setTemperatureF </td>
+          <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>temperatureF</em> = <code>77</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set temperature in Fahrenheit. </p>
+<p>Set the temperature for update </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">temperatureF</td><td>temperature in °F, default = 77 °F = 25 °C </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Refer to data-sheets for authorised operating temperatures </dd></dl>
 
 </div>
 </div>

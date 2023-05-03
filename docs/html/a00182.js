@@ -1,8 +1,8 @@
 var a00182 =
 [
-    [ "GUI", "a00264.html", "a00264" ],
-    [ "Text", "a00268.html", "a00268" ],
-    [ "Button", "a00272.html", "a00272" ],
+    [ "GUI", "a00266.html", "a00266" ],
+    [ "Text", "a00270.html", "a00270" ],
+    [ "Button", "a00274.html", "a00274" ],
     [ "checkInstant", "a00182.html#ada270c7144643ff2b7d50a564a3dbdc0", null ],
     [ "checkNormal", "a00182.html#a436b4a5140acee407da61a0097dca9c0", null ],
     [ "hV_GUI_BASIC_RELEASE", "a00182.html#a2071496e55eb3c5e00faed997f19654c", null ],

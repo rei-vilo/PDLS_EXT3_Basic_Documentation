@@ -8,14 +8,14 @@ var searchData=
   ['terminal6x8e_2eh_5',['Terminal6x8e.h',['../a00212.html',1,'']]],
   ['terminal8e_5ffont_5frelease_6',['TERMINAL8E_FONT_RELEASE',['../a00194.html#a88f5626ffb335bab69bfe70b793b4cbb',1,'Terminal8x12e.h']]],
   ['terminal8x12e_2eh_7',['Terminal8x12e.h',['../a00194.html',1,'']]],
-  ['text_8',['Text',['../a00268.html',1,'Text'],['../a00268.html#ae22e2048bf2625e15b62fd6f34e8bdee',1,'Text::Text()']]],
+  ['text_8',['Text',['../a00270.html',1,'Text'],['../a00270.html#ae22e2048bf2625e15b62fd6f34e8bdee',1,'Text::Text()']]],
   ['touch_5fevent_5fmove_9',['TOUCH_EVENT_MOVE',['../a00173.html#a9d95a414d6b61be2ef60d6f6685289ab',1,'hV_Constants.h']]],
   ['touch_5fevent_5fnone_10',['TOUCH_EVENT_NONE',['../a00173.html#addb7ea466d16e54b3ac29e652392bfe7',1,'hV_Constants.h']]],
   ['touch_5fevent_5fpress_11',['TOUCH_EVENT_PRESS',['../a00173.html#a1b58d5fdc01d6f6c5a090e6d31725d36',1,'hV_Constants.h']]],
   ['touch_5fevent_5frelease_12',['TOUCH_EVENT_RELEASE',['../a00173.html#a28e03e87baac6e935b2ef802d3d698f9',1,'hV_Constants.h']]],
   ['touch_5fmode_13',['TOUCH_MODE',['../a00233.html#a11320f76b1b3395290d1e97bb7ac9c2a',1,'hV_Configuration.h']]],
-  ['touchint_14',['touchInt',['../a00248.html#aab2a846bc6d88385f2c52a0a9579b65b',1,'pins_t']]],
-  ['touchreset_15',['touchReset',['../a00248.html#a9e09335b255d8c9791388224ce40cc64',1,'pins_t']]],
-  ['triangle_16',['triangle',['../a00276.html#a0d5b8f8f1ea822cb8ea982b0766a451c',1,'hV_Screen_Buffer']]],
+  ['touchint_14',['touchInt',['../a00250.html#aab2a846bc6d88385f2c52a0a9579b65b',1,'pins_t']]],
+  ['touchreset_15',['touchReset',['../a00250.html#a9e09335b255d8c9791388224ce40cc64',1,'pins_t']]],
+  ['triangle_16',['triangle',['../a00278.html#a0d5b8f8f1ea822cb8ea982b0766a451c',1,'hV_Screen_Buffer']]],
   ['trimstring_17',['trimString',['../a00221.html#a311c694a8a5722683dd6739c55323036',1,'hV_Utilities.cpp']]]
 ];
