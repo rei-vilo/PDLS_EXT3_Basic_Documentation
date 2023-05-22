@@ -1,6 +1,6 @@
-<map id="Common_Orientation.ino" name="Common_Orientation.ino">
-<area shape="rect" id="node1" title="Example of features for basic edition." alt="" coords="48,5,233,31"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,79,89,104"/>
-<area shape="rect" id="node3" title=" " alt="" coords="113,79,168,104"/>
-<area shape="rect" id="node4" title=" " alt="" coords="193,79,342,104"/>
+<map id="Example_Fast_Orientation.ino" name="Example_Fast_Orientation.ino">
+<area shape="rect" id="node1" title="Example of features for basic edition." alt="" coords="33,5,249,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,89,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="113,80,168,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="192,80,375,107"/>
 </map>

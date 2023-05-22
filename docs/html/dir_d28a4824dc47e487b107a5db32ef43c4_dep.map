@@ -1,18 +1,18 @@
 <map id="examples" name="examples">
-<area shape="rect" id="node2" href="dir_3b1a1cc510f7263b17e63c8d196e59fd.html" title="Basic_Touch_Draw" alt="" coords="2102,27,2245,52"/>
-<area shape="rect" id="node3" href="dir_d1a34350351dc888ebc755c4b261df90.html" title="Basic_Touch_GUI" alt="" coords="1946,27,2078,52"/>
-<area shape="rect" id="node15" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html" title="src" alt="" coords="1991,100,2033,125"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000001_000014.html" title="1" alt="" coords="2016,74,2025,89"/>
-<area shape="rect" id="node4" href="dir_0590664da42e328e4e36fa3564ffc6d0.html" title="Basic_Touch_TicTacToe" alt="" coords="1751,27,1921,52"/>
-<area shape="rect" id="node5" href="dir_18256282dab5c29a1781983beee4f55d.html" title="Common_Colours" alt="" coords="1589,27,1726,52"/>
-<area shape="rect" id="node6" href="dir_e68187fce5e071568be3fddce3f70b94.html" title="Common_Fonts" alt="" coords="1441,27,1564,52"/>
-<area shape="rect" id="node7" href="dir_35b1220ff64eb14e989d65123e5d9b00.html" title="Common_Forms" alt="" coords="1289,27,1417,52"/>
-<area shape="rect" id="node8" href="dir_2660499f9a534e52c002a9371c68708f.html" title="Common_Orientation" alt="" coords="1103,27,1265,52"/>
-<area shape="rect" id="node9" href="dir_ab28db0d71c3b8559607137da2533669.html" title="Common_Text" alt="" coords="964,27,1079,52"/>
-<area shape="rect" id="node10" href="dir_491c3bb0427b2191265c570e950df1f1.html" title="Common_WhoAmI" alt="" coords="797,27,939,52"/>
-<area shape="rect" id="node11" href="dir_cd06f76a5baa677f8f8141087062d7a2.html" title="Example_Fast_Line" alt="" coords="625,27,772,52"/>
-<area shape="rect" id="node12" href="dir_368d6981d269dbf78b5703ce50b19cf7.html" title="Example_Fast_Orientation" alt="" coords="409,27,601,52"/>
-<area shape="rect" id="node13" href="dir_212bdaace0f5763736572fd22b028a82.html" title="Example_Fast_Speed" alt="" coords="226,27,385,52"/>
-<area shape="rect" id="node14" href="dir_c58be0fc4a3470de12d2de486b368288.html" title="Example_Global_Speed" alt="" coords="27,27,202,52"/>
-<area shape="rect" id="clust1" href="dir_d28a4824dc47e487b107a5db32ef43c4.html" alt="" coords="16,16,2367,63"/>
+<area shape="rect" id="node2" href="dir_3b1a1cc510f7263b17e63c8d196e59fd.html" title="Basic_Touch_Draw" alt="" coords="2102,27,2245,75"/>
+<area shape="rect" id="node3" href="dir_d1a34350351dc888ebc755c4b261df90.html" title="Basic_Touch_GUI" alt="" coords="1946,27,2078,75"/>
+<area shape="rect" id="node15" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html" title="src" alt="" coords="1976,123,2048,171"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000002_000014.html" title="1" alt="" coords="2016,97,2025,112"/>
+<area shape="rect" id="node4" href="dir_0590664da42e328e4e36fa3564ffc6d0.html" title="Basic_Touch_TicTacToe" alt="" coords="1751,27,1921,75"/>
+<area shape="rect" id="node5" href="dir_18256282dab5c29a1781983beee4f55d.html" title="Common_Colours" alt="" coords="1589,27,1726,75"/>
+<area shape="rect" id="node6" href="dir_e68187fce5e071568be3fddce3f70b94.html" title="Common_Fonts" alt="" coords="1441,27,1564,75"/>
+<area shape="rect" id="node7" href="dir_35b1220ff64eb14e989d65123e5d9b00.html" title="Common_Forms" alt="" coords="1289,27,1417,75"/>
+<area shape="rect" id="node8" href="dir_2660499f9a534e52c002a9371c68708f.html" title="Common_Orientation" alt="" coords="1103,27,1265,75"/>
+<area shape="rect" id="node9" href="dir_ab28db0d71c3b8559607137da2533669.html" title="Common_Text" alt="" coords="964,27,1079,75"/>
+<area shape="rect" id="node10" href="dir_491c3bb0427b2191265c570e950df1f1.html" title="Common_WhoAmI" alt="" coords="797,27,939,75"/>
+<area shape="rect" id="node11" href="dir_cd06f76a5baa677f8f8141087062d7a2.html" title="Example_Fast_Line" alt="" coords="625,27,772,75"/>
+<area shape="rect" id="node12" href="dir_368d6981d269dbf78b5703ce50b19cf7.html" title="Example_Fast_Orientation" alt="" coords="409,27,601,75"/>
+<area shape="rect" id="node13" href="dir_212bdaace0f5763736572fd22b028a82.html" title="Example_Fast_Speed" alt="" coords="226,27,385,75"/>
+<area shape="rect" id="node14" href="dir_c58be0fc4a3470de12d2de486b368288.html" title="Example_Global_Speed" alt="" coords="27,27,202,75"/>
+<area shape="rect" id="clust1" href="dir_d28a4824dc47e487b107a5db32ef43c4.html" alt="" coords="16,16,2367,85"/>
 </map>

@@ -1,6 +1,6 @@
-<map id="Example_Fast_Speed.ino" name="Example_Fast_Speed.ino">
-<area shape="rect" id="node1" title="Protocol for speed test." alt="" coords="49,5,232,31"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,79,89,104"/>
-<area shape="rect" id="node3" title=" " alt="" coords="113,79,168,104"/>
-<area shape="rect" id="node4" title=" " alt="" coords="192,79,375,104"/>
+<map id="hV_Configuration.h" name="hV_Configuration.h">
+<area shape="rect" id="node1" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="39,5,184,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,89,107"/>
+<area shape="rect" id="node3" href="$a00158.html" title="Constants for Pervasive Displays Library Suite." alt="" coords="114,80,237,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="140,155,211,181"/>
 </map>

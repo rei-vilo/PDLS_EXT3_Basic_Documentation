@@ -1,7 +1,10 @@
-<map id="hV_Colours565.h" name="hV_Colours565.h">
-<area shape="rect" id="node1" title="Class Library for 5&#45;6&#45;5 coded colours." alt="" coords="18,5,149,32"/>
-<area shape="rect" id="node2" href="$a00188.html" title="Class Generic LCD with buffer class library." alt="" coords="10,80,157,107"/>
-<area shape="rect" id="node3" href="$a00203.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT&#45;Touch boards." alt="" coords="8,155,159,181"/>
-<area shape="rect" id="node4" href="$a00182.html" title="Basic GUI with text and button." alt="" coords="42,229,125,256"/>
-<area shape="rect" id="node5" href="$a00125.html" title="Example of features for Evaluation edition." alt="" coords="5,304,161,331"/>
+<map id="hV_Constants.h" name="hV_Constants.h">
+<area shape="rect" id="node1" title="Constants for Pervasive Displays Library Suite." alt="" coords="131,5,253,32"/>
+<area shape="rect" id="node2" href="$a00155.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="119,80,265,107"/>
+<area shape="rect" id="node3" href="$a00164.html" title="Font structure." alt="" coords="17,155,103,181"/>
+<area shape="rect" id="node4" href="$a00170.html" title="hV_Font_Terminal" alt="" coords="5,229,155,256"/>
+<area shape="rect" id="node5" href="$a00182.html" title="Class Generic LCD with buffer class library." alt="" coords="59,304,205,331"/>
+<area shape="rect" id="node6" href="$a00197.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT&#45;Touch boards." alt="" coords="105,379,255,405"/>
+<area shape="rect" id="node7" href="$a00176.html" title="Basic GUI with text and button." alt="" coords="195,453,277,480"/>
+<area shape="rect" id="node8" href="$a00113.html" title="Example of features for Evaluation edition." alt="" coords="158,528,314,555"/>
 </map>

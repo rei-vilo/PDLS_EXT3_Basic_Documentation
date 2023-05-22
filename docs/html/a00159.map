@@ -1,6 +1,4 @@
-<map id="Basic_Touch_Draw.ino" name="Basic_Touch_Draw.ino">
-<area shape="rect" id="node1" title="Example of features for basic edition." alt="" coords="63,5,229,31"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,79,89,104"/>
-<area shape="rect" id="node3" title=" " alt="" coords="114,79,178,104"/>
-<area shape="rect" id="node4" title=" " alt="" coords="203,79,257,104"/>
+<map id="hV_Constants.h" name="hV_Constants.h">
+<area shape="rect" id="node1" title="Constants for Pervasive Displays Library Suite." alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="31,80,102,107"/>
 </map>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: Terminal16x24e.h File Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: width_s Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="Logo-PDI-white.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Pervasive Displays Library Suite - Basic edition
-   &#160;<span id="projectnumber">6.0.4</span>
+   &#160;<span id="projectnumber">6.1.0</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -85,60 +85,40 @@ $(document).ready(function(){initNavTree('a00230.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
-<div class="title">Terminal16x24e.h File Reference</div>  </div>
+<div class="title">width_s Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Font Terminal 16 x 24.  
-<a href="#details">More...</a></p>
-<div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00232.png" border="0" usemap="#aTerminal16x24e_8hdep" alt=""/></div>
-<map name="aTerminal16x24e_8hdep" id="aTerminal16x24e_8hdep">
-<area shape="rect" title="Font Terminal 16 x 24." alt="" coords="14,5,153,32"/>
-<area shape="rect" href="a00197.html" title="hV_Font_Terminal" alt="" coords="9,80,158,107"/>
-<area shape="rect" href="a00209.html" title="Class Generic LCD with buffer class library." alt="" coords="10,155,157,181"/>
-<area shape="rect" href="a00224.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT&#45;Touch boards." alt="" coords="8,229,159,256"/>
-<area shape="rect" href="a00203.html" title="Basic GUI with text and button." alt="" coords="42,304,125,331"/>
-<area shape="rect" href="a00137.html" title="Example of features for Evaluation edition." alt="" coords="5,379,161,405"/>
-</map>
-</div>
-</div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:aeb3695041f15eb5b1e45bcebe5026e18"><td class="memItemLeft" align="right" valign="top"><a id="aeb3695041f15eb5b1e45bcebe5026e18"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00230.html#aeb3695041f15eb5b1e45bcebe5026e18">TERMINAL16E_FONT_RELEASE</a>&#160;&#160;&#160;507</td></tr>
-<tr class="memdesc:aeb3695041f15eb5b1e45bcebe5026e18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Library release number. <br /></td></tr>
-<tr class="separator:aeb3695041f15eb5b1e45bcebe5026e18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<p>Structure for character width.  
+ <a href="a00230.html#details">More...</a></p>
+
+<p><code>#include &lt;hV_Font.h&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Data Fields</h2></td></tr>
+<tr class="memitem:a68591191be4ff122ee2a26f8b977f2e7"><td class="memItemLeft" align="right" valign="top"><a id="a68591191be4ff122ee2a26f8b977f2e7"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00230.html#a68591191be4ff122ee2a26f8b977f2e7">pixel</a></td></tr>
+<tr class="memdesc:a68591191be4ff122ee2a26f8b977f2e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">width in pixel <br /></td></tr>
+<tr class="separator:a68591191be4ff122ee2a26f8b977f2e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ad7fe2d62cc875ebf7a14389541e66a"><td class="memItemLeft" align="right" valign="top"><a id="a7ad7fe2d62cc875ebf7a14389541e66a"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00230.html#a7ad7fe2d62cc875ebf7a14389541e66a">index</a></td></tr>
+<tr class="memdesc:a7ad7fe2d62cc875ebf7a14389541e66a"><td class="mdescLeft">&#160;</td><td class="mdescRight">relative address <br /></td></tr>
+<tr class="separator:a7ad7fe2d62cc875ebf7a14389541e66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Font Terminal 16 x 24. </p>
-<p>Project Pervasive Displays Library Suite <br  />
- Based on highView technology</p>
-<dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>02 Aug 2021 </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>507</dd></dl>
-<dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2023 </dd>
-<dd>
-All rights reserved</dd></dl>
-<ul>
-<li>Basic edition: for hobbyists and for basic usage <br  />
- Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</li>
-<li>Evaluation edition: for professionals or organisations, evaluation only, no commercial usage <br  />
- All rights reserved</li>
-<li>Commercial edition: for professionals or organisations, commercial usage <br  />
- All rights reserved </li>
+<div class="textblock"><p>Structure for character width. </p>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<li><a class="el" href="a00164.html">hV_Font.h</a></li>
 </ul>
-</div></div><!-- contents -->
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="a00230.html">Terminal16x24e.h</a></li>
+    <li class="navelem"><a class="el" href="a00230.html">width_s</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.9.1 </li>

@@ -1,5 +1,5 @@
 var a00218 =
 [
-    [ "Screen_EPD_EXT3_Fast", "a00282.html", "a00282" ],
-    [ "SCREEN_EPD_EXT3_RELEASE", "a00218.html#ab75eb2c0ba5e190f5c52fcddd3f64ccb", null ]
+    [ "i", "a00218.html#adb4176078dd6bae78b14fadd23d58938", null ],
+    [ "j", "a00218.html#a36071aa1dd3b130d8241ce816226ddfc", null ]
 ];

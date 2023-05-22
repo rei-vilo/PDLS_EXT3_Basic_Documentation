@@ -1,8 +1,8 @@
-<map id="Terminal12x16e.h" name="Terminal12x16e.h">
-<area shape="rect" id="node1" title="Font Terminal 12 x 16." alt="" coords="14,5,153,31"/>
-<area shape="rect" id="node2" href="$a00200.html" title="hV_Font_Terminal" alt="" coords="9,79,158,104"/>
-<area shape="rect" id="node3" href="$a00191.html" title="Class Generic LCD with buffer class library." alt="" coords="10,152,157,177"/>
-<area shape="rect" id="node4" href="$a00218.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT&#45;Touch boards." alt="" coords="8,225,159,251"/>
-<area shape="rect" id="node5" href="$a00182.html" title="Basic GUI with text and button." alt="" coords="42,299,125,324"/>
-<area shape="rect" id="node6" href="$a00164.html" title="Example of features for Evaluation edition." alt="" coords="5,372,161,397"/>
+<map id="hV_Utilities.h" name="hV_Utilities.h">
+<area shape="rect" id="node1" title="Utilities for highView Library Suite." alt="" coords="81,5,191,32"/>
+<area shape="rect" id="node2" href="$a00170.html" title="hV_Font_Terminal" alt="" coords="5,80,155,107"/>
+<area shape="rect" id="node3" href="$a00182.html" title="Class Generic LCD with buffer class library." alt="" coords="63,155,209,181"/>
+<area shape="rect" id="node4" href="$a00197.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT&#45;Touch boards." alt="" coords="61,229,211,256"/>
+<area shape="rect" id="node5" href="$a00176.html" title="Basic GUI with text and button." alt="" coords="95,304,177,331"/>
+<area shape="rect" id="node6" href="$a00113.html" title="Example of features for Evaluation edition." alt="" coords="58,379,214,405"/>
 </map>

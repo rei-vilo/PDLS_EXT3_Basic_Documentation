@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['readpixel_0',['readPixel',['../a00282.html#a28a8285d30ebd8b02e38514953ecb719',1,'Screen_EPD_EXT3_Fast']]],
-  ['rectangle_1',['rectangle',['../a00278.html#a714b2263f8fa3d26959d7e7f86e8a8d7',1,'hV_Screen_Buffer']]],
-  ['red_2',['red',['../a00246.html#abf55e2d0cd8df3cfe79c13f6bad79ea8',1,'hV_Colours565']]],
-  ['regenerate_3',['regenerate',['../a00282.html#a046ae950af4cf31d0ac19e340e7d2ba2',1,'Screen_EPD_EXT3_Fast']]],
-  ['resetgame_4',['resetGame',['../a00149.html#af1de076469d08f717d537d1b6b028566',1,'Basic_Touch_TicTacToe.ino']]],
-  ['result_5ferror_5',['RESULT_ERROR',['../a00173.html#a0655911839d066af13b9530353a59285',1,'hV_Constants.h']]],
-  ['result_5fsuccess_6',['RESULT_SUCCESS',['../a00173.html#a7cc1753a05a0821f6c70dd2bccfbab5c',1,'hV_Constants.h']]],
-  ['roundup_7',['roundUp',['../a00221.html#a9e10a8bc35f3b1ae121655e335de4513',1,'hV_Utilities.cpp']]]
+  ['readpixel_269',['readPixel',['../a00258.html#a28a8285d30ebd8b02e38514953ecb719',1,'Screen_EPD_EXT3_Fast']]],
+  ['rectangle_270',['rectangle',['../a00254.html#a714b2263f8fa3d26959d7e7f86e8a8d7',1,'hV_Screen_Buffer']]],
+  ['red_271',['red',['../a00222.html#abf55e2d0cd8df3cfe79c13f6bad79ea8',1,'hV_Colours565']]],
+  ['regenerate_272',['regenerate',['../a00258.html#a046ae950af4cf31d0ac19e340e7d2ba2',1,'Screen_EPD_EXT3_Fast']]],
+  ['resetgame_273',['resetGame',['../a00116.html#af1de076469d08f717d537d1b6b028566',1,'Basic_Touch_TicTacToe.ino']]],
+  ['result_5ferror_274',['RESULT_ERROR',['../a00158.html#a0655911839d066af13b9530353a59285',1,'hV_Constants.h']]],
+  ['result_5fsuccess_275',['RESULT_SUCCESS',['../a00158.html#a7cc1753a05a0821f6c70dd2bccfbab5c',1,'hV_Constants.h']]],
+  ['roundup_276',['roundUp',['../a00188.html#a9e10a8bc35f3b1ae121655e335de4513',1,'hV_Utilities.cpp']]]
 ];

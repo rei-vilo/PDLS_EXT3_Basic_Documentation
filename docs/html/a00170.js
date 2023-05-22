@@ -1,7 +1,11 @@
 var a00170 =
 [
-    [ "displayCharacters", "a00170.html#a05b4a53fae2c90c1c61b9cba27ab7e5f", null ],
-    [ "loop", "a00170.html#afe461d27b9c48d5921c00d521181f12f", null ],
-    [ "setup", "a00170.html#a4fc01d736fe50cf5b977f755b675f11d", null ],
-    [ "wait", "a00170.html#a92d9142cd31b37b7b3944dc8d9c9f454", null ]
+    [ "hV_Font_Terminal", "a00238.html", "a00238" ],
+    [ "hV_FONT_TERMINAL_RELEASE", "a00170.html#a2c1b31917210e8dd59e9d780d3285e12", null ],
+    [ "fontNumber_e", "a00170.html#afb304f88fec3d0fe39131d0aa83a0c1a", [
+      [ "Font_Terminal6x8", "a00170.html#afb304f88fec3d0fe39131d0aa83a0c1aa211f327e3cdf7f9eb742f0bd6f662e62", null ],
+      [ "Font_Terminal8x12", "a00170.html#afb304f88fec3d0fe39131d0aa83a0c1aaa96d44e108f1189328d2412a373d5685", null ],
+      [ "Font_Terminal12x16", "a00170.html#afb304f88fec3d0fe39131d0aa83a0c1aa65191b1c4df15b6a2a5f2b147f1f16d9", null ],
+      [ "Font_Terminal16x24", "a00170.html#afb304f88fec3d0fe39131d0aa83a0c1aadab5c016442270214928562ac2319015", null ]
+    ] ]
 ];
