@@ -1,4 +1,4 @@
-<map id="hV_Font_Terminal" name="hV_Font_Terminal">
-<area shape="rect" id="node1" title="Class for font as header file." alt="" coords="5,93,143,119"/>
-<area shape="rect" id="node2" href="$a00256.html" title="Structure for font." alt="" coords="43,5,105,31"/>
+<map id="Button" name="Button">
+<area shape="rect" id="node1" title="Button." alt="" coords="5,79,71,104"/>
+<area shape="rect" id="node2" href="$a00255.html" title="Text." alt="" coords="13,5,63,31"/>
 </map>

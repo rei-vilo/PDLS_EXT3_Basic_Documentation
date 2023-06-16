@@ -1,6 +1,4 @@
 var a00179 =
 [
-    [ "hV_Colours565", "a00246.html", "a00246" ],
-    [ "hV_COLOURS_RELEASE", "a00179.html#ad04b95af5737630651211d49cf779995", null ],
-    [ "myColours", "a00179.html#aa178466696f7432d6da667d514bee379", null ]
+    [ "TERMINAL12E_FONT_RELEASE", "a00179.html#a37a4e331a66a7c2283c3a82cbb5e8459", null ]
 ];

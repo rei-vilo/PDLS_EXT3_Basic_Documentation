@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: coordinates_s Struct Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: font_s Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.0.5</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.1.1</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -93,21 +93,63 @@ $(document).ready(function(){initNavTree('a00243.html',''); initResizable(); });
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Data Fields</a>  </div>
-  <div class="headertitle"><div class="title">coordinates_s Struct Reference</div></div>
+  <div class="headertitle"><div class="title">font_s Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Structure for font.  
+ <a href="a00243.html#details">More...</a></p>
+
+<p><code>#include &lt;hV_Font.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:adb4176078dd6bae78b14fadd23d58938"><td class="memItemLeft" align="right" valign="top"><a id="adb4176078dd6bae78b14fadd23d58938" name="adb4176078dd6bae78b14fadd23d58938"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>i</b></td></tr>
-<tr class="separator:adb4176078dd6bae78b14fadd23d58938"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36071aa1dd3b130d8241ce816226ddfc"><td class="memItemLeft" align="right" valign="top"><a id="a36071aa1dd3b130d8241ce816226ddfc" name="a36071aa1dd3b130d8241ce816226ddfc"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>j</b></td></tr>
-<tr class="separator:a36071aa1dd3b130d8241ce816226ddfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbe14f6295f4d4f0e92df32d54a2c105"><td class="memItemLeft" align="right" valign="top"><a id="acbe14f6295f4d4f0e92df32d54a2c105" name="acbe14f6295f4d4f0e92df32d54a2c105"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>kind</b></td></tr>
+<tr class="memdesc:acbe14f6295f4d4f0e92df32d54a2c105"><td class="mdescLeft">&#160;</td><td class="mdescRight">font description <br /></td></tr>
+<tr class="separator:acbe14f6295f4d4f0e92df32d54a2c105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63f8837d47ae05b6ae7f446cf379824c"><td class="memItemLeft" align="right" valign="top"><a id="a63f8837d47ae05b6ae7f446cf379824c" name="a63f8837d47ae05b6ae7f446cf379824c"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>height</b></td></tr>
+<tr class="memdesc:a63f8837d47ae05b6ae7f446cf379824c"><td class="mdescLeft">&#160;</td><td class="mdescRight">general height in pixels <br /></td></tr>
+<tr class="separator:a63f8837d47ae05b6ae7f446cf379824c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4b2baeedd0e11a46ed1bc48b2ba672b"><td class="memItemLeft" align="right" valign="top"><a id="ac4b2baeedd0e11a46ed1bc48b2ba672b" name="ac4b2baeedd0e11a46ed1bc48b2ba672b"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxWidth</b></td></tr>
+<tr class="memdesc:ac4b2baeedd0e11a46ed1bc48b2ba672b"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum width in pixels from *width array <br /></td></tr>
+<tr class="separator:ac4b2baeedd0e11a46ed1bc48b2ba672b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17f5e4b07589c6fedf9c10719a3ccad0"><td class="memItemLeft" align="right" valign="top"><a id="a17f5e4b07589c6fedf9c10719a3ccad0" name="a17f5e4b07589c6fedf9c10719a3ccad0"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>first</b></td></tr>
+<tr class="memdesc:a17f5e4b07589c6fedf9c10719a3ccad0"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of first character, usually 32 <br /></td></tr>
+<tr class="separator:a17f5e4b07589c6fedf9c10719a3ccad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83b66eec3d0f585fcba2521812d8e669"><td class="memItemLeft" align="right" valign="top"><a id="a83b66eec3d0f585fcba2521812d8e669" name="a83b66eec3d0f585fcba2521812d8e669"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>number</b></td></tr>
+<tr class="memdesc:a83b66eec3d0f585fcba2521812d8e669"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of characters, usually 96 or 224 <br /></td></tr>
+<tr class="separator:a83b66eec3d0f585fcba2521812d8e669"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="a00149.html">Basic_Touch_TicTacToe.ino</a></li>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Structure for font. </p>
+<dl class="section note"><dt>Note</dt><dd><ul>
+<li>Kind of font: see details below</li>
+<li>Height: set during font generation</li>
+<li>Width: *width array: characters index and length</li>
+<li>maxWidth: to be calculated</li>
+<li>Bytes per character: see *width array</li>
+<li>Character definition: see *table array</li>
+</ul>
+</dd></dl>
+<p><br  />
+ Font kind</p><ul>
+<li>0x4-..0x1- 0b7654</li>
+<li>b7 = 0x8- = high definition, 2 bits per pixel</li>
+<li>b6 = 0x4- = Monospace</li>
+<li>b5 = 0x2- = Sans Serif</li>
+<li>b4 = 0x1- = Serif</li>
+<li>0x-1..0x-f 0b3210</li>
+<li>b3 = 0x-8 = d8 = italic</li>
+<li>b2 = 0x-4 = d4 = bold</li>
+<li>b10 = 0x-0..0x-3 = d0..d3 = variant number</li>
+</ul>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<li><a class="el" href="a00194.html">hV_Font.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -115,7 +157,7 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>j</b></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00243.html">coordinates_s</a></li>
+    <li class="navelem"><a class="el" href="a00243.html">font_s</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.9.6 </li>

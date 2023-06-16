@@ -1,26 +1,13 @@
 var a00173 =
 [
-    [ "FEATURE_FAST", "a00173.html#aa88ce3237b213c4cf8d3a773b4adbebf", null ],
-    [ "FEATURE_OTHER", "a00173.html#ac434967da9795a84cd1af9fb1ad0fe54", null ],
-    [ "FEATURE_TOUCH", "a00173.html#acabd435fc4d0dce644a2c378776fab61", null ],
-    [ "FEATURE_WIDE_TEMPERATURE", "a00173.html#a58a6c16e6c5beae1d67010fc12994dbe", null ],
-    [ "FSM_POWER_ON", "a00173.html#af78b93cdbd86bd39076e2a5444405b36", null ],
-    [ "FSM_POWER_SLEEP", "a00173.html#a924397e200b8be70cf93b0e3af0f1426", null ],
-    [ "FSM_POWER_UNKNOWN", "a00173.html#aca020478bacbe400fde38e069ef2fffb", null ],
-    [ "hV_CONSTANTS_RELEASE", "a00173.html#ae5646da5dbd251257bb35c6db0a16153", null ],
-    [ "PANEL_CS_BOTH", "a00173.html#a44856533ff9be33825723a8f273b89aa", null ],
-    [ "PANEL_CS_MAIN", "a00173.html#a8714a8f784cc15be4d6ec4698c6fd7f7", null ],
-    [ "PANEL_CS_SECOND", "a00173.html#a26d53e5618608c18345c2898a71fc611", null ],
-    [ "PARTIAL_OFF", "a00173.html#aec7aa1d3ba1e17fb2b855592142e912a", null ],
-    [ "PARTIAL_ON", "a00173.html#adb2111d5ebf6d8b7b1531796f810c466", null ],
-    [ "PARTIAL_READY", "a00173.html#a733e45c7360d09c2a6a3070e8a9ef10f", null ],
-    [ "RESULT_ERROR", "a00173.html#a0655911839d066af13b9530353a59285", null ],
-    [ "RESULT_SUCCESS", "a00173.html#a7cc1753a05a0821f6c70dd2bccfbab5c", null ],
-    [ "TOUCH_EVENT_MOVE", "a00173.html#a9d95a414d6b61be2ef60d6f6685289ab", null ],
-    [ "TOUCH_EVENT_NONE", "a00173.html#addb7ea466d16e54b3ac29e652392bfe7", null ],
-    [ "TOUCH_EVENT_PRESS", "a00173.html#a1b58d5fdc01d6f6c5a090e6d31725d36", null ],
-    [ "TOUCH_EVENT_RELEASE", "a00173.html#a28e03e87baac6e935b2ef802d3d698f9", null ],
-    [ "UPDATE_FAST", "a00173.html#a42b862bcf9303a95a0a9b450a5ba1b7d", null ],
-    [ "UPDATE_GLOBAL", "a00173.html#a7b29ab255c91e207b903f08a78562ef1", null ],
-    [ "UPDATE_PARTIAL", "a00173.html#aa8fca364ce99c2f18cc81fe95c5c543a", null ]
+    [ "GUI", "a00257.html", "a00257" ],
+    [ "Text", "a00261.html", "a00261" ],
+    [ "Button", "a00265.html", "a00265" ],
+    [ "checkInstant", "a00173.html#ada270c7144643ff2b7d50a564a3dbdc0", null ],
+    [ "checkNormal", "a00173.html#a436b4a5140acee407da61a0097dca9c0", null ],
+    [ "hV_GUI_BASIC_RELEASE", "a00173.html#a2071496e55eb3c5e00faed997f19654c", null ],
+    [ "fsmGUI_e", "a00173.html#ad98973f41a35ca658799fbd07a8fb82b", [
+      [ "fsmReleased", "a00173.html#ad98973f41a35ca658799fbd07a8fb82bae88708812c4ed26e1a35fc58fa103d7c", null ],
+      [ "fsmTouched", "a00173.html#ad98973f41a35ca658799fbd07a8fb82bac02bae32a14b2f2024c9f32f2a0e0c45", null ]
+    ] ]
 ];

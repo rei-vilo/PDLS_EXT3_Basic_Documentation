@@ -1,4 +1,6 @@
-<map id="hV_GUI.h" name="hV_GUI.h">
-<area shape="rect" id="node1" title="Basic GUI with text and button." alt="" coords="42,5,125,32"/>
-<area shape="rect" id="node2" href="$a00113.html" title="Example of features for Evaluation edition." alt="" coords="5,80,161,107"/>
+<map id="hV_Screen_Buffer.h" name="hV_Screen_Buffer.h">
+<area shape="rect" id="node1" title="Class Generic LCD with buffer class library." alt="" coords="10,5,157,31"/>
+<area shape="rect" id="node2" href="$a00203.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT&#45;Touch boards." alt="" coords="8,79,159,104"/>
+<area shape="rect" id="node3" href="$a00167.html" title="Basic GUI with text and button." alt="" coords="42,152,125,177"/>
+<area shape="rect" id="node4" href="$a00149.html" title="Example of features for Evaluation edition." alt="" coords="5,225,161,251"/>
 </map>

@@ -1,13 +1,5 @@
 var a00176 =
 [
-    [ "GUI", "a00242.html", "a00242" ],
-    [ "Text", "a00246.html", "a00246" ],
-    [ "Button", "a00250.html", "a00250" ],
-    [ "checkInstant", "a00176.html#ada270c7144643ff2b7d50a564a3dbdc0", null ],
-    [ "checkNormal", "a00176.html#a436b4a5140acee407da61a0097dca9c0", null ],
-    [ "hV_GUI_BASIC_RELEASE", "a00176.html#a2071496e55eb3c5e00faed997f19654c", null ],
-    [ "fsmGUI_e", "a00176.html#ad98973f41a35ca658799fbd07a8fb82b", [
-      [ "fsmReleased", "a00176.html#ad98973f41a35ca658799fbd07a8fb82bae88708812c4ed26e1a35fc58fa103d7c", null ],
-      [ "fsmTouched", "a00176.html#ad98973f41a35ca658799fbd07a8fb82bac02bae32a14b2f2024c9f32f2a0e0c45", null ]
-    ] ]
+    [ "hV_Screen_Buffer", "a00263.html", "a00263" ],
+    [ "hV_SCREEN_BUFFER_RELEASE", "a00176.html#a851c703d9610377daa95f386e7505bfb", null ]
 ];

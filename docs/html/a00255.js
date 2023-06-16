@@ -1,5 +1,6 @@
 var a00255 =
 [
-    [ "index", "a00255.html#a7ad7fe2d62cc875ebf7a14389541e66a", null ],
-    [ "pixel", "a00255.html#a68591191be4ff122ee2a26f8b977f2e7", null ]
+    [ "Text", "a00255.html#ae22e2048bf2625e15b62fd6f34e8bdee", null ],
+    [ "dDefine", "a00255.html#a50c8fed521e578e20d1f6f1cef395407", null ],
+    [ "draw", "a00255.html#a297f516f564d811b78c4e5c472edc67d", null ]
 ];

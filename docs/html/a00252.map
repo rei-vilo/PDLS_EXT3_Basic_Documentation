@@ -1,5 +1,5 @@
-<map id="hV_Screen_Buffer" name="hV_Screen_Buffer">
-<area shape="rect" id="node1" title="Generic class for buffered LCD." alt="" coords="6,171,142,197"/>
-<area shape="rect" id="node2" href="$a00238.html" title="Class for font as header file." alt="" coords="5,95,143,121"/>
-<area shape="rect" id="node3" href="$a00234.html" title="Structure for font." alt="" coords="43,5,105,32"/>
+<map id="hV_Font_Terminal" name="hV_Font_Terminal">
+<area shape="rect" id="node1" title="Class for font as header file." alt="" coords="23,5,160,31"/>
+<area shape="rect" id="node2" href="$a00269.html" title="Generic class for buffered LCD." alt="" coords="23,79,159,104"/>
+<area shape="rect" id="node3" href="$a00273.html" title="Class for Pervasive Displays iTC monochome touch screens with embedded fast update." alt="" coords="5,152,177,177"/>
 </map>
