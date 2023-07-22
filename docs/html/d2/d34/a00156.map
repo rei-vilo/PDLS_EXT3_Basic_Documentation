@@ -1,0 +1,43 @@
+<map id="Screen_EPD_EXT3.h" name="Screen_EPD_EXT3.h">
+<area shape="rect" id="Node000001" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT&#45;Touch boards." alt="" coords="1129,5,1280,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="907,372,991,397"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1207,31,1207,163,1207,239,1205,287,1198,306,1181,326,1141,354,1095,372,1048,382,1005,386,1004,381,1047,377,1093,367,1138,350,1178,322,1193,303,1200,286,1202,239,1202,163,1202,31"/>
+<area shape="rect" id="Node000003" href="$d2/df5/a00137.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="5,299,151,324"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1129,25,964,35,739,57,613,74,483,96,354,122,228,155,177,166,135,175,100,191,84,206,68,227,63,241,62,256,69,286,64,287,57,256,58,239,64,224,80,202,97,187,133,169,176,161,227,149,353,117,482,90,612,69,738,52,964,30,1129,19"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="1243,79,1297,104"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="1217,29,1252,67,1248,70,1213,33"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="1322,79,1386,104"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="1230,28,1318,70,1316,75,1228,33"/>
+<area shape="rect" id="Node000008" href="$d1/d88/a00128.html" title="Class Generic LCD with buffer class library." alt="" coords="933,79,1079,104"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="1174,33,1052,76,1051,71,1172,28"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="151,316,893,376,893,381,151,321"/>
+<area shape="rect" id="Node000004" href="$d5/db1/a00140.html" title="Constants for Pervasive Displays Library Suite." alt="" coords="17,372,139,397"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="81,324,81,358,75,358,75,324"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="43,445,113,471"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="81,398,81,432,75,432,75,398"/>
+<area shape="poly" id="edge9_Node000008_Node000002" title=" " alt="" coords="1013,104,1030,167,1034,209,1029,251,1017,283,1001,314,969,363,964,360,997,311,1012,281,1023,250,1028,209,1025,168,1008,105"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="933,100,720,118,450,146,321,163,210,183,127,204,100,216,84,227,77,240,73,255,74,285,69,285,68,254,72,238,80,224,97,211,125,199,208,178,320,158,449,140,719,112,932,95"/>
+<area shape="rect" id="Node000009" href="$d9/db6/a00146.html" title="Class Library for 5&#45;6&#45;5 coded colours." alt="" coords="1037,299,1167,324"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="1025,102,1050,123,1072,151,1087,185,1097,222,1104,285,1099,285,1092,223,1082,187,1068,153,1046,126,1022,106"/>
+<area shape="rect" id="Node000010" href="$dc/de6/a00167.html" title="Utilities for highView Library Suite." alt="" coords="905,225,1014,251"/>
+<area shape="poly" id="edge13_Node000008_Node000010" title=" " alt="" coords="1005,105,970,213,965,211,1000,104"/>
+<area shape="rect" id="Node000011" href="$df/dc8/a00122.html" title="hV_Font_Terminal" alt="" coords="462,152,611,177"/>
+<area shape="poly" id="edge15_Node000008_Node000011" title=" " alt="" coords="933,106,625,153,625,147,932,101"/>
+<area shape="poly" id="edge12_Node000009_Node000002" title=" " alt="" coords="1078,326,987,369,985,364,1076,322"/>
+<area shape="poly" id="edge14_Node000010_Node000002" title=" " alt="" coords="961,251,953,358,948,358,956,251"/>
+<area shape="poly" id="edge16_Node000011_Node000002" title=" " alt="" coords="462,171,394,178,332,193,310,203,296,215,293,230,303,249,320,265,343,280,406,306,484,327,572,344,751,367,893,378,893,383,750,372,571,350,483,333,404,311,341,285,316,269,299,252,288,231,292,213,307,199,330,188,393,173,462,166"/>
+<area shape="poly" id="edge17_Node000011_Node000003" title=" " alt="" coords="462,169,367,173,261,183,167,200,130,212,105,227,95,240,88,254,81,285,76,284,83,253,90,237,102,223,128,208,165,195,261,178,367,168,462,164"/>
+<area shape="poly" id="edge18_Node000011_Node000010" title=" " alt="" coords="606,175,891,222,890,228,605,180"/>
+<area shape="rect" id="Node000012" href="$d7/d9a/a00152.html" title="Font structure." alt="" coords="793,225,880,251"/>
+<area shape="poly" id="edge19_Node000011_Node000012" title=" " alt="" coords="585,175,780,221,779,226,584,180"/>
+<area shape="rect" id="Node000013" href="$db/ddf/a00164.html" title="Font Terminal 6 x 8." alt="" coords="115,225,238,251"/>
+<area shape="poly" id="edge22_Node000011_Node000013" title=" " alt="" coords="479,180,249,225,248,220,478,175"/>
+<area shape="rect" id="Node000014" href="$da/d1e/a00149.html" title="Font Terminal 8 x 12." alt="" coords="313,225,443,251"/>
+<area shape="poly" id="edge23_Node000011_Node000014" title=" " alt="" coords="512,180,417,222,415,217,510,175"/>
+<area shape="rect" id="Node000015" href="$de/d76/a00134.html" title="Font Terminal 12 x 16." alt="" coords="467,225,606,251"/>
+<area shape="poly" id="edge24_Node000011_Node000015" title=" " alt="" coords="539,178,539,212,534,212,534,178"/>
+<area shape="rect" id="Node000016" href="$d6/db8/a00158.html" title="Font Terminal 16 x 24." alt="" coords="630,225,769,251"/>
+<area shape="poly" id="edge25_Node000011_Node000016" title=" " alt="" coords="564,175,661,217,659,222,562,180"/>
+<area shape="poly" id="edge20_Node000012_Node000002" title=" " alt="" coords="848,249,934,360,929,363,844,253"/>
+<area shape="poly" id="edge21_Node000012_Node000003" title=" " alt="" coords="793,251,781,253,610,274,440,290,165,309,165,303,440,285,610,269,780,248,792,246"/>
+</map>
