@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: Common_Fonts.ino File Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: Example_Fast_Orientation.ino File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.1.2</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.1.3</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -93,8 +93,10 @@ $(document).ready(function(){initNavTree('d3/de5/a00209.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">Common_Fonts.ino File Reference</div></div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">Example_Fast_Orientation.ino File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -102,33 +104,40 @@ $(document).ready(function(){initNavTree('d3/de5/a00209.html','../../'); initRes
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;Arduino.h&quot;</code><br />
 <code>#include &quot;SPI.h&quot;</code><br />
-<code>#include &quot;PDLS_EXT3_Basic.h&quot;</code><br />
+<code>#include &quot;PDLS_EXT3_Basic_Fast.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Common_Fonts.ino:</div>
+Include dependency graph for Example_Fast_Orientation.ino:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../da/de7/a00210.png" border="0" usemap="#aCommon__Fonts_8ino" alt=""/></div>
-<map name="aCommon__Fonts_8ino" id="aCommon__Fonts_8ino">
-<area shape="rect" title="Example of features for basic edition." alt="" coords="67,5,214,31"/>
+<div class="center"><img src="../../da/de7/a00210.png" border="0" usemap="#aExample__Fast__Orientation_8ino" alt=""/></div>
+<map name="aExample__Fast__Orientation_8ino" id="aExample__Fast__Orientation_8ino">
+<area shape="rect" title="Example of features for basic edition." alt="" coords="33,5,249,31"/>
 <area shape="rect" title=" " alt="" coords="5,79,89,104"/>
 <area shape="poly" title=" " alt="" coords="127,33,75,72,72,68,124,29"/>
 <area shape="rect" title=" " alt="" coords="113,79,168,104"/>
 <area shape="poly" title=" " alt="" coords="143,31,143,65,138,65,138,31"/>
-<area shape="rect" title=" " alt="" coords="193,79,342,104"/>
-<area shape="poly" title=" " alt="" coords="162,28,236,69,233,74,160,33"/>
+<area shape="rect" title=" " alt="" coords="192,79,375,104"/>
+<area shape="poly" title=" " alt="" coords="165,28,249,70,247,75,162,33"/>
 </map>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ad73c29a578c9c2f1ef8cdfa95a5f4173"><td class="memItemLeft" align="right" valign="top"><a id="ad73c29a578c9c2f1ef8cdfa95a5f4173" name="ad73c29a578c9c2f1ef8cdfa95a5f4173"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_FAST_ORIENTATION</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ad73c29a578c9c2f1ef8cdfa95a5f4173"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9e2d9faeb344fc9722f336a2e46a9c7e"><td class="memItemLeft" align="right" valign="top"><a id="a9e2d9faeb344fc9722f336a2e46a9c7e" name="a9e2d9faeb344fc9722f336a2e46a9c7e"></a>
-Screen_EPD_EXT3&#160;</td><td class="memItemRight" valign="bottom"><b>myScreen</b> (<a class="el" href="../../d2/df5/a00137.html#a758a5dc1cb9a923d9915621f490636eb">eScreen_EPD_EXT3_370</a>, <a class="el" href="../../d2/df5/a00137.html#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a>)</td></tr>
-<tr class="separator:a9e2d9faeb344fc9722f336a2e46a9c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.html#a92d9142cd31b37b7b3944dc8d9c9f454">wait</a> (uint8_t second)</td></tr>
 <tr class="memdesc:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait with countdown.  <br /></td></tr>
 <tr class="separator:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a264683b43036a589246ec5194f5cc0a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.html#a264683b43036a589246ec5194f5cc0a8">displayFonts</a> (bool flag=true)</td></tr>
-<tr class="memdesc:a264683b43036a589246ec5194f5cc0a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonts test screen.  <br /></td></tr>
-<tr class="separator:a264683b43036a589246ec5194f5cc0a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bec8a8883209b74549c344fa2a4375c"><td class="memItemLeft" align="right" valign="top"><a id="a3bec8a8883209b74549c344fa2a4375c" name="a3bec8a8883209b74549c344fa2a4375c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>flush_ms</b> ()</td></tr>
+<tr class="memdesc:a3bec8a8883209b74549c344fa2a4375c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush screen and display time. <br /></td></tr>
+<tr class="separator:a3bec8a8883209b74549c344fa2a4375c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40a20ff25d37f5d28b3903a044da7be1"><td class="memItemLeft" align="right" valign="top"><a id="a40a20ff25d37f5d28b3903a044da7be1" name="a40a20ff25d37f5d28b3903a044da7be1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>displayFastOrientation</b> ()</td></tr>
+<tr class="separator:a40a20ff25d37f5d28b3903a044da7be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top"><a id="a4fc01d736fe50cf5b977f755b675f11d" name="a4fc01d736fe50cf5b977f755b675f11d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setup</b> ()</td></tr>
 <tr class="memdesc:a4fc01d736fe50cf5b977f755b675f11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup. <br /></td></tr>
@@ -137,11 +146,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setup</b> ()</td></tr
 void&#160;</td><td class="memItemRight" valign="bottom"><b>loop</b> ()</td></tr>
 <tr class="memdesc:afe461d27b9c48d5921c00d521181f12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loop, empty. <br /></td></tr>
 <tr class="separator:afe461d27b9c48d5921c00d521181f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:acceee9c294c1e754cd495776c37845b1"><td class="memItemLeft" align="right" valign="top"><a id="acceee9c294c1e754cd495776c37845b1" name="acceee9c294c1e754cd495776c37845b1"></a>
+<a class="el" href="../../d2/d82/a00279.html">Screen_EPD_EXT3_Fast</a>&#160;</td><td class="memItemRight" valign="bottom"><b>myScreen</b> (<a class="el" href="../../d5/db1/a00140.html#a57429d36b0d5992d29ec92bf6b856c60">eScreen_EPD_EXT3_271_09_Fast</a>, <a class="el" href="../../d5/db1/a00140.html#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a>)</td></tr>
+<tr class="separator:acceee9c294c1e754cd495776c37845b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Example of features for basic edition. </p>
-<p>Project Pervasive Displays Library Suite <br  />
- Based on highView technology</p>
+<p>Library for Pervasive Displays EXT3 - Basic level</p>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>20 Mar 2023 </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>607</dd></dl>
@@ -151,36 +165,6 @@ Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</dd></d
 <dl class="section see"><dt>See also</dt><dd>ReadMe.txt for references <br  />
 </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a264683b43036a589246ec5194f5cc0a8" name="a264683b43036a589246ec5194f5cc0a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a264683b43036a589246ec5194f5cc0a8">&#9670;&#160;</a></span>displayFonts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void displayFonts </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>flag</em> = <code>true</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Fonts test screen. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">flag</td><td>true = default = perform flush, otherwise no</td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="image">
-<img src="../../T2_FONTS" alt=""/>
-<div class="caption">
-..jpg</div></div>
-  
-</div>
-</div>
 <a id="a92d9142cd31b37b7b3944dc8d9c9f454" name="a92d9142cd31b37b7b3944dc8d9c9f454"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a92d9142cd31b37b7b3944dc8d9c9f454">&#9670;&#160;</a></span>wait()</h2>
 
@@ -213,7 +197,7 @@ Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</dd></d
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_e68187fce5e071568be3fddce3f70b94.html">Common_Fonts</a></li><li class="navelem"><a class="el" href="../../d3/de5/a00209.html">Common_Fonts.ino</a></li>
+    <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_368d6981d269dbf78b5703ce50b19cf7.html">Example_Fast_Orientation</a></li><li class="navelem"><a class="el" href="../../d3/de5/a00209.html">Example_Fast_Orientation.ino</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.9.7 </li>

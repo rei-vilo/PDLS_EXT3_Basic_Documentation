@@ -1,6 +1,0 @@
-<map id="Screen_EPD_EXT3_Fast" name="Screen_EPD_EXT3_Fast">
-<area shape="rect" id="node1" title="Class for Pervasive Displays iTC monochome touch screens with embedded fast update." alt="" coords="5,243,177,268"/>
-<area shape="rect" id="node2" href="$a00278.html" title="Generic class for buffered LCD." alt="" coords="23,168,159,193"/>
-<area shape="rect" id="node3" href="$a00262.html" title="Class for font as header file." alt="" coords="23,93,160,119"/>
-<area shape="rect" id="node4" href="$a00258.html" title="Structure for font." alt="" coords="60,5,123,31"/>
-</map>

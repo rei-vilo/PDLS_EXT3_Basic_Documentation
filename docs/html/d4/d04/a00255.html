@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: Text Class Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: font_s Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.1.2</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.1.3</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -93,158 +93,64 @@ $(document).ready(function(){initNavTree('d4/d04/a00255.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a>  </div>
-  <div class="headertitle"><div class="title">Text Class Reference</div></div>
+<a href="#pub-attribs">Data Fields</a>  </div>
+  <div class="headertitle"><div class="title">font_s Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="../../d4/d04/a00255.html" title="Text.">Text</a>.  
+<p>Structure for font.  
  <a href="../../d4/d04/a00255.html#details">More...</a></p>
 
-<p><code>#include &lt;hV_GUI.h&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for Text:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d7/d03/a00254.png" border="0" usemap="#aText_inherit__map" alt="Inheritance graph"/></div>
-<map name="aText_inherit__map" id="aText_inherit__map">
-<area shape="rect" title="Text." alt="" coords="13,5,63,31"/>
-<area shape="rect" href="../../d0/d2f/a00259.html" title="Button." alt="" coords="5,79,71,104"/>
-<area shape="poly" title=" " alt="" coords="41,44,41,79,35,79,35,44"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
+<p><code>#include &lt;hV_Font.h&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ae22e2048bf2625e15b62fd6f34e8bdee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d04/a00255.html#ae22e2048bf2625e15b62fd6f34e8bdee">Text</a> (<a class="el" href="../../d3/d1a/a00251.html">GUI</a> *gui)</td></tr>
-<tr class="memdesc:ae22e2048bf2625e15b62fd6f34e8bdee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
-<tr class="separator:ae22e2048bf2625e15b62fd6f34e8bdee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50c8fed521e578e20d1f6f1cef395407"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d04/a00255.html#a50c8fed521e578e20d1f6f1cef395407">dDefine</a> (uint16_t x0, uint16_t y0, uint16_t dx, uint16_t dy, uint8_t size=0)</td></tr>
-<tr class="memdesc:a50c8fed521e578e20d1f6f1cef395407"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a text box, vector coordinates.  <br /></td></tr>
-<tr class="separator:a50c8fed521e578e20d1f6f1cef395407"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a297f516f564d811b78c4e5c472edc67d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d04/a00255.html#a297f516f564d811b78c4e5c472edc67d">draw</a> (String text)</td></tr>
-<tr class="memdesc:a297f516f564d811b78c4e5c472edc67d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display the text.  <br /></td></tr>
-<tr class="separator:a297f516f564d811b78c4e5c472edc67d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Data Fields</h2></td></tr>
+<tr class="memitem:acbe14f6295f4d4f0e92df32d54a2c105"><td class="memItemLeft" align="right" valign="top"><a id="acbe14f6295f4d4f0e92df32d54a2c105" name="acbe14f6295f4d4f0e92df32d54a2c105"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>kind</b></td></tr>
+<tr class="memdesc:acbe14f6295f4d4f0e92df32d54a2c105"><td class="mdescLeft">&#160;</td><td class="mdescRight">font description <br /></td></tr>
+<tr class="separator:acbe14f6295f4d4f0e92df32d54a2c105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63f8837d47ae05b6ae7f446cf379824c"><td class="memItemLeft" align="right" valign="top"><a id="a63f8837d47ae05b6ae7f446cf379824c" name="a63f8837d47ae05b6ae7f446cf379824c"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>height</b></td></tr>
+<tr class="memdesc:a63f8837d47ae05b6ae7f446cf379824c"><td class="mdescLeft">&#160;</td><td class="mdescRight">general height in pixels <br /></td></tr>
+<tr class="separator:a63f8837d47ae05b6ae7f446cf379824c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4b2baeedd0e11a46ed1bc48b2ba672b"><td class="memItemLeft" align="right" valign="top"><a id="ac4b2baeedd0e11a46ed1bc48b2ba672b" name="ac4b2baeedd0e11a46ed1bc48b2ba672b"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxWidth</b></td></tr>
+<tr class="memdesc:ac4b2baeedd0e11a46ed1bc48b2ba672b"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum width in pixels from *width array <br /></td></tr>
+<tr class="separator:ac4b2baeedd0e11a46ed1bc48b2ba672b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17f5e4b07589c6fedf9c10719a3ccad0"><td class="memItemLeft" align="right" valign="top"><a id="a17f5e4b07589c6fedf9c10719a3ccad0" name="a17f5e4b07589c6fedf9c10719a3ccad0"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>first</b></td></tr>
+<tr class="memdesc:a17f5e4b07589c6fedf9c10719a3ccad0"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of first character, usually 32 <br /></td></tr>
+<tr class="separator:a17f5e4b07589c6fedf9c10719a3ccad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83b66eec3d0f585fcba2521812d8e669"><td class="memItemLeft" align="right" valign="top"><a id="a83b66eec3d0f585fcba2521812d8e669" name="a83b66eec3d0f585fcba2521812d8e669"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>number</b></td></tr>
+<tr class="memdesc:a83b66eec3d0f585fcba2521812d8e669"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of characters, usually 96 or 224 <br /></td></tr>
+<tr class="separator:a83b66eec3d0f585fcba2521812d8e669"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="../../d4/d04/a00255.html" title="Text.">Text</a>. </p>
-<p>Display a text with format options </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae22e2048bf2625e15b62fd6f34e8bdee" name="ae22e2048bf2625e15b62fd6f34e8bdee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae22e2048bf2625e15b62fd6f34e8bdee">&#9670;&#160;</a></span>Text()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Text::Text </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/d1a/a00251.html">GUI</a> *&#160;</td>
-          <td class="paramname"><em>gui</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Constructor. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">gui</td><td>&amp;gui to which the element belongs </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a50c8fed521e578e20d1f6f1cef395407" name="a50c8fed521e578e20d1f6f1cef395407"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50c8fed521e578e20d1f6f1cef395407">&#9670;&#160;</a></span>dDefine()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Text::dDefine </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>x0</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>y0</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>dx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>dy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>size</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Define a text box, vector coordinates. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">x0</td><td>point coordinate, x-axis </td></tr>
-    <tr><td class="paramname">y0</td><td>point coordinate, y-axis </td></tr>
-    <tr><td class="paramname">dx</td><td>length, x-axis </td></tr>
-    <tr><td class="paramname">dy</td><td>height, y-axis </td></tr>
-    <tr><td class="paramname">size</td><td>size of the font, default = 0 = small, optional</td></tr>
-  </table>
-  </dd>
-</dl>
+<div class="textblock"><p>Structure for font. </p>
+<dl class="section note"><dt>Note</dt><dd><ul>
+<li>Kind of font: see details below</li>
+<li>Height: set during font generation</li>
+<li>Width: *width array: characters index and length</li>
+<li>maxWidth: to be calculated</li>
+<li>Bytes per character: see *width array</li>
+<li>Character definition: see *table array</li>
+</ul>
+</dd></dl>
 <p><br  />
- <b>More:</b> Coordinate, Colour </p>
-
-</div>
-</div>
-<a id="a297f516f564d811b78c4e5c472edc67d" name="a297f516f564d811b78c4e5c472edc67d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a297f516f564d811b78c4e5c472edc67d">&#9670;&#160;</a></span>draw()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Text::draw </td>
-          <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>text</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Display the text. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">text</td><td>text to be displayed </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="../../d5/de9/a00176.html">hV_GUI.h</a></li>
-<li>hV_GUI.cpp</li>
+ Font kind</p><ul>
+<li>0x4-..0x1- 0b7654</li>
+<li>b7 = 0x8- = high definition, 2 bits per pixel</li>
+<li>b6 = 0x4- = Monospace</li>
+<li>b5 = 0x2- = Sans Serif</li>
+<li>b4 = 0x1- = Serif</li>
+<li>0x-1..0x-f 0b3210</li>
+<li>b3 = 0x-8 = d8 = italic</li>
+<li>b2 = 0x-4 = d4 = bold</li>
+<li>b10 = 0x-0..0x-3 = d0..d3 = variant number</li>
+</ul>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<li><a class="el" href="../../d3/df8/a00155.html">hV_Font.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -252,7 +158,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d4/d04/a00255.html">Text</a></li>
+    <li class="navelem"><a class="el" href="../../d4/d04/a00255.html">font_s</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.9.7 </li>

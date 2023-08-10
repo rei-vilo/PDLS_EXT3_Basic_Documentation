@@ -1,21 +1,19 @@
-<map id="hV_Constants.h" name="hV_Constants.h">
-<area shape="rect" id="Node000001" title="Constants for Pervasive Displays Library Suite." alt="" coords="47,5,170,31"/>
-<area shape="rect" id="Node000002" href="$d2/df5/a00137.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="36,79,181,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,44,111,79,106,79,106,44"/>
-<area shape="rect" id="Node000003" href="$d3/df8/a00155.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT&#45;Touch boards." alt="" coords="37,372,188,397"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="78,114,58,131,42,153,20,199,10,238,12,277,30,323,40,338,54,351,85,370,82,374,51,355,36,341,25,325,7,279,4,238,15,197,37,151,54,128,75,110"/>
-<area shape="rect" id="Node000004" href="$d5/de9/a00176.html" title="Basic GUI with text and button." alt="" coords="127,445,210,471"/>
-<area shape="poly" id="edge10_Node000002_Node000004" title=" " alt="" coords="148,108,182,129,217,158,243,194,251,214,254,236,254,313,246,355,227,393,204,424,183,447,179,443,199,421,222,390,241,353,249,312,249,237,246,216,238,196,213,162,179,134,145,113"/>
-<area shape="rect" id="Node000006" href="$d7/d9a/a00152.html" title="Font structure." alt="" coords="65,152,152,177"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="111,118,111,152,106,152,106,118"/>
-<area shape="rect" id="Node000007" href="$df/dc8/a00122.html" title="hV_Font_Terminal" alt="" coords="65,225,214,251"/>
-<area shape="poly" id="edge9_Node000002_Node000007" title=" " alt="" coords="137,111,154,129,167,151,170,172,167,193,150,226,145,224,161,191,165,172,162,153,150,132,133,115"/>
-<area shape="rect" id="Node000008" href="$d1/d88/a00128.html" title="Class Generic LCD with buffer class library." alt="" coords="39,299,186,324"/>
-<area shape="poly" id="edge11_Node000002_Node000008" title=" " alt="" coords="84,115,67,132,55,153,46,180,43,201,46,223,55,249,73,276,96,296,93,300,69,280,50,252,41,225,38,201,41,178,50,151,63,129,80,111"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="132,407,162,444,157,447,128,410"/>
-<area shape="rect" id="Node000005" href="$d7/d25/a00182.html" title="Example of features for Evaluation edition." alt="" coords="91,519,247,544"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="171,484,171,519,166,519,166,484"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="121,189,137,224,132,226,117,191"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="133,265,119,299,114,298,128,263"/>
-<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="115,338,115,372,110,372,110,338"/>
+<map id="hV_Configuration.h" name="hV_Configuration.h">
+<area shape="rect" id="Node000001" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="36,5,181,31"/>
+<area shape="rect" id="Node000002" href="$d6/db8/a00158.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT&#45;Touch boards." alt="" coords="37,299,188,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,41,58,58,42,80,20,126,10,165,12,204,30,249,40,265,54,277,85,296,82,301,51,282,36,268,25,252,7,205,4,165,15,124,37,77,54,54,75,37"/>
+<area shape="rect" id="Node000003" href="$db/dd9/a00179.html" title="Basic GUI with text and button." alt="" coords="127,372,210,397"/>
+<area shape="poly" id="edge9_Node000001_Node000003" title=" " alt="" coords="148,35,182,56,217,85,243,120,251,141,254,163,254,240,246,281,227,319,204,351,183,374,179,370,199,348,222,317,241,280,249,239,249,164,246,142,238,123,213,88,179,60,145,39"/>
+<area shape="rect" id="Node000005" href="$d3/df8/a00155.html" title="Font structure." alt="" coords="65,79,152,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="111,44,111,79,106,79,106,44"/>
+<area shape="rect" id="Node000006" href="$dc/dfe/a00125.html" title="hV_Font_Terminal" alt="" coords="65,152,214,177"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="137,38,154,56,167,78,170,98,167,119,150,153,145,150,161,118,165,98,162,80,150,59,133,42"/>
+<area shape="rect" id="Node000007" href="$d7/d06/a00131.html" title="Class Generic LCD with buffer class library." alt="" coords="39,225,186,251"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="84,42,67,59,55,80,46,106,43,128,46,150,55,176,73,203,96,223,93,227,69,207,50,179,41,151,38,128,41,105,50,78,63,56,80,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="132,333,162,370,157,374,128,337"/>
+<area shape="rect" id="Node000004" href="$de/df3/a00185.html" title="Example of features for Evaluation edition." alt="" coords="91,445,247,471"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="171,411,171,445,166,445,166,411"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="121,116,137,151,132,153,117,118"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="133,191,119,226,114,224,128,189"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="115,264,115,299,110,299,110,264"/>
 </map>

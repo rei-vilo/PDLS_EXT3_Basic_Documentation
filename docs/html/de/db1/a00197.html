@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: Common_Colours.ino File Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: BWRY_Colours.ino File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.1.2</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.1.3</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -93,45 +93,51 @@ $(document).ready(function(){initNavTree('de/db1/a00197.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">Common_Colours.ino File Reference</div></div>
+  <div class="headertitle"><div class="title">BWRY_Colours.ino File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Example of features for basic edition.  
+<p>Example for Pervasive Displays Library Suite.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;Arduino.h&quot;</code><br />
 <code>#include &quot;SPI.h&quot;</code><br />
-<code>#include &quot;PDLS_EXT3_Basic.h&quot;</code><br />
+<code>#include &quot;PDLS_EXT3_Basic_BWRY.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Common_Colours.ino:</div>
+Include dependency graph for BWRY_Colours.ino:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d7/da0/a00198.png" border="0" usemap="#aCommon__Colours_8ino" alt=""/></div>
-<map name="aCommon__Colours_8ino" id="aCommon__Colours_8ino">
-<area shape="rect" title="Example of features for basic edition." alt="" coords="60,5,221,31"/>
+<div class="center"><img src="../../d7/da0/a00198.png" border="0" usemap="#aBWRY__Colours_8ino" alt=""/></div>
+<map name="aBWRY__Colours_8ino" id="aBWRY__Colours_8ino">
+<area shape="rect" title="Example for Pervasive Displays Library Suite." alt="" coords="71,5,211,31"/>
 <area shape="rect" title=" " alt="" coords="5,79,89,104"/>
 <area shape="poly" title=" " alt="" coords="127,33,75,72,72,68,124,29"/>
 <area shape="rect" title=" " alt="" coords="113,79,168,104"/>
 <area shape="poly" title=" " alt="" coords="143,31,143,65,138,65,138,31"/>
-<area shape="rect" title=" " alt="" coords="193,79,342,104"/>
-<area shape="poly" title=" " alt="" coords="162,28,236,69,233,74,160,33"/>
+<area shape="rect" title=" " alt="" coords="192,79,383,104"/>
+<area shape="poly" title=" " alt="" coords="165,28,252,70,250,75,163,33"/>
 </map>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a522cd91df28e8bc50cea84fe1edcb2ff"><td class="memItemLeft" align="right" valign="top"><a id="a522cd91df28e8bc50cea84fe1edcb2ff" name="a522cd91df28e8bc50cea84fe1edcb2ff"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_PALETTE_BWRY</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a522cd91df28e8bc50cea84fe1edcb2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4585148969ab7c12c2e5cec8cd8d029d"><td class="memItemLeft" align="right" valign="top"><a id="a4585148969ab7c12c2e5cec8cd8d029d" name="a4585148969ab7c12c2e5cec8cd8d029d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_COLOURS_BWRY</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a4585148969ab7c12c2e5cec8cd8d029d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9e2d9faeb344fc9722f336a2e46a9c7e"><td class="memItemLeft" align="right" valign="top"><a id="a9e2d9faeb344fc9722f336a2e46a9c7e" name="a9e2d9faeb344fc9722f336a2e46a9c7e"></a>
-Screen_EPD_EXT3&#160;</td><td class="memItemRight" valign="bottom"><b>myScreen</b> (<a class="el" href="../../d2/df5/a00137.html#a758a5dc1cb9a923d9915621f490636eb">eScreen_EPD_EXT3_370</a>, <a class="el" href="../../d2/df5/a00137.html#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a>)</td></tr>
-<tr class="separator:a9e2d9faeb344fc9722f336a2e46a9c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60b9a006f04f98d3f93d1125c9a2cad1"><td class="memItemLeft" align="right" valign="top"><a id="a60b9a006f04f98d3f93d1125c9a2cad1" name="a60b9a006f04f98d3f93d1125c9a2cad1"></a>
+Screen_EPD_EXT3&#160;</td><td class="memItemRight" valign="bottom"><b>myScreen</b> (<a class="el" href="../../d5/db1/a00140.html#adb01ba611e434d40bb81d4bf874fa936">eScreen_EPD_EXT3_154_BWRY</a>, <a class="el" href="../../d5/db1/a00140.html#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a>)</td></tr>
+<tr class="separator:a60b9a006f04f98d3f93d1125c9a2cad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db1/a00197.html#a92d9142cd31b37b7b3944dc8d9c9f454">wait</a> (uint8_t second)</td></tr>
 <tr class="memdesc:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait with countdown.  <br /></td></tr>
 <tr class="separator:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76959ba07cbc5acffa1bd59ee599edf4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db1/a00197.html#a76959ba07cbc5acffa1bd59ee599edf4">displayPalette</a> (bool flag=true)</td></tr>
-<tr class="memdesc:a76959ba07cbc5acffa1bd59ee599edf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Palette test screen.  <br /></td></tr>
-<tr class="separator:a76959ba07cbc5acffa1bd59ee599edf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top"><a id="a4fc01d736fe50cf5b977f755b675f11d" name="a4fc01d736fe50cf5b977f755b675f11d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setup</b> ()</td></tr>
-<tr class="memdesc:a4fc01d736fe50cf5b977f755b675f11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup. <br /></td></tr>
 <tr class="separator:a4fc01d736fe50cf5b977f755b675f11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe461d27b9c48d5921c00d521181f12f"><td class="memItemLeft" align="right" valign="top"><a id="afe461d27b9c48d5921c00d521181f12f" name="afe461d27b9c48d5921c00d521181f12f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>loop</b> ()</td></tr>
@@ -139,47 +145,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>loop</b> ()</td></tr>
 <tr class="separator:afe461d27b9c48d5921c00d521181f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Example of features for basic edition. </p>
+<div class="textblock"><p>Example for Pervasive Displays Library Suite. </p>
 <p>Project Pervasive Displays Library Suite <br  />
  Based on highView technology</p>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>20 Mar 2023 </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>607</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>21 Jun 2023 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>611</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2023 </dd>
 <dd>
 Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</dd></dl>
 <dl class="section see"><dt>See also</dt><dd>ReadMe.txt for references <br  />
 </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a76959ba07cbc5acffa1bd59ee599edf4" name="a76959ba07cbc5acffa1bd59ee599edf4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76959ba07cbc5acffa1bd59ee599edf4">&#9670;&#160;</a></span>displayPalette()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void displayPalette </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>flag</em> = <code>true</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Palette test screen. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">flag</td><td>true = default = perform flush, otherwise no</td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="image">
-<img src="../../T2_PALET.jpg" alt=""/>
-</div>
-  
-</div>
-</div>
 <a id="a92d9142cd31b37b7b3944dc8d9c9f454" name="a92d9142cd31b37b7b3944dc8d9c9f454"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a92d9142cd31b37b7b3944dc8d9c9f454">&#9670;&#160;</a></span>wait()</h2>
 
@@ -212,7 +189,7 @@ Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</dd></d
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_18256282dab5c29a1781983beee4f55d.html">Common_Colours</a></li><li class="navelem"><a class="el" href="../../de/db1/a00197.html">Common_Colours.ino</a></li>
+    <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_e4a923addceec178698f5fefd5aa1a27.html">BWRY_Colours</a></li><li class="navelem"><a class="el" href="../../de/db1/a00197.html">BWRY_Colours.ino</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.9.7 </li>

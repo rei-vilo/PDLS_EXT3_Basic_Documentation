@@ -1,6 +1,8 @@
 var a00255 =
 [
-    [ "Text", "d4/d04/a00255.html#ae22e2048bf2625e15b62fd6f34e8bdee", null ],
-    [ "dDefine", "d4/d04/a00255.html#a50c8fed521e578e20d1f6f1cef395407", null ],
-    [ "draw", "d4/d04/a00255.html#a297f516f564d811b78c4e5c472edc67d", null ]
+    [ "first", "d4/d04/a00255.html#a17f5e4b07589c6fedf9c10719a3ccad0", null ],
+    [ "height", "d4/d04/a00255.html#a63f8837d47ae05b6ae7f446cf379824c", null ],
+    [ "kind", "d4/d04/a00255.html#acbe14f6295f4d4f0e92df32d54a2c105", null ],
+    [ "maxWidth", "d4/d04/a00255.html#ac4b2baeedd0e11a46ed1bc48b2ba672b", null ],
+    [ "number", "d4/d04/a00255.html#a83b66eec3d0f585fcba2521812d8e669", null ]
 ];

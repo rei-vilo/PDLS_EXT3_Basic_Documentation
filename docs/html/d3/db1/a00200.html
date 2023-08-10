@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: Example_Fast_Orientation.ino File Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: Basic_Touch_Draw.ino File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.1.2</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.1.3</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -96,48 +96,45 @@ $(document).ready(function(){initNavTree('d3/db1/a00200.html','../../'); initRes
 <a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">Example_Fast_Orientation.ino File Reference</div></div>
+  <div class="headertitle"><div class="title">Basic_Touch_Draw.ino File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p>Example of features for basic edition.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;Arduino.h&quot;</code><br />
+<code>#include &quot;Wire.h&quot;</code><br />
 <code>#include &quot;SPI.h&quot;</code><br />
-<code>#include &quot;PDLS_EXT3_Basic_Fast.h&quot;</code><br />
+<code>#include &quot;PDLS_EXT3_Basic_Touch.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Example_Fast_Orientation.ino:</div>
+Include dependency graph for Basic_Touch_Draw.ino:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/de3/a00201.png" border="0" usemap="#aExample__Fast__Orientation_8ino" alt=""/></div>
-<map name="aExample__Fast__Orientation_8ino" id="aExample__Fast__Orientation_8ino">
-<area shape="rect" title="Example of features for basic edition." alt="" coords="33,5,249,31"/>
+<div class="center"><img src="../../dd/de3/a00201.png" border="0" usemap="#aBasic__Touch__Draw_8ino" alt=""/></div>
+<map name="aBasic__Touch__Draw_8ino" id="aBasic__Touch__Draw_8ino">
+<area shape="rect" title="Example of features for basic edition." alt="" coords="63,5,229,31"/>
 <area shape="rect" title=" " alt="" coords="5,79,89,104"/>
-<area shape="poly" title=" " alt="" coords="127,33,75,72,72,68,124,29"/>
-<area shape="rect" title=" " alt="" coords="113,79,168,104"/>
-<area shape="poly" title=" " alt="" coords="143,31,143,65,138,65,138,31"/>
-<area shape="rect" title=" " alt="" coords="192,79,375,104"/>
-<area shape="poly" title=" " alt="" coords="165,28,249,70,247,75,162,33"/>
+<area shape="poly" title=" " alt="" coords="132,33,76,73,73,68,129,29"/>
+<area shape="rect" title=" " alt="" coords="114,79,178,104"/>
+<area shape="poly" title=" " alt="" coords="149,31,149,65,143,65,143,31"/>
+<area shape="rect" title=" " alt="" coords="203,79,257,104"/>
+<area shape="poly" title=" " alt="" coords="161,29,207,67,204,72,158,33"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ad73c29a578c9c2f1ef8cdfa95a5f4173"><td class="memItemLeft" align="right" valign="top"><a id="ad73c29a578c9c2f1ef8cdfa95a5f4173" name="ad73c29a578c9c2f1ef8cdfa95a5f4173"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_FAST_ORIENTATION</b>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:ad73c29a578c9c2f1ef8cdfa95a5f4173"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13c617f32c0c4c4b6e91164ce408da43"><td class="memItemLeft" align="right" valign="top"><a id="a13c617f32c0c4c4b6e91164ce408da43" name="a13c617f32c0c4c4b6e91164ce408da43"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_TOUCH</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a13c617f32c0c4c4b6e91164ce408da43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db1/a00200.html#a92d9142cd31b37b7b3944dc8d9c9f454">wait</a> (uint8_t second)</td></tr>
 <tr class="memdesc:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait with countdown.  <br /></td></tr>
 <tr class="separator:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bec8a8883209b74549c344fa2a4375c"><td class="memItemLeft" align="right" valign="top"><a id="a3bec8a8883209b74549c344fa2a4375c" name="a3bec8a8883209b74549c344fa2a4375c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>flush_ms</b> ()</td></tr>
-<tr class="memdesc:a3bec8a8883209b74549c344fa2a4375c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush screen and display time. <br /></td></tr>
-<tr class="separator:a3bec8a8883209b74549c344fa2a4375c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40a20ff25d37f5d28b3903a044da7be1"><td class="memItemLeft" align="right" valign="top"><a id="a40a20ff25d37f5d28b3903a044da7be1" name="a40a20ff25d37f5d28b3903a044da7be1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>displayFastOrientation</b> ()</td></tr>
-<tr class="separator:a40a20ff25d37f5d28b3903a044da7be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fdd7aa6b76c30a2df98d750cf7a8420"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db1/a00200.html#a0fdd7aa6b76c30a2df98d750cf7a8420">displayTouch</a> (bool flag=true)</td></tr>
+<tr class="memdesc:a0fdd7aa6b76c30a2df98d750cf7a8420"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimal test screen.  <br /></td></tr>
+<tr class="separator:a0fdd7aa6b76c30a2df98d750cf7a8420"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top"><a id="a4fc01d736fe50cf5b977f755b675f11d" name="a4fc01d736fe50cf5b977f755b675f11d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setup</b> ()</td></tr>
 <tr class="memdesc:a4fc01d736fe50cf5b977f755b675f11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup. <br /></td></tr>
@@ -149,9 +146,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>loop</b> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:acceee9c294c1e754cd495776c37845b1"><td class="memItemLeft" align="right" valign="top"><a id="acceee9c294c1e754cd495776c37845b1" name="acceee9c294c1e754cd495776c37845b1"></a>
-<a class="el" href="../../d1/dd4/a00267.html">Screen_EPD_EXT3_Fast</a>&#160;</td><td class="memItemRight" valign="bottom"><b>myScreen</b> (<a class="el" href="../../d2/df5/a00137.html#a57429d36b0d5992d29ec92bf6b856c60">eScreen_EPD_EXT3_271_09_Fast</a>, <a class="el" href="../../d2/df5/a00137.html#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a>)</td></tr>
-<tr class="separator:acceee9c294c1e754cd495776c37845b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22c6bc7612ec32ed7a6e65e8e1966a21"><td class="memItemLeft" align="right" valign="top"><a id="a22c6bc7612ec32ed7a6e65e8e1966a21" name="a22c6bc7612ec32ed7a6e65e8e1966a21"></a>
+<a class="el" href="../../d2/d82/a00279.html">Screen_EPD_EXT3_Fast</a>&#160;</td><td class="memItemRight" valign="bottom"><b>myScreen</b> (<a class="el" href="../../d5/db1/a00140.html#aec9ddd241fb9597b63519a0775fafe72">eScreen_EPD_EXT3_370_0C_Touch</a>, <a class="el" href="../../d5/db1/a00140.html#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a>)</td></tr>
+<tr class="separator:a22c6bc7612ec32ed7a6e65e8e1966a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Example of features for basic edition. </p>
@@ -161,10 +158,36 @@ Variables</h2></td></tr>
 <dl class="section version"><dt>Version</dt><dd>607</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2023 </dd>
 <dd>
-Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</dd></dl>
+CC = BY SA NC</dd></dl>
 <dl class="section see"><dt>See also</dt><dd>ReadMe.txt for references <br  />
 </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
+<a id="a0fdd7aa6b76c30a2df98d750cf7a8420" name="a0fdd7aa6b76c30a2df98d750cf7a8420"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fdd7aa6b76c30a2df98d750cf7a8420">&#9670;&#160;</a></span>displayTouch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void displayTouch </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>flag</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Minimal test screen. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flag</td><td>true=default=perform flush, otherwise no </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a92d9142cd31b37b7b3944dc8d9c9f454" name="a92d9142cd31b37b7b3944dc8d9c9f454"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a92d9142cd31b37b7b3944dc8d9c9f454">&#9670;&#160;</a></span>wait()</h2>
 
@@ -197,7 +220,7 @@ Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</dd></d
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_368d6981d269dbf78b5703ce50b19cf7.html">Example_Fast_Orientation</a></li><li class="navelem"><a class="el" href="../../d3/db1/a00200.html">Example_Fast_Orientation.ino</a></li>
+    <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_3b1a1cc510f7263b17e63c8d196e59fd.html">Basic_Touch_Draw</a></li><li class="navelem"><a class="el" href="../../d3/db1/a00200.html">Basic_Touch_Draw.ino</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.9.7 </li>

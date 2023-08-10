@@ -1,0 +1,35 @@
+<map id="hV_Screen_Buffer.h" name="hV_Screen_Buffer.h">
+<area shape="rect" id="Node000001" title="Class Generic LCD with buffer class library." alt="" coords="173,5,320,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="230,299,314,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="250,30,272,285,267,285,245,31"/>
+<area shape="rect" id="Node000003" href="$d5/db1/a00140.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="671,225,817,251"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="320,16,510,21,628,27,749,38,867,55,973,78,1018,93,1058,110,1090,129,1114,150,1120,165,1114,179,1095,194,1068,206,995,223,911,233,830,238,830,233,910,228,994,218,1066,201,1092,189,1110,176,1115,165,1110,154,1087,133,1055,114,1016,98,971,84,866,60,749,44,627,32,510,26,320,22"/>
+<area shape="rect" id="Node000006" href="$da/d1e/a00149.html" title="Class Library for 5&#45;6&#45;5 coded colours." alt="" coords="5,225,136,251"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="227,33,195,52,158,79,121,113,90,153,79,182,74,212,69,211,74,181,86,151,117,110,155,75,192,48,224,29"/>
+<area shape="rect" id="Node000007" href="$d5/dcb/a00170.html" title="Utilities for highView Library Suite." alt="" coords="100,152,209,177"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="241,33,172,142,167,139,237,30"/>
+<area shape="rect" id="Node000008" href="$dc/dfe/a00125.html" title="hV_Font_Terminal" alt="" coords="492,79,641,104"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="299,28,502,73,501,78,298,33"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="672,253,328,304,328,299,671,248"/>
+<area shape="rect" id="Node000004" href="$d7/dce/a00143.html" title="Constants for Pervasive Displays Library Suite." alt="" coords="683,299,805,324"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="747,251,747,285,741,285,741,251"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="709,372,779,397"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="747,324,747,358,741,358,741,324"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="104,248,227,291,226,297,102,253"/>
+<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="166,176,256,286,252,290,162,179"/>
+<area shape="poly" id="edge11_Node000008_Node000002" title=" " alt="" coords="492,105,394,125,352,139,324,154,302,184,287,219,279,255,275,285,270,285,274,254,282,218,297,181,321,150,350,134,392,120,491,100"/>
+<area shape="poly" id="edge12_Node000008_Node000003" title=" " alt="" coords="642,92,674,98,707,109,738,126,762,150,769,166,769,183,760,214,755,212,764,182,764,167,758,154,734,131,705,114,673,104,641,98"/>
+<area shape="poly" id="edge13_Node000008_Node000007" title=" " alt="" coords="501,107,223,154,222,149,500,101"/>
+<area shape="rect" id="Node000009" href="$d3/df8/a00155.html" title="Font structure." alt="" coords="661,152,747,177"/>
+<area shape="poly" id="edge14_Node000008_Node000009" title=" " alt="" coords="590,102,671,143,668,148,588,106"/>
+<area shape="rect" id="Node000010" href="$dc/de6/a00167.html" title="Font Terminal 6 x 8." alt="" coords="823,152,945,177"/>
+<area shape="poly" id="edge17_Node000008_Node000010" title=" " alt="" coords="618,101,820,146,819,152,617,107"/>
+<area shape="rect" id="Node000011" href="$d7/d9a/a00152.html" title="Font Terminal 8 x 12." alt="" coords="969,152,1100,177"/>
+<area shape="poly" id="edge18_Node000008_Node000011" title=" " alt="" coords="642,101,956,149,955,154,641,107"/>
+<area shape="rect" id="Node000012" href="$d2/df5/a00137.html" title="Font Terminal 12 x 16." alt="" coords="335,152,473,177"/>
+<area shape="poly" id="edge19_Node000008_Node000012" title=" " alt="" coords="542,106,444,149,442,144,539,102"/>
+<area shape="rect" id="Node000013" href="$d6/d7d/a00161.html" title="Font Terminal 16 x 24." alt="" coords="497,152,636,177"/>
+<area shape="poly" id="edge20_Node000008_Node000013" title=" " alt="" coords="569,104,569,138,564,138,564,104"/>
+<area shape="poly" id="edge15_Node000009_Node000002" title=" " alt="" coords="671,180,320,297,318,292,669,175"/>
+<area shape="poly" id="edge16_Node000009_Node000003" title=" " alt="" coords="713,176,733,212,728,215,708,179"/>
+</map>

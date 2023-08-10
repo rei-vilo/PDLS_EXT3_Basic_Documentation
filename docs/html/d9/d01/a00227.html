@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: coordinates_s Struct Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: Example_Fast_Speed.ino File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.1.2</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.1.3</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -93,30 +93,117 @@ $(document).ready(function(){initNavTree('d9/d01/a00227.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Data Fields</a>  </div>
-  <div class="headertitle"><div class="title">coordinates_s Struct Reference</div></div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">Example_Fast_Speed.ino File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Data Fields</h2></td></tr>
-<tr class="memitem:adb4176078dd6bae78b14fadd23d58938"><td class="memItemLeft" align="right" valign="top"><a id="adb4176078dd6bae78b14fadd23d58938" name="adb4176078dd6bae78b14fadd23d58938"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>i</b></td></tr>
-<tr class="separator:adb4176078dd6bae78b14fadd23d58938"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36071aa1dd3b130d8241ce816226ddfc"><td class="memItemLeft" align="right" valign="top"><a id="a36071aa1dd3b130d8241ce816226ddfc" name="a36071aa1dd3b130d8241ce816226ddfc"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>j</b></td></tr>
-<tr class="separator:a36071aa1dd3b130d8241ce816226ddfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+
+<p>Protocol for speed test.  
+<a href="#details">More...</a></p>
+<div class="textblock"><code>#include &quot;Arduino.h&quot;</code><br />
+<code>#include &quot;SPI.h&quot;</code><br />
+<code>#include &quot;PDLS_EXT3_Basic_Fast.h&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for Example_Fast_Speed.ino:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../de/dc2/a00228.png" border="0" usemap="#aExample__Fast__Speed_8ino" alt=""/></div>
+<map name="aExample__Fast__Speed_8ino" id="aExample__Fast__Speed_8ino">
+<area shape="rect" title="Protocol for speed test." alt="" coords="49,5,232,31"/>
+<area shape="rect" title=" " alt="" coords="5,79,89,104"/>
+<area shape="poly" title=" " alt="" coords="127,33,75,72,72,68,124,29"/>
+<area shape="rect" title=" " alt="" coords="113,79,168,104"/>
+<area shape="poly" title=" " alt="" coords="143,31,143,65,138,65,138,31"/>
+<area shape="rect" title=" " alt="" coords="192,79,375,104"/>
+<area shape="poly" title=" " alt="" coords="165,28,249,70,247,75,162,33"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d01/a00227.html#a92d9142cd31b37b7b3944dc8d9c9f454">wait</a> (uint8_t second)</td></tr>
+<tr class="memdesc:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait with countdown.  <br /></td></tr>
+<tr class="separator:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ead2ecbed56fc3642b497dd06184234"><td class="memItemLeft" align="right" valign="top"><a id="a5ead2ecbed56fc3642b497dd06184234" name="a5ead2ecbed56fc3642b497dd06184234"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>performTest</b> ()</td></tr>
+<tr class="memdesc:a5ead2ecbed56fc3642b497dd06184234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform the speed test. <br /></td></tr>
+<tr class="separator:a5ead2ecbed56fc3642b497dd06184234"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top"><a id="a4fc01d736fe50cf5b977f755b675f11d" name="a4fc01d736fe50cf5b977f755b675f11d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setup</b> ()</td></tr>
+<tr class="memdesc:a4fc01d736fe50cf5b977f755b675f11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup. <br /></td></tr>
+<tr class="separator:a4fc01d736fe50cf5b977f755b675f11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe461d27b9c48d5921c00d521181f12f"><td class="memItemLeft" align="right" valign="top"><a id="afe461d27b9c48d5921c00d521181f12f" name="afe461d27b9c48d5921c00d521181f12f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>loop</b> ()</td></tr>
+<tr class="memdesc:afe461d27b9c48d5921c00d521181f12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loop, empty. <br /></td></tr>
+<tr class="separator:afe461d27b9c48d5921c00d521181f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a0501e94e1535191b84446dc822ff80cb"><td class="memItemLeft" align="right" valign="top"><a id="a0501e94e1535191b84446dc822ff80cb" name="a0501e94e1535191b84446dc822ff80cb"></a>
+<a class="el" href="../../d2/d82/a00279.html">Screen_EPD_EXT3_Fast</a>&#160;</td><td class="memItemRight" valign="bottom"><b>myScreen</b> (<a class="el" href="../../d5/db1/a00140.html#ad8d8f9e6de88fbcba034ef0f476f0f16">eScreen_EPD_EXT3_370_0C_Fast</a>, <a class="el" href="../../d5/db1/a00140.html#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a>)</td></tr>
+<tr class="separator:a0501e94e1535191b84446dc822ff80cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa44cbf8633096f92b229a6420e8e175e"><td class="memItemLeft" align="right" valign="top"><a id="aa44cbf8633096f92b229a6420e8e175e" name="aa44cbf8633096f92b229a6420e8e175e"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fontVery</b></td></tr>
+<tr class="separator:aa44cbf8633096f92b229a6420e8e175e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad570950d5f04e84644e4f86ee3d6b047"><td class="memItemLeft" align="right" valign="top"><a id="ad570950d5f04e84644e4f86ee3d6b047" name="ad570950d5f04e84644e4f86ee3d6b047"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fontLarge</b></td></tr>
+<tr class="separator:ad570950d5f04e84644e4f86ee3d6b047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d22cfc629e971be8737006ba4b8201e"><td class="memItemLeft" align="right" valign="top"><a id="a5d22cfc629e971be8737006ba4b8201e" name="a5d22cfc629e971be8737006ba4b8201e"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fontMedium</b></td></tr>
+<tr class="separator:a5d22cfc629e971be8737006ba4b8201e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8db9c333bf3940fadb38e15a8ffa0378"><td class="memItemLeft" align="right" valign="top"><a id="a8db9c333bf3940fadb38e15a8ffa0378" name="a8db9c333bf3940fadb38e15a8ffa0378"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fontSmall</b></td></tr>
+<tr class="separator:a8db9c333bf3940fadb38e15a8ffa0378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aeba73fd25d5e79e3647ca43776131d"><td class="memItemLeft" align="right" valign="top"><a id="a9aeba73fd25d5e79e3647ca43776131d" name="a9aeba73fd25d5e79e3647ca43776131d"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>myOrientation</b> = <a class="el" href="../../d7/dce/a00143.html#accc06995e9834c793d2cc9e96ded0560">ORIENTATION_LANDSCAPE</a></td></tr>
+<tr class="separator:a9aeba73fd25d5e79e3647ca43776131d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="../../de/d79/a00203.html">Basic_Touch_TicTacToe.ino</a></li>
-</ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Protocol for speed test. </p>
+<p>Project Pervasive Displays Library Suite <br  />
+ Based on highView technology</p>
+<dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>21 Dec 2022 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>604</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2023 </dd>
+<dd>
+All Rights Reserved</dd></dl>
+<dl class="section see"><dt>See also</dt><dd>ReadMe.md for references <br  />
+ Release 542: First release Release 604: Global and fast variants </dd></dl>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a92d9142cd31b37b7b3944dc8d9c9f454" name="a92d9142cd31b37b7b3944dc8d9c9f454"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92d9142cd31b37b7b3944dc8d9c9f454">&#9670;&#160;</a></span>wait()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wait </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>second</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Wait with countdown. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">second</td><td>duration, s </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d9/d01/a00227.html">coordinates_s</a></li>
+    <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_212bdaace0f5763736572fd22b028a82.html">Example_Fast_Speed</a></li><li class="navelem"><a class="el" href="../../d9/d01/a00227.html">Example_Fast_Speed.ino</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.9.7 </li>

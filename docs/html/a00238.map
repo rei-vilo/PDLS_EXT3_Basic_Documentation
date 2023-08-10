@@ -1,9 +1,0 @@
-<map id="hV_Configuration.h" name="hV_Configuration.h">
-<area shape="rect" id="node1" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="36,5,181,31"/>
-<area shape="rect" id="node2" href="$a00221.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT&#45;Touch boards." alt="" coords="37,299,188,324"/>
-<area shape="rect" id="node3" href="$a00185.html" title="Basic GUI with text and button." alt="" coords="127,372,210,397"/>
-<area shape="rect" id="node5" href="$a00212.html" title="Font structure." alt="" coords="65,79,152,104"/>
-<area shape="rect" id="node6" href="$a00203.html" title="hV_Font_Terminal" alt="" coords="65,152,214,177"/>
-<area shape="rect" id="node7" href="$a00194.html" title="Class Generic LCD with buffer class library." alt="" coords="39,225,186,251"/>
-<area shape="rect" id="node4" href="$a00164.html" title="Example of features for Evaluation edition." alt="" coords="91,445,247,471"/>
-</map>
