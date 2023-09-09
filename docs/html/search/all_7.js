@@ -9,5 +9,5 @@ var searchData=
   ['green_6',['green',['../d6/d82/a00243.html#aff5db0cfd72cf75dada2d603b359ded4',1,'hV_Colours565']]],
   ['grey_7',['grey',['../d6/d82/a00243.html#a44228b3f14f988ea39d6c7b085446d90',1,'hV_Colours565']]],
   ['gtext_8',['gText',['../d3/d5e/a00275.html#a6081abd88963fc74fb1dc68968b857f5',1,'hV_Screen_Buffer']]],
-  ['gui_9',['GUI',['../df/da9/a00263.html',1,'GUI'],['../df/da9/a00263.html#a802f0f363d5c125bb8363fda81e7140b',1,'GUI::GUI()']]]
+  ['gui_9',['gui',['../df/da9/a00263.html',1,'GUI'],['../df/da9/a00263.html#a802f0f363d5c125bb8363fda81e7140b',1,'GUI::GUI()']]]
 ];

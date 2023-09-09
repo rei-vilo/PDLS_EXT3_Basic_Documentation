@@ -8,7 +8,7 @@ var searchData=
   ['terminal6x8e_2eh_5',['Terminal6x8e.h',['../dc/de6/a00167.html',1,'']]],
   ['terminal8e_5ffont_5frelease_6',['TERMINAL8E_FONT_RELEASE',['../d7/d9a/a00152.html#a88f5626ffb335bab69bfe70b793b4cbb',1,'Terminal8x12e.h']]],
   ['terminal8x12e_2eh_7',['Terminal8x12e.h',['../d7/d9a/a00152.html',1,'']]],
-  ['text_8',['Text',['../d1/dd4/a00267.html',1,'Text'],['../d1/dd4/a00267.html#ae22e2048bf2625e15b62fd6f34e8bdee',1,'Text::Text()']]],
+  ['text_8',['text',['../d1/dd4/a00267.html',1,'Text'],['../d1/dd4/a00267.html#ae22e2048bf2625e15b62fd6f34e8bdee',1,'Text::Text()']]],
   ['touch_5fevent_5fmove_9',['TOUCH_EVENT_MOVE',['../d7/dce/a00143.html#a9d95a414d6b61be2ef60d6f6685289ab',1,'hV_Constants.h']]],
   ['touch_5fevent_5fnone_10',['TOUCH_EVENT_NONE',['../d7/dce/a00143.html#addb7ea466d16e54b3ac29e652392bfe7',1,'hV_Constants.h']]],
   ['touch_5fevent_5fpress_11',['TOUCH_EVENT_PRESS',['../d7/dce/a00143.html#a1b58d5fdc01d6f6c5a090e6d31725d36',1,'hV_Constants.h']]],

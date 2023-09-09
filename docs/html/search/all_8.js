@@ -2,7 +2,7 @@ var searchData=
 [
   ['haptics_5fmode_0',['HAPTICS_MODE',['../d5/db1/a00140.html#ac8fd9379451a6d714941f9d07f23f49d',1,'hV_Configuration.h']]],
   ['height_1',['height',['../d4/d04/a00255.html#a63f8837d47ae05b6ae7f446cf379824c',1,'font_s']]],
-  ['hv_5fcolours565_2',['hV_Colours565',['../d6/d82/a00243.html',1,'hV_Colours565'],['../d6/d82/a00243.html#a2dbfd6c8f5d0d804021abceaf84121f6',1,'hV_Colours565::hV_Colours565()']]],
+  ['hv_5fcolours565_2',['hv_colours565',['../d6/d82/a00243.html',1,'hV_Colours565'],['../d6/d82/a00243.html#a2dbfd6c8f5d0d804021abceaf84121f6',1,'hV_Colours565::hV_Colours565()']]],
   ['hv_5fcolours565_2eh_3',['hV_Colours565.h',['../da/d1e/a00149.html',1,'']]],
   ['hv_5fcolours_5frelease_4',['hV_COLOURS_RELEASE',['../da/d1e/a00149.html#ad04b95af5737630651211d49cf779995',1,'hV_Colours565.h']]],
   ['hv_5fconfiguration_2eh_5',['hV_Configuration.h',['../d5/db1/a00140.html',1,'']]],
@@ -17,7 +17,7 @@ var searchData=
   ['hv_5ffont_5fterminal_5frelease_14',['hV_FONT_TERMINAL_RELEASE',['../dc/dfe/a00125.html#a2c1b31917210e8dd59e9d780d3285e12',1,'hV_Font_Terminal.h']]],
   ['hv_5fgui_2eh_15',['hV_GUI.h',['../db/dd9/a00179.html',1,'']]],
   ['hv_5fgui_5fbasic_5frelease_16',['hV_GUI_BASIC_RELEASE',['../db/dd9/a00179.html#a2071496e55eb3c5e00faed997f19654c',1,'hV_GUI.h']]],
-  ['hv_5fscreen_5fbuffer_17',['hV_Screen_Buffer',['../d3/d5e/a00275.html#a556e473029b0a519ba7c3818fbc45023',1,'hV_Screen_Buffer::hV_Screen_Buffer()'],['../d3/d5e/a00275.html',1,'hV_Screen_Buffer']]],
+  ['hv_5fscreen_5fbuffer_17',['hv_screen_buffer',['../d3/d5e/a00275.html#a556e473029b0a519ba7c3818fbc45023',1,'hV_Screen_Buffer::hV_Screen_Buffer()'],['../d3/d5e/a00275.html',1,'hV_Screen_Buffer']]],
   ['hv_5fscreen_5fbuffer_2eh_18',['hV_Screen_Buffer.h',['../d7/d06/a00131.html',1,'']]],
   ['hv_5fscreen_5fbuffer_5frelease_19',['hV_SCREEN_BUFFER_RELEASE',['../d7/d06/a00131.html#a851c703d9610377daa95f386e7505bfb',1,'hV_Screen_Buffer.h']]],
   ['hv_5futilities_2eh_20',['hV_Utilities.h',['../d5/dcb/a00170.html',1,'']]],
