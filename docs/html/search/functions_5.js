@@ -1,8 +1,11 @@
 var searchData=
 [
-  ['flush_0',['flush',['../d3/d5e/a00275.html#ae12eb3335304819c9eb94386371d995e',1,'hV_Screen_Buffer::flush()'],['../d2/d82/a00279.html#a862419392eaf7a4c3a8273a5ee49358e',1,'Screen_EPD_EXT3_Fast::flush()']]],
-  ['flush_5fms_1',['flush_ms',['../d5/ddf/a00224.html#a3bec8a8883209b74549c344fa2a4375c',1,'flush_ms():&#160;Example_Fast_Line.ino'],['../d3/de5/a00209.html#a3bec8a8883209b74549c344fa2a4375c',1,'flush_ms():&#160;Example_Fast_Orientation.ino']]],
-  ['flushmode_2',['flushMode',['../d2/d82/a00279.html#aaa495715100501f4c8a7b56b13eafd2e',1,'Screen_EPD_EXT3_Fast']]],
-  ['fontmax_3',['fontMax',['../d3/d5e/a00275.html#ac4d1e62f53a43b7debe16c84b4fc2b20',1,'hV_Screen_Buffer']]],
-  ['formatstring_4',['formatString',['../d5/dcb/a00170.html#aa405c9a5b808e428554e540028085dd3',1,'hV_Utilities.cpp']]]
+  ['getboard_0',['getBoard',['../d7/d9a/a00152.html#a7c42eef2c68ee9028364f4e4a8f76d29',1,'Basic_Touch_TicTacToe.ino']]],
+  ['getboardpins_1',['getBoardPins',['../d0/d19/a00273.html#aa09c84954d8d248199effc0ab5eeacc2',1,'hV_Board']]],
+  ['getfont_2',['getFont',['../d2/d71/a00309.html#a8112921e076ca85c2c8408dffee3c825',1,'hV_Screen_Buffer']]],
+  ['getorientation_3',['getOrientation',['../d2/d71/a00309.html#a8472556f5a3d34ac049929d574cfa942',1,'hV_Screen_Buffer']]],
+  ['gettouch_4',['getTouch',['../d2/d71/a00309.html#aece3c047af34912d731ac623bec93616',1,'hV_Screen_Buffer']]],
+  ['gettouchinterrupt_5',['getTouchInterrupt',['../d2/d71/a00309.html#a6cf2d4cc063b92ae228fc4c048ddcd75',1,'hV_Screen_Buffer']]],
+  ['gtext_6',['gText',['../d2/d71/a00309.html#a6081abd88963fc74fb1dc68968b857f5',1,'hV_Screen_Buffer']]],
+  ['gui_7',['GUI',['../d6/d82/a00293.html#a802f0f363d5c125bb8363fda81e7140b',1,'GUI']]]
 ];

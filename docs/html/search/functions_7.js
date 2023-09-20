@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['hv_5fcolours565_0',['hV_Colours565',['../d6/d82/a00243.html#a2dbfd6c8f5d0d804021abceaf84121f6',1,'hV_Colours565']]],
-  ['hv_5fscreen_5fbuffer_1',['hV_Screen_Buffer',['../d3/d5e/a00275.html#a556e473029b0a519ba7c3818fbc45023',1,'hV_Screen_Buffer']]]
+  ['invert_0',['invert',['../dd/db3/a00313.html#a5689de6d8a28581fafeff671cd06b6bf',1,'hV_Utilities_EPD']]],
+  ['istouch_1',['isTouch',['../d2/d71/a00309.html#a19bf90368a4167cf6c894f1a2b47861b',1,'hV_Screen_Buffer']]],
+  ['istouchevent_2',['isTouchEvent',['../d2/d71/a00309.html#a0e841a84ee60528a35f99c78162222a1',1,'hV_Screen_Buffer']]]
 ];

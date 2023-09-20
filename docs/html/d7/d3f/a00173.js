@@ -1,4 +1,7 @@
 var a00173 =
 [
-    [ "TERMINAL6E_FONT_RELEASE", "d7/d3f/a00173.html#ae334fa4c1c475b47ca1f6e86589b5510", null ]
+    [ "displayCharacters", "d7/d3f/a00173.html#a05b4a53fae2c90c1c61b9cba27ab7e5f", null ],
+    [ "loop", "d7/d3f/a00173.html#afe461d27b9c48d5921c00d521181f12f", null ],
+    [ "setup", "d7/d3f/a00173.html#a4fc01d736fe50cf5b977f755b675f11d", null ],
+    [ "wait", "d7/d3f/a00173.html#a92d9142cd31b37b7b3944dc8d9c9f454", null ]
 ];

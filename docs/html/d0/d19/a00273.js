@@ -1,6 +1,5 @@
 var a00273 =
 [
-    [ "Text", "d0/d19/a00273.html#ae22e2048bf2625e15b62fd6f34e8bdee", null ],
-    [ "dDefine", "d0/d19/a00273.html#a50c8fed521e578e20d1f6f1cef395407", null ],
-    [ "draw", "d0/d19/a00273.html#a297f516f564d811b78c4e5c472edc67d", null ]
+    [ "hV_Board", "d0/d19/a00273.html#a60a6e929802c94fd41432d2fb098109b", null ],
+    [ "getBoardPins", "d0/d19/a00273.html#aa09c84954d8d248199effc0ab5eeacc2", null ]
 ];

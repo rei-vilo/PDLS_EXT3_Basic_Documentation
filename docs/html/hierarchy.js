@@ -1,17 +1,22 @@
 var hierarchy =
 [
-    [ "coordinates_s", "d0/d27/a00239.html", null ],
-    [ "font_s", "d4/d04/a00255.html", null ],
-    [ "GUI", "df/da9/a00263.html", null ],
-    [ "hV_Colours565", "d6/d82/a00243.html", null ],
-    [ "hV_Font_Terminal", "d0/d2f/a00259.html", [
-      [ "hV_Screen_Buffer", "d3/d5e/a00275.html", [
-        [ "Screen_EPD_EXT3_Fast", "d2/d82/a00279.html", null ]
+    [ "coordinates_s", "d5/d42/a00269.html", null ],
+    [ "font_s", "d3/d58/a00285.html", null ],
+    [ "GUI", "d6/d82/a00293.html", null ],
+    [ "hV_Board", "d0/d19/a00273.html", [
+      [ "hV_Utilities_EPD", "dd/db3/a00313.html", [
+        [ "Screen_EPD_EXT3_Fast", "da/de0/a00317.html", null ]
       ] ]
     ] ],
-    [ "pins_t", "d0/d1f/a00247.html", null ],
-    [ "Text", "d1/dd4/a00267.html", [
-      [ "Button", "dd/d86/a00271.html", null ]
+    [ "hV_Colours565", "d6/d4b/a00277.html", null ],
+    [ "hV_Font_Terminal", "d4/d66/a00289.html", [
+      [ "hV_Screen_Buffer", "d2/d71/a00309.html", [
+        [ "Screen_EPD_EXT3_Fast", "da/de0/a00317.html", null ]
+      ] ]
     ] ],
-    [ "width_s", "d3/d1a/a00251.html", null ]
+    [ "pins_t", "d3/d07/a00305.html", null ],
+    [ "Text", "d3/d4a/a00297.html", [
+      [ "Button", "da/d50/a00301.html", null ]
+    ] ],
+    [ "width_s", "d2/d04/a00281.html", null ]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: Example_Fast_Speed.ino File Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: hV_HAL_Peripherals.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.1.3</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;7.0.0</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -93,117 +93,120 @@ $(document).ready(function(){initNavTree('d7/d40/a00236.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">Example_Fast_Speed.ino File Reference</div></div>
+<a href="#define-members">Macros</a>  </div>
+  <div class="headertitle"><div class="title">hV_HAL_Peripherals.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Protocol for speed test.  
+<p>Light hardware abstraction layer for peripherals.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;Arduino.h&quot;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdarg.h&gt;</code><br />
 <code>#include &quot;SPI.h&quot;</code><br />
-<code>#include &quot;PDLS_EXT3_Basic_Fast.h&quot;</code><br />
+<code>#include &quot;Wire.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Example_Fast_Speed.ino:</div>
+Include dependency graph for hV_HAL_Peripherals.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d4/d08/a00237.png" border="0" usemap="#aExample__Fast__Speed_8ino" alt=""/></div>
-<map name="aExample__Fast__Speed_8ino" id="aExample__Fast__Speed_8ino">
-<area shape="rect" title="Protocol for speed test." alt="" coords="49,5,232,31"/>
+<div class="center"><img src="../../d4/d08/a00237.png" border="0" usemap="#ahV__HAL__Peripherals_8h" alt=""/></div>
+<map name="ahV__HAL__Peripherals_8h" id="ahV__HAL__Peripherals_8h">
+<area shape="rect" title="Light hardware abstraction layer for peripherals." alt="" coords="207,5,371,31"/>
 <area shape="rect" title=" " alt="" coords="5,79,89,104"/>
-<area shape="poly" title=" " alt="" coords="127,33,75,72,72,68,124,29"/>
-<area shape="rect" title=" " alt="" coords="113,79,168,104"/>
-<area shape="poly" title=" " alt="" coords="143,31,143,65,138,65,138,31"/>
-<area shape="rect" title=" " alt="" coords="192,79,375,104"/>
-<area shape="poly" title=" " alt="" coords="165,28,249,70,247,75,162,33"/>
+<area shape="poly" title=" " alt="" coords="251,33,101,77,99,72,249,28"/>
+<area shape="rect" title=" " alt="" coords="113,79,184,104"/>
+<area shape="poly" title=" " alt="" coords="267,33,185,75,182,70,265,28"/>
+<area shape="rect" title=" " alt="" coords="209,79,275,104"/>
+<area shape="poly" title=" " alt="" coords="283,32,259,69,255,66,279,30"/>
+<area shape="rect" title=" " alt="" coords="299,79,374,104"/>
+<area shape="poly" title=" " alt="" coords="299,30,324,66,319,69,294,33"/>
+<area shape="rect" title=" " alt="" coords="399,79,453,104"/>
+<area shape="poly" title=" " alt="" coords="312,28,393,70,390,75,310,33"/>
+<area shape="rect" title=" " alt="" coords="478,79,542,104"/>
+<area shape="poly" title=" " alt="" coords="325,28,466,73,464,78,323,33"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d2e/a00238.png" border="0" usemap="#ahV__HAL__Peripherals_8hdep" alt=""/></div>
+<map name="ahV__HAL__Peripherals_8hdep" id="ahV__HAL__Peripherals_8hdep">
+<area shape="rect" title="Light hardware abstraction layer for peripherals." alt="" coords="285,5,449,31"/>
+<area shape="rect" href="../../d1/da8/a00230.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="493,372,643,397"/>
+<area shape="poly" title=" " alt="" coords="463,24,590,39,727,66,787,84,836,106,869,132,878,147,881,163,881,240,875,276,857,305,830,329,797,348,759,362,720,372,644,383,643,378,719,367,758,357,795,343,827,325,853,302,870,274,876,239,876,164,873,149,865,135,833,110,785,89,725,71,590,45,462,29"/>
+<area shape="rect" href="../../dc/d57/a00194.html" title="Basic GUI with text and button." alt="" coords="392,445,475,471"/>
+<area shape="poly" title=" " alt="" coords="271,30,140,49,83,63,45,81,26,99,15,116,9,137,8,163,8,312,11,326,19,340,52,364,100,386,159,405,287,433,392,449,392,454,286,438,158,410,98,391,49,369,16,343,6,328,3,313,3,163,4,136,10,114,22,95,43,76,82,58,139,43,271,25"/>
+<area shape="rect" href="../../d0/d27/a00239.html" title="Driver for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="695,152,791,177"/>
+<area shape="poly" title=" " alt="" coords="415,33,538,76,717,149,715,154,536,81,414,38"/>
+<area shape="rect" href="../../da/d15/a00188.html" title="Driver for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="562,225,705,251"/>
+<area shape="poly" title=" " alt="" coords="454,30,551,49,656,76,748,110,782,129,805,150,812,166,811,181,802,193,788,203,750,219,705,230,704,224,748,214,786,199,798,189,806,179,807,167,801,154,779,133,746,115,655,81,550,55,453,36"/>
+<area shape="rect" href="../../d9/dd0/a00191.html" title="Class Library for 5&#45;6&#45;5 coded colours." alt="" coords="93,79,224,104"/>
+<area shape="poly" title=" " alt="" coords="321,38,193,81,191,76,319,33"/>
+<area shape="rect" href="../../de/d79/a00203.html" title="Generic buffered screen class library." alt="" coords="199,299,345,324"/>
+<area shape="poly" title=" " alt="" coords="271,29,214,36,158,47,112,62,95,71,83,81,69,93,55,102,44,110,38,121,39,136,51,161,77,198,121,249,139,265,160,278,206,296,204,301,158,283,136,270,117,253,73,201,46,164,34,138,32,119,40,107,52,98,66,89,80,77,92,66,110,57,157,42,213,31,271,24"/>
+<area shape="rect" href="../../d7/d03/a00254.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="350,79,495,104"/>
+<area shape="poly" title=" " alt="" coords="387,40,416,77,412,80,382,43"/>
+<area shape="rect" href="../../dd/d52/a00221.html" title="Font structure." alt="" coords="197,152,283,177"/>
+<area shape="poly" title=" " alt="" coords="349,43,252,154,248,150,345,40"/>
+<area shape="rect" href="../../dd/dc1/a00212.html" title="hV_Font_Terminal" alt="" coords="145,225,295,251"/>
+<area shape="poly" title=" " alt="" coords="339,41,247,103,206,134,186,153,183,172,188,191,211,223,206,226,183,193,178,172,182,151,203,130,244,99,336,36"/>
+<area shape="rect" href="../../d6/de1/a00233.html" title="Utilities for highView Library Suite." alt="" coords="511,152,620,177"/>
+<area shape="poly" title=" " alt="" coords="424,33,467,51,508,77,527,95,542,115,562,151,558,153,537,118,523,98,505,81,465,55,422,37"/>
+<area shape="poly" title=" " alt="" coords="536,406,457,447,454,443,533,401"/>
+<area shape="rect" href="../../dc/de6/a00167.html" title="Example of features for Evaluation edition." alt="" coords="355,519,511,544"/>
+<area shape="poly" title=" " alt="" coords="436,484,436,519,431,519,431,484"/>
+<area shape="poly" title=" " alt="" coords="742,192,734,222,720,252,689,292,652,326,588,374,585,370,649,322,685,288,715,249,729,220,736,190"/>
+<area shape="poly" title=" " alt="" coords="715,187,653,227,650,223,712,183"/>
+<area shape="poly" title=" " alt="" coords="625,265,576,373,571,371,620,262"/>
+<area shape="poly" title=" " alt="" coords="148,117,135,146,126,181,124,217,128,233,136,249,150,266,167,279,208,296,206,301,165,283,146,269,131,252,123,235,119,217,120,180,130,144,143,115"/>
+<area shape="poly" title=" " alt="" coords="333,325,521,369,519,374,332,330"/>
+<area shape="poly" title=" " alt="" coords="437,115,565,371,560,373,432,117"/>
+<area shape="poly" title=" " alt="" coords="426,118,436,445,430,445,421,118"/>
+<area shape="poly" title=" " alt="" coords="488,104,695,150,694,155,487,110"/>
+<area shape="poly" title=" " alt="" coords="510,104,584,123,615,135,634,150,643,169,645,190,640,225,635,224,640,190,638,171,630,154,612,140,583,128,508,109"/>
+<area shape="poly" title=" " alt="" coords="409,117,282,300,278,297,404,114"/>
+<area shape="poly" title=" " alt="" coords="382,111,271,154,269,149,380,106"/>
+<area shape="poly" title=" " alt="" coords="397,114,238,227,235,223,394,110"/>
+<area shape="poly" title=" " alt="" coords="236,191,226,226,221,224,230,190"/>
+<area shape="poly" title=" " alt="" coords="239,260,266,297,261,300,234,263"/>
+<area shape="poly" title=" " alt="" coords="588,185,624,223,620,227,584,189"/>
+<area shape="poly" title=" " alt="" coords="531,186,296,301,294,296,529,181"/>
+<area shape="poly" title=" " alt="" coords="498,183,276,228,275,223,497,177"/>
 </map>
 </div>
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d40/a00236.html#a92d9142cd31b37b7b3944dc8d9c9f454">wait</a> (uint8_t second)</td></tr>
-<tr class="memdesc:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait with countdown.  <br /></td></tr>
-<tr class="separator:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ead2ecbed56fc3642b497dd06184234"><td class="memItemLeft" align="right" valign="top"><a id="a5ead2ecbed56fc3642b497dd06184234" name="a5ead2ecbed56fc3642b497dd06184234"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>performTest</b> ()</td></tr>
-<tr class="memdesc:a5ead2ecbed56fc3642b497dd06184234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform the speed test. <br /></td></tr>
-<tr class="separator:a5ead2ecbed56fc3642b497dd06184234"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top"><a id="a4fc01d736fe50cf5b977f755b675f11d" name="a4fc01d736fe50cf5b977f755b675f11d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setup</b> ()</td></tr>
-<tr class="memdesc:a4fc01d736fe50cf5b977f755b675f11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup. <br /></td></tr>
-<tr class="separator:a4fc01d736fe50cf5b977f755b675f11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe461d27b9c48d5921c00d521181f12f"><td class="memItemLeft" align="right" valign="top"><a id="afe461d27b9c48d5921c00d521181f12f" name="afe461d27b9c48d5921c00d521181f12f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>loop</b> ()</td></tr>
-<tr class="memdesc:afe461d27b9c48d5921c00d521181f12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loop, empty. <br /></td></tr>
-<tr class="separator:afe461d27b9c48d5921c00d521181f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a0501e94e1535191b84446dc822ff80cb"><td class="memItemLeft" align="right" valign="top"><a id="a0501e94e1535191b84446dc822ff80cb" name="a0501e94e1535191b84446dc822ff80cb"></a>
-<a class="el" href="../../d3/d58/a00285.html">Screen_EPD_EXT3_Fast</a>&#160;</td><td class="memItemRight" valign="bottom"><b>myScreen</b> (<a class="el" href="../../d9/db6/a00146.html#ad8d8f9e6de88fbcba034ef0f476f0f16">eScreen_EPD_EXT3_370_0C_Fast</a>, <a class="el" href="../../d9/db6/a00146.html#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a>)</td></tr>
-<tr class="separator:a0501e94e1535191b84446dc822ff80cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa44cbf8633096f92b229a6420e8e175e"><td class="memItemLeft" align="right" valign="top"><a id="aa44cbf8633096f92b229a6420e8e175e" name="aa44cbf8633096f92b229a6420e8e175e"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fontVery</b></td></tr>
-<tr class="separator:aa44cbf8633096f92b229a6420e8e175e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad570950d5f04e84644e4f86ee3d6b047"><td class="memItemLeft" align="right" valign="top"><a id="ad570950d5f04e84644e4f86ee3d6b047" name="ad570950d5f04e84644e4f86ee3d6b047"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fontLarge</b></td></tr>
-<tr class="separator:ad570950d5f04e84644e4f86ee3d6b047"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d22cfc629e971be8737006ba4b8201e"><td class="memItemLeft" align="right" valign="top"><a id="a5d22cfc629e971be8737006ba4b8201e" name="a5d22cfc629e971be8737006ba4b8201e"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fontMedium</b></td></tr>
-<tr class="separator:a5d22cfc629e971be8737006ba4b8201e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8db9c333bf3940fadb38e15a8ffa0378"><td class="memItemLeft" align="right" valign="top"><a id="a8db9c333bf3940fadb38e15a8ffa0378" name="a8db9c333bf3940fadb38e15a8ffa0378"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>fontSmall</b></td></tr>
-<tr class="separator:a8db9c333bf3940fadb38e15a8ffa0378"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9aeba73fd25d5e79e3647ca43776131d"><td class="memItemLeft" align="right" valign="top"><a id="a9aeba73fd25d5e79e3647ca43776131d" name="a9aeba73fd25d5e79e3647ca43776131d"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>myOrientation</b> = <a class="el" href="../../da/d1e/a00149.html#accc06995e9834c793d2cc9e96ded0560">ORIENTATION_LANDSCAPE</a></td></tr>
-<tr class="separator:a9aeba73fd25d5e79e3647ca43776131d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a946da185296da9a5250179b0628882d4"><td class="memItemLeft" align="right" valign="top"><a id="a946da185296da9a5250179b0628882d4" name="a946da185296da9a5250179b0628882d4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>hV_HAL_PERIPHERALS_RELEASE</b>&#160;&#160;&#160;700</td></tr>
+<tr class="memdesc:a946da185296da9a5250179b0628882d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release. <br /></td></tr>
+<tr class="separator:a946da185296da9a5250179b0628882d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Protocol for speed test. </p>
+<div class="textblock"><p>Light hardware abstraction layer for peripherals. </p>
 <p>Project Pervasive Displays Library Suite <br  />
  Based on highView technology</p>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>21 Dec 2022 </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>604</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>21 Sep 2023 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>700</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2023 </dd>
 <dd>
-All Rights Reserved</dd></dl>
-<dl class="section see"><dt>See also</dt><dd>ReadMe.md for references <br  />
- Release 542: First release Release 604: Global and fast variants </dd></dl>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a id="a92d9142cd31b37b7b3944dc8d9c9f454" name="a92d9142cd31b37b7b3944dc8d9c9f454"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92d9142cd31b37b7b3944dc8d9c9f454">&#9670;&#160;</a></span>wait()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wait </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>second</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Wait with countdown. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">second</td><td>duration, s </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-</div><!-- contents -->
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</dd></dl>
+<p>The highView Library Suite is shared under the Creative Commons licence Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).</p>
+<ul>
+<li>Basic edition: for hobbyists and for basic usage <br  />
+ Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</li>
+</ul>
+<dl class="section see"><dt>See also</dt><dd><a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></dd></dl>
+<p><br  />
+ Consider the Evaluation or Commercial editions for professionals or organisations and for commercial usage </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_212bdaace0f5763736572fd22b028a82.html">Example_Fast_Speed</a></li><li class="navelem"><a class="el" href="../../d7/d40/a00236.html">Example_Fast_Speed.ino</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../d7/d40/a00236.html">hV_HAL_Peripherals.h</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.9.7 </li>

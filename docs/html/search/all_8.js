@@ -1,25 +1,7 @@
 var searchData=
 [
-  ['haptics_5fmode_0',['HAPTICS_MODE',['../d5/db1/a00140.html#ac8fd9379451a6d714941f9d07f23f49d',1,'hV_Configuration.h']]],
-  ['height_1',['height',['../d4/d04/a00255.html#a63f8837d47ae05b6ae7f446cf379824c',1,'font_s']]],
-  ['hv_5fcolours565_2',['hv_colours565',['../d6/d82/a00243.html',1,'hV_Colours565'],['../d6/d82/a00243.html#a2dbfd6c8f5d0d804021abceaf84121f6',1,'hV_Colours565::hV_Colours565()']]],
-  ['hv_5fcolours565_2eh_3',['hV_Colours565.h',['../da/d1e/a00149.html',1,'']]],
-  ['hv_5fcolours_5frelease_4',['hV_COLOURS_RELEASE',['../da/d1e/a00149.html#ad04b95af5737630651211d49cf779995',1,'hV_Colours565.h']]],
-  ['hv_5fconfiguration_2eh_5',['hV_Configuration.h',['../d5/db1/a00140.html',1,'']]],
-  ['hv_5fconfiguration_5frelease_6',['hV_CONFIGURATION_RELEASE',['../d5/db1/a00140.html#a3bcfa67129cf269c0672a66e4705cc21',1,'hV_Configuration.h']]],
-  ['hv_5fconstants_2eh_7',['hV_Constants.h',['../d7/dce/a00143.html',1,'']]],
-  ['hv_5fconstants_5frelease_8',['hV_CONSTANTS_RELEASE',['../d7/dce/a00143.html#ae5646da5dbd251257bb35c6db0a16153',1,'hV_Constants.h']]],
-  ['hv_5fdocumentation_2eh_9',['hV_Documentation.h',['../d9/db6/a00146.html',1,'']]],
-  ['hv_5ffont_2eh_10',['hV_Font.h',['../d3/df8/a00155.html',1,'']]],
-  ['hv_5ffont_5fheader_5fstructure_5frelease_11',['hV_FONT_HEADER_STRUCTURE_RELEASE',['../d3/df8/a00155.html#a7a0568c346f7cb957cd4c3f56454673e',1,'hV_Font.h']]],
-  ['hv_5ffont_5fterminal_12',['hV_Font_Terminal',['../d0/d2f/a00259.html',1,'']]],
-  ['hv_5ffont_5fterminal_2eh_13',['hV_Font_Terminal.h',['../dc/dfe/a00125.html',1,'']]],
-  ['hv_5ffont_5fterminal_5frelease_14',['hV_FONT_TERMINAL_RELEASE',['../dc/dfe/a00125.html#a2c1b31917210e8dd59e9d780d3285e12',1,'hV_Font_Terminal.h']]],
-  ['hv_5fgui_2eh_15',['hV_GUI.h',['../db/dd9/a00179.html',1,'']]],
-  ['hv_5fgui_5fbasic_5frelease_16',['hV_GUI_BASIC_RELEASE',['../db/dd9/a00179.html#a2071496e55eb3c5e00faed997f19654c',1,'hV_GUI.h']]],
-  ['hv_5fscreen_5fbuffer_17',['hv_screen_buffer',['../d3/d5e/a00275.html#a556e473029b0a519ba7c3818fbc45023',1,'hV_Screen_Buffer::hV_Screen_Buffer()'],['../d3/d5e/a00275.html',1,'hV_Screen_Buffer']]],
-  ['hv_5fscreen_5fbuffer_2eh_18',['hV_Screen_Buffer.h',['../d7/d06/a00131.html',1,'']]],
-  ['hv_5fscreen_5fbuffer_5frelease_19',['hV_SCREEN_BUFFER_RELEASE',['../d7/d06/a00131.html#a851c703d9610377daa95f386e7505bfb',1,'hV_Screen_Buffer.h']]],
-  ['hv_5futilities_2eh_20',['hV_Utilities.h',['../d5/dcb/a00170.html',1,'']]],
-  ['hv_5futilities_5frelease_21',['hV_UTILITIES_RELEASE',['../d5/dcb/a00170.html#a9181b73f355c545c61257008ed6515c1',1,'hV_Utilities.h']]]
+  ['index_0',['index',['../d2/d04/a00281.html#a7ad7fe2d62cc875ebf7a14389541e66a',1,'width_s']]],
+  ['invert_1',['invert',['../dd/db3/a00313.html#a5689de6d8a28581fafeff671cd06b6bf',1,'hV_Utilities_EPD']]],
+  ['istouch_2',['isTouch',['../d2/d71/a00309.html#a19bf90368a4167cf6c894f1a2b47861b',1,'hV_Screen_Buffer']]],
+  ['istouchevent_3',['isTouchEvent',['../d2/d71/a00309.html#a0e841a84ee60528a35f99c78162222a1',1,'hV_Screen_Buffer']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['edition_0',['Pervasive Displays Library Suite - Basic edition',['../index.html',1,'']]],
-  ['examples_1',['Examples',['../d0/dcd/a00280.html',1,'']]]
+  ['pervasive_20displays_20library_20suite_20_2d_20basic_20edition_0',['Pervasive Displays Library Suite - Basic edition',['../index.html',1,'']]]
 ];

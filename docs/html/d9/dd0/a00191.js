@@ -1,7 +1,6 @@
 var a00191 =
 [
-    [ "loop", "d9/dd0/a00191.html#afe461d27b9c48d5921c00d521181f12f", null ],
-    [ "performTest", "d9/dd0/a00191.html#a5ead2ecbed56fc3642b497dd06184234", null ],
-    [ "setup", "d9/dd0/a00191.html#a4fc01d736fe50cf5b977f755b675f11d", null ],
-    [ "wait", "d9/dd0/a00191.html#a92d9142cd31b37b7b3944dc8d9c9f454", null ]
+    [ "hV_Colours565", "d6/d4b/a00277.html", "d6/d4b/a00277" ],
+    [ "hV_COLOURS_RELEASE", "d9/dd0/a00191.html#ad04b95af5737630651211d49cf779995", null ],
+    [ "myColours", "d9/dd0/a00191.html#aa178466696f7432d6da667d514bee379", null ]
 ];

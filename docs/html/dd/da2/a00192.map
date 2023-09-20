@@ -1,9 +1,17 @@
-<map id="Example_Global_Speed.ino" name="Example_Global_Speed.ino">
-<area shape="rect" id="Node000001" title="Protocol for speed test." alt="" coords="41,5,240,31"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,89,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,33,75,72,72,68,124,29"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="113,79,168,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="143,31,143,65,138,65,138,31"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="193,79,342,104"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="162,28,236,69,233,74,160,33"/>
+<map id="hV_Colours565.h" name="hV_Colours565.h">
+<area shape="rect" id="Node000001" title="Class Library for 5&#45;6&#45;5 coded colours." alt="" coords="223,5,354,31"/>
+<area shape="rect" id="Node000002" href="$d7/d40/a00236.html" title="Light hardware abstraction layer for peripherals." alt="" coords="207,79,371,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="291,31,291,65,286,65,286,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,89,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="251,107,101,151,99,145,249,101"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="113,152,184,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="267,106,185,148,182,143,265,102"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="209,152,275,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="283,106,259,142,255,139,279,103"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="299,152,374,177"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="299,103,324,139,319,142,294,106"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="399,152,453,177"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="312,102,393,143,390,148,310,106"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="478,152,542,177"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="325,101,466,146,464,152,323,107"/>
 </map>

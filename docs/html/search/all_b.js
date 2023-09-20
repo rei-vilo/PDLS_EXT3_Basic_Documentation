@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['library_20suite_20basic_20edition_0',['Pervasive Displays Library Suite - Basic edition',['../index.html',1,'']]],
-  ['lightred_1',['lightRed',['../d6/d82/a00243.html#a9ec1614107a04ea21a260e00edae8539',1,'hV_Colours565']]],
-  ['lightyellow_2',['lightYellow',['../d6/d82/a00243.html#a0752d91375b6187daea8e5d76c7e6d56',1,'hV_Colours565']]],
-  ['line_3',['line',['../d3/d5e/a00275.html#ab47c888d24ea0b5f537849811f1e9a67',1,'hV_Screen_Buffer']]],
-  ['loop_4',['loop',['../d3/db1/a00200.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Basic_Touch_Draw.ino'],['../dd/dc1/a00212.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Basic_Touch_TicTacToe.ino'],['../de/db1/a00197.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;BWRY_Colours.ino'],['../d1/da8/a00230.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;BWRY_Contrasts.ino'],['../de/d79/a00203.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Common_Colours.ino'],['../dc/d9a/a00218.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Common_Fonts.ino'],['../da/d15/a00188.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Common_Forms.ino'],['../dd/d52/a00221.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Common_Orientation.ino'],['../dc/d57/a00194.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Common_Text.ino'],['../d3/dd5/a00215.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Common_WhoAmI.ino'],['../d5/ddf/a00224.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Example_Fast_Line.ino'],['../d3/de5/a00209.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Example_Fast_Orientation.ino'],['../d9/d01/a00227.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Example_Fast_Speed.ino'],['../d9/dd0/a00191.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Example_Global_Speed.ino']]]
+  ['magenta_0',['magenta',['../d6/d4b/a00277.html#ac321212d60e29d6922f3fd41944aedbe',1,'hV_Colours565']]],
+  ['max_5ffont_5fsize_1',['MAX_FONT_SIZE',['../d7/d03/a00254.html#a66b2ce216c9fb1c332b3f3a4dbc0882b',1,'hV_Configuration.h']]],
+  ['maxwidth_2',['maxWidth',['../d3/d58/a00285.html#ac4b2baeedd0e11a46ed1bc48b2ba672b',1,'font_s']]],
+  ['movehuman_3',['moveHuman',['../d7/d9a/a00152.html#acea0796956ea2a8f46c845e6bf96c77a',1,'Basic_Touch_TicTacToe.ino']]],
+  ['movemcu_4',['moveMCU',['../d7/d9a/a00152.html#ad9713f29c890b87e62b7cccf52ec97b4',1,'Basic_Touch_TicTacToe.ino']]],
+  ['mycolours_5',['myColours',['../d9/dd0/a00191.html#aa178466696f7432d6da667d514bee379',1,'hV_Colours565.cpp']]]
 ];

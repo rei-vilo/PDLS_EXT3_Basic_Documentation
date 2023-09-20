@@ -1,4 +1,4 @@
 var a00206 =
 [
-    [ "wait", "d5/df1/a00206.html#a92d9142cd31b37b7b3944dc8d9c9f454", null ]
+    [ "TERMINAL8E_FONT_RELEASE", "d5/df1/a00206.html#a88f5626ffb335bab69bfe70b793b4cbb", null ]
 ];

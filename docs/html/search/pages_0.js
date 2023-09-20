@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['basic_20edition_0',['Pervasive Displays Library Suite - Basic edition',['../index.html',1,'']]]
+  ['deprecated_20list_0',['Deprecated List',['../d3/dcc/a00264.html',1,'']]]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: hV_Utilities.h File Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: BWRY_Colours.ino File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.1.3</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;7.0.0</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -93,553 +93,98 @@ $(document).ready(function(){initNavTree('d5/de9/a00176.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a>  </div>
-  <div class="headertitle"><div class="title">hV_Utilities.h File Reference</div></div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">BWRY_Colours.ino File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Utilities for highView Library Suite.  
+<p>Example for Pervasive Displays Library Suite.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;Arduino.h&quot;</code><br />
+<code>#include &quot;SPI.h&quot;</code><br />
+<code>#include &quot;PDLS_EXT3_Basic_BWRY.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for hV_Utilities.h:</div>
+Include dependency graph for BWRY_Colours.ino:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d4c/a00177.png" border="0" usemap="#ahV__Utilities_8h" alt=""/></div>
-<map name="ahV__Utilities_8h" id="ahV__Utilities_8h">
-<area shape="rect" title="Utilities for highView Library Suite." alt="" coords="5,5,115,31"/>
-<area shape="rect" title=" " alt="" coords="18,79,102,104"/>
-<area shape="poly" title=" " alt="" coords="63,31,63,65,57,65,57,31"/>
-</map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d9/d90/a00178.png" border="0" usemap="#ahV__Utilities_8hdep" alt=""/></div>
-<map name="ahV__Utilities_8hdep" id="ahV__Utilities_8hdep">
-<area shape="rect" title="Utilities for highView Library Suite." alt="" coords="81,5,191,31"/>
-<area shape="rect" href="../../d7/d06/a00131.html" title="hV_Font_Terminal" alt="" coords="5,79,155,104"/>
-<area shape="poly" title=" " alt="" coords="120,43,91,80,87,77,116,40"/>
-<area shape="rect" href="../../d2/df5/a00137.html" title="Class Generic LCD with buffer class library." alt="" coords="63,152,209,177"/>
-<area shape="poly" title=" " alt="" coords="154,41,169,78,170,99,165,120,147,153,143,150,160,118,165,99,164,79,149,44"/>
-<area shape="poly" title=" " alt="" coords="100,113,129,150,125,154,96,117"/>
-<area shape="rect" href="../../db/ddf/a00164.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT&#45;Touch boards." alt="" coords="61,225,211,251"/>
-<area shape="poly" title=" " alt="" coords="139,191,139,225,133,225,133,191"/>
-<area shape="rect" href="../../de/df3/a00185.html" title="Basic GUI with text and button." alt="" coords="95,299,177,324"/>
-<area shape="poly" title=" " alt="" coords="139,264,139,299,133,299,133,264"/>
-<area shape="rect" href="../../d9/dd0/a00191.html" title="Example of features for Evaluation edition." alt="" coords="58,372,214,397"/>
-<area shape="poly" title=" " alt="" coords="139,338,139,372,133,372,133,338"/>
+<div class="center"><img src="../../dd/d4c/a00177.png" border="0" usemap="#aBWRY__Colours_8ino" alt=""/></div>
+<map name="aBWRY__Colours_8ino" id="aBWRY__Colours_8ino">
+<area shape="rect" title="Example for Pervasive Displays Library Suite." alt="" coords="71,5,211,31"/>
+<area shape="rect" title=" " alt="" coords="5,79,89,104"/>
+<area shape="poly" title=" " alt="" coords="127,33,75,72,72,68,124,29"/>
+<area shape="rect" title=" " alt="" coords="113,79,168,104"/>
+<area shape="poly" title=" " alt="" coords="143,31,143,65,138,65,138,31"/>
+<area shape="rect" title=" " alt="" coords="192,79,383,104"/>
+<area shape="poly" title=" " alt="" coords="165,28,252,70,250,75,163,33"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a9181b73f355c545c61257008ed6515c1"><td class="memItemLeft" align="right" valign="top"><a id="a9181b73f355c545c61257008ed6515c1" name="a9181b73f355c545c61257008ed6515c1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>hV_UTILITIES_RELEASE</b>&#160;&#160;&#160;611</td></tr>
-<tr class="memdesc:a9181b73f355c545c61257008ed6515c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Library release number. <br /></td></tr>
-<tr class="separator:a9181b73f355c545c61257008ed6515c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6afabdc09a49a433ee19d8a9486056d"><td class="memItemLeft" align="right" valign="top"><a id="ac6afabdc09a49a433ee19d8a9486056d" name="ac6afabdc09a49a433ee19d8a9486056d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>min</b>(a,  b)&#160;&#160;&#160;((a) &lt; (b) ? (a) : (b))</td></tr>
-<tr class="separator:ac6afabdc09a49a433ee19d8a9486056d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affe776513b24d84b39af8ab0930fef7f"><td class="memItemLeft" align="right" valign="top"><a id="affe776513b24d84b39af8ab0930fef7f" name="affe776513b24d84b39af8ab0930fef7f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>max</b>(a,  b)&#160;&#160;&#160;((a) &gt; (b) ? (a) : (b))</td></tr>
-<tr class="separator:affe776513b24d84b39af8ab0930fef7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Orientation constants</div></td></tr>
-<tr class="memitem:a0f166aa542c69097847cfc189cd48057"><td class="memItemLeft" align="right" valign="top"><a id="a0f166aa542c69097847cfc189cd48057" name="a0f166aa542c69097847cfc189cd48057"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ORIENTATION_PORTRAIT</b>&#160;&#160;&#160;6</td></tr>
-<tr class="memdesc:a0f166aa542c69097847cfc189cd48057"><td class="mdescLeft">&#160;</td><td class="mdescRight">portrait or vertical, higher than large <br /></td></tr>
-<tr class="separator:a0f166aa542c69097847cfc189cd48057"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accc06995e9834c793d2cc9e96ded0560"><td class="memItemLeft" align="right" valign="top"><a id="accc06995e9834c793d2cc9e96ded0560" name="accc06995e9834c793d2cc9e96ded0560"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ORIENTATION_LANDSCAPE</b>&#160;&#160;&#160;7</td></tr>
-<tr class="memdesc:accc06995e9834c793d2cc9e96ded0560"><td class="mdescLeft">&#160;</td><td class="mdescRight">landscape or horizontal, larger than high <br /></td></tr>
-<tr class="separator:accc06995e9834c793d2cc9e96ded0560"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4585148969ab7c12c2e5cec8cd8d029d"><td class="memItemLeft" align="right" valign="top"><a id="a4585148969ab7c12c2e5cec8cd8d029d" name="a4585148969ab7c12c2e5cec8cd8d029d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_COLOURS_BWRY</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a4585148969ab7c12c2e5cec8cd8d029d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d40220dea2e22d02fb951db777ebe23"><td class="memItemLeft" align="right" valign="top"><a id="a1d40220dea2e22d02fb951db777ebe23" name="a1d40220dea2e22d02fb951db777ebe23"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_CONTRASTS_BWRY</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a1d40220dea2e22d02fb951db777ebe23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a522cd91df28e8bc50cea84fe1edcb2ff"><td class="memItemLeft" align="right" valign="top"><a id="a522cd91df28e8bc50cea84fe1edcb2ff" name="a522cd91df28e8bc50cea84fe1edcb2ff"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_PALETTE_BWRY</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a522cd91df28e8bc50cea84fe1edcb2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Utilities</div></td></tr>
-<tr class="memitem:ab7cce8122024d7ba47bf10f434956de4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de9/a00176.html#ab7cce8122024d7ba47bf10f434956de4">delay_ms</a> (uint32_t ms)</td></tr>
-<tr class="memdesc:ab7cce8122024d7ba47bf10f434956de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blocking delay.  <br /></td></tr>
-<tr class="separator:ab7cce8122024d7ba47bf10f434956de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5fee0ae2d4737a35b38f31aa48ece9f"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de9/a00176.html#ae5fee0ae2d4737a35b38f31aa48ece9f">cos32x100</a> (int32_t degreesX100)</td></tr>
-<tr class="memdesc:ae5fee0ae2d4737a35b38f31aa48ece9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cosinus.  <br /></td></tr>
-<tr class="separator:ae5fee0ae2d4737a35b38f31aa48ece9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6843a856b41ae0c0fbe919efb535aa9f"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de9/a00176.html#a6843a856b41ae0c0fbe919efb535aa9f">sin32x100</a> (int32_t degreesX100)</td></tr>
-<tr class="memdesc:a6843a856b41ae0c0fbe919efb535aa9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sinus.  <br /></td></tr>
-<tr class="separator:a6843a856b41ae0c0fbe919efb535aa9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3051dd153db86ba3b56a69e93f1ca22a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de9/a00176.html#a3051dd153db86ba3b56a69e93f1ca22a">utf2iso</a> (String s)</td></tr>
-<tr class="memdesc:a3051dd153db86ba3b56a69e93f1ca22a"><td class="mdescLeft">&#160;</td><td class="mdescRight">UTF-8 to ISO-8859-1 Converter.  <br /></td></tr>
-<tr class="separator:a3051dd153db86ba3b56a69e93f1ca22a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa405c9a5b808e428554e540028085dd3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de9/a00176.html#aa405c9a5b808e428554e540028085dd3">formatString</a> (const char *format,...)</td></tr>
-<tr class="memdesc:aa405c9a5b808e428554e540028085dd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format string.  <br /></td></tr>
-<tr class="separator:aa405c9a5b808e428554e540028085dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a311c694a8a5722683dd6739c55323036"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de9/a00176.html#a311c694a8a5722683dd6739c55323036">trimString</a> (String text)</td></tr>
-<tr class="memdesc:a311c694a8a5722683dd6739c55323036"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove leading and ending characters.  <br /></td></tr>
-<tr class="separator:a311c694a8a5722683dd6739c55323036"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Range</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>Utilities to check range, set min and max </p>
-</div></td></tr>
-<tr class="memitem:a86af3529c58c3ba135667030a75a5917"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de9/a00176.html#a86af3529c58c3ba135667030a75a5917">checkRange</a> (uint16_t value, uint16_t valueMin, uint16_t valueMax)</td></tr>
-<tr class="memdesc:a86af3529c58c3ba135667030a75a5917"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check value in range.  <br /></td></tr>
-<tr class="separator:a86af3529c58c3ba135667030a75a5917"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8a17fff09aa92a8b27434044c138bc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de9/a00176.html#ac8a17fff09aa92a8b27434044c138bc0">setMinMax</a> (uint16_t value, uint16_t &amp;valueMin, uint16_t &amp;valueMax)</td></tr>
-<tr class="memdesc:ac8a17fff09aa92a8b27434044c138bc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update min and max values.  <br /></td></tr>
-<tr class="separator:ac8a17fff09aa92a8b27434044c138bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e10a8bc35f3b1ae121655e335de4513"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de9/a00176.html#a9e10a8bc35f3b1ae121655e335de4513">roundUp</a> (uint32_t value, uint16_t modulo)</td></tr>
-<tr class="memdesc:a9e10a8bc35f3b1ae121655e335de4513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Round-up.  <br /></td></tr>
-<tr class="separator:a9e10a8bc35f3b1ae121655e335de4513"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a149f55c1d6b6336ef751e247856198ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de9/a00176.html#a149f55c1d6b6336ef751e247856198ce">swap</a> (int16_t &amp;a, int16_t &amp;b)</td></tr>
-<tr class="memdesc:a149f55c1d6b6336ef751e247856198ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swap number, int16_t.  <br /></td></tr>
-<tr class="separator:a149f55c1d6b6336ef751e247856198ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7989671d14dda7f19b8d289e359404e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de9/a00176.html#a7989671d14dda7f19b8d289e359404e9">swap</a> (uint16_t &amp;a, uint16_t &amp;b)</td></tr>
-<tr class="memdesc:a7989671d14dda7f19b8d289e359404e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swap number, uint16_t.  <br /></td></tr>
-<tr class="separator:a7989671d14dda7f19b8d289e359404e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46562f812c731ac4a846ee4bb29b0397"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de9/a00176.html#a46562f812c731ac4a846ee4bb29b0397">swap</a> (uint8_t &amp;a, uint8_t &amp;b)</td></tr>
-<tr class="memdesc:a46562f812c731ac4a846ee4bb29b0397"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swap number, uint8_t.  <br /></td></tr>
-<tr class="separator:a46562f812c731ac4a846ee4bb29b0397"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60b9a006f04f98d3f93d1125c9a2cad1"><td class="memItemLeft" align="right" valign="top"><a id="a60b9a006f04f98d3f93d1125c9a2cad1" name="a60b9a006f04f98d3f93d1125c9a2cad1"></a>
+Screen_EPD_EXT3&#160;</td><td class="memItemRight" valign="bottom"><b>myScreen</b> (<a class="el" href="../../d9/d39/a00257.html#adb01ba611e434d40bb81d4bf874fa936">eScreen_EPD_EXT3_154_BWRY</a>, <a class="el" href="../../db/dd9/a00179.html#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a>)</td></tr>
+<tr class="separator:a60b9a006f04f98d3f93d1125c9a2cad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de9/a00176.html#a92d9142cd31b37b7b3944dc8d9c9f454">wait</a> (uint8_t second)</td></tr>
+<tr class="memdesc:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait with countdown.  <br /></td></tr>
+<tr class="separator:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd8a191b605c82226f342848508d7f79"><td class="memItemLeft" align="right" valign="top"><a id="abd8a191b605c82226f342848508d7f79" name="abd8a191b605c82226f342848508d7f79"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>displayColoursBWRY</b> ()</td></tr>
+<tr class="separator:abd8a191b605c82226f342848508d7f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top"><a id="a4fc01d736fe50cf5b977f755b675f11d" name="a4fc01d736fe50cf5b977f755b675f11d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setup</b> ()</td></tr>
+<tr class="separator:a4fc01d736fe50cf5b977f755b675f11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe461d27b9c48d5921c00d521181f12f"><td class="memItemLeft" align="right" valign="top"><a id="afe461d27b9c48d5921c00d521181f12f" name="afe461d27b9c48d5921c00d521181f12f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>loop</b> ()</td></tr>
+<tr class="separator:afe461d27b9c48d5921c00d521181f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Utilities for highView Library Suite. </p>
+<div class="textblock"><p>Example for Pervasive Displays Library Suite. </p>
 <p>Project Pervasive Displays Library Suite <br  />
  Based on highView technology</p>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>21 Jun 2023 </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>611</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>31 Aug 2023 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>614</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2023 </dd>
 <dd>
 Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</dd></dl>
-<p>The highView Library Suite is shared under the Creative Commons licence Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).</p>
-<ul>
-<li>Basic edition: for hobbyists and for basic usage <br  />
- Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</li>
-</ul>
-<dl class="section see"><dt>See also</dt><dd><a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></dd></dl>
-<p><br  />
- Consider the Evaluation or Commercial editions for professionals or organisations and for commercial usage </p>
+<dl class="section see"><dt>See also</dt><dd>ReadMe.txt for references <br  />
+</dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a86af3529c58c3ba135667030a75a5917" name="a86af3529c58c3ba135667030a75a5917"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86af3529c58c3ba135667030a75a5917">&#9670;&#160;</a></span>checkRange()</h2>
+<a id="a92d9142cd31b37b7b3944dc8d9c9f454" name="a92d9142cd31b37b7b3944dc8d9c9f454"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92d9142cd31b37b7b3944dc8d9c9f454">&#9670;&#160;</a></span>wait()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t checkRange </td>
+          <td class="memname">void wait </td>
           <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>second</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>valueMin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>valueMax</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Check value in range. </p>
+<p>Wait with countdown. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">value</td><td>value to check </td></tr>
-    <tr><td class="paramname">valueMin</td><td>range minimum </td></tr>
-    <tr><td class="paramname">valueMax</td><td>range maximum </td></tr>
+    <tr><td class="paramname">second</td><td>duration, s </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>value within range </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>Assuming valueMin &lt; valueMax<ul>
-<li>if value &lt; valueMin, return valueMin</li>
-<li>if value &gt; valueMax, return valueMax Otherwise, if valueMin &gt; valueMax, valueMin and valueMax are swapped </li>
-</ul>
-</dd></dl>
-
-</div>
-</div>
-<a id="ae5fee0ae2d4737a35b38f31aa48ece9f" name="ae5fee0ae2d4737a35b38f31aa48ece9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5fee0ae2d4737a35b38f31aa48ece9f">&#9670;&#160;</a></span>cos32x100()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int32_t cos32x100 </td>
-          <td>(</td>
-          <td class="paramtype">int32_t&#160;</td>
-          <td class="paramname"><em>degreesX100</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Cosinus. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">degreesX100</td><td>angle in degrees, x100 </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>cosinus value, x100 </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>This function uses integers only. </dd></dl>
-
-</div>
-</div>
-<a id="ab7cce8122024d7ba47bf10f434956de4" name="ab7cce8122024d7ba47bf10f434956de4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7cce8122024d7ba47bf10f434956de4">&#9670;&#160;</a></span>delay_ms()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void delay_ms </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>ms</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Blocking delay. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ms</td><td>duration in ms </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd><a class="el" href="../../d5/de9/a00176.html#ab7cce8122024d7ba47bf10f434956de4" title="Blocking delay.">delay_ms()</a> is blocking, as it doesn't use delay() </dd></dl>
-
-</div>
-</div>
-<a id="aa405c9a5b808e428554e540028085dd3" name="aa405c9a5b808e428554e540028085dd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa405c9a5b808e428554e540028085dd3">&#9670;&#160;</a></span>formatString()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">String formatString </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>format</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Format string. </p>
-<p>Based on vsprint </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">format</td><td>format with standard codes </td></tr>
-    <tr><td class="paramname">...</td><td>list of values </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>string with values formatted </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a href="http://www.cplusplus.com/reference/cstdio/printf/?kw=printf">http://www.cplusplus.com/reference/cstdio/printf/?kw=printf</a> for codes </dd></dl>
-
-</div>
-</div>
-<a id="a9e10a8bc35f3b1ae121655e335de4513" name="a9e10a8bc35f3b1ae121655e335de4513"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e10a8bc35f3b1ae121655e335de4513">&#9670;&#160;</a></span>roundUp()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t roundUp </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>modulo</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Round-up. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">value</td><td>value to round-up </td></tr>
-    <tr><td class="paramname">modulo</td><td>modulo </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>rounded-up value / modulo </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>Examples<ul>
-<li>roundUp(7, 8) = 1;</li>
-<li>roundUp(8, 8) = 1;</li>
-<li>roundUp(9, 8) = 2; </li>
-</ul>
-</dd></dl>
-
-</div>
-</div>
-<a id="ac8a17fff09aa92a8b27434044c138bc0" name="ac8a17fff09aa92a8b27434044c138bc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8a17fff09aa92a8b27434044c138bc0">&#9670;&#160;</a></span>setMinMax()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void setMinMax </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t &amp;&#160;</td>
-          <td class="paramname"><em>valueMin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t &amp;&#160;</td>
-          <td class="paramname"><em>valueMax</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Update min and max values. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">value</td><td>value to consider </td></tr>
-    <tr><td class="paramname">valueMin</td><td>minimum value to update if value &lt; valueMin </td></tr>
-    <tr><td class="paramname">valueMax</td><td>maximum value to update if value &gt; valueMax </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>valueMin &lt; valueMax is assumed </dd></dl>
-
-</div>
-</div>
-<a id="a6843a856b41ae0c0fbe919efb535aa9f" name="a6843a856b41ae0c0fbe919efb535aa9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6843a856b41ae0c0fbe919efb535aa9f">&#9670;&#160;</a></span>sin32x100()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int32_t sin32x100 </td>
-          <td>(</td>
-          <td class="paramtype">int32_t&#160;</td>
-          <td class="paramname"><em>degreesX100</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sinus. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">degreesX100</td><td>angle in degrees, x100 </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>sinus value, x100 </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>This function uses integers only. </dd></dl>
-
-</div>
-</div>
-<a id="a149f55c1d6b6336ef751e247856198ce" name="a149f55c1d6b6336ef751e247856198ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a149f55c1d6b6336ef751e247856198ce">&#9670;&#160;</a></span>swap() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void swap </td>
-          <td>(</td>
-          <td class="paramtype">int16_t &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int16_t &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Swap number, int16_t. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">a</td><td>first number </td></tr>
-    <tr><td class="paramname">b</td><td>second number </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a7989671d14dda7f19b8d289e359404e9" name="a7989671d14dda7f19b8d289e359404e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7989671d14dda7f19b8d289e359404e9">&#9670;&#160;</a></span>swap() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void swap </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Swap number, uint16_t. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">a</td><td>first number </td></tr>
-    <tr><td class="paramname">b</td><td>second number </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a46562f812c731ac4a846ee4bb29b0397" name="a46562f812c731ac4a846ee4bb29b0397"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46562f812c731ac4a846ee4bb29b0397">&#9670;&#160;</a></span>swap() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void swap </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Swap number, uint8_t. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">a</td><td>first number </td></tr>
-    <tr><td class="paramname">b</td><td>second number </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a311c694a8a5722683dd6739c55323036" name="a311c694a8a5722683dd6739c55323036"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a311c694a8a5722683dd6739c55323036">&#9670;&#160;</a></span>trimString()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">String trimString </td>
-          <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>text</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Remove leading and ending characters. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">text</td><td>input text </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>trimmed text </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>Removed characters are LF CR TAB SPACE ' </dd></dl>
-
-</div>
-</div>
-<a id="a3051dd153db86ba3b56a69e93f1ca22a" name="a3051dd153db86ba3b56a69e93f1ca22a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3051dd153db86ba3b56a69e93f1ca22a">&#9670;&#160;</a></span>utf2iso()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">String utf2iso </td>
-          <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>s</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>UTF-8 to ISO-8859-1 Converter. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">s</td><td>UTF-8 string, input </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>ISO-8859-1 string, output</dd></dl>
-<dl class="section see"><dt>See also</dt><dd>The Unicode Consortium. The Unicode Standard, Version 6.2.0, (Mountain View, CA: The Unicode Consortium, 2012. ISBN 978-1-936213-07-8) <a href="http://www.unicode.org/versions/Unicode6.2.0/">http://www.unicode.org/versions/Unicode6.2.0/</a> </dd></dl>
 
 </div>
 </div>
@@ -649,7 +194,7 @@ Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</dd></d
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../d5/de9/a00176.html">hV_Utilities.h</a></li>
+    <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_e4a923addceec178698f5fefd5aa1a27.html">BWRY_Colours</a></li><li class="navelem"><a class="el" href="../../d5/de9/a00176.html">BWRY_Colours.ino</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.9.7 </li>

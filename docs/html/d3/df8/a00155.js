@@ -1,6 +1,7 @@
 var a00155 =
 [
-    [ "width_s", "d3/d1a/a00251.html", "d3/d1a/a00251" ],
-    [ "font_s", "d4/d04/a00255.html", "d4/d04/a00255" ],
-    [ "hV_FONT_HEADER_STRUCTURE_RELEASE", "d3/df8/a00155.html#a7a0568c346f7cb957cd4c3f56454673e", null ]
+    [ "displayWhoAmI", "d3/df8/a00155.html#a29909f586a479684ca6e68db470af5b6", null ],
+    [ "loop", "d3/df8/a00155.html#afe461d27b9c48d5921c00d521181f12f", null ],
+    [ "setup", "d3/df8/a00155.html#a4fc01d736fe50cf5b977f755b675f11d", null ],
+    [ "wait", "d3/df8/a00155.html#a92d9142cd31b37b7b3944dc8d9c9f454", null ]
 ];

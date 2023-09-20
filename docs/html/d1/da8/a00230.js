@@ -1,7 +1,6 @@
 var a00230 =
 [
-    [ "displayContrastsBWRY", "d1/da8/a00230.html#aab4dc39e2b8e698b6c1ff78106c9be0d", null ],
-    [ "loop", "d1/da8/a00230.html#afe461d27b9c48d5921c00d521181f12f", null ],
-    [ "setup", "d1/da8/a00230.html#a4fc01d736fe50cf5b977f755b675f11d", null ],
-    [ "wait", "d1/da8/a00230.html#a92d9142cd31b37b7b3944dc8d9c9f454", null ]
+    [ "Screen_EPD_EXT3_Fast", "da/de0/a00317.html", "da/de0/a00317" ],
+    [ "SCREEN_EPD_EXT3_RELEASE", "d1/da8/a00230.html#ab75eb2c0ba5e190f5c52fcddd3f64ccb", null ],
+    [ "SCREEN_EPD_EXT3_VARIANT", "d1/da8/a00230.html#aad6aa3af845addf339c09eed7494c29a", null ]
 ];

@@ -1,5 +1,7 @@
-<map id="Text" name="Text">
-<area shape="rect" id="Node000001" title="Text." alt="" coords="13,5,63,31"/>
-<area shape="rect" id="Node000002" href="$d6/d4b/a00277.html" title="Button." alt="" coords="5,79,71,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="41,44,41,79,35,79,35,44"/>
+<map id="hV_Board" name="hV_Board">
+<area shape="rect" id="Node000001" title="Class for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="49,5,133,31"/>
+<area shape="rect" id="Node000002" href="$dd/db3/a00313.html" title="Class for Pervasive Displays e&#45;paper displays." alt="" coords="26,79,157,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,44,94,79,89,79,89,44"/>
+<area shape="rect" id="Node000003" href="$da/de0/a00317.html" title="Class for Pervasive Displays iTC monochome touch screens with embedded fast update." alt="" coords="5,152,177,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,118,94,152,89,152,89,118"/>
 </map>

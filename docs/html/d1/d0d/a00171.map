@@ -1,5 +1,9 @@
-<map id="hV_Utilities.h" name="hV_Utilities.h">
-<area shape="rect" id="Node000001" title="Utilities for highView Library Suite." alt="" coords="5,5,115,31"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="18,79,102,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,31,63,65,57,65,57,31"/>
+<map id="Common_Fonts.ino" name="Common_Fonts.ino">
+<area shape="rect" id="Node000001" title="Example of features for basic edition." alt="" coords="67,5,214,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,89,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,33,75,72,72,68,124,29"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="113,79,168,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="143,31,143,65,138,65,138,31"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="193,79,342,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="162,28,236,69,233,74,160,33"/>
 </map>

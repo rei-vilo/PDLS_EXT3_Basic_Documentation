@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['kind_0',['kind',['../d4/d04/a00255.html#acbe14f6295f4d4f0e92df32d54a2c105',1,'font_s']]]
+  ['lightred_0',['lightRed',['../d6/d4b/a00277.html#a9ec1614107a04ea21a260e00edae8539',1,'hV_Colours565']]],
+  ['lightyellow_1',['lightYellow',['../d6/d4b/a00277.html#a0752d91375b6187daea8e5d76c7e6d56',1,'hV_Colours565']]]
 ];

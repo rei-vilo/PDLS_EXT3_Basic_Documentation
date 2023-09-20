@@ -24,8 +24,8 @@ The screens are connected to the [EPD Extension Kit Gen 3 (EXT3 or EXT3-1)](http
 
 ## Licence
 
-Copyright &copy; Rei Vilo, 2010-2023
+**Copyright** &copy; Rei Vilo, 2010-2023
 
-Licence [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](./LICENCE.md)
+**Licence** [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](./LICENCE.md)
 
 ![](./by-nc-sa.svg)
