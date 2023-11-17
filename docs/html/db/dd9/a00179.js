@@ -1,6 +1,6 @@
 var a00179 =
 [
-    [ "pins_t", "d3/d07/a00305.html", "d3/d07/a00305" ],
+    [ "pins_t", "d1/d5d/a00311.html", "d1/d5d/a00311" ],
     [ "hV_LIST_BOARDS_RELEASE", "db/dd9/a00179.html#a19be61776593270899eacaaa5c974937", null ],
     [ "NOT_CONNECTED", "db/dd9/a00179.html#a0e9795e3bb758850785e6ebc676ab01b", null ],
     [ "boardArduinoZero", "db/dd9/a00179.html#a47cc4f37c263fb4355a5da27de205511", null ],

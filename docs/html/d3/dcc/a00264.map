@@ -1,7 +1,17 @@
-<map id="hV_Font_Terminal" name="hV_Font_Terminal">
-<area shape="rect" id="Node000001" title="Class for font as header file." alt="" coords="23,5,160,31"/>
-<area shape="rect" id="Node000002" href="$d2/d04/a00281.html" title="Generic class for buffered LCD." alt="" coords="23,79,159,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,44,94,79,89,79,89,44"/>
-<area shape="rect" id="Node000003" href="$d3/d58/a00285.html" title="Class for Pervasive Displays iTC monochome touch screens with embedded fast update." alt="" coords="5,152,177,177"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,118,94,152,89,152,89,118"/>
+<map id="hV_Utilities_Common.h" name="hV_Utilities_Common.h">
+<area shape="rect" id="Node000001" title="Utilities for highView Library Suite." alt="" coords="183,5,357,31"/>
+<area shape="rect" id="Node000002" href="$d7/d40/a00236.html" title="Light hardware abstraction layer for peripherals." alt="" coords="188,79,352,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="273,31,273,65,267,65,267,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,89,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="235,107,97,150,95,145,233,101"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="113,152,168,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="250,106,175,147,173,143,248,102"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="193,152,257,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="265,106,242,142,237,139,260,103"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="281,152,352,177"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="280,103,304,139,299,142,275,106"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="377,152,443,177"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="294,102,376,143,374,148,291,106"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="467,152,542,177"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="308,101,455,146,453,151,307,107"/>
 </map>

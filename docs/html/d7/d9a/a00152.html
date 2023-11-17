@@ -27,7 +27,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;7.0.0</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;7.0.1</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -103,28 +103,47 @@ $(document).ready(function(){initNavTree('d7/d9a/a00152.html','../../'); initRes
 
 <p>Example of features for basic edition.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;Arduino.h&quot;</code><br />
-<code>#include &quot;Wire.h&quot;</code><br />
-<code>#include &quot;SPI.h&quot;</code><br />
-<code>#include &quot;PDLS_EXT3_Basic_Touch.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;PDLS_EXT3_Basic_Touch.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d40/a00236.html">hV_HAL_Peripherals.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/dd7/a00260.html">hV_Configuration.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Basic_Touch_TicTacToe.ino:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../da/d01/a00153.png" border="0" usemap="#aBasic__Touch__TicTacToe_8ino" alt=""/></div>
 <map name="aBasic__Touch__TicTacToe_8ino" id="aBasic__Touch__TicTacToe_8ino">
-<area shape="rect" title="Example of features for basic edition." alt="" coords="49,5,243,31"/>
-<area shape="rect" title=" " alt="" coords="5,79,89,104"/>
-<area shape="poly" title=" " alt="" coords="132,33,76,73,73,68,129,29"/>
-<area shape="rect" title=" " alt="" coords="114,79,178,104"/>
-<area shape="poly" title=" " alt="" coords="149,31,149,65,143,65,143,31"/>
-<area shape="rect" title=" " alt="" coords="203,79,257,104"/>
-<area shape="poly" title=" " alt="" coords="161,29,207,67,204,72,158,33"/>
+<area shape="rect" title="Example of features for basic edition." alt="" coords="218,5,413,31"/>
+<area shape="rect" href="../../d7/d40/a00236.html" title="Light hardware abstraction layer for peripherals." alt="" coords="143,152,307,177"/>
+<area shape="poly" title=" " alt="" coords="310,33,241,142,237,139,306,30"/>
+<area shape="rect" href="../../dd/dd7/a00260.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="335,79,480,104"/>
+<area shape="poly" title=" " alt="" coords="332,29,383,68,380,72,328,33"/>
+<area shape="rect" title=" " alt="" coords="5,225,89,251"/>
+<area shape="poly" title=" " alt="" coords="197,180,90,223,88,218,195,175"/>
+<area shape="rect" title=" " alt="" coords="113,225,168,251"/>
+<area shape="poly" title=" " alt="" coords="213,179,167,218,163,214,209,175"/>
+<area shape="rect" title=" " alt="" coords="193,225,257,251"/>
+<area shape="poly" title=" " alt="" coords="227,178,227,212,222,212,222,178"/>
+<area shape="rect" title=" " alt="" coords="505,225,576,251"/>
+<area shape="poly" title=" " alt="" coords="276,175,492,223,491,228,275,180"/>
+<area shape="rect" title=" " alt="" coords="281,225,347,251"/>
+<area shape="poly" title=" " alt="" coords="241,175,290,214,287,219,237,179"/>
+<area shape="rect" title=" " alt="" coords="371,225,446,251"/>
+<area shape="poly" title=" " alt="" coords="255,175,367,218,365,223,253,180"/>
+<area shape="poly" title=" " alt="" coords="379,107,268,149,266,144,377,102"/>
+<area shape="rect" href="../../d7/d25/a00182.html" title="List of constants for Pervasive Displays Library Suite." alt="" coords="331,152,484,177"/>
+<area shape="poly" title=" " alt="" coords="410,104,410,138,405,138,405,104"/>
+<area shape="rect" href="../../db/dd9/a00179.html" title="List of boards for Pervasive Displays Library Suite." alt="" coords="509,152,642,177"/>
+<area shape="poly" title=" " alt="" coords="435,102,536,144,534,149,433,106"/>
+<area shape="rect" href="../../d5/d35/a00266.html" title="List of supported Pervasive Displays screens." alt="" coords="666,152,805,177"/>
+<area shape="poly" title=" " alt="" coords="461,101,670,146,669,152,459,107"/>
+<area shape="poly" title=" " alt="" coords="430,175,508,216,506,221,428,180"/>
+<area shape="poly" title=" " alt="" coords="572,179,555,214,550,212,567,176"/>
+<area shape="poly" title=" " alt="" coords="705,180,586,223,584,218,703,175"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d42/a00269.html">coordinates_s</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5e/a00275.html">coordinates_s</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
@@ -153,14 +172,14 @@ Functions</h2></td></tr>
 <tr class="memitem:ab02474f88a88461a35b20b8282d9b7f0"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d9a/a00152.html#ab02474f88a88461a35b20b8282d9b7f0">checkWinner</a> ()</td></tr>
 <tr class="memdesc:ab02474f88a88461a35b20b8282d9b7f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the winner.  <br /></td></tr>
 <tr class="separator:ab02474f88a88461a35b20b8282d9b7f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a154f8ebae2bc5a3ffd6ae1865dfca50d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d9a/a00152.html#a154f8ebae2bc5a3ffd6ae1865dfca50d">drawMovePlayer</a> (<a class="el" href="../../d5/d42/a00269.html">coordinates_s</a> coordinates, uint8_t player)</td></tr>
+<tr class="memitem:a154f8ebae2bc5a3ffd6ae1865dfca50d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d9a/a00152.html#a154f8ebae2bc5a3ffd6ae1865dfca50d">drawMovePlayer</a> (<a class="el" href="../../d3/d5e/a00275.html">coordinates_s</a> coordinates, uint8_t player)</td></tr>
 <tr class="memdesc:a154f8ebae2bc5a3ffd6ae1865dfca50d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display the move of player.  <br /></td></tr>
 <tr class="separator:a154f8ebae2bc5a3ffd6ae1865dfca50d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9713f29c890b87e62b7cccf52ec97b4"><td class="memItemLeft" align="right" valign="top"><a id="ad9713f29c890b87e62b7cccf52ec97b4" name="ad9713f29c890b87e62b7cccf52ec97b4"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>moveMCU</b> ()</td></tr>
 <tr class="memdesc:ad9713f29c890b87e62b7cccf52ec97b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Let the MCU play. <br /></td></tr>
 <tr class="separator:ad9713f29c890b87e62b7cccf52ec97b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2153bd3d5c8dde7a34bb081edcf35d90"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d9a/a00152.html#a2153bd3d5c8dde7a34bb081edcf35d90">checkHuman</a> (<a class="el" href="../../d5/d42/a00269.html">coordinates_s</a> &amp;coordinates)</td></tr>
+<tr class="memitem:a2153bd3d5c8dde7a34bb081edcf35d90"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d9a/a00152.html#a2153bd3d5c8dde7a34bb081edcf35d90">checkHuman</a> (<a class="el" href="../../d3/d5e/a00275.html">coordinates_s</a> &amp;coordinates)</td></tr>
 <tr class="memdesc:a2153bd3d5c8dde7a34bb081edcf35d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check human play.  <br /></td></tr>
 <tr class="separator:a2153bd3d5c8dde7a34bb081edcf35d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8310d6d1e915cb179f834d9ca017950a"><td class="memItemLeft" align="right" valign="top"><a id="a8310d6d1e915cb179f834d9ca017950a" name="a8310d6d1e915cb179f834d9ca017950a"></a>
@@ -191,10 +210,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>drawGameScreen</b> ()
 void&#160;</td><td class="memItemRight" valign="bottom"><b>drawGameOverScreen</b> ()</td></tr>
 <tr class="memdesc:ab05b08492d779ac47d66827b1ab88bfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw end of game. <br /></td></tr>
 <tr class="separator:ab05b08492d779ac47d66827b1ab88bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c42eef2c68ee9028364f4e4a8f76d29"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d9a/a00152.html#a7c42eef2c68ee9028364f4e4a8f76d29">getBoard</a> (<a class="el" href="../../d5/d42/a00269.html">coordinates_s</a> coordinates)</td></tr>
+<tr class="memitem:a7c42eef2c68ee9028364f4e4a8f76d29"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d9a/a00152.html#a7c42eef2c68ee9028364f4e4a8f76d29">getBoard</a> (<a class="el" href="../../d3/d5e/a00275.html">coordinates_s</a> coordinates)</td></tr>
 <tr class="memdesc:a7c42eef2c68ee9028364f4e4a8f76d29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get board cell content.  <br /></td></tr>
 <tr class="separator:a7c42eef2c68ee9028364f4e4a8f76d29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a678f463e67c72a7dae4cc000ede613f8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d9a/a00152.html#a678f463e67c72a7dae4cc000ede613f8">setBoard</a> (<a class="el" href="../../d5/d42/a00269.html">coordinates_s</a> coordinates, uint8_t player)</td></tr>
+<tr class="memitem:a678f463e67c72a7dae4cc000ede613f8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d9a/a00152.html#a678f463e67c72a7dae4cc000ede613f8">setBoard</a> (<a class="el" href="../../d3/d5e/a00275.html">coordinates_s</a> coordinates, uint8_t player)</td></tr>
 <tr class="memdesc:a678f463e67c72a7dae4cc000ede613f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set board cell content to player.  <br /></td></tr>
 <tr class="separator:a678f463e67c72a7dae4cc000ede613f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a973e3e233fd99ca5f72dfd48a776e3c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d9a/a00152.html#a973e3e233fd99ca5f72dfd48a776e3c5">displayCenteredText</a> (uint16_t x0, uint16_t y0, String text, uint16_t colour)</td></tr>
@@ -212,7 +231,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>loop</b> ()</td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:ad4c720c06070d4475e40a81f2cb04831"><td class="memItemLeft" align="right" valign="top"><a id="ad4c720c06070d4475e40a81f2cb04831" name="ad4c720c06070d4475e40a81f2cb04831"></a>
-<a class="el" href="../../da/de0/a00317.html">Screen_EPD_EXT3_Fast</a>&#160;</td><td class="memItemRight" valign="bottom"><b>myScreen</b> (<a class="el" href="../../d9/d39/a00257.html#aec9ddd241fb9597b63519a0775fafe72">eScreen_EPD_EXT3_370_0C_Touch</a>, <a class="el" href="../../db/dd9/a00179.html#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a>)</td></tr>
+<a class="el" href="../../de/d55/a00323.html">Screen_EPD_EXT3_Fast</a>&#160;</td><td class="memItemRight" valign="bottom"><b>myScreen</b> (<a class="el" href="../../d5/d35/a00266.html#aec9ddd241fb9597b63519a0775fafe72">eScreen_EPD_EXT3_370_0C_Touch</a>, <a class="el" href="../../db/dd9/a00179.html#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a>)</td></tr>
 <tr class="separator:ad4c720c06070d4475e40a81f2cb04831"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dde988b1b2adba65ae3efa69f65d960"><td class="memItemLeft" align="right" valign="top"><a id="a4dde988b1b2adba65ae3efa69f65d960" name="a4dde988b1b2adba65ae3efa69f65d960"></a>
 uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>x</b></td></tr>
@@ -227,7 +246,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>dx</b></td></tr>
 uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>dy</b></td></tr>
 <tr class="separator:a96242a94138f52a9070247ba3bcbc287"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d33937648bf3c898bb06c138bac6035"><td class="memItemLeft" align="right" valign="top"><a id="a9d33937648bf3c898bb06c138bac6035" name="a9d33937648bf3c898bb06c138bac6035"></a>
-<a class="el" href="../../d5/d42/a00269.html">coordinates_s</a>&#160;</td><td class="memItemRight" valign="bottom"><b>coordinates</b></td></tr>
+<a class="el" href="../../d3/d5e/a00275.html">coordinates_s</a>&#160;</td><td class="memItemRight" valign="bottom"><b>coordinates</b></td></tr>
 <tr class="separator:a9d33937648bf3c898bb06c138bac6035"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5132410be8bbf41049d61a1206e4eb91"><td class="memItemLeft" align="right" valign="top"><a id="a5132410be8bbf41049d61a1206e4eb91" name="a5132410be8bbf41049d61a1206e4eb91"></a>
 uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>tx</b></td></tr>
@@ -308,7 +327,7 @@ CC = BY SA NC</dd></dl>
         <tr>
           <td class="memname">bool checkHuman </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d42/a00269.html">coordinates_s</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d3/d5e/a00275.html">coordinates_s</a> &amp;&#160;</td>
           <td class="paramname"><em>coordinates</em></td><td>)</td>
           <td></td>
         </tr>
@@ -433,7 +452,7 @@ CC = BY SA NC</dd></dl>
         <tr>
           <td class="memname">void drawMovePlayer </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d42/a00269.html">coordinates_s</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d3/d5e/a00275.html">coordinates_s</a>&#160;</td>
           <td class="paramname"><em>coordinates</em>, </td>
         </tr>
         <tr>
@@ -496,7 +515,7 @@ CC = BY SA NC</dd></dl>
         <tr>
           <td class="memname">uint8_t getBoard </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d42/a00269.html">coordinates_s</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d3/d5e/a00275.html">coordinates_s</a>&#160;</td>
           <td class="paramname"><em>coordinates</em></td><td>)</td>
           <td></td>
         </tr>
@@ -523,7 +542,7 @@ CC = BY SA NC</dd></dl>
         <tr>
           <td class="memname">bool setBoard </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d42/a00269.html">coordinates_s</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d3/d5e/a00275.html">coordinates_s</a>&#160;</td>
           <td class="paramname"><em>coordinates</em>, </td>
         </tr>
         <tr>

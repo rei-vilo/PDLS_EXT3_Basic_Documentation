@@ -1,9 +1,29 @@
 <map id="Basic_Touch_TicTacToe.ino" name="Basic_Touch_TicTacToe.ino">
-<area shape="rect" id="Node000001" title="Example of features for basic edition." alt="" coords="49,5,243,31"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,89,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,33,76,73,73,68,129,29"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="114,79,178,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="149,31,149,65,143,65,143,31"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="203,79,257,104"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="161,29,207,67,204,72,158,33"/>
+<area shape="rect" id="Node000001" title="Example of features for basic edition." alt="" coords="218,5,413,31"/>
+<area shape="rect" id="Node000002" href="$d7/d40/a00236.html" title="Light hardware abstraction layer for peripherals." alt="" coords="143,152,307,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="310,33,241,142,237,139,306,30"/>
+<area shape="rect" id="Node000009" href="$dd/dd7/a00260.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="335,79,480,104"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="332,29,383,68,380,72,328,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,225,89,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="197,180,90,223,88,218,195,175"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="113,225,168,251"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="213,179,167,218,163,214,209,175"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="193,225,257,251"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="227,178,227,212,222,212,222,178"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="505,225,576,251"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="276,175,492,223,491,228,275,180"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="281,225,347,251"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="241,175,290,214,287,219,237,179"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="371,225,446,251"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="255,175,367,218,365,223,253,180"/>
+<area shape="poly" id="edge9_Node000009_Node000002" title=" " alt="" coords="379,107,268,149,266,144,377,102"/>
+<area shape="rect" id="Node000010" href="$d7/d25/a00182.html" title="List of constants for Pervasive Displays Library Suite." alt="" coords="331,152,484,177"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="410,104,410,138,405,138,405,104"/>
+<area shape="rect" id="Node000011" href="$db/dd9/a00179.html" title="List of boards for Pervasive Displays Library Suite." alt="" coords="509,152,642,177"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="435,102,536,144,534,149,433,106"/>
+<area shape="rect" id="Node000012" href="$d5/d35/a00266.html" title="List of supported Pervasive Displays screens." alt="" coords="666,152,805,177"/>
+<area shape="poly" id="edge14_Node000009_Node000012" title=" " alt="" coords="461,101,670,146,669,152,459,107"/>
+<area shape="poly" id="edge11_Node000010_Node000006" title=" " alt="" coords="430,175,508,216,506,221,428,180"/>
+<area shape="poly" id="edge13_Node000011_Node000006" title=" " alt="" coords="572,179,555,214,550,212,567,176"/>
+<area shape="poly" id="edge15_Node000012_Node000006" title=" " alt="" coords="705,180,586,223,584,218,703,175"/>
 </map>

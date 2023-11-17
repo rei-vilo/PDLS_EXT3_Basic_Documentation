@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: BWRY_Colours.ino File Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: Terminal12x16e.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;6.1.3</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;7.0.1</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -93,103 +93,64 @@ $(document).ready(function(){initNavTree('de/db1/a00197.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">BWRY_Colours.ino File Reference</div></div>
+<a href="#define-members">Macros</a>  </div>
+  <div class="headertitle"><div class="title">Terminal12x16e.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Example for Pervasive Displays Library Suite.  
+<p>Font Terminal 12 x 16.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;Arduino.h&quot;</code><br />
-<code>#include &quot;SPI.h&quot;</code><br />
-<code>#include &quot;PDLS_EXT3_Basic_BWRY.h&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for BWRY_Colours.ino:</div>
+<div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d7/da0/a00198.png" border="0" usemap="#aBWRY__Colours_8ino" alt=""/></div>
-<map name="aBWRY__Colours_8ino" id="aBWRY__Colours_8ino">
-<area shape="rect" title="Example for Pervasive Displays Library Suite." alt="" coords="71,5,211,31"/>
-<area shape="rect" title=" " alt="" coords="5,79,89,104"/>
-<area shape="poly" title=" " alt="" coords="127,33,75,72,72,68,124,29"/>
-<area shape="rect" title=" " alt="" coords="113,79,168,104"/>
-<area shape="poly" title=" " alt="" coords="143,31,143,65,138,65,138,31"/>
-<area shape="rect" title=" " alt="" coords="192,79,383,104"/>
-<area shape="poly" title=" " alt="" coords="165,28,252,70,250,75,163,33"/>
+<div class="center"><img src="../../d8/d72/a00199.png" border="0" usemap="#aTerminal12x16e_8hdep" alt=""/></div>
+<map name="aTerminal12x16e_8hdep" id="aTerminal12x16e_8hdep">
+<area shape="rect" title="Font Terminal 12 x 16." alt="" coords="14,5,153,31"/>
+<area shape="rect" href="../../d3/de5/a00209.html" title="hV_Font_Terminal" alt="" coords="9,79,158,104"/>
+<area shape="poly" title=" " alt="" coords="86,44,86,79,81,79,81,44"/>
+<area shape="rect" href="../../d3/db1/a00200.html" title="Generic buffered screen class library." alt="" coords="10,152,157,177"/>
+<area shape="poly" title=" " alt="" coords="86,118,86,152,81,152,81,118"/>
+<area shape="rect" href="../../d1/da8/a00230.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="8,225,159,251"/>
+<area shape="poly" title=" " alt="" coords="86,191,86,225,81,225,81,191"/>
+<area shape="rect" href="../../d9/dd0/a00191.html" title="Basic GUI with text and button." alt="" coords="42,299,125,324"/>
+<area shape="poly" title=" " alt="" coords="86,264,86,299,81,299,81,264"/>
+<area shape="rect" href="../../dc/de6/a00167.html" title="Example of features for Evaluation edition." alt="" coords="5,372,161,397"/>
+<area shape="poly" title=" " alt="" coords="86,338,86,372,81,372,81,338"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a522cd91df28e8bc50cea84fe1edcb2ff"><td class="memItemLeft" align="right" valign="top"><a id="a522cd91df28e8bc50cea84fe1edcb2ff" name="a522cd91df28e8bc50cea84fe1edcb2ff"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_PALETTE_BWRY</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:a522cd91df28e8bc50cea84fe1edcb2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4585148969ab7c12c2e5cec8cd8d029d"><td class="memItemLeft" align="right" valign="top"><a id="a4585148969ab7c12c2e5cec8cd8d029d" name="a4585148969ab7c12c2e5cec8cd8d029d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_COLOURS_BWRY</b>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:a4585148969ab7c12c2e5cec8cd8d029d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a60b9a006f04f98d3f93d1125c9a2cad1"><td class="memItemLeft" align="right" valign="top"><a id="a60b9a006f04f98d3f93d1125c9a2cad1" name="a60b9a006f04f98d3f93d1125c9a2cad1"></a>
-Screen_EPD_EXT3&#160;</td><td class="memItemRight" valign="bottom"><b>myScreen</b> (<a class="el" href="../../d5/db1/a00140.html#adb01ba611e434d40bb81d4bf874fa936">eScreen_EPD_EXT3_154_BWRY</a>, <a class="el" href="../../d5/db1/a00140.html#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a>)</td></tr>
-<tr class="separator:a60b9a006f04f98d3f93d1125c9a2cad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db1/a00197.html#a92d9142cd31b37b7b3944dc8d9c9f454">wait</a> (uint8_t second)</td></tr>
-<tr class="memdesc:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait with countdown.  <br /></td></tr>
-<tr class="separator:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top"><a id="a4fc01d736fe50cf5b977f755b675f11d" name="a4fc01d736fe50cf5b977f755b675f11d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setup</b> ()</td></tr>
-<tr class="separator:a4fc01d736fe50cf5b977f755b675f11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe461d27b9c48d5921c00d521181f12f"><td class="memItemLeft" align="right" valign="top"><a id="afe461d27b9c48d5921c00d521181f12f" name="afe461d27b9c48d5921c00d521181f12f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>loop</b> ()</td></tr>
-<tr class="memdesc:afe461d27b9c48d5921c00d521181f12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loop, empty. <br /></td></tr>
-<tr class="separator:afe461d27b9c48d5921c00d521181f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37a4e331a66a7c2283c3a82cbb5e8459"><td class="memItemLeft" align="right" valign="top"><a id="a37a4e331a66a7c2283c3a82cbb5e8459" name="a37a4e331a66a7c2283c3a82cbb5e8459"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>TERMINAL12E_FONT_RELEASE</b>&#160;&#160;&#160;507</td></tr>
+<tr class="memdesc:a37a4e331a66a7c2283c3a82cbb5e8459"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release. <br /></td></tr>
+<tr class="separator:a37a4e331a66a7c2283c3a82cbb5e8459"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Example for Pervasive Displays Library Suite. </p>
+<div class="textblock"><p>Font Terminal 12 x 16. </p>
 <p>Project Pervasive Displays Library Suite <br  />
  Based on highView technology</p>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>21 Jun 2023 </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>611</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>02 Aug 2021 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>507</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2023 </dd>
 <dd>
-Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</dd></dl>
-<dl class="section see"><dt>See also</dt><dd>ReadMe.txt for references <br  />
-</dd></dl>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a id="a92d9142cd31b37b7b3944dc8d9c9f454" name="a92d9142cd31b37b7b3944dc8d9c9f454"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92d9142cd31b37b7b3944dc8d9c9f454">&#9670;&#160;</a></span>wait()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wait </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>second</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Wait with countdown. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">second</td><td>duration, s </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-</div><!-- contents -->
+All rights reserved</dd></dl>
+<ul>
+<li>Basic edition: for hobbyists and for basic usage <br  />
+ Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</li>
+<li>Evaluation edition: for professionals or organisations, evaluation only, no commercial usage <br  />
+ All rights reserved</li>
+<li>Commercial edition: for professionals or organisations, commercial usage <br  />
+ All rights reserved </li>
+</ul>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_e4a923addceec178698f5fefd5aa1a27.html">BWRY_Colours</a></li><li class="navelem"><a class="el" href="../../de/db1/a00197.html">BWRY_Colours.ino</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../de/db1/a00197.html">Terminal12x16e.h</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.9.7 </li>

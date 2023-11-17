@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: hV_Utilities.h File Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: hV_List_Options.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;7.0.0</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;7.0.1</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -94,567 +94,377 @@ $(document).ready(function(){initNavTree('d6/de1/a00233.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a>  </div>
-  <div class="headertitle"><div class="title">hV_Utilities.h File Reference</div></div>
+  <div class="headertitle"><div class="title">hV_List_Options.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Utilities for highView Library Suite.  
+<p>List of options for Pervasive Displays Library Suite.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d7/d40/a00236.html">hV_HAL_Peripherals.h</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for hV_Utilities.h:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../da/d31/a00234.png" border="0" usemap="#ahV__Utilities_8h" alt=""/></div>
-<map name="ahV__Utilities_8h" id="ahV__Utilities_8h">
-<area shape="rect" title="Utilities for highView Library Suite." alt="" coords="234,5,343,31"/>
-<area shape="rect" href="../../d7/d40/a00236.html" title="Light hardware abstraction layer for peripherals." alt="" coords="207,79,371,104"/>
-<area shape="poly" title=" " alt="" coords="291,31,291,65,286,65,286,31"/>
-<area shape="rect" title=" " alt="" coords="5,152,89,177"/>
-<area shape="poly" title=" " alt="" coords="251,107,101,151,99,145,249,101"/>
-<area shape="rect" title=" " alt="" coords="113,152,184,177"/>
-<area shape="poly" title=" " alt="" coords="267,106,185,148,182,143,265,102"/>
-<area shape="rect" title=" " alt="" coords="209,152,275,177"/>
-<area shape="poly" title=" " alt="" coords="283,106,259,142,255,139,279,103"/>
-<area shape="rect" title=" " alt="" coords="299,152,374,177"/>
-<area shape="poly" title=" " alt="" coords="299,103,324,139,319,142,294,106"/>
-<area shape="rect" title=" " alt="" coords="399,152,453,177"/>
-<area shape="poly" title=" " alt="" coords="312,102,393,143,390,148,310,106"/>
-<area shape="rect" title=" " alt="" coords="478,152,542,177"/>
-<area shape="poly" title=" " alt="" coords="325,101,466,146,464,152,323,107"/>
-</map>
-</div>
-</div><div class="textblock"><div class="dynheader">
+<div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d3/d42/a00235.png" border="0" usemap="#ahV__Utilities_8hdep" alt=""/></div>
-<map name="ahV__Utilities_8hdep" id="ahV__Utilities_8hdep">
-<area shape="rect" title="Utilities for highView Library Suite." alt="" coords="137,5,247,31"/>
-<area shape="rect" href="../../dd/dc1/a00212.html" title="hV_Font_Terminal" alt="" coords="5,79,155,104"/>
-<area shape="poly" title=" " alt="" coords="164,40,100,81,97,76,161,36"/>
-<area shape="rect" href="../../de/d79/a00203.html" title="Generic buffered screen class library." alt="" coords="7,152,153,177"/>
-<area shape="poly" title=" " alt="" coords="192,45,184,75,169,106,139,134,107,154,104,150,136,130,165,102,179,73,186,44"/>
-<area shape="rect" href="../../da/d15/a00188.html" title="Driver for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="178,152,321,177"/>
-<area shape="poly" title=" " alt="" coords="204,43,247,151,242,153,199,45"/>
-<area shape="poly" title=" " alt="" coords="83,118,83,152,77,152,77,118"/>
-<area shape="rect" href="../../d1/da8/a00230.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="89,225,239,251"/>
-<area shape="poly" title=" " alt="" coords="106,184,152,223,149,227,102,188"/>
-<area shape="rect" href="../../dc/d57/a00194.html" title="Basic GUI with text and button." alt="" coords="123,299,205,324"/>
-<area shape="poly" title=" " alt="" coords="167,264,167,299,161,299,161,264"/>
-<area shape="rect" href="../../dc/de6/a00167.html" title="Example of features for Evaluation edition." alt="" coords="86,372,242,397"/>
-<area shape="poly" title=" " alt="" coords="167,338,167,372,161,372,161,338"/>
-<area shape="poly" title=" " alt="" coords="227,188,180,227,176,223,224,184"/>
+<div class="center"><img src="../../d3/d42/a00235.png" border="0" usemap="#ahV__List__Options_8hdep" alt=""/></div>
+<map name="ahV__List__Options_8hdep" id="ahV__List__Options_8hdep">
+<area shape="rect" title="List of options for Pervasive Displays Library Suite." alt="" coords="5,5,144,31"/>
+<area shape="rect" href="../../d3/dd5/a00215.html" title="Shared low&#45;level libraries for the Pervasive Displays Library Suite." alt="" coords="16,79,133,104"/>
+<area shape="poly" title=" " alt="" coords="77,44,77,79,72,79,72,44"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a9181b73f355c545c61257008ed6515c1"><td class="memItemLeft" align="right" valign="top"><a id="a9181b73f355c545c61257008ed6515c1" name="a9181b73f355c545c61257008ed6515c1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>hV_UTILITIES_RELEASE</b>&#160;&#160;&#160;700</td></tr>
-<tr class="memdesc:a9181b73f355c545c61257008ed6515c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Library release number. <br /></td></tr>
-<tr class="separator:a9181b73f355c545c61257008ed6515c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6afabdc09a49a433ee19d8a9486056d"><td class="memItemLeft" align="right" valign="top"><a id="ac6afabdc09a49a433ee19d8a9486056d" name="ac6afabdc09a49a433ee19d8a9486056d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>min</b>(a,  b)&#160;&#160;&#160;((a) &lt; (b) ? (a) : (b))</td></tr>
-<tr class="separator:ac6afabdc09a49a433ee19d8a9486056d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affe776513b24d84b39af8ab0930fef7f"><td class="memItemLeft" align="right" valign="top"><a id="affe776513b24d84b39af8ab0930fef7f" name="affe776513b24d84b39af8ab0930fef7f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>max</b>(a,  b)&#160;&#160;&#160;((a) &gt; (b) ? (a) : (b))</td></tr>
-<tr class="separator:affe776513b24d84b39af8ab0930fef7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Orientation constants</div></td></tr>
-<tr class="memitem:a0f166aa542c69097847cfc189cd48057"><td class="memItemLeft" align="right" valign="top"><a id="a0f166aa542c69097847cfc189cd48057" name="a0f166aa542c69097847cfc189cd48057"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ORIENTATION_PORTRAIT</b>&#160;&#160;&#160;6</td></tr>
-<tr class="memdesc:a0f166aa542c69097847cfc189cd48057"><td class="mdescLeft">&#160;</td><td class="mdescRight">portrait or vertical, higher than large <br /></td></tr>
-<tr class="separator:a0f166aa542c69097847cfc189cd48057"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accc06995e9834c793d2cc9e96ded0560"><td class="memItemLeft" align="right" valign="top"><a id="accc06995e9834c793d2cc9e96ded0560" name="accc06995e9834c793d2cc9e96ded0560"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>ORIENTATION_LANDSCAPE</b>&#160;&#160;&#160;7</td></tr>
-<tr class="memdesc:accc06995e9834c793d2cc9e96ded0560"><td class="mdescLeft">&#160;</td><td class="mdescRight">landscape or horizontal, larger than high <br /></td></tr>
-<tr class="separator:accc06995e9834c793d2cc9e96ded0560"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Utilities</div></td></tr>
-<tr class="memitem:ab7cce8122024d7ba47bf10f434956de4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.html#ab7cce8122024d7ba47bf10f434956de4">delay_ms</a> (uint32_t ms)</td></tr>
-<tr class="memdesc:ab7cce8122024d7ba47bf10f434956de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blocking delay.  <br /></td></tr>
-<tr class="separator:ab7cce8122024d7ba47bf10f434956de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5fee0ae2d4737a35b38f31aa48ece9f"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.html#ae5fee0ae2d4737a35b38f31aa48ece9f">cos32x100</a> (int32_t degreesX100)</td></tr>
-<tr class="memdesc:ae5fee0ae2d4737a35b38f31aa48ece9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cosinus.  <br /></td></tr>
-<tr class="separator:ae5fee0ae2d4737a35b38f31aa48ece9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6843a856b41ae0c0fbe919efb535aa9f"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.html#a6843a856b41ae0c0fbe919efb535aa9f">sin32x100</a> (int32_t degreesX100)</td></tr>
-<tr class="memdesc:a6843a856b41ae0c0fbe919efb535aa9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sinus.  <br /></td></tr>
-<tr class="separator:a6843a856b41ae0c0fbe919efb535aa9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3051dd153db86ba3b56a69e93f1ca22a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.html#a3051dd153db86ba3b56a69e93f1ca22a">utf2iso</a> (String s)</td></tr>
-<tr class="memdesc:a3051dd153db86ba3b56a69e93f1ca22a"><td class="mdescLeft">&#160;</td><td class="mdescRight">UTF-8 to ISO-8859-1 Converter.  <br /></td></tr>
-<tr class="separator:a3051dd153db86ba3b56a69e93f1ca22a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa405c9a5b808e428554e540028085dd3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.html#aa405c9a5b808e428554e540028085dd3">formatString</a> (const char *format,...)</td></tr>
-<tr class="memdesc:aa405c9a5b808e428554e540028085dd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format string.  <br /></td></tr>
-<tr class="separator:aa405c9a5b808e428554e540028085dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a311c694a8a5722683dd6739c55323036"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.html#a311c694a8a5722683dd6739c55323036">trimString</a> (String text)</td></tr>
-<tr class="memdesc:a311c694a8a5722683dd6739c55323036"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove leading and ending characters.  <br /></td></tr>
-<tr class="separator:a311c694a8a5722683dd6739c55323036"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Range</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>Utilities to check range, set min and max </p>
+<tr class="memitem:a60e884327071b24efbc11ca1d3ae16f1"><td class="memItemLeft" align="right" valign="top"><a id="a60e884327071b24efbc11ca1d3ae16f1" name="a60e884327071b24efbc11ca1d3ae16f1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>hV_LIST_OPTIONS_RELEASE</b>&#160;&#160;&#160;701</td></tr>
+<tr class="memdesc:a60e884327071b24efbc11ca1d3ae16f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release. <br /></td></tr>
+<tr class="separator:a60e884327071b24efbc11ca1d3ae16f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66b2ce216c9fb1c332b3f3a4dbc0882b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.html#a66b2ce216c9fb1c332b3f3a4dbc0882b">MAX_FONT_SIZE</a>&#160;&#160;&#160;4</td></tr>
+<tr class="memdesc:a66b2ce216c9fb1c332b3f3a4dbc0882b"><td class="mdescLeft">&#160;</td><td class="mdescRight">4- Maximum number of fonts  <br /></td></tr>
+<tr class="separator:a66b2ce216c9fb1c332b3f3a4dbc0882b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">3- Set font mode</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p>From header files or from external flash</p><ul>
+<li>Basic edition: Terminal font</li>
+<li>Evaluation edition: DejaVu font as header</li>
+<li>Commercial edition: DejaVu font as either header or external SPI Flash <dl class="section note"><dt>Note</dt><dd>USE_FONT_HEADER requires addFont() </dd>
+<dd>
+Font Manager requires USE_FONT_HEADER </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>8- and 16-bit MCUs may limit the size of the fonts. Use 32-bit MCUs for optimal performance. </dd></dl>
+</li>
+</ul>
 </div></td></tr>
-<tr class="memitem:a86af3529c58c3ba135667030a75a5917"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.html#a86af3529c58c3ba135667030a75a5917">checkRange</a> (uint16_t value, uint16_t valueMin, uint16_t valueMax)</td></tr>
-<tr class="memdesc:a86af3529c58c3ba135667030a75a5917"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check value in range.  <br /></td></tr>
-<tr class="separator:a86af3529c58c3ba135667030a75a5917"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8a17fff09aa92a8b27434044c138bc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.html#ac8a17fff09aa92a8b27434044c138bc0">setMinMax</a> (uint16_t value, uint16_t &amp;valueMin, uint16_t &amp;valueMax)</td></tr>
-<tr class="memdesc:ac8a17fff09aa92a8b27434044c138bc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update min and max values.  <br /></td></tr>
-<tr class="separator:ac8a17fff09aa92a8b27434044c138bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e10a8bc35f3b1ae121655e335de4513"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.html#a9e10a8bc35f3b1ae121655e335de4513">roundUp</a> (uint32_t value, uint16_t modulo)</td></tr>
-<tr class="memdesc:a9e10a8bc35f3b1ae121655e335de4513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Round-up.  <br /></td></tr>
-<tr class="separator:a9e10a8bc35f3b1ae121655e335de4513"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a149f55c1d6b6336ef751e247856198ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.html#a149f55c1d6b6336ef751e247856198ce">swap</a> (int16_t &amp;a, int16_t &amp;b)</td></tr>
-<tr class="memdesc:a149f55c1d6b6336ef751e247856198ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swap number, int16_t.  <br /></td></tr>
-<tr class="separator:a149f55c1d6b6336ef751e247856198ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7989671d14dda7f19b8d289e359404e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.html#a7989671d14dda7f19b8d289e359404e9">swap</a> (uint16_t &amp;a, uint16_t &amp;b)</td></tr>
-<tr class="memdesc:a7989671d14dda7f19b8d289e359404e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swap number, uint16_t.  <br /></td></tr>
-<tr class="separator:a7989671d14dda7f19b8d289e359404e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46562f812c731ac4a846ee4bb29b0397"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.html#a46562f812c731ac4a846ee4bb29b0397">swap</a> (uint8_t &amp;a, uint8_t &amp;b)</td></tr>
-<tr class="memdesc:a46562f812c731ac4a846ee4bb29b0397"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swap number, uint8_t.  <br /></td></tr>
-<tr class="separator:a46562f812c731ac4a846ee4bb29b0397"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8957d8cdb41ab8149747bc778762044e"><td class="memItemLeft" align="right" valign="top"><a id="a8957d8cdb41ab8149747bc778762044e" name="a8957d8cdb41ab8149747bc778762044e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_FONT_TERMINAL</b>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:a8957d8cdb41ab8149747bc778762044e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use default Terminal fonts. <br /></td></tr>
+<tr class="separator:a8957d8cdb41ab8149747bc778762044e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a2e198999b4407a60ff6f17f76361f7"><td class="memItemLeft" align="right" valign="top"><a id="a5a2e198999b4407a60ff6f17f76361f7" name="a5a2e198999b4407a60ff6f17f76361f7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_FONT_HEADER</b>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:a5a2e198999b4407a60ff6f17f76361f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use fonts from header files. <br /></td></tr>
+<tr class="separator:a5a2e198999b4407a60ff6f17f76361f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa859a5ba966373ad3dc368d0609601a"><td class="memItemLeft" align="right" valign="top"><a id="aaa859a5ba966373ad3dc368d0609601a" name="aaa859a5ba966373ad3dc368d0609601a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_FONT_FLASH</b>&#160;&#160;&#160;3</td></tr>
+<tr class="memdesc:aaa859a5ba966373ad3dc368d0609601a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use fonts from external SPI Flash memory. <br /></td></tr>
+<tr class="separator:aaa859a5ba966373ad3dc368d0609601a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4db1449465ca51c16fa4cd9ee7a45655"><td class="memItemLeft" align="right" valign="top"><a id="a4db1449465ca51c16fa4cd9ee7a45655" name="a4db1449465ca51c16fa4cd9ee7a45655"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_FONT_INTERNAL</b>&#160;&#160;&#160;4</td></tr>
+<tr class="memdesc:a4db1449465ca51c16fa4cd9ee7a45655"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use fonts from internal CGU. <br /></td></tr>
+<tr class="separator:a4db1449465ca51c16fa4cd9ee7a45655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7790c7c49429aaa3e6bfba18956447e"><td class="memItemLeft" align="right" valign="top"><a id="ac7790c7c49429aaa3e6bfba18956447e" name="ac7790c7c49429aaa3e6bfba18956447e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>FONT_MODE</b>&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00233.html#a5a2e198999b4407a60ff6f17f76361f7">USE_FONT_HEADER</a></td></tr>
+<tr class="memdesc:ac7790c7c49429aaa3e6bfba18956447e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selected option. <br /></td></tr>
+<tr class="separator:ac7790c7c49429aaa3e6bfba18956447e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">5- Set SRAM memory</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p>From internal MCU or external SPI</p><ul>
+<li>Basic edition: MCU internal SRAM</li>
+<li>Commercial edition: MCU internal SRAM</li>
+<li>Evaluation edition: MCU internal or SPI external SRAM </li>
+</ul>
+</div></td></tr>
+<tr class="memitem:a5ae3237253d77826843fc9d90700d5a1"><td class="memItemLeft" align="right" valign="top"><a id="a5ae3237253d77826843fc9d90700d5a1" name="a5ae3237253d77826843fc9d90700d5a1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_INTERNAL_MCU</b>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:a5ae3237253d77826843fc9d90700d5a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use MCU internal. <br /></td></tr>
+<tr class="separator:a5ae3237253d77826843fc9d90700d5a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68c8a8e085b92c32d8523293b1580c7f"><td class="memItemLeft" align="right" valign="top"><a id="a68c8a8e085b92c32d8523293b1580c7f" name="a68c8a8e085b92c32d8523293b1580c7f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_EXTERNAL_SPI</b>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:a68c8a8e085b92c32d8523293b1580c7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use SPI External. <br /></td></tr>
+<tr class="separator:a68c8a8e085b92c32d8523293b1580c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e2fdad38cc1a287c1119e44d94ca0fd"><td class="memItemLeft" align="right" valign="top"><a id="a1e2fdad38cc1a287c1119e44d94ca0fd" name="a1e2fdad38cc1a287c1119e44d94ca0fd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SRAM_MODE</b>&#160;&#160;&#160;<a class="el" href="../../dd/dd7/a00260.html#a5ae3237253d77826843fc9d90700d5a1">USE_INTERNAL_MCU</a></td></tr>
+<tr class="memdesc:a1e2fdad38cc1a287c1119e44d94ca0fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selected option. <br /></td></tr>
+<tr class="separator:a1e2fdad38cc1a287c1119e44d94ca0fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">6- Use virtual object</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p>From hV_Screen_Virtual.h for extended compability </p><dl class="section note"><dt>Note</dt><dd>Declare additional variables if USE_hV_SCREEN_SELF <br  />
+ Virtual object requires ~1 kB bytes.<ul>
+<li>Basic edition: self option</li>
+<li>Evaluation edition: virtual option</li>
+<li>Commercial edition: self and virtual options </li>
+</ul>
+</dd>
+<dd>
+Recommended: USE_hV_SCREEN_VIRTUAL </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>Issues with virtual function on arm-none-eabi-g++ 4.9.3: use USE_hV_SCREEN_SELF instead. </dd></dl>
+</div></td></tr>
+<tr class="memitem:aa10e78e50fcc1193889987d73710a609"><td class="memItemLeft" align="right" valign="top"><a id="aa10e78e50fcc1193889987d73710a609" name="aa10e78e50fcc1193889987d73710a609"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_hV_SCREEN_VIRTUAL</b>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:aa10e78e50fcc1193889987d73710a609"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use virtual object. <br /></td></tr>
+<tr class="separator:aa10e78e50fcc1193889987d73710a609"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab4e357f20ccd08a66b382176fdee38f"><td class="memItemLeft" align="right" valign="top"><a id="aab4e357f20ccd08a66b382176fdee38f" name="aab4e357f20ccd08a66b382176fdee38f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_hV_SCREEN_SELF</b>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:aab4e357f20ccd08a66b382176fdee38f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do not use virtual object. <br /></td></tr>
+<tr class="separator:aab4e357f20ccd08a66b382176fdee38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add4d69b5067bbc2cf56d4fb522dd6541"><td class="memItemLeft" align="right" valign="top"><a id="add4d69b5067bbc2cf56d4fb522dd6541" name="add4d69b5067bbc2cf56d4fb522dd6541"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_hV_SCREEN</b>&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00233.html#aa10e78e50fcc1193889987d73710a609">USE_hV_SCREEN_VIRTUAL</a></td></tr>
+<tr class="memdesc:add4d69b5067bbc2cf56d4fb522dd6541"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selected option. <br /></td></tr>
+<tr class="separator:add4d69b5067bbc2cf56d4fb522dd6541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">7- Set touch mode</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p>Only two screens are ready for touch</p><ul>
+<li>Basic edition: iTC 2.71 BW and iTC 3.70 BW</li>
+<li>Evaluation edition: iTC 2.71 BW and iTC 3.70 BW</li>
+<li>Commercial edition: iTC 2.71 BW and iTC 3.70 BW <dl class="section note"><dt>Note</dt><dd>Touch uses I2C and polling over interrupt </dd></dl>
+</li>
+</ul>
+</div></td></tr>
+<tr class="memitem:ac0b08ef537f6a6c42bceab5c3b8da75c"><td class="memItemLeft" align="right" valign="top"><a id="ac0b08ef537f6a6c42bceab5c3b8da75c" name="ac0b08ef537f6a6c42bceab5c3b8da75c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_TOUCH_NONE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:ac0b08ef537f6a6c42bceab5c3b8da75c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do not use touch. <br /></td></tr>
+<tr class="separator:ac0b08ef537f6a6c42bceab5c3b8da75c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af48880fea70dcb52dfb9c43d689bf6aa"><td class="memItemLeft" align="right" valign="top"><a id="af48880fea70dcb52dfb9c43d689bf6aa" name="af48880fea70dcb52dfb9c43d689bf6aa"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_TOUCH_YES</b>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:af48880fea70dcb52dfb9c43d689bf6aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use touch. <br /></td></tr>
+<tr class="separator:af48880fea70dcb52dfb9c43d689bf6aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11320f76b1b3395290d1e97bb7ac9c2a"><td class="memItemLeft" align="right" valign="top"><a id="a11320f76b1b3395290d1e97bb7ac9c2a" name="a11320f76b1b3395290d1e97bb7ac9c2a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>TOUCH_MODE</b>&#160;&#160;&#160;<a class="el" href="../../dd/dd7/a00260.html#af48880fea70dcb52dfb9c43d689bf6aa">USE_TOUCH_YES</a></td></tr>
+<tr class="memdesc:a11320f76b1b3395290d1e97bb7ac9c2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selected option. <br /></td></tr>
+<tr class="separator:a11320f76b1b3395290d1e97bb7ac9c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:a2c0c9d99d443328964c910321320b517"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.html#a2c0c9d99d443328964c910321320b517">USE_HAPTICS_NONE</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:a2c0c9d99d443328964c910321320b517"><td class="mdescLeft">&#160;</td><td class="mdescRight">8- Set haptic feedback mode  <br /></td></tr>
+<tr class="separator:a2c0c9d99d443328964c910321320b517"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee7735d29ecbc6b2bca6fc13e9fc89a2"><td class="memItemLeft" align="right" valign="top"><a id="aee7735d29ecbc6b2bca6fc13e9fc89a2" name="aee7735d29ecbc6b2bca6fc13e9fc89a2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_DRV2605L_ERM</b>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:aee7735d29ecbc6b2bca6fc13e9fc89a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">DRV2605L with ERM = eccentric rotating mass. <br /></td></tr>
+<tr class="separator:aee7735d29ecbc6b2bca6fc13e9fc89a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41bea985c668a900cd8f58d88fdf81ea"><td class="memItemLeft" align="right" valign="top"><a id="a41bea985c668a900cd8f58d88fdf81ea" name="a41bea985c668a900cd8f58d88fdf81ea"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_DRV2605L_LRA</b>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:a41bea985c668a900cd8f58d88fdf81ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">DRV2605L with LRA = linear resonant actuator. <br /></td></tr>
+<tr class="separator:a41bea985c668a900cd8f58d88fdf81ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8fd9379451a6d714941f9d07f23f49d"><td class="memItemLeft" align="right" valign="top"><a id="ac8fd9379451a6d714941f9d07f23f49d" name="ac8fd9379451a6d714941f9d07f23f49d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HAPTICS_MODE</b>&#160;&#160;&#160;<a class="el" href="../../dd/dd7/a00260.html#a2c0c9d99d443328964c910321320b517">USE_HAPTICS_NONE</a></td></tr>
+<tr class="memdesc:ac8fd9379451a6d714941f9d07f23f49d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selected option. <br /></td></tr>
+<tr class="separator:ac8fd9379451a6d714941f9d07f23f49d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:a860f4bce384204ab9821f3323ad37428"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.html#a860f4bce384204ab9821f3323ad37428">USE_EXPANDER_NONE</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:a860f4bce384204ab9821f3323ad37428"><td class="mdescLeft">&#160;</td><td class="mdescRight">9- Set GPIO expander mode  <br /></td></tr>
+<tr class="separator:a860f4bce384204ab9821f3323ad37428"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0ad3828825beec52099374b8746bb06"><td class="memItemLeft" align="right" valign="top"><a id="ab0ad3828825beec52099374b8746bb06" name="ab0ad3828825beec52099374b8746bb06"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_I2C_PCF8574</b>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:ab0ad3828825beec52099374b8746bb06"><td class="mdescLeft">&#160;</td><td class="mdescRight">PCF8574 8 ports GPIO I2C 100 kHz expander. <br /></td></tr>
+<tr class="separator:ab0ad3828825beec52099374b8746bb06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6b10710d17776ae1bb18e42fc756b10"><td class="memItemLeft" align="right" valign="top"><a id="aa6b10710d17776ae1bb18e42fc756b10" name="aa6b10710d17776ae1bb18e42fc756b10"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_I2C_PCA9536</b>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:aa6b10710d17776ae1bb18e42fc756b10"><td class="mdescLeft">&#160;</td><td class="mdescRight">PCA9536 4 ports GPIO I2C 400 kHz expander. <br /></td></tr>
+<tr class="separator:aa6b10710d17776ae1bb18e42fc756b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad18666be4d15e759ab8b4863d6787be5"><td class="memItemLeft" align="right" valign="top"><a id="ad18666be4d15e759ab8b4863d6787be5" name="ad18666be4d15e759ab8b4863d6787be5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_I2C_TCA6408</b>&#160;&#160;&#160;3</td></tr>
+<tr class="memdesc:ad18666be4d15e759ab8b4863d6787be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">TCA6408 8 ports GPIO I2C 400 kHz expander. <br /></td></tr>
+<tr class="separator:ad18666be4d15e759ab8b4863d6787be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98b9d12915609bc5f10526b151be4e23"><td class="memItemLeft" align="right" valign="top"><a id="a98b9d12915609bc5f10526b151be4e23" name="a98b9d12915609bc5f10526b151be4e23"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>EXPANDER_MODE</b>&#160;&#160;&#160;<a class="el" href="../../dd/dd7/a00260.html#a860f4bce384204ab9821f3323ad37428">USE_EXPANDER_NONE</a></td></tr>
+<tr class="memdesc:a98b9d12915609bc5f10526b151be4e23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selected option. <br /></td></tr>
+<tr class="separator:a98b9d12915609bc5f10526b151be4e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:a1aa630d1906e358b320b4e00fcd9d7d7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.html#a1aa630d1906e358b320b4e00fcd9d7d7">USE_STRING_OBJECT</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:a1aa630d1906e358b320b4e00fcd9d7d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">10- Set string mode  <br /></td></tr>
+<tr class="separator:a1aa630d1906e358b320b4e00fcd9d7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada54c2dec48973ba1ea61bc4b15aee34"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.html#ada54c2dec48973ba1ea61bc4b15aee34">USE_CHAR_ARRAY</a>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:ada54c2dec48973ba1ea61bc4b15aee34"><td class="mdescLeft">&#160;</td><td class="mdescRight">10- Set string mode  <br /></td></tr>
+<tr class="separator:ada54c2dec48973ba1ea61bc4b15aee34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a772c0af3dc7e04934854547bc08ca6ed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.html#a772c0af3dc7e04934854547bc08ca6ed">STRING_MODE</a>&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00233.html#ada54c2dec48973ba1ea61bc4b15aee34">USE_CHAR_ARRAY</a></td></tr>
+<tr class="memdesc:a772c0af3dc7e04934854547bc08ca6ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">10- Set string mode  <br /></td></tr>
+<tr class="separator:a772c0af3dc7e04934854547bc08ca6ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:a64a99352a7dde2b861163fdb8f8abd89"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00233.html#a64a99352a7dde2b861163fdb8f8abd89">USE_NONE</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:a64a99352a7dde2b861163fdb8f8abd89"><td class="mdescLeft">&#160;</td><td class="mdescRight">11- Storage mode  <br /></td></tr>
+<tr class="separator:a64a99352a7dde2b861163fdb8f8abd89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a946297d7d599e95275c0615c9ee92853"><td class="memItemLeft" align="right" valign="top"><a id="a946297d7d599e95275c0615c9ee92853" name="a946297d7d599e95275c0615c9ee92853"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_SD_CARD</b>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:a946297d7d599e95275c0615c9ee92853"><td class="mdescLeft">&#160;</td><td class="mdescRight">SD card. <br /></td></tr>
+<tr class="separator:a946297d7d599e95275c0615c9ee92853"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca229d384cb9aeb1fe469ab16761ed4f"><td class="memItemLeft" align="right" valign="top"><a id="aca229d384cb9aeb1fe469ab16761ed4f" name="aca229d384cb9aeb1fe469ab16761ed4f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_SPI_FLASH</b>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:aca229d384cb9aeb1fe469ab16761ed4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">External SPI Flash. <br /></td></tr>
+<tr class="separator:aca229d384cb9aeb1fe469ab16761ed4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45409de15c3d6feb58dbe6854f51db7a"><td class="memItemLeft" align="right" valign="top"><a id="a45409de15c3d6feb58dbe6854f51db7a" name="a45409de15c3d6feb58dbe6854f51db7a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_SERIAL_CONSOLE</b>&#160;&#160;&#160;4</td></tr>
+<tr class="memdesc:a45409de15c3d6feb58dbe6854f51db7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serial console for writing only. <br /></td></tr>
+<tr class="separator:a45409de15c3d6feb58dbe6854f51db7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65ad1663397fed6e4345fca7f7db7d93"><td class="memItemLeft" align="right" valign="top"><a id="a65ad1663397fed6e4345fca7f7db7d93" name="a65ad1663397fed6e4345fca7f7db7d93"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_LINUX_FILES</b>&#160;&#160;&#160;8</td></tr>
+<tr class="memdesc:a65ad1663397fed6e4345fca7f7db7d93"><td class="mdescLeft">&#160;</td><td class="mdescRight">For Linux native applications. <br /></td></tr>
+<tr class="separator:a65ad1663397fed6e4345fca7f7db7d93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9794b07ad5c45a1b1d2b29af9c81138"><td class="memItemLeft" align="right" valign="top"><a id="ab9794b07ad5c45a1b1d2b29af9c81138" name="ab9794b07ad5c45a1b1d2b29af9c81138"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>STORAGE_MODE</b>&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00233.html#a45409de15c3d6feb58dbe6854f51db7a">USE_SERIAL_CONSOLE</a></td></tr>
+<tr class="memdesc:ab9794b07ad5c45a1b1d2b29af9c81138"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selected options. <br /></td></tr>
+<tr class="separator:ab9794b07ad5c45a1b1d2b29af9c81138"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Utilities for highView Library Suite. </p>
+<div class="textblock"><p>List of options for Pervasive Displays Library Suite. </p>
 <p>Project Pervasive Displays Library Suite <br  />
  Based on highView technology</p>
+<p><br  />
+ Content</p><ul>
+<li>3- Font mode, internal MCU or external SPI Flash</li>
+<li>4- Maximum number of fonts</li>
+<li>5- SRAM memory, internal MCU or external SPI</li>
+<li>6- Use self or virtual object</li>
+<li>7- Touch mode, activated or not</li>
+<li>8- Haptic feedback mode, activated or not</li>
+<li>9. Set GPIO expander mode, not implemented</li>
+<li>10. String object of char array options for string.</li>
+<li>11. Set storage mode, serial console by default</li>
+</ul>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>21 Sep 2023 </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>700</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>21 Oct 2023 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>701</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2023 </dd>
 <dd>
-Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</dd></dl>
-<p>The highView Library Suite is shared under the Creative Commons licence Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).</p>
+All rights reserved</dd></dl>
 <ul>
 <li>Basic edition: for hobbyists and for basic usage <br  />
  Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</li>
+<li>Evaluation edition: for professionals or organisations, evaluation only, no commercial usage <br  />
+ All rights reserved</li>
+<li>Commercial edition: for professionals or organisations, commercial usage <br  />
+ All rights reserved </li>
 </ul>
-<dl class="section see"><dt>See also</dt><dd><a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></dd></dl>
-<p><br  />
- Consider the Evaluation or Commercial editions for professionals or organisations and for commercial usage </p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a id="a86af3529c58c3ba135667030a75a5917" name="a86af3529c58c3ba135667030a75a5917"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86af3529c58c3ba135667030a75a5917">&#9670;&#160;</a></span>checkRange()</h2>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a66b2ce216c9fb1c332b3f3a4dbc0882b" name="a66b2ce216c9fb1c332b3f3a4dbc0882b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66b2ce216c9fb1c332b3f3a4dbc0882b">&#9670;&#160;</a></span>MAX_FONT_SIZE</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t checkRange </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>valueMin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>valueMax</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">#define MAX_FONT_SIZE&#160;&#160;&#160;4</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Check value in range. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">value</td><td>value to check </td></tr>
-    <tr><td class="paramname">valueMin</td><td>range minimum </td></tr>
-    <tr><td class="paramname">valueMax</td><td>range maximum </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>value within range </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>Assuming valueMin &lt; valueMax<ul>
-<li>if value &lt; valueMin, return valueMin</li>
-<li>if value &gt; valueMax, return valueMax Otherwise, if valueMin &gt; valueMax, valueMin and valueMax are swapped </li>
+<p>4- Maximum number of fonts </p>
+<p>With MCU Flash, based on available memory, check performed at compilation</p><ul>
+<li>USE_FONT_TERMINAL: 1..4</li>
+<li>USE_FONT_HEADER: 1..64</li>
 </ul>
-</dd></dl>
-
-</div>
-</div>
-<a id="ae5fee0ae2d4737a35b38f31aa48ece9f" name="ae5fee0ae2d4737a35b38f31aa48ece9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5fee0ae2d4737a35b38f31aa48ece9f">&#9670;&#160;</a></span>cos32x100()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int32_t cos32x100 </td>
-          <td>(</td>
-          <td class="paramtype">int32_t&#160;</td>
-          <td class="paramname"><em>degreesX100</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Cosinus. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">degreesX100</td><td>angle in degrees, x100 </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>cosinus value, x100 </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>This function uses integers only. </dd></dl>
-
-</div>
-</div>
-<a id="ab7cce8122024d7ba47bf10f434956de4" name="ab7cce8122024d7ba47bf10f434956de4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7cce8122024d7ba47bf10f434956de4">&#9670;&#160;</a></span>delay_ms()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void delay_ms </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>ms</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Blocking delay. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ms</td><td>duration in ms </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd><a class="el" href="../../d6/de1/a00233.html#ab7cce8122024d7ba47bf10f434956de4" title="Blocking delay.">delay_ms()</a> is blocking, as it doesn't use delay() </dd></dl>
-
-</div>
-</div>
-<a id="aa405c9a5b808e428554e540028085dd3" name="aa405c9a5b808e428554e540028085dd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa405c9a5b808e428554e540028085dd3">&#9670;&#160;</a></span>formatString()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">String formatString </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>format</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Format string. </p>
-<p>Based on vsprint </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">format</td><td>format with standard codes </td></tr>
-    <tr><td class="paramname">...</td><td>list of values </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>string with values formatted </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a href="http://www.cplusplus.com/reference/cstdio/printf/?kw=printf">http://www.cplusplus.com/reference/cstdio/printf/?kw=printf</a> for codes </dd></dl>
-
-</div>
-</div>
-<a id="a9e10a8bc35f3b1ae121655e335de4513" name="a9e10a8bc35f3b1ae121655e335de4513"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e10a8bc35f3b1ae121655e335de4513">&#9670;&#160;</a></span>roundUp()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t roundUp </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>modulo</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Round-up. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">value</td><td>value to round-up </td></tr>
-    <tr><td class="paramname">modulo</td><td>modulo </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>rounded-up value / modulo </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>Examples<ul>
-<li>roundUp(7, 8) = 1;</li>
-<li>roundUp(8, 8) = 1;</li>
-<li>roundUp(9, 8) = 2; </li>
+<p>With SPI Flash, based on the fonts previously uploaded</p><ul>
+<li>USE_FONT_FLASH: eg. 64 </li>
 </ul>
-</dd></dl>
 
 </div>
 </div>
-<a id="ac8a17fff09aa92a8b27434044c138bc0" name="ac8a17fff09aa92a8b27434044c138bc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8a17fff09aa92a8b27434044c138bc0">&#9670;&#160;</a></span>setMinMax()</h2>
+<a id="a772c0af3dc7e04934854547bc08ca6ed" name="a772c0af3dc7e04934854547bc08ca6ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a772c0af3dc7e04934854547bc08ca6ed">&#9670;&#160;</a></span>STRING_MODE</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void setMinMax </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t &amp;&#160;</td>
-          <td class="paramname"><em>valueMin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t &amp;&#160;</td>
-          <td class="paramname"><em>valueMax</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">#define STRING_MODE&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00233.html#ada54c2dec48973ba1ea61bc4b15aee34">USE_CHAR_ARRAY</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Update min and max values. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">value</td><td>value to consider </td></tr>
-    <tr><td class="paramname">valueMin</td><td>minimum value to update if value &lt; valueMin </td></tr>
-    <tr><td class="paramname">valueMax</td><td>maximum value to update if value &gt; valueMax </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>valueMin &lt; valueMax is assumed </dd></dl>
+<p>10- Set string mode </p>
+<ul>
+<li>Basic edition: String object</li>
+<li>Evaluation edition: char array</li>
+<li>Commercial edition: String object or char array </li>
+</ul>
 
 </div>
 </div>
-<a id="a6843a856b41ae0c0fbe919efb535aa9f" name="a6843a856b41ae0c0fbe919efb535aa9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6843a856b41ae0c0fbe919efb535aa9f">&#9670;&#160;</a></span>sin32x100()</h2>
+<a id="ada54c2dec48973ba1ea61bc4b15aee34" name="ada54c2dec48973ba1ea61bc4b15aee34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada54c2dec48973ba1ea61bc4b15aee34">&#9670;&#160;</a></span>USE_CHAR_ARRAY</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int32_t sin32x100 </td>
-          <td>(</td>
-          <td class="paramtype">int32_t&#160;</td>
-          <td class="paramname"><em>degreesX100</em></td><td>)</td>
-          <td></td>
+          <td class="memname">#define USE_CHAR_ARRAY&#160;&#160;&#160;2</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sinus. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">degreesX100</td><td>angle in degrees, x100 </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>sinus value, x100 </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>This function uses integers only. </dd></dl>
+<p>10- Set string mode </p>
+<ul>
+<li>Basic edition: String object</li>
+<li>Evaluation edition: char array</li>
+<li>Commercial edition: String object or char array </li>
+</ul>
 
 </div>
 </div>
-<a id="a149f55c1d6b6336ef751e247856198ce" name="a149f55c1d6b6336ef751e247856198ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a149f55c1d6b6336ef751e247856198ce">&#9670;&#160;</a></span>swap() <span class="overload">[1/3]</span></h2>
+<a id="a860f4bce384204ab9821f3323ad37428" name="a860f4bce384204ab9821f3323ad37428"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a860f4bce384204ab9821f3323ad37428">&#9670;&#160;</a></span>USE_EXPANDER_NONE</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void swap </td>
-          <td>(</td>
-          <td class="paramtype">int16_t &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int16_t &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">#define USE_EXPANDER_NONE&#160;&#160;&#160;0</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Swap number, int16_t. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">a</td><td>first number </td></tr>
-    <tr><td class="paramname">b</td><td>second number </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>9- Set GPIO expander mode </p>
+<ul>
+<li>Basic edition: no expander</li>
+<li>Evaluation edition: PCF8574 or PCA9536</li>
+<li>Commercial edition: PCF8574 or PCA9536 No I2C expander </li>
+</ul>
 
 </div>
 </div>
-<a id="a7989671d14dda7f19b8d289e359404e9" name="a7989671d14dda7f19b8d289e359404e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7989671d14dda7f19b8d289e359404e9">&#9670;&#160;</a></span>swap() <span class="overload">[2/3]</span></h2>
+<a id="a2c0c9d99d443328964c910321320b517" name="a2c0c9d99d443328964c910321320b517"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c0c9d99d443328964c910321320b517">&#9670;&#160;</a></span>USE_HAPTICS_NONE</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void swap </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">#define USE_HAPTICS_NONE&#160;&#160;&#160;0</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Swap number, uint16_t. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">a</td><td>first number </td></tr>
-    <tr><td class="paramname">b</td><td>second number </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>8- Set haptic feedback mode </p>
+<ul>
+<li>Basic edition: no haptic feedback</li>
+<li>Evaluation edition: ERM or LRA</li>
+<li>Commercial edition: ERM or LRA No motor </li>
+</ul>
 
 </div>
 </div>
-<a id="a46562f812c731ac4a846ee4bb29b0397" name="a46562f812c731ac4a846ee4bb29b0397"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46562f812c731ac4a846ee4bb29b0397">&#9670;&#160;</a></span>swap() <span class="overload">[3/3]</span></h2>
+<a id="a64a99352a7dde2b861163fdb8f8abd89" name="a64a99352a7dde2b861163fdb8f8abd89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64a99352a7dde2b861163fdb8f8abd89">&#9670;&#160;</a></span>USE_NONE</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void swap </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">#define USE_NONE&#160;&#160;&#160;0</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Swap number, uint8_t. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">a</td><td>first number </td></tr>
-    <tr><td class="paramname">b</td><td>second number </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>11- Storage mode </p>
+<ul>
+<li>Basic edition: none</li>
+<li>Evaluation edition: none</li>
+<li>Commercial edition: option</li>
+</ul>
+<dl class="section note"><dt>Note</dt><dd>Options can be combined <div class="fragment"><div class="line"><span class="preprocessor">#define STORAGE_MODE (USE_SD_CARD | USE_SPI_FLASH)</span></div>
+<div class="line"><span class="preprocessor">#define STORAGE_MODE (USE_LINUX_FILES | USE_SERIAL_CONSOLE)</span></div>
+</div><!-- fragment --> No storage </dd></dl>
 
 </div>
 </div>
-<a id="a311c694a8a5722683dd6739c55323036" name="a311c694a8a5722683dd6739c55323036"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a311c694a8a5722683dd6739c55323036">&#9670;&#160;</a></span>trimString()</h2>
+<a id="a1aa630d1906e358b320b4e00fcd9d7d7" name="a1aa630d1906e358b320b4e00fcd9d7d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1aa630d1906e358b320b4e00fcd9d7d7">&#9670;&#160;</a></span>USE_STRING_OBJECT</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">String trimString </td>
-          <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>text</em></td><td>)</td>
-          <td></td>
+          <td class="memname">#define USE_STRING_OBJECT&#160;&#160;&#160;1</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Remove leading and ending characters. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">text</td><td>input text </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>trimmed text </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>Removed characters are LF CR TAB SPACE ' </dd></dl>
-
-</div>
-</div>
-<a id="a3051dd153db86ba3b56a69e93f1ca22a" name="a3051dd153db86ba3b56a69e93f1ca22a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3051dd153db86ba3b56a69e93f1ca22a">&#9670;&#160;</a></span>utf2iso()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">String utf2iso </td>
-          <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>s</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>UTF-8 to ISO-8859-1 Converter. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">s</td><td>UTF-8 string, input </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>ISO-8859-1 string, output</dd></dl>
-<dl class="section see"><dt>See also</dt><dd>The Unicode Consortium. The Unicode Standard, Version 6.2.0, (Mountain View, CA: The Unicode Consortium, 2012. ISBN 978-1-936213-07-8) <a href="http://www.unicode.org/versions/Unicode6.2.0/">http://www.unicode.org/versions/Unicode6.2.0/</a> </dd></dl>
+<p>10- Set string mode </p>
+<ul>
+<li>Basic edition: String object</li>
+<li>Evaluation edition: char array</li>
+<li>Commercial edition: String object or char array </li>
+</ul>
 
 </div>
 </div>
@@ -664,7 +474,7 @@ Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</dd></d
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../d6/de1/a00233.html">hV_Utilities.h</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../d6/de1/a00233.html">hV_List_Options.h</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.9.7 </li>

@@ -1,4 +1,5 @@
 var a00200 =
 [
-    [ "TERMINAL12E_FONT_RELEASE", "d3/db1/a00200.html#a37a4e331a66a7c2283c3a82cbb5e8459", null ]
+    [ "hV_Screen_Buffer", "d4/d6f/a00315.html", "d4/d6f/a00315" ],
+    [ "hV_SCREEN_BUFFER_RELEASE", "d3/db1/a00200.html#a851c703d9610377daa95f386e7505bfb", null ]
 ];

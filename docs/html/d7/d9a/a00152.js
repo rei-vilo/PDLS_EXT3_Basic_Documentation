@@ -1,6 +1,6 @@
 var a00152 =
 [
-    [ "coordinates_s", "d5/d42/a00269.html", null ],
+    [ "coordinates_s", "d3/d5e/a00275.html", null ],
     [ "checkHuman", "d7/d9a/a00152.html#a2153bd3d5c8dde7a34bb081edcf35d90", null ],
     [ "checkWinner", "d7/d9a/a00152.html#ab02474f88a88461a35b20b8282d9b7f0", null ],
     [ "checkWinnerPlayer", "d7/d9a/a00152.html#acf267784e884d3af62b793a70631ab35", null ],

@@ -25,8 +25,8 @@
 var NAVTREE =
 [
   [ "Pervasive Displays Library Suite - Basic edition", "index.html", [
-    [ "Examples", "d2/d41/a00318.html", null ],
-    [ "Deprecated List", "d3/dcc/a00264.html", null ],
+    [ "Examples", "d4/d8f/a00324.html", null ],
+    [ "Deprecated List", "d9/d2a/a00270.html", null ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
       [ "Data Structure Index", "classes.html", null ],
@@ -54,7 +54,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d7/d9a/a00152.html#af1de076469d08f717d537d1b6b028566"
+"d7/d25/a00182.html#a42b862bcf9303a95a0a9b450a5ba1b7d",
+"globals_u.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

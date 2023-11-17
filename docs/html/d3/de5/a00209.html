@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: hV_Documentation.h File Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: hV_Font_Terminal.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;7.0.0</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;7.0.1</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -92,23 +92,158 @@ $(document).ready(function(){initNavTree('d3/de5/a00209.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">hV_Documentation.h File Reference</div></div>
+  <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">hV_Font_Terminal.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Documentation for the Pervasive Displays Library Suite.  
+<p><a class="el" href="../../d9/d5e/a00295.html" title="Class for font as header file.">hV_Font_Terminal</a>  
 <a href="#details">More...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d7/d40/a00236.html">hV_HAL_Peripherals.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/dd7/a00260.html">hV_Configuration.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/da9/a00263.html">hV_Utilities_Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/ddf/a00224.html">hV_Font.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d01/a00227.html">Terminal6x8e.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/d79/a00203.html">Terminal8x12e.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/db1/a00197.html">Terminal12x16e.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/dc8/a00242.html">Terminal16x24e.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for hV_Font_Terminal.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/de7/a00210.png" border="0" usemap="#ahV__Font__Terminal_8h" alt=""/></div>
+<map name="ahV__Font__Terminal_8h" id="ahV__Font__Terminal_8h">
+<area shape="rect" title="hV_Font_Terminal" alt="" coords="406,5,555,31"/>
+<area shape="rect" href="../../d7/d40/a00236.html" title="Light hardware abstraction layer for peripherals." alt="" coords="143,225,307,251"/>
+<area shape="poly" title=" " alt="" coords="406,24,334,34,255,56,217,73,182,94,152,121,127,153,123,163,123,172,134,189,154,205,179,218,176,222,151,209,130,193,118,174,118,162,122,151,148,117,179,90,215,68,254,51,333,29,406,19"/>
+<area shape="rect" href="../../dd/dd7/a00260.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="388,152,533,177"/>
+<area shape="poly" title=" " alt="" coords="477,32,467,53,459,79,457,109,459,138,454,138,452,109,454,78,462,52,472,30"/>
+<area shape="rect" href="../../df/da9/a00263.html" title="Utilities for highView Library Suite." alt="" coords="137,152,312,177"/>
+<area shape="poly" title=" " alt="" coords="417,33,356,51,325,65,297,81,265,110,241,142,236,139,261,107,294,77,323,60,354,46,415,28"/>
+<area shape="rect" href="../../d5/ddf/a00224.html" title="Font structure." alt="" coords="307,79,393,104"/>
+<area shape="poly" title=" " alt="" coords="461,33,384,74,382,70,458,28"/>
+<area shape="rect" href="../../d9/d01/a00227.html" title="Font Terminal 6 x 8." alt="" coords="469,79,591,104"/>
+<area shape="poly" title=" " alt="" coords="491,29,516,66,512,69,487,33"/>
+<area shape="rect" href="../../de/d79/a00203.html" title="Font Terminal 8 x 12." alt="" coords="615,79,746,104"/>
+<area shape="poly" title=" " alt="" coords="514,28,636,71,634,76,512,33"/>
+<area shape="rect" href="../../de/db1/a00197.html" title="Font Terminal 12 x 16." alt="" coords="770,79,909,104"/>
+<area shape="poly" title=" " alt="" coords="539,28,768,73,767,79,538,33"/>
+<area shape="rect" href="../../d2/dc8/a00242.html" title="Font Terminal 16 x 24." alt="" coords="933,79,1071,104"/>
+<area shape="poly" title=" " alt="" coords="556,27,919,76,918,81,555,32"/>
+<area shape="rect" title=" " alt="" coords="5,299,89,324"/>
+<area shape="poly" title=" " alt="" coords="197,253,90,296,88,291,195,248"/>
+<area shape="rect" title=" " alt="" coords="113,299,168,324"/>
+<area shape="poly" title=" " alt="" coords="213,253,167,292,163,287,209,249"/>
+<area shape="rect" title=" " alt="" coords="193,299,257,324"/>
+<area shape="poly" title=" " alt="" coords="227,251,227,285,222,285,222,251"/>
+<area shape="rect" title=" " alt="" coords="505,299,576,324"/>
+<area shape="poly" title=" " alt="" coords="276,248,492,296,491,302,275,253"/>
+<area shape="rect" title=" " alt="" coords="281,299,347,324"/>
+<area shape="poly" title=" " alt="" coords="241,249,290,288,287,292,237,253"/>
+<area shape="rect" title=" " alt="" coords="371,299,446,324"/>
+<area shape="poly" title=" " alt="" coords="255,248,367,291,365,296,253,253"/>
+<area shape="poly" title=" " alt="" coords="424,180,277,224,275,219,422,175"/>
+<area shape="rect" href="../../d7/d25/a00182.html" title="List of constants for Pervasive Displays Library Suite." alt="" coords="331,225,484,251"/>
+<area shape="poly" title=" " alt="" coords="454,179,426,216,422,213,450,176"/>
+<area shape="rect" href="../../db/dd9/a00179.html" title="List of boards for Pervasive Displays Library Suite." alt="" coords="509,225,642,251"/>
+<area shape="poly" title=" " alt="" coords="480,175,546,216,544,220,478,180"/>
+<area shape="rect" href="../../d5/d35/a00266.html" title="List of supported Pervasive Displays screens." alt="" coords="666,225,805,251"/>
+<area shape="poly" title=" " alt="" coords="505,175,678,219,677,224,504,180"/>
+<area shape="poly" title=" " alt="" coords="430,248,508,290,506,294,428,253"/>
+<area shape="poly" title=" " alt="" coords="572,252,555,287,550,285,567,250"/>
+<area shape="poly" title=" " alt="" coords="705,253,586,296,584,291,703,248"/>
+<area shape="poly" title=" " alt="" coords="227,178,227,212,222,212,222,178"/>
+<area shape="poly" title=" " alt="" coords="352,105,345,140,338,160,327,179,300,204,270,222,267,217,297,200,323,176,333,158,340,138,347,104"/>
+<area shape="poly" title=" " alt="" coords="369,102,432,142,429,147,366,106"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/ded/a00211.png" border="0" usemap="#ahV__Font__Terminal_8hdep" alt=""/></div>
+<map name="ahV__Font__Terminal_8hdep" id="ahV__Font__Terminal_8hdep">
+<area shape="rect" title="hV_Font_Terminal" alt="" coords="9,5,158,31"/>
+<area shape="rect" href="../../d3/db1/a00200.html" title="Generic buffered screen class library." alt="" coords="10,79,157,104"/>
+<area shape="poly" title=" " alt="" coords="86,44,86,79,81,79,81,44"/>
+<area shape="rect" href="../../d1/da8/a00230.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="8,152,159,177"/>
+<area shape="poly" title=" " alt="" coords="86,118,86,152,81,152,81,118"/>
+<area shape="rect" href="../../d9/dd0/a00191.html" title="Basic GUI with text and button." alt="" coords="42,225,125,251"/>
+<area shape="poly" title=" " alt="" coords="86,191,86,225,81,225,81,191"/>
+<area shape="rect" href="../../dc/de6/a00167.html" title="Example of features for Evaluation edition." alt="" coords="5,299,161,324"/>
+<area shape="poly" title=" " alt="" coords="86,264,86,299,81,299,81,264"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5e/a00295.html">hV_Font_Terminal</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for font as header file.  <a href="../../d9/d5e/a00295.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a2c1b31917210e8dd59e9d780d3285e12"><td class="memItemLeft" align="right" valign="top"><a id="a2c1b31917210e8dd59e9d780d3285e12" name="a2c1b31917210e8dd59e9d780d3285e12"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>hV_FONT_TERMINAL_RELEASE</b>&#160;&#160;&#160;507</td></tr>
+<tr class="memdesc:a2c1b31917210e8dd59e9d780d3285e12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release. <br /></td></tr>
+<tr class="separator:a2c1b31917210e8dd59e9d780d3285e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:afb304f88fec3d0fe39131d0aa83a0c1a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de5/a00209.html#afb304f88fec3d0fe39131d0aa83a0c1a">fontNumber_e</a> { <b>Font_Terminal6x8</b>
+, <b>Font_Terminal8x12</b>
+, <b>Font_Terminal12x16</b>
+, <b>Font_Terminal16x24</b>
+ }</td></tr>
+<tr class="memdesc:afb304f88fec3d0fe39131d0aa83a0c1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Biggest font size.  <a href="../../d3/de5/a00209.html#afb304f88fec3d0fe39131d0aa83a0c1a">More...</a><br /></td></tr>
+<tr class="separator:afb304f88fec3d0fe39131d0aa83a0c1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Documentation for the Pervasive Displays Library Suite. </p>
+<div class="textblock"><p><a class="el" href="../../d9/d5e/a00295.html" title="Class for font as header file.">hV_Font_Terminal</a> </p>
 <p>Project Pervasive Displays Library Suite <br  />
- Based on highView technology </p>
-</div></div><!-- contents -->
+ Based on highView technology</p>
+<dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>02 Aug 2021 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>507</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2023 </dd>
+<dd>
+All rights reserved</dd></dl>
+<ul>
+<li>Basic edition: for hobbyists and for basic usage <br  />
+ Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</li>
+<li>Evaluation edition: for professionals or organisations, evaluation only, no commercial usage <br  />
+ All rights reserved</li>
+<li>Commercial edition: for professionals or organisations, commercial usage <br  />
+ All rights reserved</li>
+</ul>
+<dl class="section see"><dt>See also</dt><dd>Font generated with MikroElektronika GLCD Font Creator 1.2.0.0 and edited manually MikroeElektronika 2011 <a href="http://www.mikroe.com">http://www.mikroe.com</a> </dd></dl>
+</div><h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="afb304f88fec3d0fe39131d0aa83a0c1a" name="afb304f88fec3d0fe39131d0aa83a0c1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb304f88fec3d0fe39131d0aa83a0c1a">&#9670;&#160;</a></span>fontNumber_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d3/de5/a00209.html#afb304f88fec3d0fe39131d0aa83a0c1a">fontNumber_e</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Biggest font size. </p>
+<p>Based on the MCU, by default=0</p>
+<p>Font enumeration </p><dl class="section note"><dt>Note</dt><dd>Generated by hV_FontsFlash_Manage2 </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../d3/de5/a00209.html">hV_Documentation.h</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../d3/de5/a00209.html">hV_Font_Terminal.h</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.9.7 </li>

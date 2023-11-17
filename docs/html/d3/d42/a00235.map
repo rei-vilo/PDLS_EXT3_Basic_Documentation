@@ -1,17 +1,5 @@
-<map id="hV_Utilities.h" name="hV_Utilities.h">
-<area shape="rect" id="Node000001" title="Utilities for highView Library Suite." alt="" coords="137,5,247,31"/>
-<area shape="rect" id="Node000002" href="$dd/dc1/a00212.html" title="hV_Font_Terminal" alt="" coords="5,79,155,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,40,100,81,97,76,161,36"/>
-<area shape="rect" id="Node000003" href="$de/d79/a00203.html" title="Generic buffered screen class library." alt="" coords="7,152,153,177"/>
-<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="192,45,184,75,169,106,139,134,107,154,104,150,136,130,165,102,179,73,186,44"/>
-<area shape="rect" id="Node000007" href="$da/d15/a00188.html" title="Driver for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="178,152,321,177"/>
-<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="204,43,247,151,242,153,199,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="83,118,83,152,77,152,77,118"/>
-<area shape="rect" id="Node000004" href="$d1/da8/a00230.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="89,225,239,251"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="106,184,152,223,149,227,102,188"/>
-<area shape="rect" id="Node000005" href="$dc/d57/a00194.html" title="Basic GUI with text and button." alt="" coords="123,299,205,324"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="167,264,167,299,161,299,161,264"/>
-<area shape="rect" id="Node000006" href="$dc/de6/a00167.html" title="Example of features for Evaluation edition." alt="" coords="86,372,242,397"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="167,338,167,372,161,372,161,338"/>
-<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="227,188,180,227,176,223,224,184"/>
+<map id="hV_List_Options.h" name="hV_List_Options.h">
+<area shape="rect" id="Node000001" title="List of options for Pervasive Displays Library Suite." alt="" coords="5,5,144,31"/>
+<area shape="rect" id="Node000002" href="$d3/dd5/a00215.html" title="Shared low&#45;level libraries for the Pervasive Displays Library Suite." alt="" coords="16,79,133,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,44,77,79,72,79,72,44"/>
 </map>
