@@ -1,0 +1,4 @@
+var a00236 =
+[
+    [ "hV_HAL_PERIPHERALS_RELEASE", "d7/d40/a00236.html#a946da185296da9a5250179b0628882d4", null ]
+];

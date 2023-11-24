@@ -1,0 +1,19 @@
+<map id="hV_Configuration.h" name="hV_Configuration.h">
+<area shape="rect" id="Node000001" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="36,5,181,31"/>
+<area shape="rect" id="Node000002" href="$db/ddf/a00164.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT&#45;Touch boards." alt="" coords="37,299,188,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,41,58,58,42,80,20,126,10,165,12,204,30,249,40,265,54,277,85,296,82,301,51,282,36,268,25,252,7,205,4,165,15,124,37,77,54,54,75,37"/>
+<area shape="rect" id="Node000003" href="$de/df3/a00185.html" title="Basic GUI with text and button." alt="" coords="127,372,210,397"/>
+<area shape="poly" id="edge9_Node000001_Node000003" title=" " alt="" coords="148,35,182,56,217,85,243,120,251,141,254,163,254,240,246,281,227,319,204,351,183,374,179,370,199,348,222,317,241,280,249,239,249,164,246,142,238,123,213,88,179,60,145,39"/>
+<area shape="rect" id="Node000005" href="$d6/d7d/a00161.html" title="Font structure." alt="" coords="65,79,152,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="111,44,111,79,106,79,106,44"/>
+<area shape="rect" id="Node000006" href="$d7/d06/a00131.html" title="hV_Font_Terminal" alt="" coords="65,152,214,177"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="137,38,154,56,167,78,170,98,167,119,150,153,145,150,161,118,165,98,162,80,150,59,133,42"/>
+<area shape="rect" id="Node000007" href="$d2/df5/a00137.html" title="Class Generic LCD with buffer class library." alt="" coords="39,225,186,251"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="84,42,67,59,55,80,46,106,43,128,46,150,55,176,73,203,96,223,93,227,69,207,50,179,41,151,38,128,41,105,50,78,63,56,80,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="132,333,162,370,157,374,128,337"/>
+<area shape="rect" id="Node000004" href="$d9/dd0/a00191.html" title="Example of features for Evaluation edition." alt="" coords="91,445,247,471"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="171,411,171,445,166,445,166,411"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="121,116,137,151,132,153,117,118"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="133,191,119,226,114,224,128,189"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="115,264,115,299,110,299,110,264"/>
+</map>
