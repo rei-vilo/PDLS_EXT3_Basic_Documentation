@@ -1815,7 +1815,6 @@ table.memberdecls .memItemRight  {
     border-right: 1px solid var(--separator-color);
     padding-right: var(--spacing-medium);
     padding-left: 0;
-
 }
 
 table.memberdecls .mdescLeft, table.memberdecls .mdescRight {

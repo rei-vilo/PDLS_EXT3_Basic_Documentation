@@ -13,7 +13,7 @@ var searchData=
   ['touch_5fevent_5fnone_10',['TOUCH_EVENT_NONE',['../d7/d25/a00182.html#addb7ea466d16e54b3ac29e652392bfe7',1,'hV_List_Constants.h']]],
   ['touch_5fevent_5fpress_11',['TOUCH_EVENT_PRESS',['../d7/d25/a00182.html#a1b58d5fdc01d6f6c5a090e6d31725d36',1,'hV_List_Constants.h']]],
   ['touch_5fevent_5frelease_12',['TOUCH_EVENT_RELEASE',['../d7/d25/a00182.html#a28e03e87baac6e935b2ef802d3d698f9',1,'hV_List_Constants.h']]],
-  ['touch_5fmode_13',['TOUCH_MODE',['../dd/dd7/a00260.html#a11320f76b1b3395290d1e97bb7ac9c2a',1,'TOUCH_MODE:&#160;hV_Configuration.h'],['../d6/de1/a00233.html#a11320f76b1b3395290d1e97bb7ac9c2a',1,'TOUCH_MODE:&#160;hV_List_Options.h']]],
+  ['touch_5fmode_13',['TOUCH_MODE',['../d6/de1/a00233.html#a11320f76b1b3395290d1e97bb7ac9c2a',1,'hV_List_Options.h']]],
   ['touchint_14',['touchInt',['../d1/d5d/a00311.html#aab2a846bc6d88385f2c52a0a9579b65b',1,'pins_t']]],
   ['touchreset_15',['touchReset',['../d1/d5d/a00311.html#a9e09335b255d8c9791388224ce40cc64',1,'pins_t']]],
   ['triangle_16',['triangle',['../d4/d6f/a00315.html#a0d5b8f8f1ea822cb8ea982b0766a451c',1,'hV_Screen_Buffer']]],

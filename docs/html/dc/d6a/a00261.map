@@ -1,26 +1,28 @@
 <map id="hV_Configuration.h" name="hV_Configuration.h">
-<area shape="rect" id="Node000001" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="419,5,564,31"/>
+<area shape="rect" id="Node000001" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="499,5,644,31"/>
 <area shape="rect" id="Node000002" href="$d7/d40/a00236.html" title="Light hardware abstraction layer for peripherals." alt="" coords="143,79,307,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="449,33,282,78,281,72,448,28"/>
-<area shape="rect" id="Node000009" href="$d7/d25/a00182.html" title="List of constants for Pervasive Displays Library Suite." alt="" coords="331,79,484,104"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="480,33,433,72,430,67,476,29"/>
-<area shape="rect" id="Node000010" href="$db/dd9/a00179.html" title="List of boards for Pervasive Displays Library Suite." alt="" coords="509,79,642,104"/>
-<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="507,29,553,67,549,72,503,33"/>
-<area shape="rect" id="Node000011" href="$d5/d35/a00266.html" title="List of supported Pervasive Displays screens." alt="" coords="666,79,805,104"/>
-<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="531,28,684,72,682,77,530,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="516,33,295,78,294,73,515,28"/>
+<area shape="rect" id="Node000009" href="$d6/de1/a00233.html" title="List of options for Pervasive Displays Library Suite." alt="" coords="331,79,470,104"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="545,33,442,76,440,71,543,28"/>
+<area shape="rect" id="Node000010" href="$d7/d25/a00182.html" title="List of constants for Pervasive Displays Library Suite." alt="" coords="495,79,648,104"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="574,31,574,65,569,65,569,31"/>
+<area shape="rect" id="Node000011" href="$db/dd9/a00179.html" title="List of boards for Pervasive Displays Library Suite." alt="" coords="673,79,806,104"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="599,28,700,71,698,76,597,33"/>
+<area shape="rect" id="Node000012" href="$d5/d35/a00266.html" title="List of supported Pervasive Displays screens." alt="" coords="830,79,969,104"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="625,28,834,73,833,78,623,33"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,152,89,177"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="197,106,90,149,88,144,195,102"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="113,152,168,177"/>
 <area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="213,106,167,145,163,141,209,102"/>
 <area shape="rect" id="Node000005" title=" " alt="" coords="193,152,257,177"/>
 <area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="227,104,227,138,222,138,222,104"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="505,152,576,177"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="276,101,492,150,491,155,275,107"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="620,152,691,177"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="294,101,607,153,606,158,293,107"/>
 <area shape="rect" id="Node000007" title=" " alt="" coords="281,152,347,177"/>
 <area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="241,102,290,141,287,145,237,106"/>
 <area shape="rect" id="Node000008" title=" " alt="" coords="371,152,446,177"/>
 <area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="255,102,367,144,365,149,253,107"/>
-<area shape="poly" id="edge9_Node000009_Node000006" title=" " alt="" coords="430,102,508,143,506,148,428,106"/>
-<area shape="poly" id="edge11_Node000010_Node000006" title=" " alt="" coords="572,106,555,141,550,138,567,103"/>
-<area shape="poly" id="edge13_Node000011_Node000006" title=" " alt="" coords="705,107,586,150,584,145,703,102"/>
+<area shape="poly" id="edge10_Node000010_Node000006" title=" " alt="" coords="587,102,633,141,629,145,583,106"/>
+<area shape="poly" id="edge12_Node000011_Node000006" title=" " alt="" coords="728,106,681,145,678,141,724,102"/>
+<area shape="poly" id="edge14_Node000012_Node000006" title=" " alt="" coords="861,107,704,152,703,147,859,101"/>
 </map>

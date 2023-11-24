@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['haptics_5fmode_0',['HAPTICS_MODE',['../d6/de1/a00233.html#ac8fd9379451a6d714941f9d07f23f49d',1,'HAPTICS_MODE:&#160;hV_List_Options.h'],['../dd/dd7/a00260.html#ac8fd9379451a6d714941f9d07f23f49d',1,'HAPTICS_MODE:&#160;hV_Configuration.h']]],
+  ['haptics_5fmode_0',['HAPTICS_MODE',['../d6/de1/a00233.html#ac8fd9379451a6d714941f9d07f23f49d',1,'hV_List_Options.h']]],
   ['height_1',['height',['../da/dd4/a00291.html#a63f8837d47ae05b6ae7f446cf379824c',1,'font_s']]],
-  ['hv_5fboard_2',['hV_Board',['../d2/d82/a00279.html',1,'hV_Board'],['../d2/d82/a00279.html#a60a6e929802c94fd41432d2fb098109b',1,'hV_Board::hV_Board()']]],
+  ['hv_5fboard_2',['hV_Board',['../d2/d82/a00279.html#a60a6e929802c94fd41432d2fb098109b',1,'hV_Board::hV_Board()'],['../d2/d82/a00279.html',1,'hV_Board']]],
   ['hv_5fboard_2eh_3',['hV_Board.h',['../d0/d27/a00239.html',1,'']]],
   ['hv_5fboard_5frelease_4',['hV_BOARD_RELEASE',['../d0/d27/a00239.html#af027881af8c05c211d63f99653c02f68',1,'hV_Board.h']]],
   ['hv_5fcolours565_5',['hV_Colours565',['../dd/dfe/a00283.html',1,'hV_Colours565'],['../dd/dfe/a00283.html#a2dbfd6c8f5d0d804021abceaf84121f6',1,'hV_Colours565::hV_Colours565()']]],
@@ -30,7 +30,7 @@ var searchData=
   ['hv_5flist_5foptions_5frelease_27',['hV_LIST_OPTIONS_RELEASE',['../d6/de1/a00233.html#a60e884327071b24efbc11ca1d3ae16f1',1,'hV_List_Options.h']]],
   ['hv_5flist_5fscreens_2eh_28',['hV_List_Screens.h',['../d5/d35/a00266.html',1,'']]],
   ['hv_5flist_5fscreens_5frelease_29',['hV_LIST_SCREENS_RELEASE',['../d5/d35/a00266.html#a5f971893eaf78f610325927881d980ab',1,'hV_List_Screens.h']]],
-  ['hv_5fscreen_5fbuffer_30',['hV_Screen_Buffer',['../d4/d6f/a00315.html',1,'hV_Screen_Buffer'],['../d4/d6f/a00315.html#a556e473029b0a519ba7c3818fbc45023',1,'hV_Screen_Buffer::hV_Screen_Buffer()']]],
+  ['hv_5fscreen_5fbuffer_30',['hV_Screen_Buffer',['../d4/d6f/a00315.html#a556e473029b0a519ba7c3818fbc45023',1,'hV_Screen_Buffer::hV_Screen_Buffer()'],['../d4/d6f/a00315.html',1,'hV_Screen_Buffer']]],
   ['hv_5fscreen_5fbuffer_2eh_31',['hV_Screen_Buffer.h',['../d3/db1/a00200.html',1,'']]],
   ['hv_5fscreen_5fbuffer_5frelease_32',['hV_SCREEN_BUFFER_RELEASE',['../d3/db1/a00200.html#a851c703d9610377daa95f386e7505bfb',1,'hV_Screen_Buffer.h']]],
   ['hv_5futilities_5fcommon_2eh_33',['hV_Utilities_Common.h',['../df/da9/a00263.html',1,'']]],

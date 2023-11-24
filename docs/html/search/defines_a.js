@@ -8,5 +8,5 @@ var searchData=
   ['touch_5fevent_5fnone_5',['TOUCH_EVENT_NONE',['../d7/d25/a00182.html#addb7ea466d16e54b3ac29e652392bfe7',1,'hV_List_Constants.h']]],
   ['touch_5fevent_5fpress_6',['TOUCH_EVENT_PRESS',['../d7/d25/a00182.html#a1b58d5fdc01d6f6c5a090e6d31725d36',1,'hV_List_Constants.h']]],
   ['touch_5fevent_5frelease_7',['TOUCH_EVENT_RELEASE',['../d7/d25/a00182.html#a28e03e87baac6e935b2ef802d3d698f9',1,'hV_List_Constants.h']]],
-  ['touch_5fmode_8',['TOUCH_MODE',['../dd/dd7/a00260.html#a11320f76b1b3395290d1e97bb7ac9c2a',1,'TOUCH_MODE:&#160;hV_Configuration.h'],['../d6/de1/a00233.html#a11320f76b1b3395290d1e97bb7ac9c2a',1,'TOUCH_MODE:&#160;hV_List_Options.h']]]
+  ['touch_5fmode_8',['TOUCH_MODE',['../d6/de1/a00233.html#a11320f76b1b3395290d1e97bb7ac9c2a',1,'hV_List_Options.h']]]
 ];

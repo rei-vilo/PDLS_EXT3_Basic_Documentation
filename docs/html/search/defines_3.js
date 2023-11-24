@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['haptics_5fmode_0',['HAPTICS_MODE',['../d6/de1/a00233.html#ac8fd9379451a6d714941f9d07f23f49d',1,'HAPTICS_MODE:&#160;hV_List_Options.h'],['../dd/dd7/a00260.html#ac8fd9379451a6d714941f9d07f23f49d',1,'HAPTICS_MODE:&#160;hV_Configuration.h']]],
+  ['haptics_5fmode_0',['HAPTICS_MODE',['../d6/de1/a00233.html#ac8fd9379451a6d714941f9d07f23f49d',1,'hV_List_Options.h']]],
   ['hv_5fboard_5frelease_1',['hV_BOARD_RELEASE',['../d0/d27/a00239.html#af027881af8c05c211d63f99653c02f68',1,'hV_Board.h']]],
   ['hv_5fcolours_5frelease_2',['hV_COLOURS_RELEASE',['../da/d15/a00188.html#ad04b95af5737630651211d49cf779995',1,'hV_Colours565.h']]],
   ['hv_5fcommon_5frelease_3',['hV_COMMON_RELEASE',['../d3/dd5/a00215.html#a50d1720c6f3e76c3a468dec128391a48',1,'hV_Common.h']]],
