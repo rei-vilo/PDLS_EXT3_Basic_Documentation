@@ -16,6 +16,7 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "hV_Screen_Buffer.h", "d3/db1/a00200.html", "d3/db1/a00200" ],
     [ "hV_Utilities_Common.h", "df/da9/a00263.html", "df/da9/a00263" ],
     [ "hV_Utilities_PDLS.h", "d9/d39/a00257.html", "d9/d39/a00257" ],
+    [ "PDLS_EXT3_Basic_Touch.h", "dc/d57/a00194.html", "dc/d57/a00194" ],
     [ "Screen_EPD_EXT3.h", "d1/da8/a00230.html", "d1/da8/a00230" ],
     [ "Terminal12x16e.h", "de/db1/a00197.html", "de/db1/a00197" ],
     [ "Terminal16x24e.h", "d2/dc8/a00242.html", "d2/dc8/a00242" ],

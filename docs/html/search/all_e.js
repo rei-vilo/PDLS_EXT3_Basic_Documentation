@@ -12,11 +12,13 @@ var searchData=
   ['partial_5foff_9',['PARTIAL_OFF',['../d7/d25/a00182.html#aec7aa1d3ba1e17fb2b855592142e912a',1,'hV_List_Constants.h']]],
   ['partial_5fon_10',['PARTIAL_ON',['../d7/d25/a00182.html#adb2111d5ebf6d8b7b1531796f810c466',1,'hV_List_Constants.h']]],
   ['partial_5fready_11',['PARTIAL_READY',['../d7/d25/a00182.html#a733e45c7360d09c2a6a3070e8a9ef10f',1,'hV_List_Constants.h']]],
-  ['performtest_12',['performTest',['../d6/db8/a00158.html#a5ead2ecbed56fc3642b497dd06184234',1,'performTest():&#160;Example_Fast_Speed.ino'],['../db/ddf/a00164.html#a5ead2ecbed56fc3642b497dd06184234',1,'performTest():&#160;Example_Global_Speed.ino']]],
-  ['pervasive_20displays_20library_20suite_20_2d_20basic_20edition_13',['Pervasive Displays Library Suite - Basic edition',['../index.html',1,'']]],
-  ['pins_5ft_14',['pins_t',['../d1/d5d/a00311.html',1,'']]],
-  ['pixel_15',['pixel',['../d6/d7f/a00287.html#a68591191be4ff122ee2a26f8b977f2e7',1,'width_s']]],
-  ['playgame_16',['playGame',['../d7/d9a/a00152.html#a4cbfdb17bf51e00546880626f7e80429',1,'Basic_Touch_TicTacToe.ino']]],
-  ['point_17',['point',['../d4/d6f/a00315.html#af56437354e69149a2da933a458b05f04',1,'hV_Screen_Buffer']]],
-  ['printboard_18',['printBoard',['../d7/d9a/a00152.html#a8310d6d1e915cb179f834d9ca017950a',1,'Basic_Touch_TicTacToe.ino']]]
+  ['pdls_5fext3_5fbasic_5ffast_5frelease_12',['PDLS_EXT3_BASIC_FAST_RELEASE',['../dc/d57/a00194.html#aef06e3e2890823292ed604629c3bad41',1,'PDLS_EXT3_Basic_Touch.h']]],
+  ['pdls_5fext3_5fbasic_5ftouch_2eh_13',['PDLS_EXT3_Basic_Touch.h',['../dc/d57/a00194.html',1,'']]],
+  ['performtest_14',['performTest',['../d6/db8/a00158.html#a5ead2ecbed56fc3642b497dd06184234',1,'performTest():&#160;Example_Fast_Speed.ino'],['../db/ddf/a00164.html#a5ead2ecbed56fc3642b497dd06184234',1,'performTest():&#160;Example_Global_Speed.ino']]],
+  ['pervasive_20displays_20library_20suite_20_2d_20basic_20edition_15',['Pervasive Displays Library Suite - Basic edition',['../index.html',1,'']]],
+  ['pins_5ft_16',['pins_t',['../d1/d5d/a00311.html',1,'']]],
+  ['pixel_17',['pixel',['../d6/d7f/a00287.html#a68591191be4ff122ee2a26f8b977f2e7',1,'width_s']]],
+  ['playgame_18',['playGame',['../d7/d9a/a00152.html#a4cbfdb17bf51e00546880626f7e80429',1,'Basic_Touch_TicTacToe.ino']]],
+  ['point_19',['point',['../d4/d6f/a00315.html#af56437354e69149a2da933a458b05f04',1,'hV_Screen_Buffer']]],
+  ['printboard_20',['printBoard',['../d7/d9a/a00152.html#a8310d6d1e915cb179f834d9ca017950a',1,'Basic_Touch_TicTacToe.ino']]]
 ];
