@@ -1,6 +1,6 @@
 # Pervasive Displays Library Suite - Basic Edition - Documentation
 
-[![Release](https://img.shields.io/github/v/release/rei-vilo/PDLS_EXT3_Basic_Documentation)](https://rei-vilo.github.io/PDLS_EXT3_Basic_Documentation/html/index.html) [![GitHub issues](https://img.shields.io/github/issues/rei-vilo/PDLS_EXT3_Basic)](https://github.com/rei-vilo/PDLS_EXT3_Basic/issues) [![](https://img.shields.io/badge/-Documentation-blue)](https://rei-vilo.github.io/PDLS_EXT3_Basic_Documentation/html/index.html)
+[![Release](https://img.shields.io/github/v/release/rei-vilo/PDLS_EXT3_Basic_Documentation)](https://rei-vilo.github.io/PDLS_EXT3_Basic_Documentation/html/index.html) [![GitHub issues](https://img.shields.io/github/issues/rei-vilo/PDLS_EXT3_Basic_Global)](https://github.com/rei-vilo/PDLS_EXT3_Basic_Global/issues) [![](https://img.shields.io/badge/-Documentation-blue)](https://rei-vilo.github.io/PDLS_EXT3_Basic_Documentation/html/index.html)
 
 The Pervasive Displays Library Suite is specifically designed for the [Pervasive Displays](https://www.pervasivedisplays.com) e-paper screens and EXT3 extension board.
 
@@ -8,7 +8,7 @@ The Pervasive Displays Library Suite is specifically designed for the [Pervasive
 
 The documentation covers different variants of the library:
 
-* **PDLS_EXT3_Basic** for [monochrome](https://www.pervasivedisplays.com/products/?_sft_product_colour=black-white) and [colour (black-white-red)](https://www.pervasivedisplays.com/products/?_sft_product_colour=black-white-red) screens;
+* **PDLS_EXT3_Basic_Global** for [monochrome](https://www.pervasivedisplays.com/products/?_sft_product_colour=black-white) and [colour (black-white-red)](https://www.pervasivedisplays.com/products/?_sft_product_colour=black-white-red) screens;
 
 * **PDLS_EXT3_Basic_Fast** for [monochrome screens with embedded fast update](https://www.pervasivedisplays.com/product/2-71-e-ink-display-aurora-mb-v231/);
 
@@ -20,7 +20,7 @@ The screens are connected to the [EPD Extension Kit Gen 3 (EXT3 or EXT3-1)](http
 
 + Go to the [documentation](https://rei-vilo.github.io/PDLS_EXT3_Basic_Documentation/index.html) 
 
-+ Please refer to [PDLS_EXT3_Basic](https://github.com/rei-vilo/PDLS_EXT3_Basic/issues) for reporting issues and contributing pull requests.
++ Please refer to [PDLS_EXT3_Basic_Global](https://github.com/rei-vilo/PDLS_EXT3_Basic_Global/issues) for reporting issues and contributing pull requests.
 
 ## Licence
 
