@@ -1,16 +1,17 @@
 var annotated_dup =
 [
-    [ "Button", "d0/da2/a00307.html", "d0/da2/a00307" ],
-    [ "coordinates_s", "d3/d5e/a00275.html", null ],
-    [ "font_s", "da/dd4/a00291.html", "da/dd4/a00291" ],
-    [ "GUI", "df/d95/a00299.html", "df/d95/a00299" ],
-    [ "hV_Board", "d2/d82/a00279.html", "d2/d82/a00279" ],
-    [ "hV_Colours565", "dd/dfe/a00283.html", "dd/dfe/a00283" ],
-    [ "hV_Font_Terminal", "d9/d5e/a00295.html", "d9/d5e/a00295" ],
-    [ "hV_Screen_Buffer", "d4/d6f/a00315.html", "d4/d6f/a00315" ],
-    [ "hV_Utilities_PDLS", "de/dab/a00319.html", "de/dab/a00319" ],
-    [ "pins_t", "d1/d5d/a00311.html", "d1/d5d/a00311" ],
-    [ "Screen_EPD_EXT3_Fast", "de/d55/a00323.html", "de/d55/a00323" ],
-    [ "Text", "dc/d0f/a00303.html", "dc/d0f/a00303" ],
-    [ "width_s", "d6/d7f/a00287.html", "d6/d7f/a00287" ]
+    [ "Button", "db/d53/a00321.html", "db/d53/a00321" ],
+    [ "coordinates_s", "d4/d66/a00289.html", null ],
+    [ "font_s", "d3/d07/a00305.html", "d3/d07/a00305" ],
+    [ "GUI", "dd/db3/a00313.html", "dd/db3/a00313" ],
+    [ "h_pinSPI3_t", "de/dc8/a00325.html", null ],
+    [ "hV_Board", "d6/d82/a00293.html", "d6/d82/a00293" ],
+    [ "hV_Colours565", "d3/d4a/a00297.html", "d3/d4a/a00297" ],
+    [ "hV_Font_Terminal", "d2/d71/a00309.html", "d2/d71/a00309" ],
+    [ "hV_Screen_Buffer", "d2/d0a/a00333.html", "d2/d0a/a00333" ],
+    [ "hV_Utilities_PDLS", "d4/dce/a00337.html", "d4/dce/a00337" ],
+    [ "pins_t", "dd/d4e/a00329.html", "dd/d4e/a00329" ],
+    [ "Screen_EPD_EXT3_Fast", "d3/d93/a00341.html", "d3/d93/a00341" ],
+    [ "Text", "da/de0/a00317.html", "da/de0/a00317" ],
+    [ "width_s", "da/d50/a00301.html", "da/d50/a00301" ]
 ];

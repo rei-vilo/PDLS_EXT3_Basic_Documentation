@@ -1,0 +1,14 @@
+<map id="Screen_EPD_EXT3.h" name="Screen_EPD_EXT3.h">
+<area shape="rect" id="Node000001" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="317,5,467,31"/>
+<area shape="rect" id="Node000002" href="$de/d79/a00203.html" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="214,79,407,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="370,42,326,80,322,76,367,38"/>
+<area shape="rect" id="Node000006" href="$d5/ddf/a00224.html" title="Basic GUI with text and button." alt="" coords="441,79,524,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="419,37,469,76,466,81,416,41"/>
+<area shape="rect" id="Node000003" href="$da/d1e/a00149.html" title="Example of features for basic edition." alt="" coords="5,152,171,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="263,111,125,154,123,149,261,106"/>
+<area shape="rect" id="Node000004" href="$db/dd9/a00179.html" title="Example of features for Evaluation edition." alt="" coords="414,152,570,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="353,106,463,149,461,154,351,111"/>
+<area shape="rect" id="Node000005" href="$d6/d7d/a00161.html" title="Example of features for basic edition." alt="" coords="195,152,389,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="307,118,298,153,292,151,302,117"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="489,117,493,152,488,152,483,118"/>
+</map>

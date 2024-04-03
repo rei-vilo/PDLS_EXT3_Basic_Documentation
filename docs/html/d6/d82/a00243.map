@@ -1,9 +1,48 @@
-<map id="Example_Fast_Line.ino" name="Example_Fast_Line.ino">
-<area shape="rect" id="Node000001" title="Example of features for basic edition." alt="" coords="55,5,226,31"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,89,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,33,75,72,72,68,124,29"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="113,79,168,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="143,31,143,65,138,65,138,31"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="192,79,375,104"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="165,28,249,70,247,75,162,33"/>
+<map id="hV_Common.h" name="hV_Common.h">
+<area shape="rect" id="Node000001" title="Shared low&#45;level libraries for the Pervasive Displays Library Suite." alt="" coords="353,5,470,31"/>
+<area shape="rect" id="Node000002" href="$d9/dd6/a00272.html" title="Light hardware abstraction layer for peripherals." alt="" coords="711,225,875,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="470,17,557,20,656,29,745,47,779,60,801,77,812,92,818,110,820,147,815,183,805,213,800,211,810,182,815,146,813,111,807,95,797,80,776,65,743,52,655,34,557,25,470,22"/>
+<area shape="rect" id="Node000009" href="$d0/d27/a00239.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="373,152,519,177"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="414,31,414,64,421,103,435,139,430,141,415,105,409,64,408,31"/>
+<area shape="rect" id="Node000010" href="$d3/de5/a00209.html" title="List of options for Pervasive Displays Library Suite." alt="" coords="211,225,350,251"/>
+<area shape="poly" id="edge18_Node000001_Node000010" title=" " alt="" coords="400,33,379,54,358,80,318,151,292,214,287,211,313,149,353,77,375,50,396,29"/>
+<area shape="rect" id="Node000011" href="$dd/dd7/a00248.html" title="List of constants for Pervasive Displays Library Suite." alt="" coords="375,225,528,251"/>
+<area shape="poly" id="edge17_Node000001_Node000011" title=" " alt="" coords="404,33,384,60,365,96,355,137,356,157,363,176,383,200,409,217,406,222,379,204,358,179,351,158,350,137,360,94,380,57,399,29"/>
+<area shape="rect" id="Node000012" href="$dc/d5d/a00278.html" title="List of boards for Pervasive Displays Library Suite." alt="" coords="553,225,686,251"/>
+<area shape="poly" id="edge19_Node000001_Node000012" title=" " alt="" coords="419,30,436,64,464,102,481,118,496,127,532,150,600,213,597,217,528,154,493,132,478,122,460,106,432,67,414,32"/>
+<area shape="rect" id="Node000013" href="$d7/d40/a00236.html" title="List of supported Pervasive Displays screens." alt="" coords="49,225,187,251"/>
+<area shape="poly" id="edge20_Node000001_Node000013" title=" " alt="" coords="398,33,209,179,149,220,146,216,206,175,395,29"/>
+<area shape="rect" id="Node000014" href="$dd/d52/a00221.html" title="List of supported Pervasive Displays screens." alt="" coords="5,152,196,177"/>
+<area shape="poly" id="edge21_Node000001_Node000014" title=" " alt="" coords="357,33,288,52,217,81,166,112,125,145,122,141,163,108,214,76,287,47,355,28"/>
+<area shape="rect" id="Node000015" href="$d3/dd5/a00215.html" title="Documentation for the Pervasive Displays Library Suite." alt="" coords="629,79,788,104"/>
+<area shape="poly" id="edge24_Node000001_Node000015" title=" " alt="" coords="460,28,648,73,647,78,458,33"/>
+<area shape="rect" id="Node000016" href="$d6/d22/a00245.html" title="Utilities for highView Library Suite." alt="" coords="864,152,1039,177"/>
+<area shape="poly" id="edge25_Node000001_Node000016" title=" " alt="" coords="470,21,671,41,773,57,846,76,895,106,933,140,929,144,892,110,844,81,772,62,671,46,470,26"/>
+<area shape="rect" id="Node000017" href="$da/d15/a00188.html" title="Class Library for 5&#45;6&#45;5 coded colours." alt="" coords="474,79,605,104"/>
+<area shape="poly" id="edge27_Node000001_Node000017" title=" " alt="" coords="433,28,507,69,505,74,431,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="751,299,835,324"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="795,251,795,285,790,285,790,251"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="859,299,913,324"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="809,249,862,288,858,292,806,253"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="938,299,1002,324"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="822,248,930,291,928,296,820,253"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="416,299,487,324"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="738,253,501,303,500,297,737,248"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="561,299,627,324"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="762,253,640,296,639,291,760,248"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="651,299,726,324"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="777,253,719,293,716,288,774,248"/>
+<area shape="poly" id="edge9_Node000009_Node000002" title=" " alt="" coords="502,175,724,220,723,225,501,180"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="420,180,321,222,319,217,418,175"/>
+<area shape="poly" id="edge11_Node000009_Node000011" title=" " alt="" coords="450,177,452,212,447,212,444,178"/>
+<area shape="poly" id="edge13_Node000009_Node000012" title=" " alt="" coords="475,175,579,218,577,222,473,180"/>
+<area shape="poly" id="edge15_Node000009_Node000013" title=" " alt="" coords="394,180,185,225,184,220,393,175"/>
+<area shape="poly" id="edge12_Node000011_Node000006" title=" " alt="" coords="454,251,454,285,449,285,449,251"/>
+<area shape="poly" id="edge14_Node000012_Node000006" title=" " alt="" coords="593,253,492,296,490,291,591,248"/>
+<area shape="poly" id="edge16_Node000013_Node000006" title=" " alt="" coords="172,248,403,297,402,302,171,253"/>
+<area shape="poly" id="edge22_Node000014_Node000006" title=" " alt="" coords="82,180,62,195,43,213,33,232,34,240,39,249,63,266,100,280,147,291,200,298,310,306,402,308,402,313,309,312,199,304,146,296,99,285,60,271,35,252,29,242,28,231,39,209,58,191,79,175"/>
+<area shape="poly" id="edge23_Node000014_Node000013" title=" " alt="" coords="106,177,115,212,109,213,101,178"/>
+<area shape="poly" id="edge26_Node000016_Node000002" title=" " alt="" coords="927,180,832,222,830,217,925,175"/>
+<area shape="poly" id="edge28_Node000017_Node000002" title=" " alt="" coords="561,102,762,216,760,221,558,107"/>
+<area shape="poly" id="edge29_Node000017_Node000009" title=" " alt="" coords="526,106,474,146,470,141,523,102"/>
 </map>

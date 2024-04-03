@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['orientation_5flandscape_0',['ORIENTATION_LANDSCAPE',['../d7/d25/a00182.html#accc06995e9834c793d2cc9e96ded0560',1,'ORIENTATION_LANDSCAPE:&#160;hV_List_Constants.h'],['../df/da9/a00263.html#accc06995e9834c793d2cc9e96ded0560',1,'ORIENTATION_LANDSCAPE:&#160;hV_Utilities_Common.h']]],
-  ['orientation_5fportrait_1',['ORIENTATION_PORTRAIT',['../d7/d25/a00182.html#a0f166aa542c69097847cfc189cd48057',1,'ORIENTATION_PORTRAIT:&#160;hV_List_Constants.h'],['../df/da9/a00263.html#a0f166aa542c69097847cfc189cd48057',1,'ORIENTATION_PORTRAIT:&#160;hV_Utilities_Common.h']]]
+  ['not_5fconnected_0',['NOT_CONNECTED',['../dc/d5d/a00278.html#a0e9795e3bb758850785e6ebc676ab01b',1,'hV_List_Boards.h']]]
 ];

@@ -1,5 +1,8 @@
 var a00251 =
 [
-    [ "index", "d3/d1a/a00251.html#a7ad7fe2d62cc875ebf7a14389541e66a", null ],
-    [ "pixel", "d3/d1a/a00251.html#a68591191be4ff122ee2a26f8b977f2e7", null ]
+    [ "Screen_EPD_EXT3_Fast", "d3/d93/a00341.html", "d3/d93/a00341" ],
+    [ "SCREEN_EPD_EXT3_RELEASE", "d3/d1a/a00251.html#ab75eb2c0ba5e190f5c52fcddd3f64ccb", null ],
+    [ "SCREEN_EPD_EXT3_VARIANT", "d3/d1a/a00251.html#aad6aa3af845addf339c09eed7494c29a", null ],
+    [ "WITH_FAST", "d3/d1a/a00251.html#af82a624c2531f5e26bf234bc39ae07bd", null ],
+    [ "WITH_FAST_FRIENDS", "d3/d1a/a00251.html#af96d5516b99a2caf5f9a04e449b4e346", null ]
 ];
