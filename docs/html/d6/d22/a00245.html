@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.1</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.3</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -104,26 +104,41 @@ $(function(){initNavTree('d6/d22/a00245.html','../../'); initResizable(); });
 <p>Utilities for highView Library Suite.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d9/dd6/a00272.html">hV_HAL_Peripherals.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/d27/a00239.html">hV_Configuration.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for hV_Utilities_Common.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d4/d9a/a00246.png" border="0" usemap="#ahV__Utilities__Common_8h" alt=""/></div>
 <map name="ahV__Utilities__Common_8h" id="ahV__Utilities__Common_8h">
-<area shape="rect" title="Utilities for highView Library Suite." alt="" coords="183,5,357,31"/>
-<area shape="rect" href="../../d9/dd6/a00272.html" title="Light hardware abstraction layer for peripherals." alt="" coords="188,79,352,104"/>
-<area shape="poly" title=" " alt="" coords="273,31,273,65,267,65,267,31"/>
-<area shape="rect" title=" " alt="" coords="5,152,89,177"/>
-<area shape="poly" title=" " alt="" coords="235,107,97,150,95,145,233,101"/>
-<area shape="rect" title=" " alt="" coords="113,152,168,177"/>
-<area shape="poly" title=" " alt="" coords="250,106,175,147,173,143,248,102"/>
-<area shape="rect" title=" " alt="" coords="193,152,257,177"/>
-<area shape="poly" title=" " alt="" coords="265,106,242,142,237,139,260,103"/>
-<area shape="rect" title=" " alt="" coords="281,152,352,177"/>
-<area shape="poly" title=" " alt="" coords="280,103,304,139,299,142,275,106"/>
-<area shape="rect" title=" " alt="" coords="377,152,443,177"/>
-<area shape="poly" title=" " alt="" coords="294,102,376,143,374,148,291,106"/>
-<area shape="rect" title=" " alt="" coords="467,152,542,177"/>
-<area shape="poly" title=" " alt="" coords="308,101,455,146,453,151,307,107"/>
+<area shape="rect" title="Utilities for highView Library Suite." alt="" coords="311,5,485,31"/>
+<area shape="rect" href="../../d9/dd6/a00272.html" title="Light hardware abstraction layer for peripherals." alt="" coords="143,152,307,177"/>
+<area shape="poly" title=" " alt="" coords="386,33,251,145,247,141,382,29"/>
+<area shape="rect" href="../../d0/d27/a00239.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="413,79,559,104"/>
+<area shape="poly" title=" " alt="" coords="414,29,463,68,459,72,410,33"/>
+<area shape="rect" title=" " alt="" coords="5,225,89,251"/>
+<area shape="poly" title=" " alt="" coords="197,180,90,223,88,218,195,175"/>
+<area shape="rect" title=" " alt="" coords="113,225,168,251"/>
+<area shape="poly" title=" " alt="" coords="213,179,167,218,163,214,209,175"/>
+<area shape="rect" title=" " alt="" coords="193,225,257,251"/>
+<area shape="poly" title=" " alt="" coords="227,178,227,212,222,212,222,178"/>
+<area shape="rect" title=" " alt="" coords="620,225,691,251"/>
+<area shape="poly" title=" " alt="" coords="294,175,607,226,606,231,293,180"/>
+<area shape="rect" title=" " alt="" coords="281,225,347,251"/>
+<area shape="poly" title=" " alt="" coords="241,175,290,214,287,219,237,179"/>
+<area shape="rect" title=" " alt="" coords="371,225,446,251"/>
+<area shape="poly" title=" " alt="" coords="255,175,367,218,365,223,253,180"/>
+<area shape="poly" title=" " alt="" coords="445,107,281,151,280,146,443,101"/>
+<area shape="rect" href="../../d3/de5/a00209.html" title="List of options for Pervasive Displays Library Suite." alt="" coords="331,152,470,177"/>
+<area shape="poly" title=" " alt="" coords="474,106,427,145,423,141,471,102"/>
+<area shape="rect" href="../../dd/dd7/a00248.html" title="List of constants for Pervasive Displays Library Suite." alt="" coords="495,152,648,177"/>
+<area shape="poly" title=" " alt="" coords="501,102,549,141,545,145,498,106"/>
+<area shape="rect" href="../../dc/d5d/a00278.html" title="List of boards for Pervasive Displays Library Suite." alt="" coords="673,152,806,177"/>
+<area shape="poly" title=" " alt="" coords="527,101,686,146,684,151,526,107"/>
+<area shape="rect" href="../../d7/d40/a00236.html" title="List of supported Pervasive Displays screens." alt="" coords="830,152,969,177"/>
+<area shape="poly" title=" " alt="" coords="553,101,820,147,819,152,552,107"/>
+<area shape="poly" title=" " alt="" coords="587,175,633,214,629,218,583,179"/>
+<area shape="poly" title=" " alt="" coords="728,179,681,218,678,214,724,175"/>
+<area shape="poly" title=" " alt="" coords="861,180,704,225,703,220,859,175"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -161,7 +176,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a9181b73f355c545c61257008ed6515c1" id="r_a9181b73f355c545c61257008ed6515c1"><td class="memItemLeft" align="right" valign="top"><a id="a9181b73f355c545c61257008ed6515c1" name="a9181b73f355c545c61257008ed6515c1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>hV_UTILITIES_RELEASE</b>&#160;&#160;&#160;801</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>hV_UTILITIES_RELEASE</b>&#160;&#160;&#160;803</td></tr>
 <tr class="memdesc:a9181b73f355c545c61257008ed6515c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Library release number. <br /></td></tr>
 <tr class="separator:a9181b73f355c545c61257008ed6515c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6afabdc09a49a433ee19d8a9486056d" id="r_ac6afabdc09a49a433ee19d8a9486056d"><td class="memItemLeft" align="right" valign="top"><a id="ac6afabdc09a49a433ee19d8a9486056d" name="ac6afabdc09a49a433ee19d8a9486056d"></a>
@@ -228,8 +243,8 @@ Functions</h2></td></tr>
 <p>Project Pervasive Displays Library Suite <br  />
  Based on highView technology</p>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>21 Mar 2024 </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>801</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>21 May 2024 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>803</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2024 </dd>
 <dd>
 All rights reserved </dd>

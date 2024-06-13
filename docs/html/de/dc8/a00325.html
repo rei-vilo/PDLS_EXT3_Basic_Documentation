@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: h_pinSPI3_t Struct Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: pins_t Struct Reference</title>
 <link rel="icon" href="../../Logo-PDI-white.png" type="image/x-icon" />
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.1</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.3</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -97,21 +97,70 @@ $(function(){initNavTree('de/dc8/a00325.html','../../'); initResizable(); });
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Data Fields</a>  </div>
-  <div class="headertitle"><div class="title">h_pinSPI3_t Struct Reference</div></div>
+  <div class="headertitle"><div class="title">pins_t Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Board configuration structure.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;hV_List_Boards.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:a2fed872bbb2ce0d81d59d7638a646762" id="r_a2fed872bbb2ce0d81d59d7638a646762"><td class="memItemLeft" align="right" valign="top"><a id="a2fed872bbb2ce0d81d59d7638a646762" name="a2fed872bbb2ce0d81d59d7638a646762"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>pinClock</b></td></tr>
-<tr class="separator:a2fed872bbb2ce0d81d59d7638a646762"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e4c8c0fd99c2dc28f1ce4b14a6ecb0d" id="r_a8e4c8c0fd99c2dc28f1ce4b14a6ecb0d"><td class="memItemLeft" align="right" valign="top"><a id="a8e4c8c0fd99c2dc28f1ce4b14a6ecb0d" name="a8e4c8c0fd99c2dc28f1ce4b14a6ecb0d"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>pinData</b></td></tr>
-<tr class="separator:a8e4c8c0fd99c2dc28f1ce4b14a6ecb0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23130959491e75c4c7769df625efaeea" id="r_a23130959491e75c4c7769df625efaeea"><td class="memItemLeft" align="right" valign="top"><a id="a23130959491e75c4c7769df625efaeea" name="a23130959491e75c4c7769df625efaeea"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>panelBusy</b></td></tr>
+<tr class="memdesc:a23130959491e75c4c7769df625efaeea"><td class="mdescLeft">&#160;</td><td class="mdescRight">EXT3 and EXT3-1 pin 3 Red. <br /></td></tr>
+<tr class="separator:a23130959491e75c4c7769df625efaeea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0af850bfedfb78f55f01a01b5299dbfa" id="r_a0af850bfedfb78f55f01a01b5299dbfa"><td class="memItemLeft" align="right" valign="top"><a id="a0af850bfedfb78f55f01a01b5299dbfa" name="a0af850bfedfb78f55f01a01b5299dbfa"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>panelDC</b></td></tr>
+<tr class="memdesc:a0af850bfedfb78f55f01a01b5299dbfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">EXT3 and EXT3-1 pin 4 Orange. <br /></td></tr>
+<tr class="separator:a0af850bfedfb78f55f01a01b5299dbfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a744c9d596b05d3883d5ac3b103612030" id="r_a744c9d596b05d3883d5ac3b103612030"><td class="memItemLeft" align="right" valign="top"><a id="a744c9d596b05d3883d5ac3b103612030" name="a744c9d596b05d3883d5ac3b103612030"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>panelReset</b></td></tr>
+<tr class="memdesc:a744c9d596b05d3883d5ac3b103612030"><td class="mdescLeft">&#160;</td><td class="mdescRight">EXT3 and EXT3-1 pin 5 Yellow. <br /></td></tr>
+<tr class="separator:a744c9d596b05d3883d5ac3b103612030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a935cbdfc456dc6d5e5257adce619c852" id="r_a935cbdfc456dc6d5e5257adce619c852"><td class="memItemLeft" align="right" valign="top"><a id="a935cbdfc456dc6d5e5257adce619c852" name="a935cbdfc456dc6d5e5257adce619c852"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>flashCS</b></td></tr>
+<tr class="memdesc:a935cbdfc456dc6d5e5257adce619c852"><td class="mdescLeft">&#160;</td><td class="mdescRight">EXT3 and EXT3-1 pin 8 Violet. <br /></td></tr>
+<tr class="separator:a935cbdfc456dc6d5e5257adce619c852"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46ff59ecd3cf6f95f85810926ee8274f" id="r_a46ff59ecd3cf6f95f85810926ee8274f"><td class="memItemLeft" align="right" valign="top"><a id="a46ff59ecd3cf6f95f85810926ee8274f" name="a46ff59ecd3cf6f95f85810926ee8274f"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>panelCS</b></td></tr>
+<tr class="memdesc:a46ff59ecd3cf6f95f85810926ee8274f"><td class="mdescLeft">&#160;</td><td class="mdescRight">EXT3 and EXT3-1 pin 9 Grey. <br /></td></tr>
+<tr class="separator:a46ff59ecd3cf6f95f85810926ee8274f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd60957aa6713c2ee6ec3a699ebdc29b" id="r_abd60957aa6713c2ee6ec3a699ebdc29b"><td class="memItemLeft" align="right" valign="top"><a id="abd60957aa6713c2ee6ec3a699ebdc29b" name="abd60957aa6713c2ee6ec3a699ebdc29b"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>panelCSS</b></td></tr>
+<tr class="memdesc:abd60957aa6713c2ee6ec3a699ebdc29b"><td class="mdescLeft">&#160;</td><td class="mdescRight">EXT3 and EXT3-1 pin 12 Grey2. <br /></td></tr>
+<tr class="separator:abd60957aa6713c2ee6ec3a699ebdc29b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3e74219727e6efa2f0e8504cf8c2622" id="r_aa3e74219727e6efa2f0e8504cf8c2622"><td class="memItemLeft" align="right" valign="top"><a id="aa3e74219727e6efa2f0e8504cf8c2622" name="aa3e74219727e6efa2f0e8504cf8c2622"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>flashCSS</b></td></tr>
+<tr class="memdesc:aa3e74219727e6efa2f0e8504cf8c2622"><td class="mdescLeft">&#160;</td><td class="mdescRight">EXT3 pin 20 or EXT3-1 pin 11 Black2. <br /></td></tr>
+<tr class="separator:aa3e74219727e6efa2f0e8504cf8c2622"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab2a846bc6d88385f2c52a0a9579b65b" id="r_aab2a846bc6d88385f2c52a0a9579b65b"><td class="memItemLeft" align="right" valign="top"><a id="aab2a846bc6d88385f2c52a0a9579b65b" name="aab2a846bc6d88385f2c52a0a9579b65b"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>touchInt</b></td></tr>
+<tr class="memdesc:aab2a846bc6d88385f2c52a0a9579b65b"><td class="mdescLeft">&#160;</td><td class="mdescRight">EXT3-Touch pin 3 Red. <br /></td></tr>
+<tr class="separator:aab2a846bc6d88385f2c52a0a9579b65b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e09335b255d8c9791388224ce40cc64" id="r_a9e09335b255d8c9791388224ce40cc64"><td class="memItemLeft" align="right" valign="top"><a id="a9e09335b255d8c9791388224ce40cc64" name="a9e09335b255d8c9791388224ce40cc64"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>touchReset</b></td></tr>
+<tr class="memdesc:a9e09335b255d8c9791388224ce40cc64"><td class="mdescLeft">&#160;</td><td class="mdescRight">EXT3-Touch pin 4 Orange. <br /></td></tr>
+<tr class="separator:a9e09335b255d8c9791388224ce40cc64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af855f5d6c59e1e70ee6fdc1a578ecccf" id="r_af855f5d6c59e1e70ee6fdc1a578ecccf"><td class="memItemLeft" align="right" valign="top"><a id="af855f5d6c59e1e70ee6fdc1a578ecccf" name="af855f5d6c59e1e70ee6fdc1a578ecccf"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>panelPower</b></td></tr>
+<tr class="memdesc:af855f5d6c59e1e70ee6fdc1a578ecccf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional power circuit. <br /></td></tr>
+<tr class="separator:af855f5d6c59e1e70ee6fdc1a578ecccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae860d059b1ef56dc97115ecdcd8aea02" id="r_ae860d059b1ef56dc97115ecdcd8aea02"><td class="memItemLeft" align="right" valign="top"><a id="ae860d059b1ef56dc97115ecdcd8aea02" name="ae860d059b1ef56dc97115ecdcd8aea02"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>cardCS</b></td></tr>
+<tr class="memdesc:ae860d059b1ef56dc97115ecdcd8aea02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Separate SD-card board. <br /></td></tr>
+<tr class="separator:ae860d059b1ef56dc97115ecdcd8aea02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83bb44624030ab25ec672626c8ad3642" id="r_a83bb44624030ab25ec672626c8ad3642"><td class="memItemLeft" align="right" valign="top"><a id="a83bb44624030ab25ec672626c8ad3642" name="a83bb44624030ab25ec672626c8ad3642"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>cardDetect</b></td></tr>
+<tr class="memdesc:a83bb44624030ab25ec672626c8ad3642"><td class="mdescLeft">&#160;</td><td class="mdescRight">Separate SD-card board. <br /></td></tr>
+<tr class="separator:a83bb44624030ab25ec672626c8ad3642"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li><b>hV_HAL_Peripherals.cpp</b></li>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Board configuration structure. </p>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<li><a class="el" href="../../dc/d5d/a00278.html">hV_List_Boards.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -119,7 +168,7 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>pinData</b></td></
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../de/dc8/a00325.html">h_pinSPI3_t</a></li>
+    <li class="navelem"><a class="el" href="../../de/dc8/a00325.html">pins_t</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.10.0 </li>

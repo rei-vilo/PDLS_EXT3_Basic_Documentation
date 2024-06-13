@@ -1,6 +1,7 @@
 var a00317 =
 [
-    [ "Text", "da/de0/a00317.html#ae22e2048bf2625e15b62fd6f34e8bdee", null ],
-    [ "dDefine", "da/de0/a00317.html#a50c8fed521e578e20d1f6f1cef395407", null ],
-    [ "draw", "da/de0/a00317.html#a297f516f564d811b78c4e5c472edc67d", null ]
+    [ "Button", "da/de0/a00317.html#a8d6739555a993e9beb7c541b82e39810", null ],
+    [ "check", "da/de0/a00317.html#a82488236c807657c1cb4740c53529835", null ],
+    [ "draw", "da/de0/a00317.html#a5e3a8109fee801f4f2a27526ee6a3d22", null ],
+    [ "dStringDefine", "da/de0/a00317.html#a914828eb0f08637e3e55ea64d244bb99", null ]
 ];

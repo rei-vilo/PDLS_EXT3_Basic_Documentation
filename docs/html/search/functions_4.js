@@ -1,22 +1,8 @@
 var searchData=
 [
-  ['f_5faddfont_0',['f_addFont',['../d2/d71/a00309.html#acf59b7d0d21ab57bc8d4a1ab6b2d6d2f',1,'hV_Font_Terminal']]],
-  ['f_5fbegin_1',['f_begin',['../d2/d71/a00309.html#a49988bb9521c8c72ab7f02888bd43a54',1,'hV_Font_Terminal']]],
-  ['f_5fcharactersizex_2',['f_characterSizeX',['../d2/d71/a00309.html#ab87437481253d542e07a394c95746093',1,'hV_Font_Terminal']]],
-  ['f_5fcharactersizey_3',['f_characterSizeY',['../d2/d71/a00309.html#ab0ad4f0bc6b6dd8fc8fbc62e48647d61',1,'hV_Font_Terminal']]],
-  ['f_5ffontmax_4',['f_fontMax',['../d2/d71/a00309.html#ae2652897aebdd954f3405805ee2d57bb',1,'hV_Font_Terminal']]],
-  ['f_5fgetcharacter_5',['f_getCharacter',['../d2/d71/a00309.html#a5b30c9510be7b29641865451e12cc79e',1,'hV_Font_Terminal']]],
-  ['f_5fgetfontkind_6',['f_getFontKind',['../d2/d71/a00309.html#a3ebbc6a28b20338b9ba5b504e3dbd9f2',1,'hV_Font_Terminal']]],
-  ['f_5fgetfontmaxwidth_7',['f_getFontMaxWidth',['../d2/d71/a00309.html#a3a11d764ebbde16af1c0428849033d64',1,'hV_Font_Terminal']]],
-  ['f_5fselectfont_8',['f_selectFont',['../d2/d71/a00309.html#a7fefbe0d5a24b1c6794eacac2d8fa8fc',1,'hV_Font_Terminal']]],
-  ['f_5fsetfontsolid_9',['f_setFontSolid',['../d2/d71/a00309.html#a4c461eb64b490789a6cd8a258174cf57',1,'hV_Font_Terminal']]],
-  ['f_5fsetfontspacex_10',['f_setFontSpaceX',['../d2/d71/a00309.html#a6266f7a3463c2e755be8eb2fa017780f',1,'hV_Font_Terminal']]],
-  ['f_5fsetfontspacey_11',['f_setFontSpaceY',['../d2/d71/a00309.html#a57c355b82e63ed902a290af70b3c3350',1,'hV_Font_Terminal']]],
-  ['f_5fstringlengthtofitx_12',['f_stringLengthToFitX',['../d2/d71/a00309.html#ad3f49bd0c63dadc0e171d46404e4314b',1,'hV_Font_Terminal']]],
-  ['f_5fstringsizex_13',['f_stringSizeX',['../d2/d71/a00309.html#ac50f09bb4ba87190fe7383a9ce4c7eb0',1,'hV_Font_Terminal']]],
-  ['flush_14',['flush',['../d2/d0a/a00333.html#ae12eb3335304819c9eb94386371d995e',1,'hV_Screen_Buffer::flush()'],['../d3/d93/a00341.html#a862419392eaf7a4c3a8273a5ee49358e',1,'Screen_EPD_EXT3_Fast::flush()']]],
-  ['flush_5fms_15',['flush_ms',['../d5/de9/a00176.html#a3bec8a8883209b74549c344fa2a4375c',1,'flush_ms():&#160;Example_Fast_Line.ino'],['../de/d76/a00134.html#a3bec8a8883209b74549c344fa2a4375c',1,'flush_ms():&#160;Example_Fast_Orientation.ino']]],
-  ['flushmode_16',['flushMode',['../d3/d93/a00341.html#aaa495715100501f4c8a7b56b13eafd2e',1,'Screen_EPD_EXT3_Fast']]],
-  ['fontmax_17',['fontMax',['../d2/d0a/a00333.html#ac4d1e62f53a43b7debe16c84b4fc2b20',1,'hV_Screen_Buffer']]],
-  ['formatstring_18',['formatString',['../d6/d22/a00245.html#aa405c9a5b808e428554e540028085dd3',1,'hV_Utilities_Common.cpp']]]
+  ['flush_0',['flush',['../dd/d4e/a00329.html#ae12eb3335304819c9eb94386371d995e',1,'hV_Screen_Buffer::flush()'],['../d4/dce/a00337.html#a862419392eaf7a4c3a8273a5ee49358e',1,'Screen_EPD_EXT3_Fast::flush()']]],
+  ['flush_5fms_1',['flush_ms',['../d5/de9/a00176.html#a3bec8a8883209b74549c344fa2a4375c',1,'flush_ms():&#160;Example_Fast_Line.ino'],['../de/d76/a00134.html#a3bec8a8883209b74549c344fa2a4375c',1,'flush_ms():&#160;Example_Fast_Orientation.ino']]],
+  ['flushmode_2',['flushMode',['../d4/dce/a00337.html#aaa495715100501f4c8a7b56b13eafd2e',1,'Screen_EPD_EXT3_Fast']]],
+  ['fontmax_3',['fontMax',['../dd/d4e/a00329.html#ac4d1e62f53a43b7debe16c84b4fc2b20',1,'hV_Screen_Buffer']]],
+  ['formatstring_4',['formatString',['../d6/d22/a00245.html#aa405c9a5b808e428554e540028085dd3',1,'hV_Utilities_Common.cpp']]]
 ];

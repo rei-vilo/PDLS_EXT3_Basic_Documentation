@@ -1,9 +1,12 @@
 var a00337 =
 [
-    [ "checkTemperatureMode", "d4/dce/a00337.html#ac202254e43d228ff518283eece951ff8", null ],
-    [ "invert", "d4/dce/a00337.html#a6097d2401b0cb45ef7cda9757a477554", null ],
-    [ "screenColours", "d4/dce/a00337.html#a8f6fd5574dd12584012bdf7c7d136cd1", null ],
-    [ "screenNumber", "d4/dce/a00337.html#a98e0eebcf4d6fc9aa57584bfdae2ee1e", null ],
-    [ "setTemperatureC", "d4/dce/a00337.html#ad876220c2938cf70b50c351e5ebb9c25", null ],
-    [ "setTemperatureF", "d4/dce/a00337.html#ac6204311e42a29539047e2efb081de9e", null ]
+    [ "Screen_EPD_EXT3_Fast", "d4/dce/a00337.html#a2679cd1110004399a42696ca01638394", null ],
+    [ "begin", "d4/dce/a00337.html#ae21cc69f1d24e46aba95e85c5fbf9063", null ],
+    [ "clear", "d4/dce/a00337.html#a2b6756dd05ae8442558b91518379fcf3", null ],
+    [ "flush", "d4/dce/a00337.html#a862419392eaf7a4c3a8273a5ee49358e", null ],
+    [ "flushMode", "d4/dce/a00337.html#aaa495715100501f4c8a7b56b13eafd2e", null ],
+    [ "regenerate", "d4/dce/a00337.html#ac0350adf562ad504aceafc7bbf608841", null ],
+    [ "resume", "d4/dce/a00337.html#ad7d3fb651d0f679390a75fa1eb067e2e", null ],
+    [ "suspend", "d4/dce/a00337.html#a1ec30a63a85576a294ed529ea17535f2", null ],
+    [ "WhoAmI", "d4/dce/a00337.html#a6d8b9ca0814b07de632dfe5c401fda4a", null ]
 ];

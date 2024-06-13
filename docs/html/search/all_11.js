@@ -8,14 +8,14 @@ var searchData=
   ['terminal6x8e_2eh_5',['Terminal6x8e.h',['../d5/df1/a00206.html',1,'']]],
   ['terminal8e_5ffont_5frelease_6',['TERMINAL8E_FONT_RELEASE',['../dd/dd7/a00260.html#a88f5626ffb335bab69bfe70b793b4cbb',1,'Terminal8x12e.h']]],
   ['terminal8x12e_2eh_7',['Terminal8x12e.h',['../dd/dd7/a00260.html',1,'']]],
-  ['text_8',['Text',['../da/de0/a00317.html',1,'Text'],['../da/de0/a00317.html#ae22e2048bf2625e15b62fd6f34e8bdee',1,'Text::Text()']]],
+  ['text_8',['Text',['../dd/db3/a00313.html',1,'Text'],['../dd/db3/a00313.html#ae22e2048bf2625e15b62fd6f34e8bdee',1,'Text::Text()']]],
   ['touch_5fevent_5fmove_9',['TOUCH_EVENT_MOVE',['../dd/dd7/a00248.html#a9d95a414d6b61be2ef60d6f6685289ab',1,'hV_List_Constants.h']]],
   ['touch_5fevent_5fnone_10',['TOUCH_EVENT_NONE',['../dd/dd7/a00248.html#addb7ea466d16e54b3ac29e652392bfe7',1,'hV_List_Constants.h']]],
   ['touch_5fevent_5fpress_11',['TOUCH_EVENT_PRESS',['../dd/dd7/a00248.html#a1b58d5fdc01d6f6c5a090e6d31725d36',1,'hV_List_Constants.h']]],
   ['touch_5fevent_5frelease_12',['TOUCH_EVENT_RELEASE',['../dd/dd7/a00248.html#a28e03e87baac6e935b2ef802d3d698f9',1,'hV_List_Constants.h']]],
   ['touch_5fmode_13',['TOUCH_MODE',['../d3/de5/a00209.html#a11320f76b1b3395290d1e97bb7ac9c2a',1,'hV_List_Options.h']]],
-  ['touchint_14',['touchInt',['../dd/d4e/a00329.html#aab2a846bc6d88385f2c52a0a9579b65b',1,'pins_t']]],
-  ['touchreset_15',['touchReset',['../dd/d4e/a00329.html#a9e09335b255d8c9791388224ce40cc64',1,'pins_t']]],
-  ['triangle_16',['triangle',['../d2/d0a/a00333.html#a0d5b8f8f1ea822cb8ea982b0766a451c',1,'hV_Screen_Buffer']]],
+  ['touchint_14',['touchInt',['../de/dc8/a00325.html#aab2a846bc6d88385f2c52a0a9579b65b',1,'pins_t']]],
+  ['touchreset_15',['touchReset',['../de/dc8/a00325.html#a9e09335b255d8c9791388224ce40cc64',1,'pins_t']]],
+  ['triangle_16',['triangle',['../dd/d4e/a00329.html#a0d5b8f8f1ea822cb8ea982b0766a451c',1,'hV_Screen_Buffer']]],
   ['trimstring_17',['trimString',['../d6/d22/a00245.html#a311c694a8a5722683dd6739c55323036',1,'hV_Utilities_Common.cpp']]]
 ];

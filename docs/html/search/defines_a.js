@@ -30,5 +30,7 @@ var searchData=
   ['size_5fb98_27',['SIZE_B98',['../d7/d40/a00236.html#ad8383eb6fd2e92f7d59257ccf880129c',1,'hV_List_Screens.h']]],
   ['sram_5fmode_28',['SRAM_MODE',['../d3/de5/a00209.html#a1e2fdad38cc1a287c1119e44d94ca0fd',1,'hV_List_Options.h']]],
   ['storage_5fmode_29',['STORAGE_MODE',['../d3/de5/a00209.html#ab9794b07ad5c45a1b1d2b29af9c81138',1,'hV_List_Options.h']]],
-  ['string_5fmode_30',['STRING_MODE',['../d3/de5/a00209.html#a772c0af3dc7e04934854547bc08ca6ed',1,'hV_List_Options.h']]]
+  ['string_5fconst_5ftype_30',['STRING_CONST_TYPE',['../d0/d27/a00239.html#a51812afad88d6a81feaa2dddada6e028',1,'hV_Configuration.h']]],
+  ['string_5fmode_31',['STRING_MODE',['../d3/de5/a00209.html#a772c0af3dc7e04934854547bc08ca6ed',1,'hV_List_Options.h']]],
+  ['string_5ftype_32',['STRING_TYPE',['../d0/d27/a00239.html#ab5eb05d3b545c8fc57952cb4afb121ca',1,'hV_Configuration.h']]]
 ];

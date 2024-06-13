@@ -1,6 +1,5 @@
 var a00200 =
 [
-    [ "hV_Font_Terminal", "d2/d71/a00309.html", "d2/d71/a00309" ],
     [ "hV_FONT_TERMINAL_RELEASE", "d3/db1/a00200.html#a2c1b31917210e8dd59e9d780d3285e12", null ],
     [ "fontNumber_e", "d3/db1/a00200.html#afb304f88fec3d0fe39131d0aa83a0c1a", [
       [ "Font_Terminal6x8", "d3/db1/a00200.html#afb304f88fec3d0fe39131d0aa83a0c1aa211f327e3cdf7f9eb742f0bd6f662e62", null ],
