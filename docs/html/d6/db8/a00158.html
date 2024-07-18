@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: Common_WhoAmI.ino File Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: hV_List_Boards.h File Reference</title>
 <link rel="icon" href="../../Logo-PDI-white.png" type="image/x-icon" />
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.3</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.4</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -96,141 +96,815 @@ $(function(){initNavTree('d6/db8/a00158.html','../../'); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">Common_WhoAmI.ino File Reference</div></div>
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a>  </div>
+  <div class="headertitle"><div class="title">hV_List_Boards.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Example of features for basic edition.  
+<p>List of boards for Pervasive Displays Library Suite.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;PDLS_EXT3_Basic_Global.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/dd6/a00272.html">hV_HAL_Peripherals.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d27/a00239.html">hV_Configuration.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;stdint.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Common_WhoAmI.ino:</div>
+Include dependency graph for hV_List_Boards.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../de/db9/a00159.png" border="0" usemap="#aCommon__WhoAmI_8ino" alt=""/></div>
-<map name="aCommon__WhoAmI_8ino" id="aCommon__WhoAmI_8ino">
-<area shape="rect" title="Example of features for basic edition." alt="" coords="173,5,340,31"/>
-<area shape="rect" title=" " alt="" coords="21,79,220,104"/>
-<area shape="poly" title=" " alt="" coords="236,33,156,75,154,70,234,28"/>
-<area shape="rect" href="../../d9/dd6/a00272.html" title="Light hardware abstraction layer for peripherals." alt="" coords="143,152,307,177"/>
-<area shape="poly" title=" " alt="" coords="257,32,233,139,228,138,251,31"/>
-<area shape="rect" href="../../d0/d27/a00239.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="413,79,559,104"/>
-<area shape="poly" title=" " alt="" coords="294,28,436,72,435,77,293,33"/>
-<area shape="rect" title=" " alt="" coords="5,225,89,251"/>
-<area shape="poly" title=" " alt="" coords="197,180,90,223,88,218,195,175"/>
-<area shape="rect" title=" " alt="" coords="113,225,168,251"/>
-<area shape="poly" title=" " alt="" coords="213,179,167,218,163,214,209,175"/>
-<area shape="rect" title=" " alt="" coords="193,225,257,251"/>
-<area shape="poly" title=" " alt="" coords="227,178,227,212,222,212,222,178"/>
-<area shape="rect" title=" " alt="" coords="620,225,691,251"/>
-<area shape="poly" title=" " alt="" coords="294,175,607,226,606,231,293,180"/>
-<area shape="rect" title=" " alt="" coords="281,225,347,251"/>
-<area shape="poly" title=" " alt="" coords="241,175,290,214,287,219,237,179"/>
-<area shape="rect" title=" " alt="" coords="371,225,446,251"/>
-<area shape="poly" title=" " alt="" coords="255,175,367,218,365,223,253,180"/>
-<area shape="poly" title=" " alt="" coords="445,107,281,151,280,146,443,101"/>
-<area shape="rect" href="../../d3/de5/a00209.html" title="List of options for Pervasive Displays Library Suite." alt="" coords="331,152,470,177"/>
-<area shape="poly" title=" " alt="" coords="474,106,427,145,423,141,471,102"/>
-<area shape="rect" href="../../dd/dd7/a00248.html" title="List of constants for Pervasive Displays Library Suite." alt="" coords="495,152,648,177"/>
-<area shape="poly" title=" " alt="" coords="501,102,549,141,545,145,498,106"/>
-<area shape="rect" href="../../dc/d5d/a00278.html" title="List of boards for Pervasive Displays Library Suite." alt="" coords="673,152,806,177"/>
-<area shape="poly" title=" " alt="" coords="527,101,686,146,684,151,526,107"/>
-<area shape="rect" href="../../d7/d40/a00236.html" title="List of supported Pervasive Displays screens." alt="" coords="830,152,969,177"/>
-<area shape="poly" title=" " alt="" coords="553,101,820,147,819,152,552,107"/>
-<area shape="poly" title=" " alt="" coords="587,175,633,214,629,218,583,179"/>
-<area shape="poly" title=" " alt="" coords="728,179,681,218,678,214,724,175"/>
-<area shape="poly" title=" " alt="" coords="861,180,704,225,703,220,859,175"/>
+<div class="center"><img src="../../de/db9/a00159.png" border="0" usemap="#ahV__List__Boards_8h" alt=""/></div>
+<map name="ahV__List__Boards_8h" id="ahV__List__Boards_8h">
+<area shape="rect" title="List of boards for Pervasive Displays Library Suite." alt="" coords="5,5,139,31"/>
+<area shape="rect" title=" " alt="" coords="37,79,107,104"/>
+<area shape="poly" title=" " alt="" coords="75,31,75,65,69,65,69,31"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../de/d38/a00160.png" border="0" usemap="#ahV__List__Boards_8hdep" alt=""/></div>
+<map name="ahV__List__Boards_8hdep" id="ahV__List__Boards_8hdep">
+<area shape="rect" title="List of boards for Pervasive Displays Library Suite." alt="" coords="3175,5,3309,31"/>
+<area shape="rect" href="../../dc/d57/a00194.html" title="Shared low&#45;level libraries for the Pervasive Displays Library Suite." alt="" coords="3569,225,3686,251"/>
+<area shape="poly" title=" " alt="" coords="3323,16,3516,20,3635,27,3758,38,3876,55,3982,78,4028,93,4067,110,4100,129,4124,150,4131,164,4128,176,4117,187,4100,196,4048,210,3980,221,3823,234,3686,239,3686,233,3823,229,3979,216,4047,205,4098,191,4114,182,4124,174,4126,164,4120,154,4097,133,4065,114,4026,98,3981,83,3875,60,3757,43,3635,32,3516,26,3322,21"/>
+<area shape="rect" href="../../d5/df1/a00206.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="2377,79,2523,104"/>
+<area shape="poly" title=" " alt="" coords="3162,29,2523,86,2523,81,3161,24"/>
+<area shape="poly" title=" " alt="" coords="2536,90,2790,93,3112,101,3269,109,3406,119,3511,132,3547,141,3571,150,3591,166,3607,186,3626,224,3621,226,3602,189,3588,169,3569,154,3546,146,3510,138,3405,124,3269,114,3112,107,2789,98,2536,96"/>
+<area shape="rect" href="../../d0/d27/a00239.html" title="Example for Pervasive Displays Library Suite." alt="" coords="3969,152,4109,177"/>
+<area shape="poly" title=" " alt="" coords="2536,91,2779,95,3128,104,3535,122,3950,149,3969,151,3969,157,3950,155,3535,127,3128,110,2779,100,2536,96"/>
+<area shape="rect" href="../../d9/d01/a00227.html" title="Example of features for basic edition." alt="" coords="5,152,159,177"/>
+<area shape="poly" title=" " alt="" coords="2363,96,1296,115,648,132,377,143,172,155,159,156,159,150,171,149,376,137,648,127,1296,109,2363,91"/>
+<area shape="rect" href="../../d7/d03/a00254.html" title="Example for Pervasive Displays Library Suite." alt="" coords="183,152,319,177"/>
+<area shape="poly" title=" " alt="" coords="2363,96,1369,114,771,132,521,143,332,155,320,156,319,151,331,149,520,137,771,126,1369,109,2363,91"/>
+<area shape="rect" href="../../d3/d1a/a00251.html" title="Example for Pervasive Displays Library Suite." alt="" coords="343,152,490,177"/>
+<area shape="poly" title=" " alt="" coords="2363,95,2059,97,1602,104,1062,122,783,136,509,155,491,156,490,151,508,149,782,131,1062,117,1602,99,2059,91,2363,90"/>
+<area shape="rect" href="../../dc/d5d/a00278.html" title="Example of features for basic edition." alt="" coords="3499,519,3665,544"/>
+<area shape="poly" title=" " alt="" coords="2537,89,2850,90,3265,96,3469,104,3648,114,3786,129,3834,139,3866,150,3895,165,3916,183,3929,205,3934,236,3934,386,3927,426,3906,458,3876,483,3838,502,3795,516,3750,525,3665,533,3665,528,3750,519,3794,510,3836,497,3873,479,3902,455,3922,424,3929,386,3929,237,3924,207,3912,186,3892,170,3864,154,3833,144,3785,135,3648,120,3469,109,3265,102,2850,95,2537,95"/>
+<area shape="rect" href="../../d3/d5e/a00275.html" title="Example of features for Evaluation edition." alt="" coords="3060,519,3216,544"/>
+<area shape="poly" title=" " alt="" coords="2363,95,1948,97,1376,105,1097,112,858,123,685,137,631,145,605,154,588,171,582,189,581,237,581,385,586,396,602,406,668,426,771,444,906,459,1250,484,1658,502,2086,515,2491,522,3060,527,3060,532,2491,527,2086,520,1658,508,1250,490,905,465,770,449,666,431,600,411,582,399,575,387,575,237,576,188,584,168,602,150,630,140,684,131,858,117,1097,107,1376,99,1948,92,2363,90"/>
+<area shape="rect" href="../../d9/d39/a00257.html" title="Example of features for basic edition." alt="" coords="1591,519,1786,544"/>
+<area shape="poly" title=" " alt="" coords="2363,96,1944,99,1366,109,1083,117,840,126,663,139,607,146,579,154,556,170,541,188,533,209,530,237,530,386,532,395,538,403,563,420,602,436,655,450,791,473,955,492,1132,506,1307,515,1591,525,1591,531,1307,521,1132,511,954,497,790,479,654,455,601,441,560,425,534,407,527,397,525,386,525,237,527,207,536,185,552,166,577,150,606,141,662,134,839,121,1083,111,1366,104,1944,94,2363,90"/>
+<area shape="rect" href="../../d9/dd6/a00272.html" title="Example of features for basic edition." alt="" coords="736,152,897,177"/>
+<area shape="poly" title=" " alt="" coords="2364,96,2116,100,1757,110,1338,127,910,155,898,156,897,150,910,149,1337,122,1756,105,2116,95,2364,91"/>
+<area shape="rect" href="../../df/da9/a00263.html" title="Example of features for basic edition." alt="" coords="922,152,1069,177"/>
+<area shape="poly" title=" " alt="" coords="2363,96,1822,111,1455,128,1081,155,1069,156,1069,150,1080,149,1454,123,1822,106,2363,91"/>
+<area shape="rect" href="../../d7/d40/a00236.html" title="Example of features for basic edition." alt="" coords="1093,152,1245,177"/>
+<area shape="poly" title=" " alt="" coords="2364,97,1892,114,1578,131,1258,155,1245,156,1245,151,1258,149,1577,126,1892,109,2364,92"/>
+<area shape="rect" href="../../d6/de1/a00233.html" title="Example of features for basic edition." alt="" coords="1269,152,1455,177"/>
+<area shape="poly" title=" " alt="" coords="2364,99,1976,119,1468,155,1455,156,1455,150,1467,149,1975,114,2364,94"/>
+<area shape="rect" href="../../dd/dd7/a00248.html" title="Example of features for basic edition." alt="" coords="1479,152,1656,177"/>
+<area shape="poly" title=" " alt="" coords="2364,101,2057,122,1669,155,1657,156,1656,151,1668,149,2057,117,2364,96"/>
+<area shape="rect" href="../../d5/d42/a00269.html" title="Example of features for basic edition." alt="" coords="1681,152,1819,177"/>
+<area shape="poly" title=" " alt="" coords="2364,102,2125,124,1833,155,1820,156,1819,151,1832,149,2124,119,2364,97"/>
+<area shape="rect" href="../../d5/d35/a00266.html" title="Example of features for basic edition." alt="" coords="1844,152,2011,177"/>
+<area shape="poly" title=" " alt="" coords="2364,107,2011,155,2011,149,2364,102"/>
+<area shape="rect" href="../../d1/da8/a00230.html" title="Example of features for basic edition." alt="" coords="2035,152,2206,177"/>
+<area shape="poly" title=" " alt="" coords="2385,109,2175,154,2173,149,2383,104"/>
+<area shape="rect" href="../../d2/d04/a00281.html" title="Example of features for basic edition." alt="" coords="2230,152,2446,177"/>
+<area shape="poly" title=" " alt="" coords="2422,114,2358,154,2355,150,2419,109"/>
+<area shape="rect" href="../../d6/d22/a00245.html" title="Protocol for speed test." alt="" coords="2471,152,2653,177"/>
+<area shape="poly" title=" " alt="" coords="2481,109,2545,150,2542,154,2478,114"/>
+<area shape="rect" href="../../dd/dd7/a00260.html" title="Example of features for fast edition." alt="" coords="2677,152,2903,177"/>
+<area shape="poly" title=" " alt="" coords="2518,104,2735,149,2734,155,2517,109"/>
+<area shape="rect" href="../../d2/dc8/a00242.html" title="Protocol for speed test." alt="" coords="2927,152,3125,177"/>
+<area shape="poly" title=" " alt="" coords="2537,101,2934,149,2933,155,2536,106"/>
+<area shape="rect" href="../../d5/db1/a00140.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="3144,372,3295,397"/>
+<area shape="poly" title=" " alt="" coords="2536,91,2851,94,3264,104,3461,111,3629,121,3750,134,3787,141,3806,150,3829,180,3838,208,3834,233,3820,256,3795,276,3763,294,3680,324,3581,347,3477,363,3295,382,3294,376,3476,358,3580,342,3679,319,3761,289,3792,272,3816,252,3829,231,3833,208,3824,182,3803,154,3786,146,3749,139,3629,126,3461,116,3263,109,2851,100,2536,96"/>
+<area shape="rect" href="../../de/db1/a00197.html" title="Basic GUI with text and button." alt="" coords="3259,445,3342,471"/>
+<area shape="poly" title=" " alt="" coords="2536,91,2855,98,3273,110,3647,127,3772,137,3811,143,3833,150,3857,167,3872,185,3881,208,3883,237,3883,313,3879,334,3865,352,3844,369,3816,383,3746,408,3662,426,3571,440,3483,449,3343,458,3342,453,3482,444,3571,434,3661,421,3745,403,3814,379,3841,364,3861,349,3874,331,3878,312,3878,237,3876,209,3868,188,3853,171,3830,154,3810,148,3771,143,3647,132,3273,115,2855,103,2536,97"/>
+<area shape="rect" href="../../d7/d9a/a00152.html" title="Driver for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="615,152,711,177"/>
+<area shape="poly" title=" " alt="" coords="2364,97,1551,114,1073,131,874,142,724,155,712,156,711,151,723,149,874,137,1073,126,1551,109,2364,91"/>
+<area shape="rect" href="../../d3/db1/a00200.html" title="Driver for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="3026,225,3175,251"/>
+<area shape="poly" title=" " alt="" coords="2537,91,2699,95,2889,105,3052,122,3109,135,3140,150,3146,160,3148,170,3142,191,3129,211,3115,227,3111,223,3125,207,3137,189,3142,170,3141,162,3136,154,3107,140,3052,128,2888,110,2699,101,2537,96"/>
+<area shape="rect" href="../../dd/dc1/a00212.html" title="Class Library for 5&#45;6&#45;5 coded colours." alt="" coords="3662,152,3793,177"/>
+<area shape="poly" title=" " alt="" coords="2537,92,3009,108,3324,125,3644,149,3662,151,3662,157,3643,155,3323,130,3009,113,2536,97"/>
+<area shape="rect" href="../../de/d76/a00134.html" title="Generic buffered screen class library." alt="" coords="3265,299,3411,324"/>
+<area shape="poly" title=" " alt="" coords="2536,90,2687,94,2868,103,3039,121,3108,133,3160,150,3217,183,3267,225,3306,266,3332,297,3327,300,3302,269,3263,228,3214,187,3158,154,3107,139,3038,126,2868,108,2687,99,2536,96"/>
+<area shape="rect" href="../../d9/db6/a00146.html" title="Font structure." alt="" coords="3449,152,3536,177"/>
+<area shape="poly" title=" " alt="" coords="2536,91,2703,95,2928,105,3182,122,3438,149,3450,151,3449,156,3438,155,3181,127,2927,110,2703,100,2536,96"/>
+<area shape="rect" href="../../de/df3/a00185.html" title="hV_Font_Terminal" alt="" coords="3387,225,3537,251"/>
+<area shape="poly" title=" " alt="" coords="2536,91,2796,97,3124,108,3412,126,3506,137,3535,143,3550,150,3557,162,3557,173,3543,195,3518,213,3490,228,3488,223,3515,209,3539,191,3552,172,3552,163,3547,154,3534,148,3505,142,3411,131,3124,114,2796,103,2536,97"/>
+<area shape="rect" href="../../da/d15/a00188.html" title="Utilities for highView Library Suite." alt="" coords="3251,152,3425,177"/>
+<area shape="poly" title=" " alt="" coords="2536,96,2843,118,3232,149,3250,151,3250,156,3231,155,2843,123,2536,101"/>
+<area shape="rect" href="../../dc/d9a/a00218.html" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="3041,445,3235,471"/>
+<area shape="poly" title=" " alt="" coords="3198,408,3153,447,3150,443,3194,404"/>
+<area shape="poly" title=" " alt="" coords="3244,404,3289,443,3286,447,3241,408"/>
+<area shape="poly" title=" " alt="" coords="3223,470,3511,516,3510,521,3222,475"/>
+<area shape="poly" title=" " alt="" coords="3141,484,3141,519,3135,519,3135,484"/>
+<area shape="poly" title=" " alt="" coords="3028,467,1786,528,1786,523,3028,462"/>
+<area shape="poly" title=" " alt="" coords="3263,479,3166,521,3164,516,3261,474"/>
+<area shape="poly" title=" " alt="" coords="725,175,1092,220,1466,259,1833,292,2181,319,2773,358,3144,377,3144,383,2773,363,2181,325,1832,297,1465,264,1092,225,725,180"/>
+<area shape="poly" title=" " alt="" coords="725,175,950,191,1241,204,1927,222,2587,231,3025,234,3025,239,2587,236,1927,227,1241,210,950,197,725,180"/>
+<area shape="poly" title=" " alt="" coords="3121,260,3212,370,3208,373,3117,263"/>
+<area shape="poly" title=" " alt="" coords="3702,187,3645,227,3642,223,3699,183"/>
+<area shape="poly" title=" " alt="" coords="3728,192,3720,224,3711,239,3700,253,3678,265,3649,276,3574,292,3489,303,3412,309,3411,304,3489,298,3573,287,3648,271,3676,261,3696,249,3707,236,3715,222,3723,190"/>
+<area shape="poly" title=" " alt="" coords="3308,333,3240,374,3237,369,3306,329"/>
+<area shape="poly" title=" " alt="" coords="3485,191,3469,226,3465,224,3480,189"/>
+<area shape="poly" title=" " alt="" coords="3432,260,3360,301,3357,296,3429,255"/>
+<area shape="poly" title=" " alt="" coords="3398,178,3581,223,3580,228,3397,183"/>
+<area shape="poly" title=" " alt="" coords="3288,184,3140,228,3138,223,3286,179"/>
+<area shape="poly" title=" " alt="" coords="3341,191,3341,298,3335,298,3335,191"/>
+<area shape="poly" title=" " alt="" coords="3371,182,3443,223,3440,227,3368,186"/>
 </map>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dc8/a00325.html">pins_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Board configuration structure.  <a href="../../de/dc8/a00325.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a4115ae39d64f70f5bc5112c2ad53a3f5" id="r_a4115ae39d64f70f5bc5112c2ad53a3f5"><td class="memItemLeft" align="right" valign="top"><a id="a4115ae39d64f70f5bc5112c2ad53a3f5" name="a4115ae39d64f70f5bc5112c2ad53a3f5"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_WHOAMI</b>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:a4115ae39d64f70f5bc5112c2ad53a3f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19be61776593270899eacaaa5c974937" id="r_a19be61776593270899eacaaa5c974937"><td class="memItemLeft" align="right" valign="top"><a id="a19be61776593270899eacaaa5c974937" name="a19be61776593270899eacaaa5c974937"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>hV_LIST_BOARDS_RELEASE</b>&#160;&#160;&#160;803</td></tr>
+<tr class="memdesc:a19be61776593270899eacaaa5c974937"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release. <br /></td></tr>
+<tr class="separator:a19be61776593270899eacaaa5c974937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e9795e3bb758850785e6ebc676ab01b" id="r_a0e9795e3bb758850785e6ebc676ab01b"><td class="memItemLeft" align="right" valign="top"><a id="a0e9795e3bb758850785e6ebc676ab01b" name="a0e9795e3bb758850785e6ebc676ab01b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>NOT_CONNECTED</b>&#160;&#160;&#160;(uint8_t)0xff</td></tr>
+<tr class="memdesc:a0e9795e3bb758850785e6ebc676ab01b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not connected pin. <br /></td></tr>
+<tr class="separator:a0e9795e3bb758850785e6ebc676ab01b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a9ae4f6e7197a031ac21c72b9e61ed0f5" id="r_a9ae4f6e7197a031ac21c72b9e61ed0f5"><td class="memItemLeft" align="right" valign="top"><a id="a9ae4f6e7197a031ac21c72b9e61ed0f5" name="a9ae4f6e7197a031ac21c72b9e61ed0f5"></a>
-Screen_EPD_EXT3&#160;</td><td class="memItemRight" valign="bottom"><b>myScreen</b> (<a class="el" href="../../d7/d40/a00236.html#a18343ffbb3ff36ba0d03f2aab635ef69">eScreen_EPD_266_CS_0C</a>, <a class="el" href="../../dc/d5d/a00278.html#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a>)</td></tr>
-<tr class="separator:a9ae4f6e7197a031ac21c72b9e61ed0f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92d9142cd31b37b7b3944dc8d9c9f454" id="r_a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92d9142cd31b37b7b3944dc8d9c9f454">wait</a> (uint8_t second)</td></tr>
-<tr class="memdesc:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait with countdown.  <br /></td></tr>
-<tr class="separator:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29909f586a479684ca6e68db470af5b6" id="r_a29909f586a479684ca6e68db470af5b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29909f586a479684ca6e68db470af5b6">displayWhoAmI</a> ()</td></tr>
-<tr class="memdesc:a29909f586a479684ca6e68db470af5b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Who am i? test screen.  <br /></td></tr>
-<tr class="separator:a29909f586a479684ca6e68db470af5b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d" id="r_a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top"><a id="a4fc01d736fe50cf5b977f755b675f11d" name="a4fc01d736fe50cf5b977f755b675f11d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setup</b> ()</td></tr>
-<tr class="memdesc:a4fc01d736fe50cf5b977f755b675f11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup. <br /></td></tr>
-<tr class="separator:a4fc01d736fe50cf5b977f755b675f11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe461d27b9c48d5921c00d521181f12f" id="r_afe461d27b9c48d5921c00d521181f12f"><td class="memItemLeft" align="right" valign="top"><a id="afe461d27b9c48d5921c00d521181f12f" name="afe461d27b9c48d5921c00d521181f12f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>loop</b> ()</td></tr>
-<tr class="memdesc:afe461d27b9c48d5921c00d521181f12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loop, empty. <br /></td></tr>
-<tr class="separator:afe461d27b9c48d5921c00d521181f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">2.1 Recommended boards</div></td></tr>
+<tr class="memitem:a8e1db02863facff79174d5d91988279f" id="r_a8e1db02863facff79174d5d91988279f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e1db02863facff79174d5d91988279f">boardArduinoNanoMatter</a></td></tr>
+<tr class="memdesc:a8e1db02863facff79174d5d91988279f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arduino Nano Matter with Silicon Labs MGM240P, tested.  <br /></td></tr>
+<tr class="separator:a8e1db02863facff79174d5d91988279f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a894b0bb2d9979d677cae8a66db5ca563" id="r_a894b0bb2d9979d677cae8a66db5ca563"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a></td></tr>
+<tr class="memdesc:a894b0bb2d9979d677cae8a66db5ca563"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raspberry Pi Pico and Pico W with default RP2040 configuration, tested.  <br /></td></tr>
+<tr class="separator:a894b0bb2d9979d677cae8a66db5ca563"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5d0b4cf7cc2750c9332f2c0a9e12f1b" id="r_aa5d0b4cf7cc2750c9332f2c0a9e12f1b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5d0b4cf7cc2750c9332f2c0a9e12f1b">boardFeatherNRF52840</a></td></tr>
+<tr class="memdesc:aa5d0b4cf7cc2750c9332f2c0a9e12f1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adafruit Feather nRF52840 configuration, tested.  <br /></td></tr>
+<tr class="separator:aa5d0b4cf7cc2750c9332f2c0a9e12f1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad900dca7592c68bce6641a7fa5cae41f" id="r_ad900dca7592c68bce6641a7fa5cae41f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad900dca7592c68bce6641a7fa5cae41f">boardESP32DevKitC</a></td></tr>
+<tr class="memdesc:ad900dca7592c68bce6641a7fa5cae41f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Espressif ESP32-DevKitC.  <br /></td></tr>
+<tr class="separator:ad900dca7592c68bce6641a7fa5cae41f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">2.2 Other boards</div></td></tr>
+<tr class="memitem:a3d2067293296d6d5d4aeebc8e56d90bc" id="r_a3d2067293296d6d5d4aeebc8e56d90bc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d2067293296d6d5d4aeebc8e56d90bc">boardRaspberryPiPico_Arduino</a></td></tr>
+<tr class="memdesc:a3d2067293296d6d5d4aeebc8e56d90bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raspberry Pi Pico Arduino Mbed-OS configuration, not recommended, tested.  <br /></td></tr>
+<tr class="separator:a3d2067293296d6d5d4aeebc8e56d90bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d1357629d2b81eb7e9e0c3469b46c5e" id="r_a8d1357629d2b81eb7e9e0c3469b46c5e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d1357629d2b81eb7e9e0c3469b46c5e">boardFeatherM0M4</a></td></tr>
+<tr class="memdesc:a8d1357629d2b81eb7e9e0c3469b46c5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adafruit Feather M0 and M4 configuration, tested.  <br /></td></tr>
+<tr class="separator:a8d1357629d2b81eb7e9e0c3469b46c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe43bcf6a282df9d337919fbca47cd5b" id="r_abe43bcf6a282df9d337919fbca47cd5b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe43bcf6a282df9d337919fbca47cd5b">boardFeatherNRF52832</a></td></tr>
+<tr class="memdesc:abe43bcf6a282df9d337919fbca47cd5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adafruit Feather nRF52832 configuration, tested.  <br /></td></tr>
+<tr class="separator:abe43bcf6a282df9d337919fbca47cd5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47cc4f37c263fb4355a5da27de205511" id="r_a47cc4f37c263fb4355a5da27de205511"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47cc4f37c263fb4355a5da27de205511">boardArduinoZero</a></td></tr>
+<tr class="memdesc:a47cc4f37c263fb4355a5da27de205511"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arduino Zero configuration, tested.  <br /></td></tr>
+<tr class="separator:a47cc4f37c263fb4355a5da27de205511"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afad37f2188fa8b28b3b9806de35e2fd7" id="r_afad37f2188fa8b28b3b9806de35e2fd7"><td class="memItemLeft" align="right" valign="top"><a id="afad37f2188fa8b28b3b9806de35e2fd7" name="afad37f2188fa8b28b3b9806de35e2fd7"></a>
+const <a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>boardNucleo64</b> = <a class="el" href="#a47cc4f37c263fb4355a5da27de205511">boardArduinoZero</a></td></tr>
+<tr class="memdesc:afad37f2188fa8b28b3b9806de35e2fd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">ST Nucleo 64, tested. <br /></td></tr>
+<tr class="separator:afad37f2188fa8b28b3b9806de35e2fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad33d22d1addf1e28379474443ebde2c7" id="r_ad33d22d1addf1e28379474443ebde2c7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad33d22d1addf1e28379474443ebde2c7">boardParticlePhoton</a></td></tr>
+<tr class="memdesc:ad33d22d1addf1e28379474443ebde2c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Particle Photon configuration, tested.  <br /></td></tr>
+<tr class="separator:ad33d22d1addf1e28379474443ebde2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4b299ac38da68b050a1fd653ad6e114" id="r_ae4b299ac38da68b050a1fd653ad6e114"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4b299ac38da68b050a1fd653ad6e114">boardESP32PicoKitV4</a></td></tr>
+<tr class="memdesc:ae4b299ac38da68b050a1fd653ad6e114"><td class="mdescLeft">&#160;</td><td class="mdescRight">Espressif ESP32-Pico-v4.  <br /></td></tr>
+<tr class="separator:ae4b299ac38da68b050a1fd653ad6e114"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42d79caf3b60b7ea197dab4c533acffb" id="r_a42d79caf3b60b7ea197dab4c533acffb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42d79caf3b60b7ea197dab4c533acffb">boardESP32PicoDevKitM2</a></td></tr>
+<tr class="memdesc:a42d79caf3b60b7ea197dab4c533acffb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Espressif ESP32-Pico-DevKitM-2.  <br /></td></tr>
+<tr class="separator:a42d79caf3b60b7ea197dab4c533acffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a646cd3a7adc1907316e2ccade7c008" id="r_a3a646cd3a7adc1907316e2ccade7c008"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a646cd3a7adc1907316e2ccade7c008">boardXiaoRP2040</a></td></tr>
+<tr class="memdesc:a3a646cd3a7adc1907316e2ccade7c008"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seeed Xiao RP240.  <br /></td></tr>
+<tr class="separator:a3a646cd3a7adc1907316e2ccade7c008"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c572fa903a32820a0487508964a54a1" id="r_a1c572fa903a32820a0487508964a54a1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c572fa903a32820a0487508964a54a1">boardSiLabsBG24Explorer</a></td></tr>
+<tr class="memdesc:a1c572fa903a32820a0487508964a54a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Silicon Labs EFR32xG24 Explorer Kit (xG24-EK2703A) configuration, tested.  <br /></td></tr>
+<tr class="separator:a1c572fa903a32820a0487508964a54a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9155b6a716a7157bfc6549a53bfae8c4" id="r_a9155b6a716a7157bfc6549a53bfae8c4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9155b6a716a7157bfc6549a53bfae8c4">boardNucleo32L431KC</a></td></tr>
+<tr class="memdesc:a9155b6a716a7157bfc6549a53bfae8c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">STMicroelectronics Nucleo32 L431KC, tested.  <br /></td></tr>
+<tr class="separator:a9155b6a716a7157bfc6549a53bfae8c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af60f33c49506c359daef98201e4ae16c" id="r_af60f33c49506c359daef98201e4ae16c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af60f33c49506c359daef98201e4ae16c">boardTeensy3x</a></td></tr>
+<tr class="memdesc:af60f33c49506c359daef98201e4ae16c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Teensy 3.x configuration, tested.  <br /></td></tr>
+<tr class="separator:af60f33c49506c359daef98201e4ae16c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">2.3 Deprecated boards</div></td></tr>
+<tr class="memitem:a18504c4b88869b52971ed406679d794e" id="r_a18504c4b88869b52971ed406679d794e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18504c4b88869b52971ed406679d794e">boardLaunchPad</a></td></tr>
+<tr class="memdesc:a18504c4b88869b52971ed406679d794e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Texas Instruments LaunchPad MSP430 and MSP432 configuration, tested.  <br /></td></tr>
+<tr class="separator:a18504c4b88869b52971ed406679d794e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0c34bc6b39ca5dd09835a0ee5a3a41a" id="r_ab0c34bc6b39ca5dd09835a0ee5a3a41a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0c34bc6b39ca5dd09835a0ee5a3a41a">boardMSP430FR5994</a></td></tr>
+<tr class="memdesc:ab0c34bc6b39ca5dd09835a0ee5a3a41a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Texas Instruments LaunchPad MSP430FR5994 LaunchPad with SD-card configuration, tested.  <br /></td></tr>
+<tr class="separator:ab0c34bc6b39ca5dd09835a0ee5a3a41a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87edfbded5d6f32d1854a1ee879ef87d" id="r_a87edfbded5d6f32d1854a1ee879ef87d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87edfbded5d6f32d1854a1ee879ef87d">boardCC1352</a></td></tr>
+<tr class="memdesc:a87edfbded5d6f32d1854a1ee879ef87d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Texas Instruments LaunchPad CC1352 configuration, tested.  <br /></td></tr>
+<tr class="separator:a87edfbded5d6f32d1854a1ee879ef87d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Example of features for basic edition. </p>
+<div class="textblock"><p>List of boards for Pervasive Displays Library Suite. </p>
 <p>Project Pervasive Displays Library Suite <br  />
  Based on highView technology</p>
+<p><br  />
+ Content</p><ul>
+<li>2- List of pre-configured boards<ul>
+<li>2.1 Recommended boards</li>
+<li>2.2 Other boards</li>
+<li>2.3 Deprecated boards</li>
+</ul>
+</li>
+</ul>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>21 Mar 2024 </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>801</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2024 </dd>
 <dd>
-Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) </dd>
+All rights reserved </dd>
 <dd>
 For exclusive use with Pervasive Displays screens</dd></dl>
-<dl class="section see"><dt>See also</dt><dd>ReadMe.txt for references <br  />
-</dd></dl>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a id="a29909f586a479684ca6e68db470af5b6" name="a29909f586a479684ca6e68db470af5b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29909f586a479684ca6e68db470af5b6">&#9670;&#160;</a></span>displayWhoAmI()</h2>
+<ul>
+<li>Basic edition: for hobbyists and for basic usage <br  />
+ Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) <dl class="section see"><dt>See also</dt><dd><a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></dd></dl>
+<br  />
+ Consider the Evaluation or Commercial editions for professionals or organisations and for commercial usage</li>
+<li>Evaluation edition: for professionals or organisations, evaluation only, no commercial usage <br  />
+ All rights reserved</li>
+<li>Commercial edition: for professionals or organisations, commercial usage <br  />
+ All rights reserved</li>
+<li>Viewer edition: for professionals or organisations <br  />
+ All rights reserved</li>
+<li>Documentation <br  />
+ All rights reserved </li>
+</ul>
+</div><h2 class="groupheader">Variable Documentation</h2>
+<a id="a8e1db02863facff79174d5d91988279f" name="a8e1db02863facff79174d5d91988279f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e1db02863facff79174d5d91988279f">&#9670;&#160;</a></span>boardArduinoNanoMatter</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void displayWhoAmI </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
+          <td class="memname">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a> boardArduinoNanoMatter</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    .panelBusy = 10, </div>
+<div class="line">    .panelDC = 9, </div>
+<div class="line">    .panelReset = 8, </div>
+<div class="line">    .flashCS = 7, </div>
+<div class="line">    .panelCS = 6, </div>
+<div class="line">    .panelCSS =  (uint8_t)0xff , </div>
+<div class="line">    .flashCSS =  (uint8_t)0xff , </div>
+<div class="line">    .touchInt =  (uint8_t)0xff , </div>
+<div class="line">    .touchReset =  (uint8_t)0xff , </div>
+<div class="line">    .panelPower = 2, </div>
+<div class="line">    .cardCS =  (uint8_t)0xff , </div>
+<div class="line">    .cardDetect =  (uint8_t)0xff , </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>Arduino Nano Matter with Silicon Labs MGM240P, tested. </p>
+<dl class="section note"><dt>Note</dt><dd>Numbers refer to pins </dd>
+<dd>
+Recommended board </dd></dl>
 
-<p>Who am i? test screen. </p>
-<div class="image">
-<img src="../../T2_WHOAMI.jpg" alt=""/>
-</div>
-  
 </div>
 </div>
-<a id="a92d9142cd31b37b7b3944dc8d9c9f454" name="a92d9142cd31b37b7b3944dc8d9c9f454"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92d9142cd31b37b7b3944dc8d9c9f454">&#9670;&#160;</a></span>wait()</h2>
+<a id="a47cc4f37c263fb4355a5da27de205511" name="a47cc4f37c263fb4355a5da27de205511"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47cc4f37c263fb4355a5da27de205511">&#9670;&#160;</a></span>boardArduinoZero</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void wait </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>second</em></span></td><td>)</td>
-          <td></td>
+          <td class="memname">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a> boardArduinoZero</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    .panelBusy = 4, </div>
+<div class="line">    </div>
+<div class="line">    .panelDC = 5, </div>
+<div class="line">    .panelReset = 6, </div>
+<div class="line">    .flashCS = 7, </div>
+<div class="line">    .panelCS = 8, </div>
+<div class="line">    .panelCSS = 9, </div>
+<div class="line">    .flashCSS = 10, </div>
+<div class="line">    .touchInt =  (uint8_t)0xff , </div>
+<div class="line">    .touchReset =  (uint8_t)0xff , </div>
+<div class="line">    .panelPower =  (uint8_t)0xff , </div>
+<div class="line">    .cardCS =  (uint8_t)0xff , </div>
+<div class="line">    .cardDetect =  (uint8_t)0xff , </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>Arduino Zero configuration, tested. </p>
+<dl class="section note"><dt>Note</dt><dd>In case of use of SERCOM <div class="fragment"><div class="line"><span class="preprocessor">#define SPI_CLOCK_PIN 13 </span></div>
+<div class="line"><span class="preprocessor">#define SPI_CLOCK_MISO 11 </span></div>
+<div class="line"><span class="preprocessor">#define SPI_CLOCK_MOSI 12 </span></div>
+</div><!-- fragment --> </dd></dl>
 
-<p>Wait with countdown. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">second</td><td>duration, s </td></tr>
-  </table>
-  </dd>
-</dl>
+</div>
+</div>
+<a id="a87edfbded5d6f32d1854a1ee879ef87d" name="a87edfbded5d6f32d1854a1ee879ef87d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87edfbded5d6f32d1854a1ee879ef87d">&#9670;&#160;</a></span>boardCC1352</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a> boardCC1352</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    .panelBusy = 5, </div>
+<div class="line">    .panelDC = 6, </div>
+<div class="line">    .panelReset = 19, </div>
+<div class="line">    .flashCS = 24, </div>
+<div class="line">    .panelCS = 26, </div>
+<div class="line">    .panelCSS =  (uint8_t)0xff , </div>
+<div class="line">    .flashCSS =  (uint8_t)0xff , </div>
+<div class="line">    .touchInt = 27, </div>
+<div class="line">    .touchReset = 37, </div>
+<div class="line">    .panelPower =  (uint8_t)0xff , </div>
+<div class="line">    .cardCS =  (uint8_t)0xff , </div>
+<div class="line">    .cardDetect =  (uint8_t)0xff , </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>Texas Instruments LaunchPad CC1352 configuration, tested. </p>
+
+</div>
+</div>
+<a id="ad900dca7592c68bce6641a7fa5cae41f" name="ad900dca7592c68bce6641a7fa5cae41f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad900dca7592c68bce6641a7fa5cae41f">&#9670;&#160;</a></span>boardESP32DevKitC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a> boardESP32DevKitC</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    .panelBusy = 27, </div>
+<div class="line">    .panelDC = 26, </div>
+<div class="line">    .panelReset = 25, </div>
+<div class="line">    .flashCS = 33, </div>
+<div class="line">    .panelCS = 32, </div>
+<div class="line">    .panelCSS = 4, </div>
+<div class="line">    .flashCSS = 0, </div>
+<div class="line">    .touchInt = 10, </div>
+<div class="line">    .touchReset = 9, </div>
+<div class="line">    .panelPower =  (uint8_t)0xff , </div>
+<div class="line">    .cardCS =  (uint8_t)0xff , </div>
+<div class="line">    .cardDetect =  (uint8_t)0xff , </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>Espressif ESP32-DevKitC. </p>
+<dl class="section note"><dt>Note</dt><dd>Numbers refer to GPIOs not pins </dd>
+<dd>
+Recommended board </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>Specific SPI port with SCK=14 MISO=12 MOSI=13 </dd></dl>
+
+</div>
+</div>
+<a id="a42d79caf3b60b7ea197dab4c533acffb" name="a42d79caf3b60b7ea197dab4c533acffb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42d79caf3b60b7ea197dab4c533acffb">&#9670;&#160;</a></span>boardESP32PicoDevKitM2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a> boardESP32PicoDevKitM2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    .panelBusy = 25, </div>
+<div class="line">    .panelDC = 26, </div>
+<div class="line">    .panelReset = 32, </div>
+<div class="line">    .flashCS = 33, </div>
+<div class="line">    .panelCS = 27, </div>
+<div class="line">    .panelCSS =  (uint8_t)0xff , </div>
+<div class="line">    .flashCSS =  (uint8_t)0xff , </div>
+<div class="line">    .touchInt = 19, </div>
+<div class="line">    .touchReset = 8, </div>
+<div class="line">    .panelPower =  (uint8_t)0xff , </div>
+<div class="line">    .cardCS =  (uint8_t)0xff , </div>
+<div class="line">    .cardDetect =  (uint8_t)0xff , </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>Espressif ESP32-Pico-DevKitM-2. </p>
+<dl class="section note"><dt>Note</dt><dd>Numbers refer to GPIOs not pins </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>Specific SPI port with SCK=14 MISO=12 MOSI=13 </dd></dl>
+
+</div>
+</div>
+<a id="ae4b299ac38da68b050a1fd653ad6e114" name="ae4b299ac38da68b050a1fd653ad6e114"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4b299ac38da68b050a1fd653ad6e114">&#9670;&#160;</a></span>boardESP32PicoKitV4</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a> boardESP32PicoKitV4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    .panelBusy = 27, </div>
+<div class="line">    .panelDC = 26, </div>
+<div class="line">    .panelReset = 25, </div>
+<div class="line">    .flashCS = 33, </div>
+<div class="line">    .panelCS = 32, </div>
+<div class="line">    .panelCSS = 4, </div>
+<div class="line">    .flashCSS = 0, </div>
+<div class="line">    .touchInt = 10, </div>
+<div class="line">    .touchReset = 9, </div>
+<div class="line">    .panelPower =  (uint8_t)0xff , </div>
+<div class="line">    .cardCS =  (uint8_t)0xff , </div>
+<div class="line">    .cardDetect =  (uint8_t)0xff , </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>Espressif ESP32-Pico-v4. </p>
+<dl class="section note"><dt>Note</dt><dd>Numbers refer to GPIOs not pins </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>Specific SPI port with SCK=14 MISO=12 MOSI=13 </dd></dl>
+
+</div>
+</div>
+<a id="a8d1357629d2b81eb7e9e0c3469b46c5e" name="a8d1357629d2b81eb7e9e0c3469b46c5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d1357629d2b81eb7e9e0c3469b46c5e">&#9670;&#160;</a></span>boardFeatherM0M4</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a> boardFeatherM0M4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    .panelBusy = 13, </div>
+<div class="line">    .panelDC = 12, </div>
+<div class="line">    .panelReset = 11, </div>
+<div class="line">    .flashCS = 10, </div>
+<div class="line">    .panelCS = 9, </div>
+<div class="line">    .panelCSS =  (uint8_t)0xff , </div>
+<div class="line">    .flashCSS =  (uint8_t)0xff , </div>
+<div class="line">    .touchInt = 5, </div>
+<div class="line">    .touchReset = 6, </div>
+<div class="line">    .panelPower =  (uint8_t)0xff , </div>
+<div class="line">    .cardCS =  (uint8_t)0xff , </div>
+<div class="line">    .cardDetect =  (uint8_t)0xff , </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>Adafruit Feather M0 and M4 configuration, tested. </p>
+
+</div>
+</div>
+<a id="abe43bcf6a282df9d337919fbca47cd5b" name="abe43bcf6a282df9d337919fbca47cd5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe43bcf6a282df9d337919fbca47cd5b">&#9670;&#160;</a></span>boardFeatherNRF52832</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a> boardFeatherNRF52832</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    .panelBusy = 16, </div>
+<div class="line">    .panelDC = 15, </div>
+<div class="line">    .panelReset = 7, </div>
+<div class="line">    .flashCS = 11, </div>
+<div class="line">    .panelCS = 31, </div>
+<div class="line">    .panelCSS =  (uint8_t)0xff , </div>
+<div class="line">    .flashCSS =  (uint8_t)0xff , </div>
+<div class="line">    .touchInt = 27, </div>
+<div class="line">    .touchReset = 30, </div>
+<div class="line">    .panelPower =  (uint8_t)0xff , </div>
+<div class="line">    .cardCS =  (uint8_t)0xff , </div>
+<div class="line">    .cardDetect =  (uint8_t)0xff , </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>Adafruit Feather nRF52832 configuration, tested. </p>
+
+</div>
+</div>
+<a id="aa5d0b4cf7cc2750c9332f2c0a9e12f1b" name="aa5d0b4cf7cc2750c9332f2c0a9e12f1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5d0b4cf7cc2750c9332f2c0a9e12f1b">&#9670;&#160;</a></span>boardFeatherNRF52840</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a> boardFeatherNRF52840</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    .panelBusy = 13, </div>
+<div class="line">    .panelDC = 12, </div>
+<div class="line">    .panelReset = 11, </div>
+<div class="line">    .flashCS = 10, </div>
+<div class="line">    .panelCS = 9, </div>
+<div class="line">    .panelCSS =  (uint8_t)0xff , </div>
+<div class="line">    .flashCSS =  (uint8_t)0xff , </div>
+<div class="line">    .touchInt = 5, </div>
+<div class="line">    .touchReset = 6, </div>
+<div class="line">    .panelPower =  (uint8_t)0xff , </div>
+<div class="line">    .cardCS =  (uint8_t)0xff , </div>
+<div class="line">    .cardDetect =  (uint8_t)0xff , </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>Adafruit Feather nRF52840 configuration, tested. </p>
+<dl class="section note"><dt>Note</dt><dd>Recommended board </dd></dl>
+
+</div>
+</div>
+<a id="a18504c4b88869b52971ed406679d794e" name="a18504c4b88869b52971ed406679d794e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18504c4b88869b52971ed406679d794e">&#9670;&#160;</a></span>boardLaunchPad</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a> boardLaunchPad</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    .panelBusy = 11, </div>
+<div class="line">    .panelDC = 12, </div>
+<div class="line">    .panelReset = 13, </div>
+<div class="line">    .flashCS = 18, </div>
+<div class="line">    .panelCS = 19, </div>
+<div class="line">    .panelCSS = 39, </div>
+<div class="line">    .flashCSS = 38, </div>
+<div class="line">    .touchInt = 8, </div>
+<div class="line">    .touchReset = 6, </div>
+<div class="line">    .panelPower =  (uint8_t)0xff , </div>
+<div class="line">    .cardCS =  (uint8_t)0xff , </div>
+<div class="line">    .cardDetect =  (uint8_t)0xff , </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>Texas Instruments LaunchPad MSP430 and MSP432 configuration, tested. </p>
+<dl class="deprecated"><dt><b><a class="el" href="../../db/dc3/a00284.html#_deprecated000005">Deprecated</a></b></dt><dd>Texas Instruments LaunchPad boards are deprecated (8.0.3) </dd></dl>
+
+</div>
+</div>
+<a id="ab0c34bc6b39ca5dd09835a0ee5a3a41a" name="ab0c34bc6b39ca5dd09835a0ee5a3a41a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0c34bc6b39ca5dd09835a0ee5a3a41a">&#9670;&#160;</a></span>boardMSP430FR5994</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a> boardMSP430FR5994</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    .panelBusy = 11, </div>
+<div class="line">    .panelDC = 12, </div>
+<div class="line">    .panelReset = 13, </div>
+<div class="line">    .flashCS = 18, </div>
+<div class="line">    .panelCS = 19, </div>
+<div class="line">    .panelCSS = 39, </div>
+<div class="line">    .flashCSS = 38, </div>
+<div class="line">    .touchInt = 8, </div>
+<div class="line">    .touchReset = 6, </div>
+<div class="line">    .panelPower =  (uint8_t)0xff , </div>
+<div class="line">    .cardCS = 47, </div>
+<div class="line">    .cardDetect = 51 </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>Texas Instruments LaunchPad MSP430FR5994 LaunchPad with SD-card configuration, tested. </p>
+
+</div>
+</div>
+<a id="a9155b6a716a7157bfc6549a53bfae8c4" name="a9155b6a716a7157bfc6549a53bfae8c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9155b6a716a7157bfc6549a53bfae8c4">&#9670;&#160;</a></span>boardNucleo32L431KC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a> boardNucleo32L431KC</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    .panelBusy = 4, </div>
+<div class="line">    .panelDC = 5, </div>
+<div class="line">    .panelReset = 6, </div>
+<div class="line">    .flashCS = 9, </div>
+<div class="line">    .panelCS = 10, </div>
+<div class="line">    .panelCSS =  (uint8_t)0xff , </div>
+<div class="line">    .flashCSS =  (uint8_t)0xff , </div>
+<div class="line">    .touchInt =  (uint8_t)0xff , </div>
+<div class="line">    .touchReset =  (uint8_t)0xff , </div>
+<div class="line">    .panelPower =  (uint8_t)0xff , </div>
+<div class="line">    .cardCS =  (uint8_t)0xff , </div>
+<div class="line">    .cardDetect =  (uint8_t)0xff , </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>STMicroelectronics Nucleo32 L431KC, tested. </p>
+<dl class="section warning"><dt>Warning</dt><dd>D7/D8 shared with OSC32_IN/OSC32_OUT </dd></dl>
+
+</div>
+</div>
+<a id="ad33d22d1addf1e28379474443ebde2c7" name="ad33d22d1addf1e28379474443ebde2c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad33d22d1addf1e28379474443ebde2c7">&#9670;&#160;</a></span>boardParticlePhoton</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a> boardParticlePhoton</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    .panelBusy = 5, </div>
+<div class="line">    .panelDC = 4, </div>
+<div class="line">    .panelReset = 3, </div>
+<div class="line">    .flashCS = 2, </div>
+<div class="line">    .panelCS = 1, </div>
+<div class="line">    .panelCSS =  (uint8_t)0xff , </div>
+<div class="line">    .flashCSS = 0, </div>
+<div class="line">    .touchInt =  (uint8_t)0xff , </div>
+<div class="line">    .touchReset =  (uint8_t)0xff , </div>
+<div class="line">    .panelPower =  (uint8_t)0xff , </div>
+<div class="line">    .cardCS =  (uint8_t)0xff , </div>
+<div class="line">    .cardDetect =  (uint8_t)0xff , </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>Particle Photon configuration, tested. </p>
+<dl class="section note"><dt>Note</dt><dd>D6 also CLK/SWCLK with D7 SWD/SWDIO </dd></dl>
+
+</div>
+</div>
+<a id="a3d2067293296d6d5d4aeebc8e56d90bc" name="a3d2067293296d6d5d4aeebc8e56d90bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d2067293296d6d5d4aeebc8e56d90bc">&#9670;&#160;</a></span>boardRaspberryPiPico_Arduino</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a> boardRaspberryPiPico_Arduino</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    .panelBusy = 13, </div>
+<div class="line">    .panelDC = 12, </div>
+<div class="line">    .panelReset = 11, </div>
+<div class="line">    .flashCS = 10, </div>
+<div class="line">    .panelCS = 5, </div>
+<div class="line">    .panelCSS = 14, </div>
+<div class="line">    .flashCSS = 15, </div>
+<div class="line">    .touchInt =  (uint8_t)0xff , </div>
+<div class="line">    .touchReset =  (uint8_t)0xff , </div>
+<div class="line">    .panelPower =  (uint8_t)0xff , </div>
+<div class="line">    .cardCS =  (uint8_t)0xff , </div>
+<div class="line">    .cardDetect =  (uint8_t)0xff , </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>Raspberry Pi Pico Arduino Mbed-OS configuration, not recommended, tested. </p>
+<dl class="section warning"><dt>Warning</dt><dd>Not recommended </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="../../db/dc3/a00284.html#_deprecated000004">Deprecated</a></b></dt><dd>Use boardRaspberryPiPico_RP2040 instead (7.0.0) </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://github.com/arduino/ArduinoCore-mbed">https://github.com/arduino/ArduinoCore-mbed</a> </dd></dl>
+
+</div>
+</div>
+<a id="a894b0bb2d9979d677cae8a66db5ca563" name="a894b0bb2d9979d677cae8a66db5ca563"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a894b0bb2d9979d677cae8a66db5ca563">&#9670;&#160;</a></span>boardRaspberryPiPico_RP2040</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a> boardRaspberryPiPico_RP2040</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    .panelBusy = 13, </div>
+<div class="line">    .panelDC = 12, </div>
+<div class="line">    .panelReset = 11, </div>
+<div class="line">    .flashCS = 10, </div>
+<div class="line">    .panelCS = 17, </div>
+<div class="line">    .panelCSS = 14, </div>
+<div class="line">    .flashCSS = 15, </div>
+<div class="line">    .touchInt = 2, </div>
+<div class="line">    .touchReset = 3, </div>
+<div class="line">    .panelPower =  (uint8_t)0xff , </div>
+<div class="line">    .cardCS =  (uint8_t)0xff , </div>
+<div class="line">    .cardDetect =  (uint8_t)0xff , </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>Raspberry Pi Pico and Pico W with default RP2040 configuration, tested. </p>
+<dl class="section note"><dt>Note</dt><dd>Numbers refer to GPIOs, not pins </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://github.com/earlephilhower/arduino-pico">https://github.com/earlephilhower/arduino-pico</a> </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Recommended board </dd></dl>
+
+</div>
+</div>
+<a id="a1c572fa903a32820a0487508964a54a1" name="a1c572fa903a32820a0487508964a54a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c572fa903a32820a0487508964a54a1">&#9670;&#160;</a></span>boardSiLabsBG24Explorer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a> boardSiLabsBG24Explorer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    .panelBusy = 0x20, </div>
+<div class="line">    .panelDC = 0x28, </div>
+<div class="line">    .panelReset = 0x10, </div>
+<div class="line">    .flashCS = 0x00, </div>
+<div class="line">    .panelCS = 0x11, </div>
+<div class="line">    .panelCSS =  (uint8_t)0xff , </div>
+<div class="line">    .flashCSS =  (uint8_t)0xff , </div>
+<div class="line">    .touchInt =  (uint8_t)0xff , </div>
+<div class="line">    .touchReset =  (uint8_t)0xff , </div>
+<div class="line">    .panelPower =  (uint8_t)0xff , </div>
+<div class="line">    .cardCS =  (uint8_t)0xff , </div>
+<div class="line">    .cardDetect =  (uint8_t)0xff , </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>Silicon Labs EFR32xG24 Explorer Kit (xG24-EK2703A) configuration, tested. </p>
+<dl class="section note"><dt>Note</dt><dd>Numbers refer to GPIOs, not pins </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://github.com/earlephilhower/arduino-pico">https://github.com/earlephilhower/arduino-pico</a> </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Recommended board </dd></dl>
+
+</div>
+</div>
+<a id="af60f33c49506c359daef98201e4ae16c" name="af60f33c49506c359daef98201e4ae16c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af60f33c49506c359daef98201e4ae16c">&#9670;&#160;</a></span>boardTeensy3x</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a> boardTeensy3x</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    .panelBusy = 14, </div>
+<div class="line">    .panelDC = 15, </div>
+<div class="line">    .panelReset = 16, </div>
+<div class="line">    .flashCS = 17, </div>
+<div class="line">    .panelCS = 18, </div>
+<div class="line">    .panelCSS =  (uint8_t)0xff , </div>
+<div class="line">    .flashCSS =  (uint8_t)0xff , </div>
+<div class="line">    .touchInt =  (uint8_t)0xff , </div>
+<div class="line">    .touchReset =  (uint8_t)0xff , </div>
+<div class="line">    .panelPower =  (uint8_t)0xff , </div>
+<div class="line">    .cardCS =  (uint8_t)0xff , </div>
+<div class="line">    .cardDetect =  (uint8_t)0xff , </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>Teensy 3.x configuration, tested. </p>
+
+</div>
+</div>
+<a id="a3a646cd3a7adc1907316e2ccade7c008" name="a3a646cd3a7adc1907316e2ccade7c008"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a646cd3a7adc1907316e2ccade7c008">&#9670;&#160;</a></span>boardXiaoRP2040</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../de/dc8/a00325.html">pins_t</a> boardXiaoRP2040</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">{</div>
+<div class="line">    .panelBusy = 26,</div>
+<div class="line">    .panelDC = 27,</div>
+<div class="line">    .panelReset = 28,</div>
+<div class="line">    .flashCS = 6,</div>
+<div class="line">    .panelCS = 29,</div>
+<div class="line">    .panelCSS = 7,</div>
+<div class="line">    .flashCSS =  (uint8_t)0xff ,</div>
+<div class="line">    .touchInt =  (uint8_t)0xff ,</div>
+<div class="line">    .touchReset =  (uint8_t)0xff ,</div>
+<div class="line">    .panelPower =  (uint8_t)0xff ,</div>
+<div class="line">    .cardCS =  (uint8_t)0xff ,</div>
+<div class="line">    .cardDetect =  (uint8_t)0xff ,</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>Seeed Xiao RP240. </p>
+<dl class="section note"><dt>Note</dt><dd>Numbers refer to GPIOs not pins EXT3 and EXT3-1 pin 3 Red -&gt; D0 GPIO26 EXT3 and EXT3-1 pin 4 Orange -&gt; D1 GPIO27 EXT3 and EXT3-1 pin 5 Yellow -&gt; D2 GPIO28 EXT3 and EXT3-1 pin 8 Violet -&gt; D4 GPIO6 EXT3 and EXT3-1 pin 9 Grey -&gt; D3 GPIO29 EXT3 and EXT3-1 pin 12 Grey2 -&gt; D5 GPIO7 EXT3 pin 20 or EXT3-1 pin 11 Black2 -&gt; N/A EXT3-Touch pin 3 Red -&gt; D6 GPIO0 EXT3-Touch pin 4 Orange -&gt; D7 GPIO1 Optional power circuit Separate SD-card board Separate SD-card board </dd></dl>
 
 </div>
 </div>
@@ -240,7 +914,7 @@ For exclusive use with Pervasive Displays screens</dd></dl>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_491c3bb0427b2191265c570e950df1f1.html">Common_WhoAmI</a></li><li class="navelem"><a class="el" href="../../d6/db8/a00158.html">Common_WhoAmI.ino</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../d6/db8/a00158.html">hV_List_Boards.h</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.10.0 </li>

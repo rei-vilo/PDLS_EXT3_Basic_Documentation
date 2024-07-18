@@ -1,39 +1,33 @@
-<map id="hV_Utilities_PDLS.h" name="hV_Utilities_PDLS.h">
-<area shape="rect" id="Node000001" title="Driver for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="293,5,443,31"/>
-<area shape="rect" id="Node000002" href="$d9/dd6/a00272.html" title="Light hardware abstraction layer for peripherals." alt="" coords="155,225,319,251"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="303,33,262,51,244,64,230,80,218,113,216,148,221,183,230,212,225,213,216,184,211,148,212,111,226,77,241,60,259,46,301,28"/>
-<area shape="rect" id="Node000009" href="$d0/d27/a00239.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="387,152,533,177"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="443,21,473,28,502,39,528,55,550,77,555,88,556,99,545,118,525,135,502,148,499,144,522,130,541,114,550,97,550,89,546,80,525,59,499,44,471,33,442,27"/>
-<area shape="rect" id="Node000014" href="$d5/d35/a00266.html" title="Driver for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="240,79,336,104"/>
-<area shape="poly" id="edge17_Node000001_Node000014" title=" " alt="" coords="357,33,313,72,309,68,353,29"/>
-<area shape="rect" id="Node000015" href="$d6/d22/a00245.html" title="Utilities for highView Library Suite." alt="" coords="361,79,535,104"/>
-<area shape="poly" id="edge20_Node000001_Node000015" title=" " alt="" coords="383,29,427,68,423,72,379,33"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="195,299,279,324"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="240,251,240,285,235,285,235,251"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="303,299,358,324"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="254,249,306,288,303,292,251,253"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="383,299,447,324"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="267,248,374,291,372,296,265,253"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="633,299,703,324"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="307,248,620,299,619,305,306,253"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="5,299,72,324"/>
-<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="206,253,85,296,83,291,205,248"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="96,299,171,324"/>
-<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="222,253,163,293,160,288,219,248"/>
-<area shape="poly" id="edge9_Node000009_Node000002" title=" " alt="" coords="425,180,287,224,285,219,423,175"/>
-<area shape="rect" id="Node000010" href="$d3/de5/a00209.html" title="List of options for Pervasive Displays Library Suite." alt="" coords="344,225,483,251"/>
-<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="455,179,431,215,426,212,450,176"/>
-<area shape="rect" id="Node000011" href="$dd/dd7/a00248.html" title="List of constants for Pervasive Displays Library Suite." alt="" coords="507,225,661,251"/>
-<area shape="poly" id="edge11_Node000009_Node000011" title=" " alt="" coords="481,175,553,216,551,221,479,180"/>
-<area shape="rect" id="Node000012" href="$dc/d5d/a00278.html" title="List of boards for Pervasive Displays Library Suite." alt="" coords="685,225,819,251"/>
-<area shape="poly" id="edge13_Node000009_Node000012" title=" " alt="" coords="508,175,692,219,691,225,506,180"/>
-<area shape="rect" id="Node000013" href="$d7/d40/a00236.html" title="List of supported Pervasive Displays screens." alt="" coords="843,225,981,251"/>
-<area shape="poly" id="edge15_Node000009_Node000013" title=" " alt="" coords="533,175,830,221,829,226,532,180"/>
-<area shape="poly" id="edge12_Node000011_Node000006" title=" " alt="" coords="599,249,645,287,642,292,596,253"/>
-<area shape="poly" id="edge14_Node000012_Node000006" title=" " alt="" coords="740,253,694,292,691,287,737,249"/>
-<area shape="poly" id="edge16_Node000013_Node000006" title=" " alt="" coords="874,253,717,299,716,293,872,248"/>
-<area shape="poly" id="edge18_Node000014_Node000002" title=" " alt="" coords="286,105,248,213,243,212,281,104"/>
-<area shape="poly" id="edge19_Node000014_Node000009" title=" " alt="" coords="317,102,420,144,418,149,315,106"/>
-<area shape="poly" id="edge21_Node000015_Node000002" title=" " alt="" coords="433,106,267,219,264,215,430,102"/>
-<area shape="poly" id="edge22_Node000015_Node000009" title=" " alt="" coords="453,104,458,138,453,139,447,105"/>
+<map id="Example_Fast_Line.ino" name="Example_Fast_Line.ino">
+<area shape="rect" id="Node000001" title="Example of features for basic edition." alt="" coords="171,5,342,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="36,79,219,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,33,162,74,160,69,235,28"/>
+<area shape="rect" id="Node000003" href="$d9/dd0/a00191.html" title="Light hardware abstraction layer for peripherals." alt="" coords="143,152,307,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="257,32,233,139,228,138,251,31"/>
+<area shape="rect" id="Node000010" href="$d5/df1/a00206.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="413,79,559,104"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="294,28,436,72,435,77,293,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,225,89,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="197,180,90,223,88,218,195,175"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="113,225,168,251"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="213,179,167,218,163,214,209,175"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="193,225,257,251"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="227,178,227,212,222,212,222,178"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="620,225,691,251"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="294,175,607,226,606,231,293,180"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="281,225,347,251"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="241,175,290,214,287,219,237,179"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="371,225,446,251"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="255,175,367,218,365,223,253,180"/>
+<area shape="poly" id="edge10_Node000010_Node000003" title=" " alt="" coords="445,107,281,151,280,146,443,101"/>
+<area shape="rect" id="Node000011" href="$d5/de9/a00176.html" title="List of options for Pervasive Displays Library Suite." alt="" coords="331,152,470,177"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="474,106,427,145,423,141,471,102"/>
+<area shape="rect" id="Node000012" href="$db/ddf/a00164.html" title="List of constants for Pervasive Displays Library Suite." alt="" coords="495,152,648,177"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="501,102,549,141,545,145,498,106"/>
+<area shape="rect" id="Node000013" href="$d6/db8/a00158.html" title="List of boards for Pervasive Displays Library Suite." alt="" coords="673,152,806,177"/>
+<area shape="poly" id="edge14_Node000010_Node000013" title=" " alt="" coords="527,101,686,146,684,151,526,107"/>
+<area shape="rect" id="Node000014" href="$dc/de6/a00167.html" title="List of supported Pervasive Displays screens." alt="" coords="830,152,969,177"/>
+<area shape="poly" id="edge16_Node000010_Node000014" title=" " alt="" coords="553,101,820,147,819,152,552,107"/>
+<area shape="poly" id="edge13_Node000012_Node000007" title=" " alt="" coords="587,175,633,214,629,218,583,179"/>
+<area shape="poly" id="edge15_Node000013_Node000007" title=" " alt="" coords="728,179,681,218,678,214,724,175"/>
+<area shape="poly" id="edge17_Node000014_Node000007" title=" " alt="" coords="861,180,704,225,703,220,859,175"/>
 </map>

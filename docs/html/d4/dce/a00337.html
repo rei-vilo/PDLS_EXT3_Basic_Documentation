@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.3</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.4</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -146,11 +146,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae21cc69f1d24e46aba95e85c5fbf9063" id="r_ae21cc69f1d24e46aba95e85c5fbf9063"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae21cc69f1d24e46aba95e85c5fbf9063">begin</a> ()</td></tr>
 <tr class="memdesc:ae21cc69f1d24e46aba95e85c5fbf9063"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialisation.  <br /></td></tr>
 <tr class="separator:ae21cc69f1d24e46aba95e85c5fbf9063"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ec30a63a85576a294ed529ea17535f2" id="r_a1ec30a63a85576a294ed529ea17535f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ec30a63a85576a294ed529ea17535f2">suspend</a> ()</td></tr>
-<tr class="memdesc:a1ec30a63a85576a294ed529ea17535f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suspend.  <br /></td></tr>
-<tr class="separator:a1ec30a63a85576a294ed529ea17535f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9324bbb7e8151505ef925dc1e326b4b0" id="r_a9324bbb7e8151505ef925dc1e326b4b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9324bbb7e8151505ef925dc1e326b4b0">suspend</a> (uint8_t suspendScope=0x01)</td></tr>
+<tr class="memdesc:a9324bbb7e8151505ef925dc1e326b4b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suspend.  <br /></td></tr>
+<tr class="separator:a9324bbb7e8151505ef925dc1e326b4b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7d3fb651d0f679390a75fa1eb067e2e" id="r_ad7d3fb651d0f679390a75fa1eb067e2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7d3fb651d0f679390a75fa1eb067e2e">resume</a> ()</td></tr>
-<tr class="memdesc:ad7d3fb651d0f679390a75fa1eb067e2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resume after <a class="el" href="#a1ec30a63a85576a294ed529ea17535f2" title="Suspend.">suspend()</a>  <br /></td></tr>
+<tr class="memdesc:ad7d3fb651d0f679390a75fa1eb067e2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resume after <a class="el" href="#a9324bbb7e8151505ef925dc1e326b4b0" title="Suspend.">suspend()</a>  <br /></td></tr>
 <tr class="separator:ad7d3fb651d0f679390a75fa1eb067e2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d8b9ca0814b07de632dfe5c401fda4a" id="r_a6d8b9ca0814b07de632dfe5c401fda4a"><td class="memItemLeft" align="right" valign="top">virtual String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d8b9ca0814b07de632dfe5c401fda4a">WhoAmI</a> ()</td></tr>
 <tr class="memdesc:a6d8b9ca0814b07de632dfe5c401fda4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Who Am I.  <br /></td></tr>
@@ -280,6 +280,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>calibrateTouch</b> ()
 <tr class="memitem:ac202254e43d228ff518283eece951ff8 inherit pub_methods_a00333" id="r_ac202254e43d228ff518283eece951ff8"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0a/a00333.html#ac202254e43d228ff518283eece951ff8">checkTemperatureMode</a> (uint8_t updateMode)</td></tr>
 <tr class="memdesc:ac202254e43d228ff518283eece951ff8 inherit pub_methods_a00333"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the mode against the temperature.  <br /></td></tr>
 <tr class="separator:ac202254e43d228ff518283eece951ff8 inherit pub_methods_a00333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad6ecf0fa6bc72ce36dcc4ee035a919a inherit pub_methods_a00333" id="r_aad6ecf0fa6bc72ce36dcc4ee035a919a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0a/a00333.html#aad6ecf0fa6bc72ce36dcc4ee035a919a">setPowerProfile</a> (uint8_t mode=0x00, uint8_t scope=0x01)</td></tr>
+<tr class="memdesc:aad6ecf0fa6bc72ce36dcc4ee035a919a inherit pub_methods_a00333"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the power profile.  <br /></td></tr>
+<tr class="separator:aad6ecf0fa6bc72ce36dcc4ee035a919a inherit pub_methods_a00333"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6097d2401b0cb45ef7cda9757a477554 inherit pub_methods_a00333" id="r_a6097d2401b0cb45ef7cda9757a477554"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0a/a00333.html#a6097d2401b0cb45ef7cda9757a477554">invert</a> (bool flag)</td></tr>
 <tr class="memdesc:a6097d2401b0cb45ef7cda9757a477554 inherit pub_methods_a00333"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invert screen.  <br /></td></tr>
 <tr class="separator:a6097d2401b0cb45ef7cda9757a477554 inherit pub_methods_a00333"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -513,13 +516,13 @@ To be used with <a class="el" href="#ae21cc69f1d24e46aba95e85c5fbf9063" title="I
       </table>
 </div><div class="memdoc">
 
-<p>Resume after <a class="el" href="#a1ec30a63a85576a294ed529ea17535f2" title="Suspend.">suspend()</a> </p>
+<p>Resume after <a class="el" href="#a9324bbb7e8151505ef925dc1e326b4b0" title="Suspend.">suspend()</a> </p>
 <p>Turn SPI on and set all GPIOs levels </p>
 
 </div>
 </div>
-<a id="a1ec30a63a85576a294ed529ea17535f2" name="a1ec30a63a85576a294ed529ea17535f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ec30a63a85576a294ed529ea17535f2">&#9670;&#160;</a></span>suspend()</h2>
+<a id="a9324bbb7e8151505ef925dc1e326b4b0" name="a9324bbb7e8151505ef925dc1e326b4b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9324bbb7e8151505ef925dc1e326b4b0">&#9670;&#160;</a></span>suspend()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -527,14 +530,20 @@ To be used with <a class="el" href="#ae21cc69f1d24e46aba95e85c5fbf9063" title="I
         <tr>
           <td class="memname">void Screen_EPD_EXT3_Fast::suspend </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>suspendScope</em><span class="paramdefsep"> = </span><span class="paramdefval">0x01</span></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Suspend. </p>
-<p>Turn SPI off and set all GPIOs low </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">suspendScope</td><td>default = SCOPE_GPIO_ONLY, otherwise SCOPE_NONE</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Power off and set all GPIOs low </p><dl class="section note"><dt>Note</dt><dd>If panelPower is NOT_CONNECTED, SCOPE_GPIO_ONLY defaults to SCOPE_NONE </dd></dl>
 
 </div>
 </div>
@@ -569,7 +578,7 @@ To be used with <a class="el" href="#ae21cc69f1d24e46aba95e85c5fbf9063" title="I
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="../../d3/d1a/a00251.html">Screen_EPD_EXT3.h</a></li>
+<li><a class="el" href="../../d5/db1/a00140.html">Screen_EPD_EXT3.h</a></li>
 <li><b>Screen_EPD_EXT3.cpp</b></li>
 </ul>
 </div><!-- contents -->

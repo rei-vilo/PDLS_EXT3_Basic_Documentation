@@ -7,6 +7,6 @@ var a00337 =
     [ "flushMode", "d4/dce/a00337.html#aaa495715100501f4c8a7b56b13eafd2e", null ],
     [ "regenerate", "d4/dce/a00337.html#ac0350adf562ad504aceafc7bbf608841", null ],
     [ "resume", "d4/dce/a00337.html#ad7d3fb651d0f679390a75fa1eb067e2e", null ],
-    [ "suspend", "d4/dce/a00337.html#a1ec30a63a85576a294ed529ea17535f2", null ],
+    [ "suspend", "d4/dce/a00337.html#a9324bbb7e8151505ef925dc1e326b4b0", null ],
     [ "WhoAmI", "d4/dce/a00337.html#a6d8b9ca0814b07de632dfe5c401fda4a", null ]
 ];

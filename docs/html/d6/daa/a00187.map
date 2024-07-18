@@ -1,5 +1,18 @@
-<map id="hV_GUI.h" name="hV_GUI.h">
-<area shape="rect" id="Node000001" title="Basic GUI with text and button." alt="" coords="42,5,125,31"/>
-<area shape="rect" id="Node000002" href="$d9/dd0/a00191.html" title="Example of features for Evaluation edition." alt="" coords="5,79,161,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,44,86,79,81,79,81,44"/>
+<map id="hV_Font_Terminal.h" name="hV_Font_Terminal.h">
+<area shape="rect" id="Node000001" title="hV_Font_Terminal" alt="" coords="317,5,467,31"/>
+<area shape="rect" id="Node000002" href="$de/d76/a00134.html" title="Generic buffered screen class library." alt="" coords="319,79,465,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="395,44,395,79,389,79,389,44"/>
+<area shape="rect" id="Node000003" href="$d5/db1/a00140.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="317,152,467,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="395,118,395,152,389,152,389,118"/>
+<area shape="rect" id="Node000004" href="$dc/d9a/a00218.html" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="214,225,407,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="370,188,326,227,322,223,367,184"/>
+<area shape="rect" id="Node000008" href="$de/db1/a00197.html" title="Basic GUI with text and button." alt="" coords="441,225,524,251"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="419,184,469,223,466,227,416,188"/>
+<area shape="rect" id="Node000005" href="$dc/d5d/a00278.html" title="Example of features for basic edition." alt="" coords="5,299,171,324"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="263,257,125,301,123,296,261,252"/>
+<area shape="rect" id="Node000006" href="$d3/d5e/a00275.html" title="Example of features for Evaluation edition." alt="" coords="414,299,570,324"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="353,253,463,296,461,301,351,258"/>
+<area shape="rect" id="Node000007" href="$d9/d39/a00257.html" title="Example of features for basic edition." alt="" coords="195,299,389,324"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="307,265,298,299,292,298,302,263"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="489,264,493,298,488,299,483,265"/>
 </map>

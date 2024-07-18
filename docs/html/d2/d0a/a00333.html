@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.3</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.4</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -139,6 +139,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac202254e43d228ff518283eece951ff8" id="r_ac202254e43d228ff518283eece951ff8"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac202254e43d228ff518283eece951ff8">checkTemperatureMode</a> (uint8_t updateMode)</td></tr>
 <tr class="memdesc:ac202254e43d228ff518283eece951ff8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the mode against the temperature.  <br /></td></tr>
 <tr class="separator:ac202254e43d228ff518283eece951ff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad6ecf0fa6bc72ce36dcc4ee035a919a" id="r_aad6ecf0fa6bc72ce36dcc4ee035a919a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad6ecf0fa6bc72ce36dcc4ee035a919a">setPowerProfile</a> (uint8_t mode=0x00, uint8_t scope=0x01)</td></tr>
+<tr class="memdesc:aad6ecf0fa6bc72ce36dcc4ee035a919a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the power profile.  <br /></td></tr>
+<tr class="separator:aad6ecf0fa6bc72ce36dcc4ee035a919a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6097d2401b0cb45ef7cda9757a477554" id="r_a6097d2401b0cb45ef7cda9757a477554"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6097d2401b0cb45ef7cda9757a477554">invert</a> (bool flag)</td></tr>
 <tr class="memdesc:a6097d2401b0cb45ef7cda9757a477554"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invert screen.  <br /></td></tr>
 <tr class="separator:a6097d2401b0cb45ef7cda9757a477554"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -296,6 +299,37 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aad6ecf0fa6bc72ce36dcc4ee035a919a" name="aad6ecf0fa6bc72ce36dcc4ee035a919a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad6ecf0fa6bc72ce36dcc4ee035a919a">&#9670;&#160;</a></span>setPowerProfile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void hV_Utilities_PDLS::setPowerProfile </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>mode</em><span class="paramdefsep"> = </span><span class="paramdefval">0x00</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>scope</em><span class="paramdefsep"> = </span><span class="paramdefval">0x01</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the power profile. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mode</td><td>default = MODE_AUTO, otherwise MODE_MANUAL </td></tr>
+    <tr><td class="paramname">scope</td><td>default = SCOPE_GPIO_ONLY, otherwise SCOPE_NONE </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>If panelPower is NOT_CONNECTED, (MODE_AUTO, SCOPE_GPIO_ONLY) defaults to (MODE_MANUAL, SCOPE_NONE) </dd></dl>
+
+</div>
+</div>
 <a id="ad876220c2938cf70b50c351e5ebb9c25" name="ad876220c2938cf70b50c351e5ebb9c25"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad876220c2938cf70b50c351e5ebb9c25">&#9670;&#160;</a></span>setTemperatureC()</h2>
 
@@ -349,7 +383,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="../../d1/da8/a00230.html">hV_Utilities_PDLS.h</a></li>
+<li><a class="el" href="../../d3/db1/a00200.html">hV_Utilities_PDLS.h</a></li>
 <li><b>hV_Utilities_PDLS.cpp</b></li>
 </ul>
 </div><!-- contents -->

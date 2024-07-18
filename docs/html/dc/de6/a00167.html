@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: Common_Text.ino File Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: hV_List_Screens.h File Reference</title>
 <link rel="icon" href="../../Logo-PDI-white.png" type="image/x-icon" />
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.3</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.4</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -96,140 +96,1048 @@ $(function(){initNavTree('dc/de6/a00167.html','../../'); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">Common_Text.ino File Reference</div></div>
+<a href="#define-members">Macros</a>  </div>
+  <div class="headertitle"><div class="title">hV_List_Screens.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Example of features for basic edition.  
+<p>List of supported Pervasive Displays screens.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;PDLS_EXT3_Basic_Global.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/dd6/a00272.html">hV_HAL_Peripherals.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d27/a00239.html">hV_Configuration.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;stdint.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Common_Text.ino:</div>
+Include dependency graph for hV_List_Screens.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/da7/a00168.png" border="0" usemap="#aCommon__Text_8ino" alt=""/></div>
-<map name="aCommon__Text_8ino" id="aCommon__Text_8ino">
-<area shape="rect" title="Example of features for basic edition." alt="" coords="187,5,326,31"/>
-<area shape="rect" title=" " alt="" coords="21,79,220,104"/>
-<area shape="poly" title=" " alt="" coords="236,33,156,75,154,70,234,28"/>
-<area shape="rect" href="../../d9/dd6/a00272.html" title="Light hardware abstraction layer for peripherals." alt="" coords="143,152,307,177"/>
-<area shape="poly" title=" " alt="" coords="257,32,233,139,228,138,251,31"/>
-<area shape="rect" href="../../d0/d27/a00239.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="413,79,559,104"/>
-<area shape="poly" title=" " alt="" coords="294,28,436,72,435,77,293,33"/>
-<area shape="rect" title=" " alt="" coords="5,225,89,251"/>
-<area shape="poly" title=" " alt="" coords="197,180,90,223,88,218,195,175"/>
-<area shape="rect" title=" " alt="" coords="113,225,168,251"/>
-<area shape="poly" title=" " alt="" coords="213,179,167,218,163,214,209,175"/>
-<area shape="rect" title=" " alt="" coords="193,225,257,251"/>
-<area shape="poly" title=" " alt="" coords="227,178,227,212,222,212,222,178"/>
-<area shape="rect" title=" " alt="" coords="620,225,691,251"/>
-<area shape="poly" title=" " alt="" coords="294,175,607,226,606,231,293,180"/>
-<area shape="rect" title=" " alt="" coords="281,225,347,251"/>
-<area shape="poly" title=" " alt="" coords="241,175,290,214,287,219,237,179"/>
-<area shape="rect" title=" " alt="" coords="371,225,446,251"/>
-<area shape="poly" title=" " alt="" coords="255,175,367,218,365,223,253,180"/>
-<area shape="poly" title=" " alt="" coords="445,107,281,151,280,146,443,101"/>
-<area shape="rect" href="../../d3/de5/a00209.html" title="List of options for Pervasive Displays Library Suite." alt="" coords="331,152,470,177"/>
-<area shape="poly" title=" " alt="" coords="474,106,427,145,423,141,471,102"/>
-<area shape="rect" href="../../dd/dd7/a00248.html" title="List of constants for Pervasive Displays Library Suite." alt="" coords="495,152,648,177"/>
-<area shape="poly" title=" " alt="" coords="501,102,549,141,545,145,498,106"/>
-<area shape="rect" href="../../dc/d5d/a00278.html" title="List of boards for Pervasive Displays Library Suite." alt="" coords="673,152,806,177"/>
-<area shape="poly" title=" " alt="" coords="527,101,686,146,684,151,526,107"/>
-<area shape="rect" href="../../d7/d40/a00236.html" title="List of supported Pervasive Displays screens." alt="" coords="830,152,969,177"/>
-<area shape="poly" title=" " alt="" coords="553,101,820,147,819,152,552,107"/>
-<area shape="poly" title=" " alt="" coords="587,175,633,214,629,218,583,179"/>
-<area shape="poly" title=" " alt="" coords="728,179,681,218,678,214,724,175"/>
-<area shape="poly" title=" " alt="" coords="861,180,704,225,703,220,859,175"/>
+<div class="center"><img src="../../dd/da7/a00168.png" border="0" usemap="#ahV__List__Screens_8h" alt=""/></div>
+<map name="ahV__List__Screens_8h" id="ahV__List__Screens_8h">
+<area shape="rect" title="List of supported Pervasive Displays screens." alt="" coords="5,5,144,31"/>
+<area shape="rect" title=" " alt="" coords="39,79,110,104"/>
+<area shape="poly" title=" " alt="" coords="77,31,77,65,72,65,72,31"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../de/d53/a00169.png" border="0" usemap="#ahV__List__Screens_8hdep" alt=""/></div>
+<map name="ahV__List__Screens_8hdep" id="ahV__List__Screens_8hdep">
+<area shape="rect" title="List of supported Pervasive Displays screens." alt="" coords="4077,5,4215,31"/>
+<area shape="rect" href="../../dc/d57/a00194.html" title="Shared low&#45;level libraries for the Pervasive Displays Library Suite." alt="" coords="3402,225,3519,251"/>
+<area shape="poly" title=" " alt="" coords="4153,44,4155,76,4153,112,4144,148,4135,165,4122,179,4089,194,4030,206,3862,223,3672,233,3520,238,3520,233,3672,228,3861,218,4030,200,4088,189,4119,175,4130,162,4139,146,4148,111,4150,76,4148,45"/>
+<area shape="rect" href="../../d5/df1/a00206.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="2291,79,2436,104"/>
+<area shape="poly" title=" " alt="" coords="4063,25,2436,90,2436,84,4063,20"/>
+<area shape="rect" href="../../d7/d06/a00131.html" title="List of supported Pervasive Displays screens." alt="" coords="4184,79,4375,104"/>
+<area shape="poly" title=" " alt="" coords="4181,35,4259,76,4256,81,4178,39"/>
+<area shape="poly" title=" " alt="" coords="2450,89,2695,89,3004,96,3154,103,3283,114,3381,129,3415,139,3437,150,3451,167,3459,187,3464,225,3458,225,3454,189,3446,170,3434,154,3413,144,3380,135,3283,120,3153,109,3004,101,2695,95,2450,95"/>
+<area shape="rect" href="../../d0/d27/a00239.html" title="Example for Pervasive Displays Library Suite." alt="" coords="2208,152,2348,177"/>
+<area shape="poly" title=" " alt="" coords="2341,115,2294,154,2290,150,2338,110"/>
+<area shape="rect" href="../../d9/d01/a00227.html" title="Example of features for basic edition." alt="" coords="2372,152,2525,177"/>
+<area shape="poly" title=" " alt="" coords="2389,110,2436,150,2433,154,2386,115"/>
+<area shape="rect" href="../../d7/d03/a00254.html" title="Example for Pervasive Displays Library Suite." alt="" coords="2550,152,2686,177"/>
+<area shape="poly" title=" " alt="" coords="2418,105,2577,149,2576,154,2417,110"/>
+<area shape="rect" href="../../d3/d1a/a00251.html" title="Example for Pervasive Displays Library Suite." alt="" coords="2710,152,2857,177"/>
+<area shape="poly" title=" " alt="" coords="2445,104,2716,149,2715,155,2444,109"/>
+<area shape="rect" href="../../dc/d5d/a00278.html" title="Example of features for basic edition." alt="" coords="2073,519,2238,544"/>
+<area shape="poly" title=" " alt="" coords="2277,100,2213,107,2148,117,2092,133,2072,143,2059,154,2047,174,2036,204,2028,241,2024,283,2024,329,2030,377,2043,424,2063,469,2075,485,2090,498,2123,516,2121,521,2087,502,2071,488,2058,472,2038,426,2025,378,2019,330,2018,283,2023,240,2031,202,2042,172,2055,150,2069,138,2091,128,2146,112,2212,101,2277,95"/>
+<area shape="rect" href="../../d3/d5e/a00275.html" title="Example of features for Evaluation edition." alt="" coords="1879,519,2035,544"/>
+<area shape="poly" title=" " alt="" coords="2277,96,2188,101,2093,110,2009,128,1978,140,1956,154,1922,191,1898,226,1882,262,1874,299,1872,337,1878,378,1889,422,1906,470,1922,496,1943,516,1939,520,1918,499,1901,472,1884,423,1873,379,1867,338,1868,298,1877,261,1893,224,1918,187,1952,150,1975,135,2008,122,2092,105,2187,95,2276,91"/>
+<area shape="rect" href="../../d9/d39/a00257.html" title="Example of features for basic edition." alt="" coords="3042,519,3237,544"/>
+<area shape="poly" title=" " alt="" coords="2450,91,2794,97,3252,108,3664,126,3802,137,3845,143,3868,150,3893,166,3910,185,3919,207,3922,237,3922,387,3916,400,3900,413,3843,436,3759,457,3657,476,3432,505,3237,525,3237,519,3432,500,3656,470,3758,452,3841,431,3897,408,3912,397,3917,385,3917,237,3914,209,3905,188,3890,170,3866,154,3844,148,3801,142,3664,131,3252,114,2794,102,2450,97"/>
+<area shape="rect" href="../../d9/dd6/a00272.html" title="Example of features for basic edition." alt="" coords="3499,152,3660,177"/>
+<area shape="poly" title=" " alt="" coords="2450,93,2892,112,3184,128,3480,149,3499,151,3498,156,3479,155,3183,133,2891,117,2450,98"/>
+<area shape="rect" href="../../df/da9/a00263.html" title="Example of features for basic edition." alt="" coords="3685,152,3831,177"/>
+<area shape="poly" title=" " alt="" coords="2450,91,2967,107,3317,124,3672,149,3685,151,3684,156,3671,155,3316,129,2967,112,2450,97"/>
+<area shape="rect" href="../../d7/d40/a00236.html" title="Example of features for basic edition." alt="" coords="3957,152,4109,177"/>
+<area shape="poly" title=" " alt="" coords="2450,91,2703,95,3071,104,3500,122,3938,149,3956,151,3956,156,3938,155,3500,127,3070,110,2703,100,2450,96"/>
+<area shape="rect" href="../../d6/de1/a00233.html" title="Example of features for basic edition." alt="" coords="5,152,191,177"/>
+<area shape="poly" title=" " alt="" coords="2277,95,1943,97,1432,104,825,122,511,136,202,155,191,155,191,150,202,149,510,131,825,117,1432,99,1943,91,2277,90"/>
+<area shape="rect" href="../../dd/dd7/a00248.html" title="Example of features for basic edition." alt="" coords="215,152,392,177"/>
+<area shape="poly" title=" " alt="" coords="2277,95,1970,98,1509,106,964,124,681,137,405,155,392,156,392,150,404,149,681,132,963,119,1509,101,1970,93,2277,90"/>
+<area shape="rect" href="../../d5/d42/a00269.html" title="Example of features for basic edition." alt="" coords="417,152,555,177"/>
+<area shape="poly" title=" " alt="" coords="2277,95,1993,96,1571,104,1075,121,819,136,568,155,556,156,555,150,567,149,818,131,1075,116,1571,98,1993,91,2277,90"/>
+<area shape="rect" href="../../d5/d35/a00266.html" title="Example of features for basic edition." alt="" coords="580,152,747,177"/>
+<area shape="poly" title=" " alt="" coords="2277,96,2020,100,1645,110,1207,127,760,155,747,156,747,150,759,149,1207,122,1645,104,2020,95,2277,91"/>
+<area shape="rect" href="../../d1/da8/a00230.html" title="Example of features for basic edition." alt="" coords="771,152,942,177"/>
+<area shape="poly" title=" " alt="" coords="2277,97,1721,112,1341,129,954,155,942,156,942,150,954,149,1341,124,1721,107,2277,91"/>
+<area shape="rect" href="../../d2/d04/a00281.html" title="Example of features for basic edition." alt="" coords="966,152,1182,177"/>
+<area shape="poly" title=" " alt="" coords="2277,98,1815,118,1507,135,1194,155,1183,156,1182,150,1194,149,1506,129,1814,113,2277,93"/>
+<area shape="rect" href="../../d6/d22/a00245.html" title="Protocol for speed test." alt="" coords="1207,152,1389,177"/>
+<area shape="poly" title=" " alt="" coords="2277,99,1896,120,1401,155,1390,156,1390,150,1400,149,1896,114,2276,94"/>
+<area shape="rect" href="../../dd/dd7/a00260.html" title="Example of features for fast edition." alt="" coords="1413,152,1639,177"/>
+<area shape="poly" title=" " alt="" coords="2277,102,1650,155,1639,156,1639,150,1650,149,2277,97"/>
+<area shape="rect" href="../../d2/dc8/a00242.html" title="Protocol for speed test." alt="" coords="1663,152,1861,177"/>
+<area shape="poly" title=" " alt="" coords="2277,105,1859,155,1859,149,2276,100"/>
+<area shape="rect" href="../../d5/db1/a00140.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="2088,372,2239,397"/>
+<area shape="poly" title=" " alt="" coords="2277,101,2218,108,2158,119,2108,134,2090,143,2077,154,2063,181,2061,211,2067,242,2081,274,2119,331,2154,370,2150,374,2115,334,2076,276,2062,244,2055,211,2058,180,2073,150,2087,139,2106,129,2157,114,2217,103,2277,96"/>
+<area shape="rect" href="../../de/db1/a00197.html" title="Basic GUI with text and button." alt="" coords="1915,445,1998,471"/>
+<area shape="poly" title=" " alt="" coords="2277,99,2196,105,2109,115,2032,131,2003,142,1982,154,1965,172,1955,190,1952,210,1951,237,1951,313,1958,445,1953,445,1946,313,1946,237,1947,210,1950,188,1960,169,1979,150,2001,137,2031,126,2108,110,2195,100,2277,93"/>
+<area shape="rect" href="../../d7/d9a/a00152.html" title="Driver for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="2087,152,2183,177"/>
+<area shape="poly" title=" " alt="" coords="2314,111,2173,154,2171,149,2313,106"/>
+<area shape="rect" href="../../d3/db1/a00200.html" title="Driver for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="2641,225,2790,251"/>
+<area shape="poly" title=" " alt="" coords="2450,94,2570,101,2701,113,2812,129,2849,139,2871,150,2879,164,2878,178,2871,190,2857,200,2821,216,2778,228,2777,223,2819,211,2855,195,2867,186,2873,176,2874,166,2867,154,2848,144,2811,134,2700,118,2569,107,2450,99"/>
+<area shape="rect" href="../../dd/dc1/a00212.html" title="Class Library for 5&#45;6&#45;5 coded colours." alt="" coords="3293,152,3423,177"/>
+<area shape="poly" title=" " alt="" coords="2450,94,2809,113,3041,129,3274,149,3293,151,3292,157,3274,155,3040,134,2809,118,2450,99"/>
+<area shape="rect" href="../../de/d76/a00134.html" title="Generic buffered screen class library." alt="" coords="3101,299,3247,324"/>
+<area shape="poly" title=" " alt="" coords="2450,90,2791,93,3244,101,3463,109,3649,119,3783,132,3824,140,3845,150,3855,168,3853,185,3838,200,3814,214,3744,238,3650,259,3543,276,3434,290,3248,307,3247,302,3433,284,3542,271,3649,253,3742,233,3812,209,3835,196,3848,182,3850,169,3842,154,3822,146,3782,138,3648,124,3463,114,3244,107,2791,98,2450,96"/>
+<area shape="rect" href="../../d9/db6/a00146.html" title="Font structure." alt="" coords="3131,152,3217,177"/>
+<area shape="poly" title=" " alt="" coords="2450,93,2747,111,2932,127,3118,149,3130,151,3130,157,3118,155,2932,133,2746,116,2450,99"/>
+<area shape="rect" href="../../de/df3/a00185.html" title="hV_Font_Terminal" alt="" coords="3099,225,3249,251"/>
+<area shape="poly" title=" " alt="" coords="2450,89,2652,91,2898,98,3015,106,3115,116,3189,131,3215,140,3231,150,3237,160,3238,171,3229,192,3211,212,3193,227,3189,223,3208,208,3224,189,3232,170,3232,162,3227,154,3212,144,3188,136,3114,122,3014,111,2898,103,2652,96,2450,95"/>
+<area shape="rect" href="../../da/d15/a00188.html" title="Utilities for highView Library Suite." alt="" coords="2932,152,3107,177"/>
+<area shape="poly" title=" " alt="" coords="2450,99,2932,151,2931,157,2449,105"/>
+<area shape="rect" href="../../dc/d9a/a00218.html" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="2073,445,2267,471"/>
+<area shape="poly" title=" " alt="" coords="2168,411,2172,445,2166,445,2163,411"/>
+<area shape="poly" title=" " alt="" coords="2118,404,1991,448,1989,443,2116,399"/>
+<area shape="poly" title=" " alt="" coords="2167,485,2160,519,2155,518,2162,484"/>
+<area shape="poly" title=" " alt="" coords="2124,477,1992,521,1990,516,2122,472"/>
+<area shape="poly" title=" " alt="" coords="2281,465,3042,520,3042,526,2280,470"/>
+<area shape="poly" title=" " alt="" coords="1959,484,1959,519,1954,519,1954,484"/>
+<area shape="poly" title=" " alt="" coords="2141,191,2164,371,2159,372,2136,192"/>
+<area shape="poly" title=" " alt="" coords="2198,175,2444,207,2641,227,2640,233,2444,212,2197,180"/>
+<area shape="poly" title=" " alt="" coords="2659,257,2208,374,2206,369,2658,252"/>
+<area shape="poly" title=" " alt="" coords="3387,183,3445,223,3442,227,3384,187"/>
+<area shape="poly" title=" " alt="" coords="3337,189,3262,253,3194,301,3190,296,3259,249,3334,185"/>
+<area shape="poly" title=" " alt="" coords="3087,321,2239,381,2239,375,3087,316"/>
+<area shape="poly" title=" " alt="" coords="3177,191,3177,225,3171,225,3171,191"/>
+<area shape="poly" title=" " alt="" coords="3177,264,3177,299,3171,299,3171,264"/>
+<area shape="poly" title=" " alt="" coords="3104,177,3402,225,3402,230,3103,182"/>
+<area shape="poly" title=" " alt="" coords="2958,183,2765,228,2764,223,2957,178"/>
+<area shape="poly" title=" " alt="" coords="3037,187,3060,218,3089,249,3123,276,3155,296,3152,301,3120,280,3086,253,3056,221,3033,191"/>
+<area shape="poly" title=" " alt="" coords="3058,181,3150,223,3148,228,3055,185"/>
+<area shape="poly" title=" " alt="" coords="4260,116,4219,150,4193,167,4166,180,4110,195,4035,207,3853,225,3666,234,3519,238,3519,233,3666,229,3853,219,4035,202,4109,190,4164,175,4190,162,4215,146,4256,112"/>
 </map>
 </div>
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a9ae4f6e7197a031ac21c72b9e61ed0f5" id="r_a9ae4f6e7197a031ac21c72b9e61ed0f5"><td class="memItemLeft" align="right" valign="top"><a id="a9ae4f6e7197a031ac21c72b9e61ed0f5" name="a9ae4f6e7197a031ac21c72b9e61ed0f5"></a>
-Screen_EPD_EXT3&#160;</td><td class="memItemRight" valign="bottom"><b>myScreen</b> (<a class="el" href="../../d7/d40/a00236.html#a18343ffbb3ff36ba0d03f2aab635ef69">eScreen_EPD_266_CS_0C</a>, <a class="el" href="../../dc/d5d/a00278.html#a894b0bb2d9979d677cae8a66db5ca563">boardRaspberryPiPico_RP2040</a>)</td></tr>
-<tr class="separator:a9ae4f6e7197a031ac21c72b9e61ed0f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92d9142cd31b37b7b3944dc8d9c9f454" id="r_a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92d9142cd31b37b7b3944dc8d9c9f454">wait</a> (uint8_t second)</td></tr>
-<tr class="memdesc:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait with countdown.  <br /></td></tr>
-<tr class="separator:a92d9142cd31b37b7b3944dc8d9c9f454"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05b4a53fae2c90c1c61b9cba27ab7e5f" id="r_a05b4a53fae2c90c1c61b9cba27ab7e5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05b4a53fae2c90c1c61b9cba27ab7e5f">displayCharacters</a> (bool flag=true)</td></tr>
-<tr class="memdesc:a05b4a53fae2c90c1c61b9cba27ab7e5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Characters test screen.  <br /></td></tr>
-<tr class="separator:a05b4a53fae2c90c1c61b9cba27ab7e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d" id="r_a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top"><a id="a4fc01d736fe50cf5b977f755b675f11d" name="a4fc01d736fe50cf5b977f755b675f11d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setup</b> ()</td></tr>
-<tr class="memdesc:a4fc01d736fe50cf5b977f755b675f11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup. <br /></td></tr>
-<tr class="separator:a4fc01d736fe50cf5b977f755b675f11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe461d27b9c48d5921c00d521181f12f" id="r_afe461d27b9c48d5921c00d521181f12f"><td class="memItemLeft" align="right" valign="top"><a id="afe461d27b9c48d5921c00d521181f12f" name="afe461d27b9c48d5921c00d521181f12f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>loop</b> ()</td></tr>
-<tr class="memdesc:afe461d27b9c48d5921c00d521181f12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loop, empty. <br /></td></tr>
-<tr class="separator:afe461d27b9c48d5921c00d521181f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a5f971893eaf78f610325927881d980ab" id="r_a5f971893eaf78f610325927881d980ab"><td class="memItemLeft" align="right" valign="top"><a id="a5f971893eaf78f610325927881d980ab" name="a5f971893eaf78f610325927881d980ab"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>hV_LIST_SCREENS_RELEASE</b>&#160;&#160;&#160;803</td></tr>
+<tr class="memdesc:a5f971893eaf78f610325927881d980ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release. <br /></td></tr>
+<tr class="separator:a5f971893eaf78f610325927881d980ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5c244d6018eb9669c16ae159c11cc00" id="r_ac5c244d6018eb9669c16ae159c11cc00"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5c244d6018eb9669c16ae159c11cc00">eScreen_EPD_t</a>&#160;&#160;&#160;uint32_t</td></tr>
+<tr class="memdesc:ac5c244d6018eb9669c16ae159c11cc00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Screen type.  <br /></td></tr>
+<tr class="separator:ac5c244d6018eb9669c16ae159c11cc00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51f1582d21d004bdea869018b35f5c13" id="r_a51f1582d21d004bdea869018b35f5c13"><td class="memItemLeft" align="right" valign="top"><a id="a51f1582d21d004bdea869018b35f5c13" name="a51f1582d21d004bdea869018b35f5c13"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SCREEN</b>(S,  F,  D)&#160;&#160;&#160;((uint32_t)((S &amp; 0x0fff) &lt;&lt; 16 | (F &amp; 0xff) &lt;&lt; 8 | (D &amp; 0xff)))</td></tr>
+<tr class="memdesc:a51f1582d21d004bdea869018b35f5c13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for screen macros. <br /></td></tr>
+<tr class="separator:a51f1582d21d004bdea869018b35f5c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05ab7f43f14e1b3c2fb8b912cd3e1b10" id="r_a05ab7f43f14e1b3c2fb8b912cd3e1b10"><td class="memItemLeft" align="right" valign="top"><a id="a05ab7f43f14e1b3c2fb8b912cd3e1b10" name="a05ab7f43f14e1b3c2fb8b912cd3e1b10"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>EXTRA</b>(E)&#160;&#160;&#160;((uint32_t)((E &amp; 0x0f) &lt;&lt; 28))</td></tr>
+<tr class="memdesc:a05ab7f43f14e1b3c2fb8b912cd3e1b10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for extra macros. <br /></td></tr>
+<tr class="separator:a05ab7f43f14e1b3c2fb8b912cd3e1b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Functions for features from screen macros</div></td></tr>
+<tr class="memitem:a57b52519e48e80bbb7cef8ea10e3e751" id="r_a57b52519e48e80bbb7cef8ea10e3e751"><td class="memItemLeft" align="right" valign="top"><a id="a57b52519e48e80bbb7cef8ea10e3e751" name="a57b52519e48e80bbb7cef8ea10e3e751"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SCREEN_SIZE</b>(X)&#160;&#160;&#160;((uint16_t)((X &gt;&gt; 16) &amp; 0x0fff))</td></tr>
+<tr class="memdesc:a57b52519e48e80bbb7cef8ea10e3e751"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get size. <br /></td></tr>
+<tr class="separator:a57b52519e48e80bbb7cef8ea10e3e751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a951c421e2891803727eeba755dda9201" id="r_a951c421e2891803727eeba755dda9201"><td class="memItemLeft" align="right" valign="top"><a id="a951c421e2891803727eeba755dda9201" name="a951c421e2891803727eeba755dda9201"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SCREEN_FILM</b>(X)&#160;&#160;&#160;((uint8_t)((X &gt;&gt; 8) &amp; 0xff))</td></tr>
+<tr class="memdesc:a951c421e2891803727eeba755dda9201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get family. <br /></td></tr>
+<tr class="separator:a951c421e2891803727eeba755dda9201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a403f8395b8af22cb8e9f98c2dd5d313f" id="r_a403f8395b8af22cb8e9f98c2dd5d313f"><td class="memItemLeft" align="right" valign="top"><a id="a403f8395b8af22cb8e9f98c2dd5d313f" name="a403f8395b8af22cb8e9f98c2dd5d313f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SCREEN_DRIVER</b>(X)&#160;&#160;&#160;((uint8_t)(X &amp; 0xff))</td></tr>
+<tr class="memdesc:a403f8395b8af22cb8e9f98c2dd5d313f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get type. <br /></td></tr>
+<tr class="separator:a403f8395b8af22cb8e9f98c2dd5d313f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3933d09e23520a8e96ebfbafcb477f6c" id="r_a3933d09e23520a8e96ebfbafcb477f6c"><td class="memItemLeft" align="right" valign="top"><a id="a3933d09e23520a8e96ebfbafcb477f6c" name="a3933d09e23520a8e96ebfbafcb477f6c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SCREEN_EXTRA</b>(X)&#160;&#160;&#160;((uint8_t)((X &gt;&gt; 28) &amp; 0x0f))</td></tr>
+<tr class="memdesc:a3933d09e23520a8e96ebfbafcb477f6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get extra. <br /></td></tr>
+<tr class="separator:a3933d09e23520a8e96ebfbafcb477f6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Size, mask 0x0fff = 0..4095</div></td></tr>
+<tr class="memitem:aae24cb3ffaadd3f348d320dcf87a511b" id="r_aae24cb3ffaadd3f348d320dcf87a511b"><td class="memItemLeft" align="right" valign="top"><a id="aae24cb3ffaadd3f348d320dcf87a511b" name="aae24cb3ffaadd3f348d320dcf87a511b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_150</b>&#160;&#160;&#160;150</td></tr>
+<tr class="memdesc:aae24cb3ffaadd3f348d320dcf87a511b"><td class="mdescLeft">&#160;</td><td class="mdescRight">1.50" <br /></td></tr>
+<tr class="separator:aae24cb3ffaadd3f348d320dcf87a511b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed3f5b46ace90c411ccf450617e6ce35" id="r_aed3f5b46ace90c411ccf450617e6ce35"><td class="memItemLeft" align="right" valign="top"><a id="aed3f5b46ace90c411ccf450617e6ce35" name="aed3f5b46ace90c411ccf450617e6ce35"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_152</b>&#160;&#160;&#160;152</td></tr>
+<tr class="memdesc:aed3f5b46ace90c411ccf450617e6ce35"><td class="mdescLeft">&#160;</td><td class="mdescRight">1.52" <br /></td></tr>
+<tr class="separator:aed3f5b46ace90c411ccf450617e6ce35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c6810e0c53be4d28ee202eb343373ce" id="r_a8c6810e0c53be4d28ee202eb343373ce"><td class="memItemLeft" align="right" valign="top"><a id="a8c6810e0c53be4d28ee202eb343373ce" name="a8c6810e0c53be4d28ee202eb343373ce"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_154</b>&#160;&#160;&#160;154</td></tr>
+<tr class="memdesc:a8c6810e0c53be4d28ee202eb343373ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">1.54" <br /></td></tr>
+<tr class="separator:a8c6810e0c53be4d28ee202eb343373ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ddb0110d2b5afc39fbd43732394b265" id="r_a9ddb0110d2b5afc39fbd43732394b265"><td class="memItemLeft" align="right" valign="top"><a id="a9ddb0110d2b5afc39fbd43732394b265" name="a9ddb0110d2b5afc39fbd43732394b265"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_206</b>&#160;&#160;&#160;206</td></tr>
+<tr class="memdesc:a9ddb0110d2b5afc39fbd43732394b265"><td class="mdescLeft">&#160;</td><td class="mdescRight">2.06" <br /></td></tr>
+<tr class="separator:a9ddb0110d2b5afc39fbd43732394b265"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5310e6e311356f4a321d95be683a6dca" id="r_a5310e6e311356f4a321d95be683a6dca"><td class="memItemLeft" align="right" valign="top"><a id="a5310e6e311356f4a321d95be683a6dca" name="a5310e6e311356f4a321d95be683a6dca"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_213</b>&#160;&#160;&#160;213</td></tr>
+<tr class="memdesc:a5310e6e311356f4a321d95be683a6dca"><td class="mdescLeft">&#160;</td><td class="mdescRight">2.13" <br /></td></tr>
+<tr class="separator:a5310e6e311356f4a321d95be683a6dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98427ebf98b687445cc4ba10223bd835" id="r_a98427ebf98b687445cc4ba10223bd835"><td class="memItemLeft" align="right" valign="top"><a id="a98427ebf98b687445cc4ba10223bd835" name="a98427ebf98b687445cc4ba10223bd835"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_215</b>&#160;&#160;&#160;215</td></tr>
+<tr class="memdesc:a98427ebf98b687445cc4ba10223bd835"><td class="mdescLeft">&#160;</td><td class="mdescRight">2.15" <br /></td></tr>
+<tr class="separator:a98427ebf98b687445cc4ba10223bd835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada5df5b15928017f512cd1b78a756da5" id="r_ada5df5b15928017f512cd1b78a756da5"><td class="memItemLeft" align="right" valign="top"><a id="ada5df5b15928017f512cd1b78a756da5" name="ada5df5b15928017f512cd1b78a756da5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_266</b>&#160;&#160;&#160;266</td></tr>
+<tr class="memdesc:ada5df5b15928017f512cd1b78a756da5"><td class="mdescLeft">&#160;</td><td class="mdescRight">2.66" <br /></td></tr>
+<tr class="separator:ada5df5b15928017f512cd1b78a756da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac9e78d751d785a8293bebacb12d3e3e" id="r_aac9e78d751d785a8293bebacb12d3e3e"><td class="memItemLeft" align="right" valign="top"><a id="aac9e78d751d785a8293bebacb12d3e3e" name="aac9e78d751d785a8293bebacb12d3e3e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_271</b>&#160;&#160;&#160;271</td></tr>
+<tr class="memdesc:aac9e78d751d785a8293bebacb12d3e3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">2.71" <br /></td></tr>
+<tr class="separator:aac9e78d751d785a8293bebacb12d3e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dfc5927db88860dbacc7cae1f3236f0" id="r_a9dfc5927db88860dbacc7cae1f3236f0"><td class="memItemLeft" align="right" valign="top"><a id="a9dfc5927db88860dbacc7cae1f3236f0" name="a9dfc5927db88860dbacc7cae1f3236f0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_287</b>&#160;&#160;&#160;287</td></tr>
+<tr class="memdesc:a9dfc5927db88860dbacc7cae1f3236f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">2.87" <br /></td></tr>
+<tr class="separator:a9dfc5927db88860dbacc7cae1f3236f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c4c2aa89ac401a8ddbb812cd6a8fe4e" id="r_a9c4c2aa89ac401a8ddbb812cd6a8fe4e"><td class="memItemLeft" align="right" valign="top"><a id="a9c4c2aa89ac401a8ddbb812cd6a8fe4e" name="a9c4c2aa89ac401a8ddbb812cd6a8fe4e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_290</b>&#160;&#160;&#160;290</td></tr>
+<tr class="memdesc:a9c4c2aa89ac401a8ddbb812cd6a8fe4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">2.90" <br /></td></tr>
+<tr class="separator:a9c4c2aa89ac401a8ddbb812cd6a8fe4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59c7b04d5bd6e677407becdc04954743" id="r_a59c7b04d5bd6e677407becdc04954743"><td class="memItemLeft" align="right" valign="top"><a id="a59c7b04d5bd6e677407becdc04954743" name="a59c7b04d5bd6e677407becdc04954743"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_343</b>&#160;&#160;&#160;343</td></tr>
+<tr class="memdesc:a59c7b04d5bd6e677407becdc04954743"><td class="mdescLeft">&#160;</td><td class="mdescRight">3.43" <br /></td></tr>
+<tr class="separator:a59c7b04d5bd6e677407becdc04954743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7449edc9732bd5898db1e47ba9f4160" id="r_aa7449edc9732bd5898db1e47ba9f4160"><td class="memItemLeft" align="right" valign="top"><a id="aa7449edc9732bd5898db1e47ba9f4160" name="aa7449edc9732bd5898db1e47ba9f4160"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_350</b>&#160;&#160;&#160;350</td></tr>
+<tr class="memdesc:aa7449edc9732bd5898db1e47ba9f4160"><td class="mdescLeft">&#160;</td><td class="mdescRight">3.50" <br /></td></tr>
+<tr class="separator:aa7449edc9732bd5898db1e47ba9f4160"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53493a67a10886f61c72f7fa058f6761" id="r_a53493a67a10886f61c72f7fa058f6761"><td class="memItemLeft" align="right" valign="top"><a id="a53493a67a10886f61c72f7fa058f6761" name="a53493a67a10886f61c72f7fa058f6761"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_370</b>&#160;&#160;&#160;370</td></tr>
+<tr class="memdesc:a53493a67a10886f61c72f7fa058f6761"><td class="mdescLeft">&#160;</td><td class="mdescRight">3.70" <br /></td></tr>
+<tr class="separator:a53493a67a10886f61c72f7fa058f6761"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a501a6c2437d3663281073e53bcfec4" id="r_a3a501a6c2437d3663281073e53bcfec4"><td class="memItemLeft" align="right" valign="top"><a id="a3a501a6c2437d3663281073e53bcfec4" name="a3a501a6c2437d3663281073e53bcfec4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_417</b>&#160;&#160;&#160;417</td></tr>
+<tr class="memdesc:a3a501a6c2437d3663281073e53bcfec4"><td class="mdescLeft">&#160;</td><td class="mdescRight">4.17" <br /></td></tr>
+<tr class="separator:a3a501a6c2437d3663281073e53bcfec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e8b27aecc3f378f33b24718e6c2c876" id="r_a3e8b27aecc3f378f33b24718e6c2c876"><td class="memItemLeft" align="right" valign="top"><a id="a3e8b27aecc3f378f33b24718e6c2c876" name="a3e8b27aecc3f378f33b24718e6c2c876"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_437</b>&#160;&#160;&#160;437</td></tr>
+<tr class="memdesc:a3e8b27aecc3f378f33b24718e6c2c876"><td class="mdescLeft">&#160;</td><td class="mdescRight">4.37" <br /></td></tr>
+<tr class="separator:a3e8b27aecc3f378f33b24718e6c2c876"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53060f27ba125e894aa575f384dfeeab" id="r_a53060f27ba125e894aa575f384dfeeab"><td class="memItemLeft" align="right" valign="top"><a id="a53060f27ba125e894aa575f384dfeeab" name="a53060f27ba125e894aa575f384dfeeab"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_565</b>&#160;&#160;&#160;565</td></tr>
+<tr class="memdesc:a53060f27ba125e894aa575f384dfeeab"><td class="mdescLeft">&#160;</td><td class="mdescRight">5.65" <br /></td></tr>
+<tr class="separator:a53060f27ba125e894aa575f384dfeeab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4b324f4c9e210c311e3b9587f81899f" id="r_ae4b324f4c9e210c311e3b9587f81899f"><td class="memItemLeft" align="right" valign="top"><a id="ae4b324f4c9e210c311e3b9587f81899f" name="ae4b324f4c9e210c311e3b9587f81899f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_581</b>&#160;&#160;&#160;581</td></tr>
+<tr class="memdesc:ae4b324f4c9e210c311e3b9587f81899f"><td class="mdescLeft">&#160;</td><td class="mdescRight">5.81" <br /></td></tr>
+<tr class="separator:ae4b324f4c9e210c311e3b9587f81899f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35956bbf226a90260c93030367589978" id="r_a35956bbf226a90260c93030367589978"><td class="memItemLeft" align="right" valign="top"><a id="a35956bbf226a90260c93030367589978" name="a35956bbf226a90260c93030367589978"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_741</b>&#160;&#160;&#160;741</td></tr>
+<tr class="memdesc:a35956bbf226a90260c93030367589978"><td class="mdescLeft">&#160;</td><td class="mdescRight">7.41" <br /></td></tr>
+<tr class="separator:a35956bbf226a90260c93030367589978"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cdfbb501b00489beb3440bbba894500" id="r_a9cdfbb501b00489beb3440bbba894500"><td class="memItemLeft" align="right" valign="top"><a id="a9cdfbb501b00489beb3440bbba894500" name="a9cdfbb501b00489beb3440bbba894500"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_969</b>&#160;&#160;&#160;969</td></tr>
+<tr class="memdesc:a9cdfbb501b00489beb3440bbba894500"><td class="mdescLeft">&#160;</td><td class="mdescRight">9.69" <br /></td></tr>
+<tr class="separator:a9cdfbb501b00489beb3440bbba894500"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8383eb6fd2e92f7d59257ccf880129c" id="r_ad8383eb6fd2e92f7d59257ccf880129c"><td class="memItemLeft" align="right" valign="top"><a id="ad8383eb6fd2e92f7d59257ccf880129c" name="ad8383eb6fd2e92f7d59257ccf880129c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_B98</b>&#160;&#160;&#160;1198</td></tr>
+<tr class="memdesc:ad8383eb6fd2e92f7d59257ccf880129c"><td class="mdescLeft">&#160;</td><td class="mdescRight">11.98" <br /></td></tr>
+<tr class="separator:ad8383eb6fd2e92f7d59257ccf880129c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fb46650521339f67b8e851fd9413638" id="r_a8fb46650521339f67b8e851fd9413638"><td class="memItemLeft" align="right" valign="top"><a id="a8fb46650521339f67b8e851fd9413638" name="a8fb46650521339f67b8e851fd9413638"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SIZE_1198</b>&#160;&#160;&#160;1198</td></tr>
+<tr class="memdesc:a8fb46650521339f67b8e851fd9413638"><td class="mdescLeft">&#160;</td><td class="mdescRight">11.98", synonym for SIZE_B98 <br /></td></tr>
+<tr class="separator:a8fb46650521339f67b8e851fd9413638"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Film type, mask 0xff</div></td></tr>
+<tr class="memitem:ac337f0033516183d48d5db1a6d0983af" id="r_ac337f0033516183d48d5db1a6d0983af"><td class="memItemLeft" align="right" valign="top"><a id="ac337f0033516183d48d5db1a6d0983af" name="ac337f0033516183d48d5db1a6d0983af"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>FILM_C</b>&#160;&#160;&#160;'C'</td></tr>
+<tr class="memdesc:ac337f0033516183d48d5db1a6d0983af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Film C, Standard. <br /></td></tr>
+<tr class="separator:ac337f0033516183d48d5db1a6d0983af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02ef77d83f8f8cd80e6fe2ed838a27cd" id="r_a02ef77d83f8f8cd80e6fe2ed838a27cd"><td class="memItemLeft" align="right" valign="top"><a id="a02ef77d83f8f8cd80e6fe2ed838a27cd" name="a02ef77d83f8f8cd80e6fe2ed838a27cd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>FILM_E</b>&#160;&#160;&#160;'E'</td></tr>
+<tr class="memdesc:a02ef77d83f8f8cd80e6fe2ed838a27cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Film E, BWR, deprecated. <br /></td></tr>
+<tr class="separator:a02ef77d83f8f8cd80e6fe2ed838a27cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3ac82a845528089d8607d1e7ce0eaf0" id="r_ad3ac82a845528089d8607d1e7ce0eaf0"><td class="memItemLeft" align="right" valign="top"><a id="ad3ac82a845528089d8607d1e7ce0eaf0" name="ad3ac82a845528089d8607d1e7ce0eaf0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>FILM_F</b>&#160;&#160;&#160;'F'</td></tr>
+<tr class="memdesc:ad3ac82a845528089d8607d1e7ce0eaf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Film E, BWR, deprecated. <br /></td></tr>
+<tr class="separator:ad3ac82a845528089d8607d1e7ce0eaf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73b330ad64f33f4706595d413750d353" id="r_a73b330ad64f33f4706595d413750d353"><td class="memItemLeft" align="right" valign="top"><a id="a73b330ad64f33f4706595d413750d353" name="a73b330ad64f33f4706595d413750d353"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>FILM_G</b>&#160;&#160;&#160;'G'</td></tr>
+<tr class="memdesc:a73b330ad64f33f4706595d413750d353"><td class="mdescLeft">&#160;</td><td class="mdescRight">Film G, BWY, deprecated. <br /></td></tr>
+<tr class="separator:a73b330ad64f33f4706595d413750d353"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a693330550c2d366f194d881d2acc33ac" id="r_a693330550c2d366f194d881d2acc33ac"><td class="memItemLeft" align="right" valign="top"><a id="a693330550c2d366f194d881d2acc33ac" name="a693330550c2d366f194d881d2acc33ac"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>FILM_H</b>&#160;&#160;&#160;'H'</td></tr>
+<tr class="memdesc:a693330550c2d366f194d881d2acc33ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Film H, Freezer. <br /></td></tr>
+<tr class="separator:a693330550c2d366f194d881d2acc33ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed835b61af9b773089cde63b6d4e7a56" id="r_aed835b61af9b773089cde63b6d4e7a56"><td class="memItemLeft" align="right" valign="top"><a id="aed835b61af9b773089cde63b6d4e7a56" name="aed835b61af9b773089cde63b6d4e7a56"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>FILM_J</b>&#160;&#160;&#160;'J'</td></tr>
+<tr class="memdesc:aed835b61af9b773089cde63b6d4e7a56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Film J, BWR, "Spectra". <br /></td></tr>
+<tr class="separator:aed835b61af9b773089cde63b6d4e7a56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6e7aa211f11fb3f4c3abf12945b71f6" id="r_af6e7aa211f11fb3f4c3abf12945b71f6"><td class="memItemLeft" align="right" valign="top"><a id="af6e7aa211f11fb3f4c3abf12945b71f6" name="af6e7aa211f11fb3f4c3abf12945b71f6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>FILM_K</b>&#160;&#160;&#160;'K'</td></tr>
+<tr class="memdesc:af6e7aa211f11fb3f4c3abf12945b71f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Film K, Fast update + Wide temperature. <br /></td></tr>
+<tr class="separator:af6e7aa211f11fb3f4c3abf12945b71f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ea90c483bf289d174eeb8cab8373b32" id="r_a2ea90c483bf289d174eeb8cab8373b32"><td class="memItemLeft" align="right" valign="top"><a id="a2ea90c483bf289d174eeb8cab8373b32" name="a2ea90c483bf289d174eeb8cab8373b32"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>FILM_P</b>&#160;&#160;&#160;'P'</td></tr>
+<tr class="memdesc:a2ea90c483bf289d174eeb8cab8373b32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Film P, Fast update. <br /></td></tr>
+<tr class="separator:a2ea90c483bf289d174eeb8cab8373b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcf377209a37b6c859da7f469d424002" id="r_afcf377209a37b6c859da7f469d424002"><td class="memItemLeft" align="right" valign="top"><a id="afcf377209a37b6c859da7f469d424002" name="afcf377209a37b6c859da7f469d424002"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>FILM_Q</b>&#160;&#160;&#160;'Q'</td></tr>
+<tr class="memdesc:afcf377209a37b6c859da7f469d424002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Film Q, BWRY, "Spectra 4". <br /></td></tr>
+<tr class="separator:afcf377209a37b6c859da7f469d424002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Driver type, mask 0xff</div></td></tr>
+<tr class="memitem:ad25a0ced76d3851c1f98742368b3b625" id="r_ad25a0ced76d3851c1f98742368b3b625"><td class="memItemLeft" align="right" valign="top"><a id="ad25a0ced76d3851c1f98742368b3b625" name="ad25a0ced76d3851c1f98742368b3b625"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DRIVER_5</b>&#160;&#160;&#160;'5'</td></tr>
+<tr class="memdesc:ad25a0ced76d3851c1f98742368b3b625"><td class="mdescLeft">&#160;</td><td class="mdescRight">Driver 5. <br /></td></tr>
+<tr class="separator:ad25a0ced76d3851c1f98742368b3b625"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92929d655a0f22204e81e26cebc760ad" id="r_a92929d655a0f22204e81e26cebc760ad"><td class="memItemLeft" align="right" valign="top"><a id="a92929d655a0f22204e81e26cebc760ad" name="a92929d655a0f22204e81e26cebc760ad"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DRIVER_6</b>&#160;&#160;&#160;'6'</td></tr>
+<tr class="memdesc:a92929d655a0f22204e81e26cebc760ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Driver 6. <br /></td></tr>
+<tr class="separator:a92929d655a0f22204e81e26cebc760ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6de506ad3534061d9bb77f1445ca9d2d" id="r_a6de506ad3534061d9bb77f1445ca9d2d"><td class="memItemLeft" align="right" valign="top"><a id="a6de506ad3534061d9bb77f1445ca9d2d" name="a6de506ad3534061d9bb77f1445ca9d2d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DRIVER_8</b>&#160;&#160;&#160;'8'</td></tr>
+<tr class="memdesc:a6de506ad3534061d9bb77f1445ca9d2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Driver 8. <br /></td></tr>
+<tr class="separator:a6de506ad3534061d9bb77f1445ca9d2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4def880e7bde798f8f05a411351fe3e" id="r_ae4def880e7bde798f8f05a411351fe3e"><td class="memItemLeft" align="right" valign="top"><a id="ae4def880e7bde798f8f05a411351fe3e" name="ae4def880e7bde798f8f05a411351fe3e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DRIVER_9</b>&#160;&#160;&#160;'9'</td></tr>
+<tr class="memdesc:ae4def880e7bde798f8f05a411351fe3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Driver 9. <br /></td></tr>
+<tr class="separator:ae4def880e7bde798f8f05a411351fe3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e5899607413c8c8c69351a42f0e374b" id="r_a3e5899607413c8c8c69351a42f0e374b"><td class="memItemLeft" align="right" valign="top"><a id="a3e5899607413c8c8c69351a42f0e374b" name="a3e5899607413c8c8c69351a42f0e374b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DRIVER_A</b>&#160;&#160;&#160;'A'</td></tr>
+<tr class="memdesc:a3e5899607413c8c8c69351a42f0e374b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Driver A. <br /></td></tr>
+<tr class="separator:a3e5899607413c8c8c69351a42f0e374b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabb73bde635b2157ea44ecd0b19100c2" id="r_aabb73bde635b2157ea44ecd0b19100c2"><td class="memItemLeft" align="right" valign="top"><a id="aabb73bde635b2157ea44ecd0b19100c2" name="aabb73bde635b2157ea44ecd0b19100c2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DRIVER_B</b>&#160;&#160;&#160;'B'</td></tr>
+<tr class="memdesc:aabb73bde635b2157ea44ecd0b19100c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Driver B. <br /></td></tr>
+<tr class="separator:aabb73bde635b2157ea44ecd0b19100c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5721341cc0c730d07f3a72b287ed5797" id="r_a5721341cc0c730d07f3a72b287ed5797"><td class="memItemLeft" align="right" valign="top"><a id="a5721341cc0c730d07f3a72b287ed5797" name="a5721341cc0c730d07f3a72b287ed5797"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DRIVER_C</b>&#160;&#160;&#160;'C'</td></tr>
+<tr class="memdesc:a5721341cc0c730d07f3a72b287ed5797"><td class="mdescLeft">&#160;</td><td class="mdescRight">Driver C. <br /></td></tr>
+<tr class="separator:a5721341cc0c730d07f3a72b287ed5797"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08d371297a31f900a330e569ab142d24" id="r_a08d371297a31f900a330e569ab142d24"><td class="memItemLeft" align="right" valign="top"><a id="a08d371297a31f900a330e569ab142d24" name="a08d371297a31f900a330e569ab142d24"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DRIVER_D</b>&#160;&#160;&#160;'D'</td></tr>
+<tr class="memdesc:a08d371297a31f900a330e569ab142d24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Driver D. <br /></td></tr>
+<tr class="separator:a08d371297a31f900a330e569ab142d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0d1008f5eca0147fb5654fa0b97eb16" id="r_aa0d1008f5eca0147fb5654fa0b97eb16"><td class="memItemLeft" align="right" valign="top"><a id="aa0d1008f5eca0147fb5654fa0b97eb16" name="aa0d1008f5eca0147fb5654fa0b97eb16"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DRIVER_E</b>&#160;&#160;&#160;'E'</td></tr>
+<tr class="memdesc:aa0d1008f5eca0147fb5654fa0b97eb16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Driver E. <br /></td></tr>
+<tr class="separator:aa0d1008f5eca0147fb5654fa0b97eb16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a010ff50a6922208041cc04589f53b04d" id="r_a010ff50a6922208041cc04589f53b04d"><td class="memItemLeft" align="right" valign="top"><a id="a010ff50a6922208041cc04589f53b04d" name="a010ff50a6922208041cc04589f53b04d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DRIVER_F</b>&#160;&#160;&#160;'F'</td></tr>
+<tr class="memdesc:a010ff50a6922208041cc04589f53b04d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Driver F. <br /></td></tr>
+<tr class="separator:a010ff50a6922208041cc04589f53b04d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9434bbe51892aec2e10ac27db227868f" id="r_a9434bbe51892aec2e10ac27db227868f"><td class="memItemLeft" align="right" valign="top"><a id="a9434bbe51892aec2e10ac27db227868f" name="a9434bbe51892aec2e10ac27db227868f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DRIVER_H</b>&#160;&#160;&#160;'H'</td></tr>
+<tr class="memdesc:a9434bbe51892aec2e10ac27db227868f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Driver H. <br /></td></tr>
+<tr class="separator:a9434bbe51892aec2e10ac27db227868f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accaa0d234e7836c097874c3cb1efe381" id="r_accaa0d234e7836c097874c3cb1efe381"><td class="memItemLeft" align="right" valign="top"><a id="accaa0d234e7836c097874c3cb1efe381" name="accaa0d234e7836c097874c3cb1efe381"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DRIVER_J</b>&#160;&#160;&#160;'J'</td></tr>
+<tr class="memdesc:accaa0d234e7836c097874c3cb1efe381"><td class="mdescLeft">&#160;</td><td class="mdescRight">Driver J. <br /></td></tr>
+<tr class="separator:accaa0d234e7836c097874c3cb1efe381"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Extra, mask 0x0f = 0..15</div></td></tr>
+<tr class="memitem:abfcd4274763cf69977b0ef70cd6c1c29" id="r_abfcd4274763cf69977b0ef70cd6c1c29"><td class="memItemLeft" align="right" valign="top"><a id="abfcd4274763cf69977b0ef70cd6c1c29" name="abfcd4274763cf69977b0ef70cd6c1c29"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>EXTRA_TOUCH</b>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:abfcd4274763cf69977b0ef70cd6c1c29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Touch. <br /></td></tr>
+<tr class="separator:abfcd4274763cf69977b0ef70cd6c1c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac614c2ee94dbb64c043394a69a270fe7" id="r_ac614c2ee94dbb64c043394a69a270fe7"><td class="memItemLeft" align="right" valign="top"><a id="ac614c2ee94dbb64c043394a69a270fe7" name="ac614c2ee94dbb64c043394a69a270fe7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>EXTRA_DEMO</b>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:ac614c2ee94dbb64c043394a69a270fe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Demo. <br /></td></tr>
+<tr class="separator:ac614c2ee94dbb64c043394a69a270fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Monochrome screens</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><dl class="section note"><dt>Note</dt><dd>Global update mode </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://www.pervasivedisplays.com/products/?_sft_etc_itc=itc&_sft_product_colour=black-white">https://www.pervasivedisplays.com/products/?_sft_etc_itc=itc&amp;_sft_product_colour=black-white</a> </dd></dl>
+</div></td></tr>
+<tr class="memitem:a4e62d05e01043edb71c8a5b7f828eba8" id="r_a4e62d05e01043edb71c8a5b7f828eba8"><td class="memItemLeft" align="right" valign="top"><a id="a4e62d05e01043edb71c8a5b7f828eba8" name="a4e62d05e01043edb71c8a5b7f828eba8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_154_CS_0C</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a8c6810e0c53be4d28ee202eb343373ce">SIZE_154</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td></tr>
+<tr class="memdesc:a4e62d05e01043edb71c8a5b7f828eba8"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2154CS0Cx <br /></td></tr>
+<tr class="separator:a4e62d05e01043edb71c8a5b7f828eba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4075c4766ba02cc5c64ce772b102681" id="r_aa4075c4766ba02cc5c64ce772b102681"><td class="memItemLeft" align="right" valign="top"><a id="aa4075c4766ba02cc5c64ce772b102681" name="aa4075c4766ba02cc5c64ce772b102681"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_213_CS_0C</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a5310e6e311356f4a321d95be683a6dca">SIZE_213</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td></tr>
+<tr class="memdesc:aa4075c4766ba02cc5c64ce772b102681"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2213CS0Cx <br /></td></tr>
+<tr class="separator:aa4075c4766ba02cc5c64ce772b102681"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc8261882900bf9ad1ebe8228942ceef" id="r_afc8261882900bf9ad1ebe8228942ceef"><td class="memItemLeft" align="right" valign="top"><a id="afc8261882900bf9ad1ebe8228942ceef" name="afc8261882900bf9ad1ebe8228942ceef"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_215_CS_06</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a98427ebf98b687445cc4ba10223bd835">SIZE_215</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#a92929d655a0f22204e81e26cebc760ad">DRIVER_6</a>)</td></tr>
+<tr class="memdesc:afc8261882900bf9ad1ebe8228942ceef"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2215CS06x <br /></td></tr>
+<tr class="separator:afc8261882900bf9ad1ebe8228942ceef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a044931c67a149246db3f4aebf2728381" id="r_a044931c67a149246db3f4aebf2728381"><td class="memItemLeft" align="right" valign="top"><a id="a044931c67a149246db3f4aebf2728381" name="a044931c67a149246db3f4aebf2728381"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_266_CS_09</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ada5df5b15928017f512cd1b78a756da5">SIZE_266</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>)</td></tr>
+<tr class="memdesc:a044931c67a149246db3f4aebf2728381"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2266xS09x <br /></td></tr>
+<tr class="separator:a044931c67a149246db3f4aebf2728381"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18343ffbb3ff36ba0d03f2aab635ef69" id="r_a18343ffbb3ff36ba0d03f2aab635ef69"><td class="memItemLeft" align="right" valign="top"><a id="a18343ffbb3ff36ba0d03f2aab635ef69" name="a18343ffbb3ff36ba0d03f2aab635ef69"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_266_CS_0C</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ada5df5b15928017f512cd1b78a756da5">SIZE_266</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td></tr>
+<tr class="memdesc:a18343ffbb3ff36ba0d03f2aab635ef69"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2266CS0Cx <br /></td></tr>
+<tr class="separator:a18343ffbb3ff36ba0d03f2aab635ef69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9a30e67a02501b67908018bf6be64c5" id="r_af9a30e67a02501b67908018bf6be64c5"><td class="memItemLeft" align="right" valign="top"><a id="af9a30e67a02501b67908018bf6be64c5" name="af9a30e67a02501b67908018bf6be64c5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_271_CS_09</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#aac9e78d751d785a8293bebacb12d3e3e">SIZE_271</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>)</td></tr>
+<tr class="memdesc:af9a30e67a02501b67908018bf6be64c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2271CS09x <br /></td></tr>
+<tr class="separator:af9a30e67a02501b67908018bf6be64c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a394513eb968773956de1dbba16f381f0" id="r_a394513eb968773956de1dbba16f381f0"><td class="memItemLeft" align="right" valign="top"><a id="a394513eb968773956de1dbba16f381f0" name="a394513eb968773956de1dbba16f381f0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_287_CS_05</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a9dfc5927db88860dbacc7cae1f3236f0">SIZE_287</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#ad25a0ced76d3851c1f98742368b3b625">DRIVER_5</a>)</td></tr>
+<tr class="memdesc:a394513eb968773956de1dbba16f381f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2287CS05x <br /></td></tr>
+<tr class="separator:a394513eb968773956de1dbba16f381f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a115a23d110547e93ca0da14b7fe8d1c3" id="r_a115a23d110547e93ca0da14b7fe8d1c3"><td class="memItemLeft" align="right" valign="top"><a id="a115a23d110547e93ca0da14b7fe8d1c3" name="a115a23d110547e93ca0da14b7fe8d1c3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_287_CS_09</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a9dfc5927db88860dbacc7cae1f3236f0">SIZE_287</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>)</td></tr>
+<tr class="memdesc:a115a23d110547e93ca0da14b7fe8d1c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2287CS09x <br /></td></tr>
+<tr class="separator:a115a23d110547e93ca0da14b7fe8d1c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a451b0a941494976d6afa88d259d5e439" id="r_a451b0a941494976d6afa88d259d5e439"><td class="memItemLeft" align="right" valign="top"><a id="a451b0a941494976d6afa88d259d5e439" name="a451b0a941494976d6afa88d259d5e439"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_370_CS_0C</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a53493a67a10886f61c72f7fa058f6761">SIZE_370</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td></tr>
+<tr class="memdesc:a451b0a941494976d6afa88d259d5e439"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2370CS0Cx <br /></td></tr>
+<tr class="separator:a451b0a941494976d6afa88d259d5e439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa924a7884970bf46cbf388db8a432df9" id="r_aa924a7884970bf46cbf388db8a432df9"><td class="memItemLeft" align="right" valign="top"><a id="aa924a7884970bf46cbf388db8a432df9" name="aa924a7884970bf46cbf388db8a432df9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_417_CS_05</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a3a501a6c2437d3663281073e53bcfec4">SIZE_417</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#ad25a0ced76d3851c1f98742368b3b625">DRIVER_5</a>)</td></tr>
+<tr class="memdesc:aa924a7884970bf46cbf388db8a432df9"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2417CS05x <br /></td></tr>
+<tr class="separator:aa924a7884970bf46cbf388db8a432df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bfc4a768837e70fa44e815fba5a533f" id="r_a1bfc4a768837e70fa44e815fba5a533f"><td class="memItemLeft" align="right" valign="top"><a id="a1bfc4a768837e70fa44e815fba5a533f" name="a1bfc4a768837e70fa44e815fba5a533f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_417_CS_0D</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a3a501a6c2437d3663281073e53bcfec4">SIZE_417</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#a08d371297a31f900a330e569ab142d24">DRIVER_D</a>)</td></tr>
+<tr class="memdesc:a1bfc4a768837e70fa44e815fba5a533f"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2417CS0Dx <br /></td></tr>
+<tr class="separator:a1bfc4a768837e70fa44e815fba5a533f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f07bfa739bdc4dc201676beafdb8eff" id="r_a7f07bfa739bdc4dc201676beafdb8eff"><td class="memItemLeft" align="right" valign="top"><a id="a7f07bfa739bdc4dc201676beafdb8eff" name="a7f07bfa739bdc4dc201676beafdb8eff"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_437_CS_08</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a3e8b27aecc3f378f33b24718e6c2c876">SIZE_437</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td></tr>
+<tr class="memdesc:a7f07bfa739bdc4dc201676beafdb8eff"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2437CS08x <br /></td></tr>
+<tr class="separator:a7f07bfa739bdc4dc201676beafdb8eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac63b29c5635c3c2be8fe89b6543509ce" id="r_ac63b29c5635c3c2be8fe89b6543509ce"><td class="memItemLeft" align="right" valign="top"><a id="ac63b29c5635c3c2be8fe89b6543509ce" name="ac63b29c5635c3c2be8fe89b6543509ce"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_437_CS_0C</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a3e8b27aecc3f378f33b24718e6c2c876">SIZE_437</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td></tr>
+<tr class="memdesc:ac63b29c5635c3c2be8fe89b6543509ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2437CS0Cx <br /></td></tr>
+<tr class="separator:ac63b29c5635c3c2be8fe89b6543509ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9babb754f76108cc4549d4f76d40655a" id="r_a9babb754f76108cc4549d4f76d40655a"><td class="memItemLeft" align="right" valign="top"><a id="a9babb754f76108cc4549d4f76d40655a" name="a9babb754f76108cc4549d4f76d40655a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_581_CS_0B</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ae4b324f4c9e210c311e3b9587f81899f">SIZE_581</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#aabb73bde635b2157ea44ecd0b19100c2">DRIVER_B</a>)</td></tr>
+<tr class="memdesc:a9babb754f76108cc4549d4f76d40655a"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2581CS0Bx <br /></td></tr>
+<tr class="separator:a9babb754f76108cc4549d4f76d40655a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60cc3ad614cf720cd987ff168357b0a7" id="r_a60cc3ad614cf720cd987ff168357b0a7"><td class="memItemLeft" align="right" valign="top"><a id="a60cc3ad614cf720cd987ff168357b0a7" name="a60cc3ad614cf720cd987ff168357b0a7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_741_CS_0B</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a35956bbf226a90260c93030367589978">SIZE_741</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#aabb73bde635b2157ea44ecd0b19100c2">DRIVER_B</a>)</td></tr>
+<tr class="memdesc:a60cc3ad614cf720cd987ff168357b0a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2741CS0Bx <br /></td></tr>
+<tr class="separator:a60cc3ad614cf720cd987ff168357b0a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ff807c5f21d435850a49ed996cb044f" id="r_a3ff807c5f21d435850a49ed996cb044f"><td class="memItemLeft" align="right" valign="top"><a id="a3ff807c5f21d435850a49ed996cb044f" name="a3ff807c5f21d435850a49ed996cb044f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_969_CS_0B</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a9cdfbb501b00489beb3440bbba894500">SIZE_969</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#aabb73bde635b2157ea44ecd0b19100c2">DRIVER_B</a>)</td></tr>
+<tr class="memdesc:a3ff807c5f21d435850a49ed996cb044f"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2969CS0Bx <br /></td></tr>
+<tr class="separator:a3ff807c5f21d435850a49ed996cb044f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ade092d125ed915498ab2645a935bb5" id="r_a9ade092d125ed915498ab2645a935bb5"><td class="memItemLeft" align="right" valign="top"><a id="a9ade092d125ed915498ab2645a935bb5" name="a9ade092d125ed915498ab2645a935bb5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_B98_CS_0B</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ad8383eb6fd2e92f7d59257ccf880129c">SIZE_B98</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#aabb73bde635b2157ea44ecd0b19100c2">DRIVER_B</a>)</td></tr>
+<tr class="memdesc:a9ade092d125ed915498ab2645a935bb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2B98CS0Bx <br /></td></tr>
+<tr class="separator:a9ade092d125ed915498ab2645a935bb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a356ef7a0f95c0f91547e0e3aa485bae8" id="r_a356ef7a0f95c0f91547e0e3aa485bae8"><td class="memItemLeft" align="right" valign="top"><a id="a356ef7a0f95c0f91547e0e3aa485bae8" name="a356ef7a0f95c0f91547e0e3aa485bae8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_213_HS_09</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a5310e6e311356f4a321d95be683a6dca">SIZE_213</a>, <a class="el" href="#a693330550c2d366f194d881d2acc33ac">FILM_H</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>)</td></tr>
+<tr class="memdesc:a356ef7a0f95c0f91547e0e3aa485bae8"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2213HS09x <br /></td></tr>
+<tr class="separator:a356ef7a0f95c0f91547e0e3aa485bae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fe8cd3c945307d4acc1fb753c59693a" id="r_a2fe8cd3c945307d4acc1fb753c59693a"><td class="memItemLeft" align="right" valign="top"><a id="a2fe8cd3c945307d4acc1fb753c59693a" name="a2fe8cd3c945307d4acc1fb753c59693a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_266_HS_09</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ada5df5b15928017f512cd1b78a756da5">SIZE_266</a>, <a class="el" href="#a693330550c2d366f194d881d2acc33ac">FILM_H</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>)</td></tr>
+<tr class="memdesc:a2fe8cd3c945307d4acc1fb753c59693a"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2266HS09x <br /></td></tr>
+<tr class="separator:a2fe8cd3c945307d4acc1fb753c59693a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Legacy monochrome screens</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><dl class="section note"><dt>Note</dt><dd>Global update mode </dd></dl>
+</div></td></tr>
+<tr class="memitem:a56496f51adeb0d84b8bd1a123bb7ec69" id="r_a56496f51adeb0d84b8bd1a123bb7ec69"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56496f51adeb0d84b8bd1a123bb7ec69">eScreen_EPD_741_CS_08</a>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a35956bbf226a90260c93030367589978">SIZE_741</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td></tr>
+<tr class="memdesc:a56496f51adeb0d84b8bd1a123bb7ec69"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2741CS08x  <br /></td></tr>
+<tr class="separator:a56496f51adeb0d84b8bd1a123bb7ec69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaede4bc0325d37527a6599ec5020e41" id="r_aeaede4bc0325d37527a6599ec5020e41"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaede4bc0325d37527a6599ec5020e41">eScreen_EPD_969_CS_08</a>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a9cdfbb501b00489beb3440bbba894500">SIZE_969</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td></tr>
+<tr class="memdesc:aeaede4bc0325d37527a6599ec5020e41"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2969CS08x  <br /></td></tr>
+<tr class="separator:aeaede4bc0325d37527a6599ec5020e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5ecfa247cfb2899065b4a44acb8d7ef" id="r_aa5ecfa247cfb2899065b4a44acb8d7ef"><td class="memItemLeft" align="right" valign="top"><a id="aa5ecfa247cfb2899065b4a44acb8d7ef" name="aa5ecfa247cfb2899065b4a44acb8d7ef"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_581_CS_08</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ae4b324f4c9e210c311e3b9587f81899f">SIZE_581</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td></tr>
+<tr class="memdesc:aa5ecfa247cfb2899065b4a44acb8d7ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2581CS08x, previous type <br /></td></tr>
+<tr class="separator:aa5ecfa247cfb2899065b4a44acb8d7ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56496f51adeb0d84b8bd1a123bb7ec69" id="r_a56496f51adeb0d84b8bd1a123bb7ec69"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56496f51adeb0d84b8bd1a123bb7ec69">eScreen_EPD_741_CS_08</a>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a35956bbf226a90260c93030367589978">SIZE_741</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td></tr>
+<tr class="memdesc:a56496f51adeb0d84b8bd1a123bb7ec69"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2741CS08x  <br /></td></tr>
+<tr class="separator:a56496f51adeb0d84b8bd1a123bb7ec69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaede4bc0325d37527a6599ec5020e41" id="r_aeaede4bc0325d37527a6599ec5020e41"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaede4bc0325d37527a6599ec5020e41">eScreen_EPD_969_CS_08</a>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a9cdfbb501b00489beb3440bbba894500">SIZE_969</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td></tr>
+<tr class="memdesc:aeaede4bc0325d37527a6599ec5020e41"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2969CS08x  <br /></td></tr>
+<tr class="separator:aeaede4bc0325d37527a6599ec5020e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d8dbd6c56472b4645b7773f984e8cee" id="r_a1d8dbd6c56472b4645b7773f984e8cee"><td class="memItemLeft" align="right" valign="top"><a id="a1d8dbd6c56472b4645b7773f984e8cee" name="a1d8dbd6c56472b4645b7773f984e8cee"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_B98_CS_08</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a8fb46650521339f67b8e851fd9413638">SIZE_1198</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td></tr>
+<tr class="memdesc:a1d8dbd6c56472b4645b7773f984e8cee"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2B98CS08x, previous type <br /></td></tr>
+<tr class="separator:a1d8dbd6c56472b4645b7773f984e8cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Colour black-white-red "Spectra" screens</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><dl class="section note"><dt>Note</dt><dd>Global update mode </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://www.pervasivedisplays.com/products/?_sft_etc_itc=itc&_sft_product_colour=black-white-red">https://www.pervasivedisplays.com/products/?_sft_etc_itc=itc&amp;_sft_product_colour=black-white-red</a> </dd></dl>
+</div></td></tr>
+<tr class="memitem:ab79888c812c91ea53700ec2c274ba54c" id="r_ab79888c812c91ea53700ec2c274ba54c"><td class="memItemLeft" align="right" valign="top"><a id="ab79888c812c91ea53700ec2c274ba54c" name="ab79888c812c91ea53700ec2c274ba54c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_213_ES_09</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a5310e6e311356f4a321d95be683a6dca">SIZE_213</a>, <a class="el" href="#a02ef77d83f8f8cd80e6fe2ed838a27cd">FILM_E</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>)</td></tr>
+<tr class="memdesc:ab79888c812c91ea53700ec2c274ba54c"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2213ES09x <br /></td></tr>
+<tr class="separator:ab79888c812c91ea53700ec2c274ba54c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e61e466b6d1ae05bde3ee1b47a42fa0" id="r_a2e61e466b6d1ae05bde3ee1b47a42fa0"><td class="memItemLeft" align="right" valign="top"><a id="a2e61e466b6d1ae05bde3ee1b47a42fa0" name="a2e61e466b6d1ae05bde3ee1b47a42fa0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_287_ES_05</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a9dfc5927db88860dbacc7cae1f3236f0">SIZE_287</a>, <a class="el" href="#a02ef77d83f8f8cd80e6fe2ed838a27cd">FILM_E</a>, <a class="el" href="#ad25a0ced76d3851c1f98742368b3b625">DRIVER_5</a>)</td></tr>
+<tr class="memdesc:a2e61e466b6d1ae05bde3ee1b47a42fa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2287ES05x <br /></td></tr>
+<tr class="separator:a2e61e466b6d1ae05bde3ee1b47a42fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a387318efa77bdcf0005022104a10c306" id="r_a387318efa77bdcf0005022104a10c306"><td class="memItemLeft" align="right" valign="top"><a id="a387318efa77bdcf0005022104a10c306" name="a387318efa77bdcf0005022104a10c306"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_154_FS_09</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a8c6810e0c53be4d28ee202eb343373ce">SIZE_154</a>, <a class="el" href="#ad3ac82a845528089d8607d1e7ce0eaf0">FILM_F</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>)</td></tr>
+<tr class="memdesc:a387318efa77bdcf0005022104a10c306"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2154FS09x <br /></td></tr>
+<tr class="separator:a387318efa77bdcf0005022104a10c306"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a3a7d4da99c80a2a015d059b1761492" id="r_a9a3a7d4da99c80a2a015d059b1761492"><td class="memItemLeft" align="right" valign="top"><a id="a9a3a7d4da99c80a2a015d059b1761492" name="a9a3a7d4da99c80a2a015d059b1761492"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_266_FS_09</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ada5df5b15928017f512cd1b78a756da5">SIZE_266</a>, <a class="el" href="#ad3ac82a845528089d8607d1e7ce0eaf0">FILM_F</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>)</td></tr>
+<tr class="memdesc:a9a3a7d4da99c80a2a015d059b1761492"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2266FS09x <br /></td></tr>
+<tr class="separator:a9a3a7d4da99c80a2a015d059b1761492"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9831c403ca3d1915c20b3e3e5950b405" id="r_a9831c403ca3d1915c20b3e3e5950b405"><td class="memItemLeft" align="right" valign="top"><a id="a9831c403ca3d1915c20b3e3e5950b405" name="a9831c403ca3d1915c20b3e3e5950b405"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_271_FS_09</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#aac9e78d751d785a8293bebacb12d3e3e">SIZE_271</a>, <a class="el" href="#ad3ac82a845528089d8607d1e7ce0eaf0">FILM_F</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>)</td></tr>
+<tr class="memdesc:a9831c403ca3d1915c20b3e3e5950b405"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2271FS09x <br /></td></tr>
+<tr class="separator:a9831c403ca3d1915c20b3e3e5950b405"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2668235dbf43481472f339b2a551b486" id="r_a2668235dbf43481472f339b2a551b486"><td class="memItemLeft" align="right" valign="top"><a id="a2668235dbf43481472f339b2a551b486" name="a2668235dbf43481472f339b2a551b486"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_287_FS_09</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a9dfc5927db88860dbacc7cae1f3236f0">SIZE_287</a>, <a class="el" href="#ad3ac82a845528089d8607d1e7ce0eaf0">FILM_F</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>)</td></tr>
+<tr class="memdesc:a2668235dbf43481472f339b2a551b486"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2287FS09x <br /></td></tr>
+<tr class="separator:a2668235dbf43481472f339b2a551b486"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46fab019ad97457f301f382ae72028c6" id="r_a46fab019ad97457f301f382ae72028c6"><td class="memItemLeft" align="right" valign="top"><a id="a46fab019ad97457f301f382ae72028c6" name="a46fab019ad97457f301f382ae72028c6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_370_FS_08</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a53493a67a10886f61c72f7fa058f6761">SIZE_370</a>, <a class="el" href="#ad3ac82a845528089d8607d1e7ce0eaf0">FILM_F</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td></tr>
+<tr class="memdesc:a46fab019ad97457f301f382ae72028c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2370FS08x <br /></td></tr>
+<tr class="separator:a46fab019ad97457f301f382ae72028c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77ffa1f0f8c47b1c81860dce5c25d624" id="r_a77ffa1f0f8c47b1c81860dce5c25d624"><td class="memItemLeft" align="right" valign="top"><a id="a77ffa1f0f8c47b1c81860dce5c25d624" name="a77ffa1f0f8c47b1c81860dce5c25d624"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_417_FS_05</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a3a501a6c2437d3663281073e53bcfec4">SIZE_417</a>, <a class="el" href="#ad3ac82a845528089d8607d1e7ce0eaf0">FILM_F</a>, <a class="el" href="#ad25a0ced76d3851c1f98742368b3b625">DRIVER_5</a>)</td></tr>
+<tr class="memdesc:a77ffa1f0f8c47b1c81860dce5c25d624"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2417FS05x <br /></td></tr>
+<tr class="separator:a77ffa1f0f8c47b1c81860dce5c25d624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0128b0c02eb7656bf75adaa12768d66" id="r_ab0128b0c02eb7656bf75adaa12768d66"><td class="memItemLeft" align="right" valign="top"><a id="ab0128b0c02eb7656bf75adaa12768d66" name="ab0128b0c02eb7656bf75adaa12768d66"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_437_FS_08</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a3e8b27aecc3f378f33b24718e6c2c876">SIZE_437</a>, <a class="el" href="#ad3ac82a845528089d8607d1e7ce0eaf0">FILM_F</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td></tr>
+<tr class="memdesc:ab0128b0c02eb7656bf75adaa12768d66"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2437FS08x <br /></td></tr>
+<tr class="separator:ab0128b0c02eb7656bf75adaa12768d66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ddecacb969c1f524ed3a9b6152ce7c9" id="r_a9ddecacb969c1f524ed3a9b6152ce7c9"><td class="memItemLeft" align="right" valign="top"><a id="a9ddecacb969c1f524ed3a9b6152ce7c9" name="a9ddecacb969c1f524ed3a9b6152ce7c9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_581_FS_08</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ae4b324f4c9e210c311e3b9587f81899f">SIZE_581</a>, <a class="el" href="#ad3ac82a845528089d8607d1e7ce0eaf0">FILM_F</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td></tr>
+<tr class="memdesc:a9ddecacb969c1f524ed3a9b6152ce7c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2581FS08x <br /></td></tr>
+<tr class="separator:a9ddecacb969c1f524ed3a9b6152ce7c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a669ac71e154bc92ac3fa4d23b54877b0" id="r_a669ac71e154bc92ac3fa4d23b54877b0"><td class="memItemLeft" align="right" valign="top"><a id="a669ac71e154bc92ac3fa4d23b54877b0" name="a669ac71e154bc92ac3fa4d23b54877b0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_741_FS_08</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a35956bbf226a90260c93030367589978">SIZE_741</a>, <a class="el" href="#ad3ac82a845528089d8607d1e7ce0eaf0">FILM_F</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td></tr>
+<tr class="memdesc:a669ac71e154bc92ac3fa4d23b54877b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2741FS08x <br /></td></tr>
+<tr class="separator:a669ac71e154bc92ac3fa4d23b54877b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c90ef6f6c822f739bdeb0e36940483a" id="r_a1c90ef6f6c822f739bdeb0e36940483a"><td class="memItemLeft" align="right" valign="top"><a id="a1c90ef6f6c822f739bdeb0e36940483a" name="a1c90ef6f6c822f739bdeb0e36940483a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_B98_FS_08</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ad8383eb6fd2e92f7d59257ccf880129c">SIZE_B98</a>, <a class="el" href="#ad3ac82a845528089d8607d1e7ce0eaf0">FILM_F</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td></tr>
+<tr class="memdesc:a1c90ef6f6c822f739bdeb0e36940483a"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2B98FS08x <br /></td></tr>
+<tr class="separator:a1c90ef6f6c822f739bdeb0e36940483a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a321849235798212901def81b35453c4a" id="r_a321849235798212901def81b35453c4a"><td class="memItemLeft" align="right" valign="top"><a id="a321849235798212901def81b35453c4a" name="a321849235798212901def81b35453c4a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_154_GS_09</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a8c6810e0c53be4d28ee202eb343373ce">SIZE_154</a>, <a class="el" href="#a73b330ad64f33f4706595d413750d353">FILM_G</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>)</td></tr>
+<tr class="memdesc:a321849235798212901def81b35453c4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2154GS09x <br /></td></tr>
+<tr class="separator:a321849235798212901def81b35453c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38e296a67b95043ab07621edd30a6264" id="r_a38e296a67b95043ab07621edd30a6264"><td class="memItemLeft" align="right" valign="top"><a id="a38e296a67b95043ab07621edd30a6264" name="a38e296a67b95043ab07621edd30a6264"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_213_GS_09</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a5310e6e311356f4a321d95be683a6dca">SIZE_213</a>, <a class="el" href="#a73b330ad64f33f4706595d413750d353">FILM_G</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>)</td></tr>
+<tr class="memdesc:a38e296a67b95043ab07621edd30a6264"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2213GS09x <br /></td></tr>
+<tr class="separator:a38e296a67b95043ab07621edd30a6264"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98ef36b8d4fd586ecafee164b6941481" id="r_a98ef36b8d4fd586ecafee164b6941481"><td class="memItemLeft" align="right" valign="top"><a id="a98ef36b8d4fd586ecafee164b6941481" name="a98ef36b8d4fd586ecafee164b6941481"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_266_GS_09</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ada5df5b15928017f512cd1b78a756da5">SIZE_266</a>, <a class="el" href="#a73b330ad64f33f4706595d413750d353">FILM_G</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>)</td></tr>
+<tr class="memdesc:a98ef36b8d4fd586ecafee164b6941481"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2266GS09x <br /></td></tr>
+<tr class="separator:a98ef36b8d4fd586ecafee164b6941481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac776b5e351abf15f38d8df81947fdb85" id="r_ac776b5e351abf15f38d8df81947fdb85"><td class="memItemLeft" align="right" valign="top"><a id="ac776b5e351abf15f38d8df81947fdb85" name="ac776b5e351abf15f38d8df81947fdb85"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_417_GS_05</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a3a501a6c2437d3663281073e53bcfec4">SIZE_417</a>, <a class="el" href="#a73b330ad64f33f4706595d413750d353">FILM_G</a>, <a class="el" href="#ad25a0ced76d3851c1f98742368b3b625">DRIVER_5</a>)</td></tr>
+<tr class="memdesc:ac776b5e351abf15f38d8df81947fdb85"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2417GS05x <br /></td></tr>
+<tr class="separator:ac776b5e351abf15f38d8df81947fdb85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3bcfa766e58d6686cedac9790f450aa" id="r_af3bcfa766e58d6686cedac9790f450aa"><td class="memItemLeft" align="right" valign="top"><a id="af3bcfa766e58d6686cedac9790f450aa" name="af3bcfa766e58d6686cedac9790f450aa"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_437_GS_08</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a3e8b27aecc3f378f33b24718e6c2c876">SIZE_437</a>, <a class="el" href="#a73b330ad64f33f4706595d413750d353">FILM_G</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td></tr>
+<tr class="memdesc:af3bcfa766e58d6686cedac9790f450aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2437GS08x <br /></td></tr>
+<tr class="separator:af3bcfa766e58d6686cedac9790f450aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b53d04f7aadf8ab22e1a41b07af032c" id="r_a3b53d04f7aadf8ab22e1a41b07af032c"><td class="memItemLeft" align="right" valign="top"><a id="a3b53d04f7aadf8ab22e1a41b07af032c" name="a3b53d04f7aadf8ab22e1a41b07af032c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_741_GS_08</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a35956bbf226a90260c93030367589978">SIZE_741</a>, <a class="el" href="#a73b330ad64f33f4706595d413750d353">FILM_G</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td></tr>
+<tr class="memdesc:a3b53d04f7aadf8ab22e1a41b07af032c"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2741GS08x <br /></td></tr>
+<tr class="separator:a3b53d04f7aadf8ab22e1a41b07af032c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25dbb7980c7a0c7d3de7f340032f7c19" id="r_a25dbb7980c7a0c7d3de7f340032f7c19"><td class="memItemLeft" align="right" valign="top"><a id="a25dbb7980c7a0c7d3de7f340032f7c19" name="a25dbb7980c7a0c7d3de7f340032f7c19"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_B98_GS_08</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ad8383eb6fd2e92f7d59257ccf880129c">SIZE_B98</a>, <a class="el" href="#a73b330ad64f33f4706595d413750d353">FILM_G</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td></tr>
+<tr class="memdesc:a25dbb7980c7a0c7d3de7f340032f7c19"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2B98GS08x <br /></td></tr>
+<tr class="separator:a25dbb7980c7a0c7d3de7f340032f7c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6d5b98c30482250185ba4f288b4a227" id="r_af6d5b98c30482250185ba4f288b4a227"><td class="memItemLeft" align="right" valign="top"><a id="af6d5b98c30482250185ba4f288b4a227" name="af6d5b98c30482250185ba4f288b4a227"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_154_JS_0C</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a8c6810e0c53be4d28ee202eb343373ce">SIZE_154</a>, <a class="el" href="#aed835b61af9b773089cde63b6d4e7a56">FILM_J</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td></tr>
+<tr class="memdesc:af6d5b98c30482250185ba4f288b4a227"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2154JS0Cx <br /></td></tr>
+<tr class="separator:af6d5b98c30482250185ba4f288b4a227"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32280bcda282c4458711004f2ead3ac4" id="r_a32280bcda282c4458711004f2ead3ac4"><td class="memItemLeft" align="right" valign="top"><a id="a32280bcda282c4458711004f2ead3ac4" name="a32280bcda282c4458711004f2ead3ac4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_213_JS_0C</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a5310e6e311356f4a321d95be683a6dca">SIZE_213</a>, <a class="el" href="#aed835b61af9b773089cde63b6d4e7a56">FILM_J</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td></tr>
+<tr class="memdesc:a32280bcda282c4458711004f2ead3ac4"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2213JS0Cx <br /></td></tr>
+<tr class="separator:a32280bcda282c4458711004f2ead3ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62cdf45840e36ca28d3a200669e7d0cd" id="r_a62cdf45840e36ca28d3a200669e7d0cd"><td class="memItemLeft" align="right" valign="top"><a id="a62cdf45840e36ca28d3a200669e7d0cd" name="a62cdf45840e36ca28d3a200669e7d0cd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_266_JS_0C</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ada5df5b15928017f512cd1b78a756da5">SIZE_266</a>, <a class="el" href="#aed835b61af9b773089cde63b6d4e7a56">FILM_J</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td></tr>
+<tr class="memdesc:a62cdf45840e36ca28d3a200669e7d0cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2266JS0Cx <br /></td></tr>
+<tr class="separator:a62cdf45840e36ca28d3a200669e7d0cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af810333e82712fc748a77db83d42da39" id="r_af810333e82712fc748a77db83d42da39"><td class="memItemLeft" align="right" valign="top"><a id="af810333e82712fc748a77db83d42da39" name="af810333e82712fc748a77db83d42da39"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_271_JS_09</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#aac9e78d751d785a8293bebacb12d3e3e">SIZE_271</a>, <a class="el" href="#aed835b61af9b773089cde63b6d4e7a56">FILM_J</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>)</td></tr>
+<tr class="memdesc:af810333e82712fc748a77db83d42da39"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2271JS09x <br /></td></tr>
+<tr class="separator:af810333e82712fc748a77db83d42da39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b8ec07f4e280801ef8f9fb62fd9c851" id="r_a0b8ec07f4e280801ef8f9fb62fd9c851"><td class="memItemLeft" align="right" valign="top"><a id="a0b8ec07f4e280801ef8f9fb62fd9c851" name="a0b8ec07f4e280801ef8f9fb62fd9c851"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_287_JS_09</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a9dfc5927db88860dbacc7cae1f3236f0">SIZE_287</a>, <a class="el" href="#aed835b61af9b773089cde63b6d4e7a56">FILM_J</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>)</td></tr>
+<tr class="memdesc:a0b8ec07f4e280801ef8f9fb62fd9c851"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2287JS09x <br /></td></tr>
+<tr class="separator:a0b8ec07f4e280801ef8f9fb62fd9c851"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f26e8151706ed729623ab9a90d595a2" id="r_a5f26e8151706ed729623ab9a90d595a2"><td class="memItemLeft" align="right" valign="top"><a id="a5f26e8151706ed729623ab9a90d595a2" name="a5f26e8151706ed729623ab9a90d595a2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_290_JS_0F</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a9c4c2aa89ac401a8ddbb812cd6a8fe4e">SIZE_290</a>, <a class="el" href="#aed835b61af9b773089cde63b6d4e7a56">FILM_J</a>, <a class="el" href="#a010ff50a6922208041cc04589f53b04d">DRIVER_F</a>)</td></tr>
+<tr class="memdesc:a5f26e8151706ed729623ab9a90d595a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2290JS0Fx <br /></td></tr>
+<tr class="separator:a5f26e8151706ed729623ab9a90d595a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2c9d318c1ad558cb0abdd6c794c2481" id="r_ae2c9d318c1ad558cb0abdd6c794c2481"><td class="memItemLeft" align="right" valign="top"><a id="ae2c9d318c1ad558cb0abdd6c794c2481" name="ae2c9d318c1ad558cb0abdd6c794c2481"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_370_JS_0C</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a53493a67a10886f61c72f7fa058f6761">SIZE_370</a>, <a class="el" href="#aed835b61af9b773089cde63b6d4e7a56">FILM_J</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td></tr>
+<tr class="memdesc:ae2c9d318c1ad558cb0abdd6c794c2481"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2370JS0Cx <br /></td></tr>
+<tr class="separator:ae2c9d318c1ad558cb0abdd6c794c2481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae30c645ab1c0ea0c1f6424c9c51bf05" id="r_aae30c645ab1c0ea0c1f6424c9c51bf05"><td class="memItemLeft" align="right" valign="top"><a id="aae30c645ab1c0ea0c1f6424c9c51bf05" name="aae30c645ab1c0ea0c1f6424c9c51bf05"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_437_JS_08</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a3e8b27aecc3f378f33b24718e6c2c876">SIZE_437</a>, <a class="el" href="#aed835b61af9b773089cde63b6d4e7a56">FILM_J</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td></tr>
+<tr class="memdesc:aae30c645ab1c0ea0c1f6424c9c51bf05"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2437JS08x <br /></td></tr>
+<tr class="separator:aae30c645ab1c0ea0c1f6424c9c51bf05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf2330cb9f117851b9f25a2d5061c1ff" id="r_abf2330cb9f117851b9f25a2d5061c1ff"><td class="memItemLeft" align="right" valign="top"><a id="abf2330cb9f117851b9f25a2d5061c1ff" name="abf2330cb9f117851b9f25a2d5061c1ff"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_565_JS_08</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a53060f27ba125e894aa575f384dfeeab">SIZE_565</a>, <a class="el" href="#aed835b61af9b773089cde63b6d4e7a56">FILM_J</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td></tr>
+<tr class="memdesc:abf2330cb9f117851b9f25a2d5061c1ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2565JS08x <br /></td></tr>
+<tr class="separator:abf2330cb9f117851b9f25a2d5061c1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d4ad92aff79c44a5576dc1a8aac12fa" id="r_a5d4ad92aff79c44a5576dc1a8aac12fa"><td class="memItemLeft" align="right" valign="top"><a id="a5d4ad92aff79c44a5576dc1a8aac12fa" name="a5d4ad92aff79c44a5576dc1a8aac12fa"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_581_JS_0B</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ae4b324f4c9e210c311e3b9587f81899f">SIZE_581</a>, <a class="el" href="#aed835b61af9b773089cde63b6d4e7a56">FILM_J</a>, <a class="el" href="#aabb73bde635b2157ea44ecd0b19100c2">DRIVER_B</a>)</td></tr>
+<tr class="memdesc:a5d4ad92aff79c44a5576dc1a8aac12fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2581JS0Bx <br /></td></tr>
+<tr class="separator:a5d4ad92aff79c44a5576dc1a8aac12fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef98020e60ea741174189ea376886bfd" id="r_aef98020e60ea741174189ea376886bfd"><td class="memItemLeft" align="right" valign="top"><a id="aef98020e60ea741174189ea376886bfd" name="aef98020e60ea741174189ea376886bfd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_741_JS_0B</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a35956bbf226a90260c93030367589978">SIZE_741</a>, <a class="el" href="#aed835b61af9b773089cde63b6d4e7a56">FILM_J</a>, <a class="el" href="#aabb73bde635b2157ea44ecd0b19100c2">DRIVER_B</a>)</td></tr>
+<tr class="memdesc:aef98020e60ea741174189ea376886bfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2741JS0Bx <br /></td></tr>
+<tr class="separator:aef98020e60ea741174189ea376886bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad61c15127f69e15574a501ab2dbf37cc" id="r_ad61c15127f69e15574a501ab2dbf37cc"><td class="memItemLeft" align="right" valign="top"><a id="ad61c15127f69e15574a501ab2dbf37cc" name="ad61c15127f69e15574a501ab2dbf37cc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_969_JS_08</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a9cdfbb501b00489beb3440bbba894500">SIZE_969</a>, <a class="el" href="#aed835b61af9b773089cde63b6d4e7a56">FILM_J</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td></tr>
+<tr class="memdesc:ad61c15127f69e15574a501ab2dbf37cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2969JS08x <br /></td></tr>
+<tr class="separator:ad61c15127f69e15574a501ab2dbf37cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a787866856c4d8ae9d929deaf200d37ed" id="r_a787866856c4d8ae9d929deaf200d37ed"><td class="memItemLeft" align="right" valign="top"><a id="a787866856c4d8ae9d929deaf200d37ed" name="a787866856c4d8ae9d929deaf200d37ed"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_969_JS_0B</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a9cdfbb501b00489beb3440bbba894500">SIZE_969</a>, <a class="el" href="#aed835b61af9b773089cde63b6d4e7a56">FILM_J</a>, <a class="el" href="#aabb73bde635b2157ea44ecd0b19100c2">DRIVER_B</a>)</td></tr>
+<tr class="memdesc:a787866856c4d8ae9d929deaf200d37ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2969JS0Bx <br /></td></tr>
+<tr class="separator:a787866856c4d8ae9d929deaf200d37ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0fa80290e65e1d470e060704ba5888a" id="r_af0fa80290e65e1d470e060704ba5888a"><td class="memItemLeft" align="right" valign="top"><a id="af0fa80290e65e1d470e060704ba5888a" name="af0fa80290e65e1d470e060704ba5888a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_B98_JS_0B</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ad8383eb6fd2e92f7d59257ccf880129c">SIZE_B98</a>, <a class="el" href="#aed835b61af9b773089cde63b6d4e7a56">FILM_J</a>, <a class="el" href="#aabb73bde635b2157ea44ecd0b19100c2">DRIVER_B</a>)</td></tr>
+<tr class="memdesc:af0fa80290e65e1d470e060704ba5888a"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2B98JS0Bx <br /></td></tr>
+<tr class="separator:af0fa80290e65e1d470e060704ba5888a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Colour black-white-red-yellow "Spectra 4" screens</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><dl class="section note"><dt>Note</dt><dd>Global update mode </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://www.pervasivedisplays.com/products/?_sft_etc_itc=itc&_sft_product_colour=black-white-red-yellow">https://www.pervasivedisplays.com/products/?_sft_etc_itc=itc&amp;_sft_product_colour=black-white-red-yellow</a> </dd></dl>
+</div></td></tr>
+<tr class="memitem:af51e171bb4cc196667f75f7c270c57bb" id="r_af51e171bb4cc196667f75f7c270c57bb"><td class="memItemLeft" align="right" valign="top"><a id="af51e171bb4cc196667f75f7c270c57bb" name="af51e171bb4cc196667f75f7c270c57bb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_154_QS_0F</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a8c6810e0c53be4d28ee202eb343373ce">SIZE_154</a>, <a class="el" href="#afcf377209a37b6c859da7f469d424002">FILM_Q</a>, <a class="el" href="#a010ff50a6922208041cc04589f53b04d">DRIVER_F</a>)</td></tr>
+<tr class="memdesc:af51e171bb4cc196667f75f7c270c57bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2154QS0Fx <br /></td></tr>
+<tr class="separator:af51e171bb4cc196667f75f7c270c57bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e3be2b5e1ec655e5b8316bf5c9e084c" id="r_a3e3be2b5e1ec655e5b8316bf5c9e084c"><td class="memItemLeft" align="right" valign="top"><a id="a3e3be2b5e1ec655e5b8316bf5c9e084c" name="a3e3be2b5e1ec655e5b8316bf5c9e084c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_213_QS_0F</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a5310e6e311356f4a321d95be683a6dca">SIZE_213</a>, <a class="el" href="#afcf377209a37b6c859da7f469d424002">FILM_Q</a>, <a class="el" href="#a010ff50a6922208041cc04589f53b04d">DRIVER_F</a>)</td></tr>
+<tr class="memdesc:a3e3be2b5e1ec655e5b8316bf5c9e084c"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2213QS0Fx <br /></td></tr>
+<tr class="separator:a3e3be2b5e1ec655e5b8316bf5c9e084c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba5cbc4fc12ac39e87633b0d63aab23" id="r_a6ba5cbc4fc12ac39e87633b0d63aab23"><td class="memItemLeft" align="right" valign="top"><a id="a6ba5cbc4fc12ac39e87633b0d63aab23" name="a6ba5cbc4fc12ac39e87633b0d63aab23"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_266_QS_0F</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ada5df5b15928017f512cd1b78a756da5">SIZE_266</a>, <a class="el" href="#afcf377209a37b6c859da7f469d424002">FILM_Q</a>, <a class="el" href="#a010ff50a6922208041cc04589f53b04d">DRIVER_F</a>)</td></tr>
+<tr class="memdesc:a6ba5cbc4fc12ac39e87633b0d63aab23"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2266QS0Fx <br /></td></tr>
+<tr class="separator:a6ba5cbc4fc12ac39e87633b0d63aab23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19da05659b02d4edc68217a7b96221a5" id="r_a19da05659b02d4edc68217a7b96221a5"><td class="memItemLeft" align="right" valign="top"><a id="a19da05659b02d4edc68217a7b96221a5" name="a19da05659b02d4edc68217a7b96221a5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_417_QS_0A</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a3a501a6c2437d3663281073e53bcfec4">SIZE_417</a>, <a class="el" href="#afcf377209a37b6c859da7f469d424002">FILM_Q</a>, <a class="el" href="#a3e5899607413c8c8c69351a42f0e374b">DRIVER_A</a>)</td></tr>
+<tr class="memdesc:a19da05659b02d4edc68217a7b96221a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2417QS0Ax <br /></td></tr>
+<tr class="separator:a19da05659b02d4edc68217a7b96221a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Monochrome touch screens with embedded fast update</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><dl class="section note"><dt>Note</dt><dd>Global and fast update modes </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="../../db/dc3/a00284.html#_deprecated000008">Deprecated</a></b></dt><dd>Partial update is removed. Use fast update instead (7.0.0). </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://www.pervasivedisplays.com/products">https://www.pervasivedisplays.com/products</a> </dd></dl>
+</div></td></tr>
+<tr class="memitem:a97b63a760ae1ea24a22856e251aa1c98" id="r_a97b63a760ae1ea24a22856e251aa1c98"><td class="memItemLeft" align="right" valign="top"><a id="a97b63a760ae1ea24a22856e251aa1c98" name="a97b63a760ae1ea24a22856e251aa1c98"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_271_PS_09_Touch</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#aac9e78d751d785a8293bebacb12d3e3e">SIZE_271</a>, <a class="el" href="#a2ea90c483bf289d174eeb8cab8373b32">FILM_P</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>) | <a class="el" href="#a05ab7f43f14e1b3c2fb8b912cd3e1b10">EXTRA</a>(<a class="el" href="#abfcd4274763cf69977b0ef70cd6c1c29">EXTRA_TOUCH</a>)</td></tr>
+<tr class="memdesc:a97b63a760ae1ea24a22856e251aa1c98"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2271PS09x <br /></td></tr>
+<tr class="separator:a97b63a760ae1ea24a22856e251aa1c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad205cff3de5e111effadef3a9b67950a" id="r_ad205cff3de5e111effadef3a9b67950a"><td class="memItemLeft" align="right" valign="top"><a id="ad205cff3de5e111effadef3a9b67950a" name="ad205cff3de5e111effadef3a9b67950a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_271_KS_09_Touch</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#aac9e78d751d785a8293bebacb12d3e3e">SIZE_271</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>) | <a class="el" href="#a05ab7f43f14e1b3c2fb8b912cd3e1b10">EXTRA</a>(<a class="el" href="#abfcd4274763cf69977b0ef70cd6c1c29">EXTRA_TOUCH</a>)</td></tr>
+<tr class="memdesc:ad205cff3de5e111effadef3a9b67950a"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2271KS09x <br /></td></tr>
+<tr class="separator:ad205cff3de5e111effadef3a9b67950a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab72e172833b0e827519040569cd2df36" id="r_ab72e172833b0e827519040569cd2df36"><td class="memItemLeft" align="right" valign="top"><a id="ab72e172833b0e827519040569cd2df36" name="ab72e172833b0e827519040569cd2df36"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_343_PS_0B_Touch</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a59c7b04d5bd6e677407becdc04954743">SIZE_343</a>, <a class="el" href="#a2ea90c483bf289d174eeb8cab8373b32">FILM_P</a>, <a class="el" href="#aabb73bde635b2157ea44ecd0b19100c2">DRIVER_B</a>) | <a class="el" href="#a05ab7f43f14e1b3c2fb8b912cd3e1b10">EXTRA</a>(<a class="el" href="#abfcd4274763cf69977b0ef70cd6c1c29">EXTRA_TOUCH</a>)</td></tr>
+<tr class="memdesc:ab72e172833b0e827519040569cd2df36"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2343PS0Bx <br /></td></tr>
+<tr class="separator:ab72e172833b0e827519040569cd2df36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f4f4cf8b44aa55287fc293018e3f1df" id="r_a1f4f4cf8b44aa55287fc293018e3f1df"><td class="memItemLeft" align="right" valign="top"><a id="a1f4f4cf8b44aa55287fc293018e3f1df" name="a1f4f4cf8b44aa55287fc293018e3f1df"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_370_PS_0C_Touch</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a53493a67a10886f61c72f7fa058f6761">SIZE_370</a>, <a class="el" href="#a2ea90c483bf289d174eeb8cab8373b32">FILM_P</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>) | <a class="el" href="#a05ab7f43f14e1b3c2fb8b912cd3e1b10">EXTRA</a>(<a class="el" href="#abfcd4274763cf69977b0ef70cd6c1c29">EXTRA_TOUCH</a>)</td></tr>
+<tr class="memdesc:a1f4f4cf8b44aa55287fc293018e3f1df"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2370PS0Cx <br /></td></tr>
+<tr class="separator:a1f4f4cf8b44aa55287fc293018e3f1df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Monochrome screens with embedded fast update</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><dl class="section note"><dt>Note</dt><dd>Global and fast update modes </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://www.pervasivedisplays.com/products/?_sft_etc_itc=pu+itc">https://www.pervasivedisplays.com/products/?_sft_etc_itc=pu+itc</a> </dd></dl>
+</div></td></tr>
+<tr class="memitem:a262f5c9485dd3cee5f90d199959ea232" id="r_a262f5c9485dd3cee5f90d199959ea232"><td class="memItemLeft" align="right" valign="top"><a id="a262f5c9485dd3cee5f90d199959ea232" name="a262f5c9485dd3cee5f90d199959ea232"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_154_PS_0C</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a8c6810e0c53be4d28ee202eb343373ce">SIZE_154</a>, <a class="el" href="#a2ea90c483bf289d174eeb8cab8373b32">FILM_P</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td></tr>
+<tr class="memdesc:a262f5c9485dd3cee5f90d199959ea232"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2154PS0Cx <br /></td></tr>
+<tr class="separator:a262f5c9485dd3cee5f90d199959ea232"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab1c27fb2f1c12a28e0a6209bdeb6e9" id="r_adab1c27fb2f1c12a28e0a6209bdeb6e9"><td class="memItemLeft" align="right" valign="top"><a id="adab1c27fb2f1c12a28e0a6209bdeb6e9" name="adab1c27fb2f1c12a28e0a6209bdeb6e9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_213_PS_0E</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a5310e6e311356f4a321d95be683a6dca">SIZE_213</a>, <a class="el" href="#a2ea90c483bf289d174eeb8cab8373b32">FILM_P</a>, <a class="el" href="#aa0d1008f5eca0147fb5654fa0b97eb16">DRIVER_E</a>)</td></tr>
+<tr class="memdesc:adab1c27fb2f1c12a28e0a6209bdeb6e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2213PS0Ex <br /></td></tr>
+<tr class="separator:adab1c27fb2f1c12a28e0a6209bdeb6e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a748c4d6ddba209b2cf990aa6a14b4c09" id="r_a748c4d6ddba209b2cf990aa6a14b4c09"><td class="memItemLeft" align="right" valign="top"><a id="a748c4d6ddba209b2cf990aa6a14b4c09" name="a748c4d6ddba209b2cf990aa6a14b4c09"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_266_PS_0C</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ada5df5b15928017f512cd1b78a756da5">SIZE_266</a>, <a class="el" href="#a2ea90c483bf289d174eeb8cab8373b32">FILM_P</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td></tr>
+<tr class="memdesc:a748c4d6ddba209b2cf990aa6a14b4c09"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2266PS0Cx <br /></td></tr>
+<tr class="separator:a748c4d6ddba209b2cf990aa6a14b4c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceea358588fa60296cd9e977c6f87815" id="r_aceea358588fa60296cd9e977c6f87815"><td class="memItemLeft" align="right" valign="top"><a id="aceea358588fa60296cd9e977c6f87815" name="aceea358588fa60296cd9e977c6f87815"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_271_PS_09</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#aac9e78d751d785a8293bebacb12d3e3e">SIZE_271</a>, <a class="el" href="#a2ea90c483bf289d174eeb8cab8373b32">FILM_P</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>)</td></tr>
+<tr class="memdesc:aceea358588fa60296cd9e977c6f87815"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2271PS09x <br /></td></tr>
+<tr class="separator:aceea358588fa60296cd9e977c6f87815"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f3f4a2c9198e1fd83ff00797ce7c2ad" id="r_a0f3f4a2c9198e1fd83ff00797ce7c2ad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f3f4a2c9198e1fd83ff00797ce7c2ad">eScreen_EPD_287_PS_09</a>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a9dfc5927db88860dbacc7cae1f3236f0">SIZE_287</a>, <a class="el" href="#a2ea90c483bf289d174eeb8cab8373b32">FILM_P</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>)</td></tr>
+<tr class="separator:a0f3f4a2c9198e1fd83ff00797ce7c2ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad15d4e85d9313c4f8cc5ffc82dce5781" id="r_ad15d4e85d9313c4f8cc5ffc82dce5781"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad15d4e85d9313c4f8cc5ffc82dce5781">eScreen_EPD_343_PS_0B</a>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a59c7b04d5bd6e677407becdc04954743">SIZE_343</a>, <a class="el" href="#a2ea90c483bf289d174eeb8cab8373b32">FILM_P</a>, <a class="el" href="#aabb73bde635b2157ea44ecd0b19100c2">DRIVER_B</a>)</td></tr>
+<tr class="memdesc:ad15d4e85d9313c4f8cc5ffc82dce5781"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2343PS0Bx  <br /></td></tr>
+<tr class="separator:ad15d4e85d9313c4f8cc5ffc82dce5781"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4f7d0eeb7104ea6e99960479e16750a" id="r_ac4f7d0eeb7104ea6e99960479e16750a"><td class="memItemLeft" align="right" valign="top"><a id="ac4f7d0eeb7104ea6e99960479e16750a" name="ac4f7d0eeb7104ea6e99960479e16750a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_370_PS_0C</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a53493a67a10886f61c72f7fa058f6761">SIZE_370</a>, <a class="el" href="#a2ea90c483bf289d174eeb8cab8373b32">FILM_P</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td></tr>
+<tr class="memdesc:ac4f7d0eeb7104ea6e99960479e16750a"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2370PS0Cx <br /></td></tr>
+<tr class="separator:ac4f7d0eeb7104ea6e99960479e16750a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2faa61c1167ab0da779efa876b08489b" id="r_a2faa61c1167ab0da779efa876b08489b"><td class="memItemLeft" align="right" valign="top"><a id="a2faa61c1167ab0da779efa876b08489b" name="a2faa61c1167ab0da779efa876b08489b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_417_PS_0D</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a3a501a6c2437d3663281073e53bcfec4">SIZE_417</a>, <a class="el" href="#a2ea90c483bf289d174eeb8cab8373b32">FILM_P</a>, <a class="el" href="#a08d371297a31f900a330e569ab142d24">DRIVER_D</a>)</td></tr>
+<tr class="memdesc:a2faa61c1167ab0da779efa876b08489b"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2417PS0Dx <br /></td></tr>
+<tr class="separator:a2faa61c1167ab0da779efa876b08489b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebc9397dbd0a49cf8fe104afdbd6bc51" id="r_aebc9397dbd0a49cf8fe104afdbd6bc51"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebc9397dbd0a49cf8fe104afdbd6bc51">eScreen_EPD_437_PS_0C</a>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a3e8b27aecc3f378f33b24718e6c2c876">SIZE_437</a>, <a class="el" href="#a2ea90c483bf289d174eeb8cab8373b32">FILM_P</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td></tr>
+<tr class="separator:aebc9397dbd0a49cf8fe104afdbd6bc51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addafd93af2138a37f3427348b8b71f01" id="r_addafd93af2138a37f3427348b8b71f01"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addafd93af2138a37f3427348b8b71f01">eScreen_EPD_581_PS_0B</a>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ae4b324f4c9e210c311e3b9587f81899f">SIZE_581</a>, <a class="el" href="#a2ea90c483bf289d174eeb8cab8373b32">FILM_P</a>, <a class="el" href="#aabb73bde635b2157ea44ecd0b19100c2">DRIVER_B</a>)</td></tr>
+<tr class="memdesc:addafd93af2138a37f3427348b8b71f01"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2581PS0Bx, not tested  <br /></td></tr>
+<tr class="separator:addafd93af2138a37f3427348b8b71f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Monochrome screens with embedded fast update and wide temperature</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><dl class="section note"><dt>Note</dt><dd>Global and fast update modes </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://www.pervasivedisplays.com/products/?_sft_etc_itc=pu+itc&_sft_temperature_range=m15c-to-p60c">https://www.pervasivedisplays.com/products/?_sft_etc_itc=pu+itc&amp;_sft_temperature_range=m15c-to-p60c</a> </dd></dl>
+</div></td></tr>
+<tr class="memitem:afd2c05702d06dc91b83f46ccb72623fa" id="r_afd2c05702d06dc91b83f46ccb72623fa"><td class="memItemLeft" align="right" valign="top"><a id="afd2c05702d06dc91b83f46ccb72623fa" name="afd2c05702d06dc91b83f46ccb72623fa"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_150_KS_0J</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#aae24cb3ffaadd3f348d320dcf87a511b">SIZE_150</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#accaa0d234e7836c097874c3cb1efe381">DRIVER_J</a>)</td></tr>
+<tr class="memdesc:afd2c05702d06dc91b83f46ccb72623fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2150KS0Jx <br /></td></tr>
+<tr class="separator:afd2c05702d06dc91b83f46ccb72623fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaa9aad72b283269abebd93148700131" id="r_aaaa9aad72b283269abebd93148700131"><td class="memItemLeft" align="right" valign="top"><a id="aaaa9aad72b283269abebd93148700131" name="aaaa9aad72b283269abebd93148700131"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_152_KS_0J</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#aed3f5b46ace90c411ccf450617e6ce35">SIZE_152</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#accaa0d234e7836c097874c3cb1efe381">DRIVER_J</a>)</td></tr>
+<tr class="memdesc:aaaa9aad72b283269abebd93148700131"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2152KS0Jx <br /></td></tr>
+<tr class="separator:aaaa9aad72b283269abebd93148700131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab1719eb31de72c0535deebadb1705d4" id="r_aab1719eb31de72c0535deebadb1705d4"><td class="memItemLeft" align="right" valign="top"><a id="aab1719eb31de72c0535deebadb1705d4" name="aab1719eb31de72c0535deebadb1705d4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_154_KS_0C</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a8c6810e0c53be4d28ee202eb343373ce">SIZE_154</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td></tr>
+<tr class="memdesc:aab1719eb31de72c0535deebadb1705d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2154KS0Cx <br /></td></tr>
+<tr class="separator:aab1719eb31de72c0535deebadb1705d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39753e5d2abe7c4af3df3d2ab855ce40" id="r_a39753e5d2abe7c4af3df3d2ab855ce40"><td class="memItemLeft" align="right" valign="top"><a id="a39753e5d2abe7c4af3df3d2ab855ce40" name="a39753e5d2abe7c4af3df3d2ab855ce40"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_206_KS_0E</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a9ddb0110d2b5afc39fbd43732394b265">SIZE_206</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#aa0d1008f5eca0147fb5654fa0b97eb16">DRIVER_E</a>)</td></tr>
+<tr class="memdesc:a39753e5d2abe7c4af3df3d2ab855ce40"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2206KS0Ex <br /></td></tr>
+<tr class="separator:a39753e5d2abe7c4af3df3d2ab855ce40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1515d4c7cb8c84368adb156cd11b1237" id="r_a1515d4c7cb8c84368adb156cd11b1237"><td class="memItemLeft" align="right" valign="top"><a id="a1515d4c7cb8c84368adb156cd11b1237" name="a1515d4c7cb8c84368adb156cd11b1237"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_213_KS_0E</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a5310e6e311356f4a321d95be683a6dca">SIZE_213</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#aa0d1008f5eca0147fb5654fa0b97eb16">DRIVER_E</a>)</td></tr>
+<tr class="memdesc:a1515d4c7cb8c84368adb156cd11b1237"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2213KS0Ex <br /></td></tr>
+<tr class="separator:a1515d4c7cb8c84368adb156cd11b1237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace42e9e6bbf35924ca5a6d61739f0cc1" id="r_ace42e9e6bbf35924ca5a6d61739f0cc1"><td class="memItemLeft" align="right" valign="top"><a id="ace42e9e6bbf35924ca5a6d61739f0cc1" name="ace42e9e6bbf35924ca5a6d61739f0cc1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_266_KS_0C</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ada5df5b15928017f512cd1b78a756da5">SIZE_266</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td></tr>
+<tr class="memdesc:ace42e9e6bbf35924ca5a6d61739f0cc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2266KS0Cx <br /></td></tr>
+<tr class="separator:ace42e9e6bbf35924ca5a6d61739f0cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1edc2cf6a90483007a33361761c08a2" id="r_ab1edc2cf6a90483007a33361761c08a2"><td class="memItemLeft" align="right" valign="top"><a id="ab1edc2cf6a90483007a33361761c08a2" name="ab1edc2cf6a90483007a33361761c08a2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_271_KS_09</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#aac9e78d751d785a8293bebacb12d3e3e">SIZE_271</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>)</td></tr>
+<tr class="memdesc:ab1edc2cf6a90483007a33361761c08a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2271KS09x <br /></td></tr>
+<tr class="separator:ab1edc2cf6a90483007a33361761c08a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99932a6646061b7600911c6cd69042f0" id="r_a99932a6646061b7600911c6cd69042f0"><td class="memItemLeft" align="right" valign="top"><a id="a99932a6646061b7600911c6cd69042f0" name="a99932a6646061b7600911c6cd69042f0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_271_KS_0C</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#aac9e78d751d785a8293bebacb12d3e3e">SIZE_271</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td></tr>
+<tr class="memdesc:a99932a6646061b7600911c6cd69042f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2271KS0Cx <br /></td></tr>
+<tr class="separator:a99932a6646061b7600911c6cd69042f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71d794d927069ca96652b9d0adf3f121" id="r_a71d794d927069ca96652b9d0adf3f121"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71d794d927069ca96652b9d0adf3f121">eScreen_EPD_290_KS_0F</a>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a9c4c2aa89ac401a8ddbb812cd6a8fe4e">SIZE_290</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#a010ff50a6922208041cc04589f53b04d">DRIVER_F</a>)</td></tr>
+<tr class="separator:a71d794d927069ca96652b9d0adf3f121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae64e4e8358200fb6912f49860a660742" id="r_ae64e4e8358200fb6912f49860a660742"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae64e4e8358200fb6912f49860a660742">eScreen_EPD_350_KS_0C</a>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#aa7449edc9732bd5898db1e47ba9f4160">SIZE_350</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td></tr>
+<tr class="memdesc:ae64e4e8358200fb6912f49860a660742"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2350KS0Cx)  <br /></td></tr>
+<tr class="separator:ae64e4e8358200fb6912f49860a660742"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93e734098113b392a33da44c70cffbdd" id="r_a93e734098113b392a33da44c70cffbdd"><td class="memItemLeft" align="right" valign="top"><a id="a93e734098113b392a33da44c70cffbdd" name="a93e734098113b392a33da44c70cffbdd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>eScreen_EPD_370_KS_0C</b>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a53493a67a10886f61c72f7fa058f6761">SIZE_370</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td></tr>
+<tr class="memdesc:a93e734098113b392a33da44c70cffbdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2370KS0Cx <br /></td></tr>
+<tr class="separator:a93e734098113b392a33da44c70cffbdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0523d6a541762d1607f7d504f0cc7bc8" id="r_a0523d6a541762d1607f7d504f0cc7bc8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0523d6a541762d1607f7d504f0cc7bc8">eScreen_EPD_417_KS_0D</a>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a3a501a6c2437d3663281073e53bcfec4">SIZE_417</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#a08d371297a31f900a330e569ab142d24">DRIVER_D</a>)</td></tr>
+<tr class="separator:a0523d6a541762d1607f7d504f0cc7bc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46019f0c99a5de8ca7459a847b626bba" id="r_a46019f0c99a5de8ca7459a847b626bba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46019f0c99a5de8ca7459a847b626bba">eScreen_EPD_437_KS_0C</a>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a3e8b27aecc3f378f33b24718e6c2c876">SIZE_437</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td></tr>
+<tr class="separator:a46019f0c99a5de8ca7459a847b626bba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a582073f7a0b61a59c02ae1972aa263f7" id="r_a582073f7a0b61a59c02ae1972aa263f7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a582073f7a0b61a59c02ae1972aa263f7">eScreen_EPD_581_KS_0B</a>&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ae4b324f4c9e210c311e3b9587f81899f">SIZE_581</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#aabb73bde635b2157ea44ecd0b19100c2">DRIVER_B</a>)</td></tr>
+<tr class="memdesc:a582073f7a0b61a59c02ae1972aa263f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2581KS0Bx, not tested  <br /></td></tr>
+<tr class="separator:a582073f7a0b61a59c02ae1972aa263f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Frame-buffer sizes</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><ul>
+<li>Black-white-red screens and monochrome screens <br  />
+ Frame-buffer size = width * height / 8 * depth, uint32_t <br  />
+ Depth = 2</li>
+<li>Black-white-red-yellow screens <br  />
+ Frame-buffer size = width * height / 4 * depth, uint32_t <br  />
+ Depth = 1 </li>
+</ul>
+</div></td></tr>
+<tr class="memitem:a16eb3218ccb8b4ff31838a910f68a276" id="r_a16eb3218ccb8b4ff31838a910f68a276"><td class="memItemLeft" align="right" valign="top"><a id="a16eb3218ccb8b4ff31838a910f68a276" name="a16eb3218ccb8b4ff31838a910f68a276"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_150</b>&#160;&#160;&#160;(uint32_t)(10000)</td></tr>
+<tr class="memdesc:a16eb3218ccb8b4ff31838a910f68a276"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2150xS0xx <br /></td></tr>
+<tr class="separator:a16eb3218ccb8b4ff31838a910f68a276"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a769e3793fd9568ec1eb4431c9a1be2e6" id="r_a769e3793fd9568ec1eb4431c9a1be2e6"><td class="memItemLeft" align="right" valign="top"><a id="a769e3793fd9568ec1eb4431c9a1be2e6" name="a769e3793fd9568ec1eb4431c9a1be2e6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_152</b>&#160;&#160;&#160;(uint32_t)(10000)</td></tr>
+<tr class="memdesc:a769e3793fd9568ec1eb4431c9a1be2e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2152xS0xx <br /></td></tr>
+<tr class="separator:a769e3793fd9568ec1eb4431c9a1be2e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57125bb4603d286ef853a38d83761163" id="r_a57125bb4603d286ef853a38d83761163"><td class="memItemLeft" align="right" valign="top"><a id="a57125bb4603d286ef853a38d83761163" name="a57125bb4603d286ef853a38d83761163"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_154</b>&#160;&#160;&#160;(uint32_t)(5776)</td></tr>
+<tr class="memdesc:a57125bb4603d286ef853a38d83761163"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2154xS0xx <br /></td></tr>
+<tr class="separator:a57125bb4603d286ef853a38d83761163"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4a245ec1df6f881ebf9b51072aea158" id="r_aa4a245ec1df6f881ebf9b51072aea158"><td class="memItemLeft" align="right" valign="top"><a id="aa4a245ec1df6f881ebf9b51072aea158" name="aa4a245ec1df6f881ebf9b51072aea158"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_206</b>&#160;&#160;&#160;(uint32_t)(7936)</td></tr>
+<tr class="memdesc:aa4a245ec1df6f881ebf9b51072aea158"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2206xS0xx <br /></td></tr>
+<tr class="separator:aa4a245ec1df6f881ebf9b51072aea158"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99a101b5f490a9dc63c20b0e6c1b79ab" id="r_a99a101b5f490a9dc63c20b0e6c1b79ab"><td class="memItemLeft" align="right" valign="top"><a id="a99a101b5f490a9dc63c20b0e6c1b79ab" name="a99a101b5f490a9dc63c20b0e6c1b79ab"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_213</b>&#160;&#160;&#160;(uint32_t)(5512)</td></tr>
+<tr class="memdesc:a99a101b5f490a9dc63c20b0e6c1b79ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2213xS0xx <br /></td></tr>
+<tr class="separator:a99a101b5f490a9dc63c20b0e6c1b79ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b2253d33ab30b8ed01029353f69fa0f" id="r_a6b2253d33ab30b8ed01029353f69fa0f"><td class="memItemLeft" align="right" valign="top"><a id="a6b2253d33ab30b8ed01029353f69fa0f" name="a6b2253d33ab30b8ed01029353f69fa0f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_266</b>&#160;&#160;&#160;(uint32_t)(11248)</td></tr>
+<tr class="memdesc:a6b2253d33ab30b8ed01029353f69fa0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2266xS0xx <br /></td></tr>
+<tr class="separator:a6b2253d33ab30b8ed01029353f69fa0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad678eaf25e91c8a218294b0109ea724a" id="r_ad678eaf25e91c8a218294b0109ea724a"><td class="memItemLeft" align="right" valign="top"><a id="ad678eaf25e91c8a218294b0109ea724a" name="ad678eaf25e91c8a218294b0109ea724a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_270</b>&#160;&#160;&#160;(uint32_t)(11616)</td></tr>
+<tr class="memdesc:ad678eaf25e91c8a218294b0109ea724a"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2271xS0xx, legacy name <br /></td></tr>
+<tr class="separator:ad678eaf25e91c8a218294b0109ea724a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3aedc27c15098e2ee2cd15bb45d6ee1" id="r_ac3aedc27c15098e2ee2cd15bb45d6ee1"><td class="memItemLeft" align="right" valign="top"><a id="ac3aedc27c15098e2ee2cd15bb45d6ee1" name="ac3aedc27c15098e2ee2cd15bb45d6ee1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_271</b>&#160;&#160;&#160;(uint32_t)(11616)</td></tr>
+<tr class="memdesc:ac3aedc27c15098e2ee2cd15bb45d6ee1"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2271xS0xx <br /></td></tr>
+<tr class="separator:ac3aedc27c15098e2ee2cd15bb45d6ee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc5e07ca6b76d0e6a9c160e15d153083" id="r_abc5e07ca6b76d0e6a9c160e15d153083"><td class="memItemLeft" align="right" valign="top"><a id="abc5e07ca6b76d0e6a9c160e15d153083" name="abc5e07ca6b76d0e6a9c160e15d153083"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_287</b>&#160;&#160;&#160;(uint32_t)(9472)</td></tr>
+<tr class="memdesc:abc5e07ca6b76d0e6a9c160e15d153083"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2287xS0xx <br /></td></tr>
+<tr class="separator:abc5e07ca6b76d0e6a9c160e15d153083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05e7abc4e3014fe76d989f3a1da4962b" id="r_a05e7abc4e3014fe76d989f3a1da4962b"><td class="memItemLeft" align="right" valign="top"><a id="a05e7abc4e3014fe76d989f3a1da4962b" name="a05e7abc4e3014fe76d989f3a1da4962b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_290</b>&#160;&#160;&#160;(uint32_t)(16128)</td></tr>
+<tr class="memdesc:a05e7abc4e3014fe76d989f3a1da4962b"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2290xS0xx <br /></td></tr>
+<tr class="separator:a05e7abc4e3014fe76d989f3a1da4962b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50e195d2889b07033aaabce7c8f91fff" id="r_a50e195d2889b07033aaabce7c8f91fff"><td class="memItemLeft" align="right" valign="top"><a id="a50e195d2889b07033aaabce7c8f91fff" name="a50e195d2889b07033aaabce7c8f91fff"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_343</b>&#160;&#160;&#160;(uint32_t)(22344)</td></tr>
+<tr class="memdesc:a50e195d2889b07033aaabce7c8f91fff"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2343xS0xx <br /></td></tr>
+<tr class="separator:a50e195d2889b07033aaabce7c8f91fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2bda040f37d46dcfcc645a35ca78863" id="r_ae2bda040f37d46dcfcc645a35ca78863"><td class="memItemLeft" align="right" valign="top"><a id="ae2bda040f37d46dcfcc645a35ca78863" name="ae2bda040f37d46dcfcc645a35ca78863"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_350</b>&#160;&#160;&#160;(uint32_t)(24960)</td></tr>
+<tr class="memdesc:ae2bda040f37d46dcfcc645a35ca78863"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2350xS0xx <br /></td></tr>
+<tr class="separator:ae2bda040f37d46dcfcc645a35ca78863"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c90fff0e6f823ace959769822e7026f" id="r_a4c90fff0e6f823ace959769822e7026f"><td class="memItemLeft" align="right" valign="top"><a id="a4c90fff0e6f823ace959769822e7026f" name="a4c90fff0e6f823ace959769822e7026f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_370</b>&#160;&#160;&#160;(uint32_t)(24960)</td></tr>
+<tr class="memdesc:a4c90fff0e6f823ace959769822e7026f"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2370xS0xx <br /></td></tr>
+<tr class="separator:a4c90fff0e6f823ace959769822e7026f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9a5df55e501a7c09fb1bd72a3278f8e" id="r_ae9a5df55e501a7c09fb1bd72a3278f8e"><td class="memItemLeft" align="right" valign="top"><a id="ae9a5df55e501a7c09fb1bd72a3278f8e" name="ae9a5df55e501a7c09fb1bd72a3278f8e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_417</b>&#160;&#160;&#160;(uint32_t)(30000)</td></tr>
+<tr class="memdesc:ae9a5df55e501a7c09fb1bd72a3278f8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2417xS0xx <br /></td></tr>
+<tr class="separator:ae9a5df55e501a7c09fb1bd72a3278f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45211cfd0eb9e4c0eb6b0d43744f0334" id="r_a45211cfd0eb9e4c0eb6b0d43744f0334"><td class="memItemLeft" align="right" valign="top"><a id="a45211cfd0eb9e4c0eb6b0d43744f0334" name="a45211cfd0eb9e4c0eb6b0d43744f0334"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_437</b>&#160;&#160;&#160;(uint32_t)(21120)</td></tr>
+<tr class="memdesc:a45211cfd0eb9e4c0eb6b0d43744f0334"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2437xS0xx <br /></td></tr>
+<tr class="separator:a45211cfd0eb9e4c0eb6b0d43744f0334"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a641556f253e0933873cd486b18715f73" id="r_a641556f253e0933873cd486b18715f73"><td class="memItemLeft" align="right" valign="top"><a id="a641556f253e0933873cd486b18715f73" name="a641556f253e0933873cd486b18715f73"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_565</b>&#160;&#160;&#160;(uint32_t)(33600)</td></tr>
+<tr class="memdesc:a641556f253e0933873cd486b18715f73"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2565xS0xx <br /></td></tr>
+<tr class="separator:a641556f253e0933873cd486b18715f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bb2e033890d10ce5e8136782ba58d03" id="r_a0bb2e033890d10ce5e8136782ba58d03"><td class="memItemLeft" align="right" valign="top"><a id="a0bb2e033890d10ce5e8136782ba58d03" name="a0bb2e033890d10ce5e8136782ba58d03"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_581</b>&#160;&#160;&#160;(uint32_t)(46080)</td></tr>
+<tr class="memdesc:a0bb2e033890d10ce5e8136782ba58d03"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2581xS0xx <br /></td></tr>
+<tr class="separator:a0bb2e033890d10ce5e8136782ba58d03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16641f2490efc4264fc9baf8a5fa5eec" id="r_a16641f2490efc4264fc9baf8a5fa5eec"><td class="memItemLeft" align="right" valign="top"><a id="a16641f2490efc4264fc9baf8a5fa5eec" name="a16641f2490efc4264fc9baf8a5fa5eec"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_741</b>&#160;&#160;&#160;(uint32_t)(96000)</td></tr>
+<tr class="memdesc:a16641f2490efc4264fc9baf8a5fa5eec"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2741xS0xx <br /></td></tr>
+<tr class="separator:a16641f2490efc4264fc9baf8a5fa5eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a877266d13127983680cb4772b6820ebf" id="r_a877266d13127983680cb4772b6820ebf"><td class="memItemLeft" align="right" valign="top"><a id="a877266d13127983680cb4772b6820ebf" name="a877266d13127983680cb4772b6820ebf"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_969</b>&#160;&#160;&#160;(uint32_t)(161280)</td></tr>
+<tr class="memdesc:a877266d13127983680cb4772b6820ebf"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE2969xS0xx <br /></td></tr>
+<tr class="separator:a877266d13127983680cb4772b6820ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1f67bf4eb9c463cc234d150a631fc0a" id="r_ac1f67bf4eb9c463cc234d150a631fc0a"><td class="memItemLeft" align="right" valign="top"><a id="ac1f67bf4eb9c463cc234d150a631fc0a" name="ac1f67bf4eb9c463cc234d150a631fc0a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>frameSize_EPD_B98</b>&#160;&#160;&#160;(uint32_t)(184320)</td></tr>
+<tr class="memdesc:ac1f67bf4eb9c463cc234d150a631fc0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference xE21198xS0xx <br /></td></tr>
+<tr class="separator:ac1f67bf4eb9c463cc234d150a631fc0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Example of features for basic edition. </p>
+<div class="textblock"><p>List of supported Pervasive Displays screens. </p>
+<dl class="section note"><dt>Note</dt><dd>Legacy screens are listed in the corresponding screen libraries</dd></dl>
 <p>Project Pervasive Displays Library Suite <br  />
  Based on highView technology</p>
+<p><br  />
+ Content</p><ul>
+<li>1- List of supported Pervasive Displays screens</li>
+</ul>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>21 Mar 2024 </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>801</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>21 May 2024 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>803</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2024 </dd>
 <dd>
-Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) </dd>
+All rights reserved </dd>
 <dd>
 For exclusive use with Pervasive Displays screens</dd></dl>
-<dl class="section see"><dt>See also</dt><dd>ReadMe.txt for references <br  />
+<ul>
+<li>Basic edition: for hobbyists and for basic usage <br  />
+ Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) <dl class="section see"><dt>See also</dt><dd><a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></dd></dl>
+<br  />
+ Consider the Evaluation or Commercial editions for professionals or organisations and for commercial usage</li>
+<li>Evaluation edition: for professionals or organisations, evaluation only, no commercial usage <br  />
+ All rights reserved</li>
+<li>Commercial edition: for professionals or organisations, commercial usage <br  />
+ All rights reserved</li>
+<li>Viewer edition: for professionals or organisations <br  />
+ All rights reserved</li>
+<li>Documentation <br  />
+ All rights reserved </li>
+</ul>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a0f3f4a2c9198e1fd83ff00797ce7c2ad" name="a0f3f4a2c9198e1fd83ff00797ce7c2ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f3f4a2c9198e1fd83ff00797ce7c2ad">&#9670;&#160;</a></span>eScreen_EPD_287_PS_09</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_287_PS_09&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a9dfc5927db88860dbacc7cae1f3236f0">SIZE_287</a>, <a class="el" href="#a2ea90c483bf289d174eeb8cab8373b32">FILM_P</a>, <a class="el" href="#ae4def880e7bde798f8f05a411351fe3e">DRIVER_9</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>reference xE2287PS09x </p>
+
+</div>
+</div>
+<a id="a71d794d927069ca96652b9d0adf3f121" name="a71d794d927069ca96652b9d0adf3f121"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71d794d927069ca96652b9d0adf3f121">&#9670;&#160;</a></span>eScreen_EPD_290_KS_0F</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_290_KS_0F&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a9c4c2aa89ac401a8ddbb812cd6a8fe4e">SIZE_290</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#a010ff50a6922208041cc04589f53b04d">DRIVER_F</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>reference xE2290KS0Fx </p>
+
+</div>
+</div>
+<a id="ad15d4e85d9313c4f8cc5ffc82dce5781" name="ad15d4e85d9313c4f8cc5ffc82dce5781"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad15d4e85d9313c4f8cc5ffc82dce5781">&#9670;&#160;</a></span>eScreen_EPD_343_PS_0B</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_343_PS_0B&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a59c7b04d5bd6e677407becdc04954743">SIZE_343</a>, <a class="el" href="#a2ea90c483bf289d174eeb8cab8373b32">FILM_P</a>, <a class="el" href="#aabb73bde635b2157ea44ecd0b19100c2">DRIVER_B</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>reference xE2343PS0Bx </p>
+
+</div>
+</div>
+<a id="ae64e4e8358200fb6912f49860a660742" name="ae64e4e8358200fb6912f49860a660742"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae64e4e8358200fb6912f49860a660742">&#9670;&#160;</a></span>eScreen_EPD_350_KS_0C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_350_KS_0C&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#aa7449edc9732bd5898db1e47ba9f4160">SIZE_350</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>reference xE2350KS0Cx) </p>
+
+</div>
+</div>
+<a id="a0523d6a541762d1607f7d504f0cc7bc8" name="a0523d6a541762d1607f7d504f0cc7bc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0523d6a541762d1607f7d504f0cc7bc8">&#9670;&#160;</a></span>eScreen_EPD_417_KS_0D</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_417_KS_0D&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a3a501a6c2437d3663281073e53bcfec4">SIZE_417</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#a08d371297a31f900a330e569ab142d24">DRIVER_D</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>reference xE2417KS0Dx </p>
+
+</div>
+</div>
+<a id="a46019f0c99a5de8ca7459a847b626bba" name="a46019f0c99a5de8ca7459a847b626bba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46019f0c99a5de8ca7459a847b626bba">&#9670;&#160;</a></span>eScreen_EPD_437_KS_0C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_437_KS_0C&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a3e8b27aecc3f378f33b24718e6c2c876">SIZE_437</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>reference xE2437KS0Cx, not tested </p>
+
+</div>
+</div>
+<a id="aebc9397dbd0a49cf8fe104afdbd6bc51" name="aebc9397dbd0a49cf8fe104afdbd6bc51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebc9397dbd0a49cf8fe104afdbd6bc51">&#9670;&#160;</a></span>eScreen_EPD_437_PS_0C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_437_PS_0C&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a3e8b27aecc3f378f33b24718e6c2c876">SIZE_437</a>, <a class="el" href="#a2ea90c483bf289d174eeb8cab8373b32">FILM_P</a>, <a class="el" href="#a5721341cc0c730d07f3a72b287ed5797">DRIVER_C</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>reference xE2437PS0Cx </p>
+
+</div>
+</div>
+<a id="a582073f7a0b61a59c02ae1972aa263f7" name="a582073f7a0b61a59c02ae1972aa263f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a582073f7a0b61a59c02ae1972aa263f7">&#9670;&#160;</a></span>eScreen_EPD_581_KS_0B</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_581_KS_0B&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ae4b324f4c9e210c311e3b9587f81899f">SIZE_581</a>, <a class="el" href="#af6e7aa211f11fb3f4c3abf12945b71f6">FILM_K</a>, <a class="el" href="#aabb73bde635b2157ea44ecd0b19100c2">DRIVER_B</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>reference xE2581KS0Bx, not tested </p>
+
+</div>
+</div>
+<a id="addafd93af2138a37f3427348b8b71f01" name="addafd93af2138a37f3427348b8b71f01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addafd93af2138a37f3427348b8b71f01">&#9670;&#160;</a></span>eScreen_EPD_581_PS_0B</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_581_PS_0B&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#ae4b324f4c9e210c311e3b9587f81899f">SIZE_581</a>, <a class="el" href="#a2ea90c483bf289d174eeb8cab8373b32">FILM_P</a>, <a class="el" href="#aabb73bde635b2157ea44ecd0b19100c2">DRIVER_B</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>reference xE2581PS0Bx, not tested </p>
+
+</div>
+</div>
+<a id="a56496f51adeb0d84b8bd1a123bb7ec69" name="a56496f51adeb0d84b8bd1a123bb7ec69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56496f51adeb0d84b8bd1a123bb7ec69">&#9670;&#160;</a></span>eScreen_EPD_741_CS_08 <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_741_CS_08&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a35956bbf226a90260c93030367589978">SIZE_741</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>reference xE2741CS08x </p>
+<p>reference xE2741CS08x, previous type </p>
+
+</div>
+</div>
+<a id="a56496f51adeb0d84b8bd1a123bb7ec69" name="a56496f51adeb0d84b8bd1a123bb7ec69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56496f51adeb0d84b8bd1a123bb7ec69">&#9670;&#160;</a></span>eScreen_EPD_741_CS_08 <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_741_CS_08&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a35956bbf226a90260c93030367589978">SIZE_741</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>reference xE2741CS08x </p>
+<p>reference xE2741CS08x, previous type </p>
+
+</div>
+</div>
+<a id="aeaede4bc0325d37527a6599ec5020e41" name="aeaede4bc0325d37527a6599ec5020e41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaede4bc0325d37527a6599ec5020e41">&#9670;&#160;</a></span>eScreen_EPD_969_CS_08 <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_969_CS_08&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a9cdfbb501b00489beb3440bbba894500">SIZE_969</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>reference xE2969CS08x </p>
+<p>reference xE2969CS08x, previous type </p>
+
+</div>
+</div>
+<a id="aeaede4bc0325d37527a6599ec5020e41" name="aeaede4bc0325d37527a6599ec5020e41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaede4bc0325d37527a6599ec5020e41">&#9670;&#160;</a></span>eScreen_EPD_969_CS_08 <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_969_CS_08&#160;&#160;&#160;<a class="el" href="#a51f1582d21d004bdea869018b35f5c13">SCREEN</a>(<a class="el" href="#a9cdfbb501b00489beb3440bbba894500">SIZE_969</a>, <a class="el" href="#ac337f0033516183d48d5db1a6d0983af">FILM_C</a>, <a class="el" href="#a6de506ad3534061d9bb77f1445ca9d2d">DRIVER_8</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>reference xE2969CS08x </p>
+<p>reference xE2969CS08x, previous type </p>
+
+</div>
+</div>
+<a id="ac5c244d6018eb9669c16ae159c11cc00" name="ac5c244d6018eb9669c16ae159c11cc00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5c244d6018eb9669c16ae159c11cc00">&#9670;&#160;</a></span>eScreen_EPD_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define eScreen_EPD_t&#160;&#160;&#160;uint32_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Screen type. </p>
+<dl class="deprecated"><dt><b><a class="el" href="../../db/dc3/a00284.html#_deprecated000006">Deprecated</a></b></dt><dd>Screen name format (8.0.0)<ul>
+<li>Name format eScreen_EPD_EXT3_&lt;size&gt;_&lt;driver&gt;_&lt;suffix&gt; is deprecated (8.0.0).</li>
+<li>Use name format eScreen_EPD_&lt;size&gt;_&lt;film&gt;_&lt;driver&gt; instead (8.0.0). </li>
+</ul>
 </dd></dl>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a id="a05b4a53fae2c90c1c61b9cba27ab7e5f" name="a05b4a53fae2c90c1c61b9cba27ab7e5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05b4a53fae2c90c1c61b9cba27ab7e5f">&#9670;&#160;</a></span>displayCharacters()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void displayCharacters </td>
-          <td>(</td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>flag</em><span class="paramdefsep"> = </span><span class="paramdefval">true</span></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Characters test screen. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">flag</td><td>true = default = perform flush, otherwise no</td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="image">
-<img src="../../T2_CHARA.jpg" alt=""/>
-</div>
-  
-</div>
-</div>
-<a id="a92d9142cd31b37b7b3944dc8d9c9f454" name="a92d9142cd31b37b7b3944dc8d9c9f454"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92d9142cd31b37b7b3944dc8d9c9f454">&#9670;&#160;</a></span>wait()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wait </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>second</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Wait with countdown. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">second</td><td>duration, s </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -239,7 +1147,7 @@ For exclusive use with Pervasive Displays screens</dd></dl>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_ab28db0d71c3b8559607137da2533669.html">Common_Text</a></li><li class="navelem"><a class="el" href="../../dc/de6/a00167.html">Common_Text.ino</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dc/de6/a00167.html">hV_List_Screens.h</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.10.0 </li>

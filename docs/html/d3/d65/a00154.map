@@ -1,13 +1,19 @@
-<map id="Terminal8x12e.h" name="Terminal8x12e.h">
-<area shape="rect" id="Node000001" title="Font Terminal 8 x 12." alt="" coords="18,5,149,31"/>
-<area shape="rect" id="Node000002" href="$dc/dfe/a00125.html" title="hV_Font_Terminal" alt="" coords="9,79,158,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,44,86,79,81,79,81,44"/>
-<area shape="rect" id="Node000003" href="$d7/d06/a00131.html" title="Class Generic LCD with buffer class library." alt="" coords="10,152,157,177"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="86,118,86,152,81,152,81,118"/>
-<area shape="rect" id="Node000004" href="$db/ddf/a00164.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="8,225,159,251"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="86,191,86,225,81,225,81,191"/>
-<area shape="rect" id="Node000005" href="$d9/dd0/a00191.html" title="Basic GUI with text and button." alt="" coords="42,299,125,324"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="86,264,86,299,81,299,81,264"/>
-<area shape="rect" id="Node000006" href="$de/d79/a00203.html" title="Example of features for Evaluation edition." alt="" coords="5,372,161,397"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="86,338,86,372,81,372,81,338"/>
+<map id="hV_Board.h" name="hV_Board.h">
+<area shape="rect" id="Node000001" title="Driver for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="344,5,440,31"/>
+<area shape="rect" id="Node000002" href="$d5/db1/a00140.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="317,152,467,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="378,44,365,72,363,88,364,103,374,129,386,150,382,153,369,131,359,105,357,88,360,71,373,41"/>
+<area shape="rect" id="Node000008" href="$d3/db1/a00200.html" title="Driver for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="373,79,523,104"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="412,40,441,77,437,80,408,43"/>
+<area shape="rect" id="Node000003" href="$dc/d9a/a00218.html" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="214,225,407,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="370,188,326,227,322,223,367,184"/>
+<area shape="rect" id="Node000007" href="$de/db1/a00197.html" title="Basic GUI with text and button." alt="" coords="441,225,524,251"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="419,184,469,223,466,227,416,188"/>
+<area shape="rect" id="Node000004" href="$dc/d5d/a00278.html" title="Example of features for basic edition." alt="" coords="5,299,171,324"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="263,257,125,301,123,296,261,252"/>
+<area shape="rect" id="Node000005" href="$d3/d5e/a00275.html" title="Example of features for Evaluation edition." alt="" coords="414,299,570,324"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="353,253,463,296,461,301,351,258"/>
+<area shape="rect" id="Node000006" href="$d9/d39/a00257.html" title="Example of features for basic edition." alt="" coords="195,299,389,324"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="307,265,298,299,292,298,302,263"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="489,264,493,298,488,299,483,265"/>
+<area shape="poly" id="edge9_Node000008_Node000002" title=" " alt="" coords="432,117,403,154,399,150,428,113"/>
 </map>
