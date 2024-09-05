@@ -18,6 +18,7 @@ var a00329 =
     [ "getTouch", "dd/d4e/a00329.html#aece3c047af34912d731ac623bec93616", null ],
     [ "getTouchInterrupt", "dd/d4e/a00329.html#a6cf2d4cc063b92ae228fc4c048ddcd75", null ],
     [ "gText", "dd/d4e/a00329.html#a6081abd88963fc74fb1dc68968b857f5", null ],
+    [ "gTextLarge", "dd/d4e/a00329.html#aa40a43aec7e1a69367dbd5a2855fb16f", null ],
     [ "isTouch", "dd/d4e/a00329.html#a19bf90368a4167cf6c894f1a2b47861b", null ],
     [ "isTouchEvent", "dd/d4e/a00329.html#a0e841a84ee60528a35f99c78162222a1", null ],
     [ "line", "dd/d4e/a00329.html#ab47c888d24ea0b5f537849811f1e9a67", null ],

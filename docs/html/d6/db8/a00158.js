@@ -3,7 +3,6 @@ var a00158 =
     [ "pins_t", "de/dc8/a00325.html", "de/dc8/a00325" ],
     [ "hV_LIST_BOARDS_RELEASE", "d6/db8/a00158.html#a19be61776593270899eacaaa5c974937", null ],
     [ "NOT_CONNECTED", "d6/db8/a00158.html#a0e9795e3bb758850785e6ebc676ab01b", null ],
-    [ "boardArduinoNanoMatter", "d6/db8/a00158.html#a8e1db02863facff79174d5d91988279f", null ],
     [ "boardArduinoZero", "d6/db8/a00158.html#a47cc4f37c263fb4355a5da27de205511", null ],
     [ "boardCC1352", "d6/db8/a00158.html#a87edfbded5d6f32d1854a1ee879ef87d", null ],
     [ "boardESP32DevKitC", "d6/db8/a00158.html#ad900dca7592c68bce6641a7fa5cae41f", null ],

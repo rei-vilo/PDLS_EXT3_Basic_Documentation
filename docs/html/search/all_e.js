@@ -20,5 +20,10 @@ var searchData=
   ['pixel_17',['pixel',['../da/d50/a00301.html#a68591191be4ff122ee2a26f8b977f2e7',1,'width_s']]],
   ['playgame_18',['playGame',['../d9/d39/a00257.html#a4cbfdb17bf51e00546880626f7e80429',1,'Basic_Touch_TicTacToe.ino']]],
   ['point_19',['point',['../dd/d4e/a00329.html#af56437354e69149a2da933a458b05f04',1,'hV_Screen_Buffer']]],
-  ['printboard_20',['printBoard',['../d9/d39/a00257.html#a8310d6d1e915cb179f834d9ca017950a',1,'Basic_Touch_TicTacToe.ino']]]
+  ['power_5fmode_5fauto_20',['POWER_MODE_AUTO',['../db/ddf/a00164.html#aa0fd4a4c05f0aae206d4366f002437e7',1,'hV_List_Constants.h']]],
+  ['power_5fmode_5fmanual_21',['POWER_MODE_MANUAL',['../db/ddf/a00164.html#a760883a19e0b5aeeba18acf70f6955fc',1,'hV_List_Constants.h']]],
+  ['power_5fscope_5fbus_5fgpio_22',['POWER_SCOPE_BUS_GPIO',['../db/ddf/a00164.html#ab668796b5f5f71f763c7ecc101756efd',1,'hV_List_Constants.h']]],
+  ['power_5fscope_5fgpio_5fonly_23',['POWER_SCOPE_GPIO_ONLY',['../db/ddf/a00164.html#aaab2a293a1d2db18b590a539ebd97c21',1,'hV_List_Constants.h']]],
+  ['power_5fscope_5fnone_24',['POWER_SCOPE_NONE',['../db/ddf/a00164.html#ae1b351c55d4563a3e65c7593d936cb8d',1,'hV_List_Constants.h']]],
+  ['printboard_25',['printBoard',['../d9/d39/a00257.html#a8310d6d1e915cb179f834d9ca017950a',1,'Basic_Touch_TicTacToe.ino']]]
 ];

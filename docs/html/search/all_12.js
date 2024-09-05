@@ -11,8 +11,7 @@ var searchData=
   ['use_5fhv_5fscreen_5fself_8',['USE_hV_SCREEN_SELF',['../d5/de9/a00176.html#aab4e357f20ccd08a66b382176fdee38f',1,'hV_List_Options.h']]],
   ['use_5finternal_5fmcu_9',['USE_INTERNAL_MCU',['../d5/de9/a00176.html#a5ae3237253d77826843fc9d90700d5a1',1,'hV_List_Options.h']]],
   ['use_5fnone_10',['USE_NONE',['../d5/de9/a00176.html#a64a99352a7dde2b861163fdb8f8abd89',1,'hV_List_Options.h']]],
-  ['use_5fstring_5fobject_11',['USE_STRING_OBJECT',['../d5/de9/a00176.html#a1aa630d1906e358b320b4e00fcd9d7d7',1,'hV_List_Options.h']]],
-  ['use_5ftouch_5fnone_12',['USE_TOUCH_NONE',['../d5/de9/a00176.html#ac0b08ef537f6a6c42bceab5c3b8da75c',1,'hV_List_Options.h']]],
-  ['use_5ftouch_5fyes_13',['USE_TOUCH_YES',['../d5/de9/a00176.html#af48880fea70dcb52dfb9c43d689bf6aa',1,'hV_List_Options.h']]],
-  ['utf2iso_14',['utf2iso',['../da/d15/a00188.html#a3051dd153db86ba3b56a69e93f1ca22a',1,'hV_Utilities_Common.cpp']]]
+  ['use_5ftouch_5fnone_11',['USE_TOUCH_NONE',['../d5/de9/a00176.html#ac0b08ef537f6a6c42bceab5c3b8da75c',1,'hV_List_Options.h']]],
+  ['use_5ftouch_5fyes_12',['USE_TOUCH_YES',['../d5/de9/a00176.html#af48880fea70dcb52dfb9c43d689bf6aa',1,'hV_List_Options.h']]],
+  ['utf2iso_13',['utf2iso',['../da/d15/a00188.html#a3051dd153db86ba3b56a69e93f1ca22a',1,'hV_Utilities_Common.cpp']]]
 ];

@@ -69,6 +69,7 @@ var a00167 =
     [ "eScreen_EPD_417_CS_0D", "dc/de6/a00167.html#a1bfc4a768837e70fa44e815fba5a533f", null ],
     [ "eScreen_EPD_417_FS_05", "dc/de6/a00167.html#a77ffa1f0f8c47b1c81860dce5c25d624", null ],
     [ "eScreen_EPD_417_GS_05", "dc/de6/a00167.html#ac776b5e351abf15f38d8df81947fdb85", null ],
+    [ "eScreen_EPD_417_JS_0D", "dc/de6/a00167.html#a209737d3ecfb990ad06108a903bfd60b", null ],
     [ "eScreen_EPD_417_KS_0D", "dc/de6/a00167.html#a0523d6a541762d1607f7d504f0cc7bc8", null ],
     [ "eScreen_EPD_417_PS_0D", "dc/de6/a00167.html#a2faa61c1167ab0da779efa876b08489b", null ],
     [ "eScreen_EPD_417_QS_0A", "dc/de6/a00167.html#a19da05659b02d4edc68217a7b96221a5", null ],

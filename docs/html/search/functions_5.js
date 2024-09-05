@@ -7,5 +7,6 @@ var searchData=
   ['gettouch_4',['getTouch',['../dd/d4e/a00329.html#aece3c047af34912d731ac623bec93616',1,'hV_Screen_Buffer']]],
   ['gettouchinterrupt_5',['getTouchInterrupt',['../dd/d4e/a00329.html#a6cf2d4cc063b92ae228fc4c048ddcd75',1,'hV_Screen_Buffer']]],
   ['gtext_6',['gText',['../dd/d4e/a00329.html#a6081abd88963fc74fb1dc68968b857f5',1,'hV_Screen_Buffer']]],
-  ['gui_7',['GUI',['../d2/d71/a00309.html#a802f0f363d5c125bb8363fda81e7140b',1,'GUI']]]
+  ['gtextlarge_7',['gTextLarge',['../dd/d4e/a00329.html#aa40a43aec7e1a69367dbd5a2855fb16f',1,'hV_Screen_Buffer']]],
+  ['gui_8',['GUI',['../d2/d71/a00309.html#a802f0f363d5c125bb8363fda81e7140b',1,'GUI']]]
 ];

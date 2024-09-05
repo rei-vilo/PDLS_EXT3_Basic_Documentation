@@ -10,5 +10,6 @@ var searchData=
   ['green_7',['green',['../d3/d4a/a00297.html#aff5db0cfd72cf75dada2d603b359ded4',1,'hV_Colours565']]],
   ['grey_8',['grey',['../d3/d4a/a00297.html#a44228b3f14f988ea39d6c7b085446d90',1,'hV_Colours565']]],
   ['gtext_9',['gText',['../dd/d4e/a00329.html#a6081abd88963fc74fb1dc68968b857f5',1,'hV_Screen_Buffer']]],
-  ['gui_10',['GUI',['../d2/d71/a00309.html',1,'GUI'],['../d2/d71/a00309.html#a802f0f363d5c125bb8363fda81e7140b',1,'GUI::GUI()']]]
+  ['gtextlarge_10',['gTextLarge',['../dd/d4e/a00329.html#aa40a43aec7e1a69367dbd5a2855fb16f',1,'hV_Screen_Buffer']]],
+  ['gui_11',['GUI',['../d2/d71/a00309.html',1,'GUI'],['../d2/d71/a00309.html#a802f0f363d5c125bb8363fda81e7140b',1,'GUI::GUI()']]]
 ];
