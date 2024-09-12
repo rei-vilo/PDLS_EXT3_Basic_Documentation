@@ -24,7 +24,8 @@
 */
 var NAVTREE =
 [
-  [ "Pervasive Displays Library Suite - Basic edition", "index.html", [
+  [ "Reference Manual - Pervasive Displays Library Suite - Basic edition", "index.html", [
+    [ "Pervasive Displays Library Suite - Basic edition", "index.html", null ],
     [ "Examples", "d2/d45/a00342.html", null ],
     [ "Deprecated List", "db/dc3/a00284.html", null ],
     [ "Data Structures", "annotated.html", [
