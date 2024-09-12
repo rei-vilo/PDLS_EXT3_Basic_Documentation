@@ -16,7 +16,7 @@ The documentation covers the different variants of the library:
 
 * [**PDLS_EXT3_Basic_Touch**](https://github.com/rei-vilo/PDLS_EXT3_Basic_Touch) for monochrome screens with capacitive touch;
 
-* [**PDLS_EXT3_Basic_BWRY**](https://github.com/rei-vilo/PDLS_EXT3_Basic_BWRY) for colour black-white-red-yellow screens(file `QS`).
+* [**PDLS_EXT3_Basic_BWRY**](https://github.com/rei-vilo/PDLS_EXT3_Basic_BWRY) for colour black-white-red-yellow screens (file `QS`).
 
 ## Support
 
