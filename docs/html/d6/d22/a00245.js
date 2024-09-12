@@ -1,7 +1,18 @@
 var a00245 =
 [
-    [ "loop", "d6/d22/a00245.html#afe461d27b9c48d5921c00d521181f12f", null ],
-    [ "performTest", "d6/d22/a00245.html#a5ead2ecbed56fc3642b497dd06184234", null ],
-    [ "setup", "d6/d22/a00245.html#a4fc01d736fe50cf5b977f755b675f11d", null ],
-    [ "wait", "d6/d22/a00245.html#a92d9142cd31b37b7b3944dc8d9c9f454", null ]
+    [ "hV_UTILITIES_RELEASE", "d6/d22/a00245.html#a9181b73f355c545c61257008ed6515c1", null ],
+    [ "ORIENTATION_LANDSCAPE", "d6/d22/a00245.html#accc06995e9834c793d2cc9e96ded0560", null ],
+    [ "ORIENTATION_PORTRAIT", "d6/d22/a00245.html#a0f166aa542c69097847cfc189cd48057", null ],
+    [ "checkRange", "d6/d22/a00245.html#a86af3529c58c3ba135667030a75a5917", null ],
+    [ "cos32x100", "d6/d22/a00245.html#ae5fee0ae2d4737a35b38f31aa48ece9f", null ],
+    [ "delay_ms", "d6/d22/a00245.html#ab7cce8122024d7ba47bf10f434956de4", null ],
+    [ "formatString", "d6/d22/a00245.html#aa405c9a5b808e428554e540028085dd3", null ],
+    [ "roundUp", "d6/d22/a00245.html#a9e10a8bc35f3b1ae121655e335de4513", null ],
+    [ "setMinMax", "d6/d22/a00245.html#ac8a17fff09aa92a8b27434044c138bc0", null ],
+    [ "sin32x100", "d6/d22/a00245.html#a6843a856b41ae0c0fbe919efb535aa9f", null ],
+    [ "swap", "d6/d22/a00245.html#a149f55c1d6b6336ef751e247856198ce", null ],
+    [ "swap", "d6/d22/a00245.html#a7989671d14dda7f19b8d289e359404e9", null ],
+    [ "swap", "d6/d22/a00245.html#a46562f812c731ac4a846ee4bb29b0397", null ],
+    [ "trimString", "d6/d22/a00245.html#a311c694a8a5722683dd6739c55323036", null ],
+    [ "utf2iso", "d6/d22/a00245.html#a3051dd153db86ba3b56a69e93f1ca22a", null ]
 ];

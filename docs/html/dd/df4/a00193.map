@@ -1,112 +1,20 @@
-<map id="hV_HAL_Peripherals.h" name="hV_HAL_Peripherals.h">
-<area shape="rect" id="Node000001" title="Light hardware abstraction layer for peripherals." alt="" coords="2338,5,2502,31"/>
-<area shape="rect" id="Node000002" href="$d0/d27/a00239.html" title="Example for Pervasive Displays Library Suite." alt="" coords="145,152,285,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2324,22,2066,25,1697,34,1268,52,832,81,677,98,524,117,282,155,281,149,523,112,677,92,832,76,1268,46,1697,29,2066,20,2324,17"/>
-<area shape="rect" id="Node000003" href="$d9/d01/a00227.html" title="Example of features for basic edition." alt="" coords="309,152,462,177"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="2324,24,1797,40,1445,57,1088,81,738,118,462,155,462,149,737,113,1088,76,1445,52,1797,35,2324,18"/>
-<area shape="rect" id="Node000004" href="$d7/d03/a00254.html" title="Example for Pervasive Displays Library Suite." alt="" coords="487,152,623,177"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="2324,24,1749,44,1429,60,1297,70,1196,81,1143,93,1089,107,962,125,862,134,763,141,635,155,623,156,622,151,634,149,762,136,862,129,961,120,1088,101,1141,88,1196,76,1296,65,1429,55,1748,39,2324,19"/>
-<area shape="rect" id="Node000005" href="$d3/d1a/a00251.html" title="Example for Pervasive Displays Library Suite." alt="" coords="647,152,793,177"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="2325,26,1947,47,1463,81,1134,114,806,155,794,156,793,151,805,149,1133,109,1462,76,1947,41,2324,21"/>
-<area shape="rect" id="Node000006" href="$dc/d5d/a00278.html" title="Example of features for basic edition." alt="" coords="2615,519,2780,544"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="2324,21,1920,21,1346,28,1047,35,767,46,525,61,343,81,293,86,243,85,150,82,113,86,84,99,73,110,65,123,60,141,59,163,59,385,65,397,84,408,160,429,279,447,434,462,825,484,1277,498,1735,506,2145,510,2603,516,2615,517,2614,522,2603,521,2145,515,1735,511,1276,504,824,490,434,467,279,452,159,434,82,413,61,401,53,387,53,163,55,140,61,121,69,106,81,95,111,81,150,76,243,79,293,80,342,76,525,56,767,40,1047,29,1346,22,1920,16,2324,16"/>
-<area shape="rect" id="Node000007" href="$d3/d5e/a00275.html" title="Example of features for Evaluation edition." alt="" coords="2846,519,3002,544"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="2515,17,2943,21,3535,31,4091,48,4294,61,4414,76,4477,86,4534,94,4557,101,4576,115,4588,135,4592,163,4592,387,4588,395,4576,403,4535,417,4472,431,4388,443,4174,466,3919,485,3389,514,3002,530,3002,525,3389,509,3919,480,4174,461,4387,438,4471,425,4534,412,4574,398,4584,392,4587,385,4587,164,4583,137,4572,118,4555,106,4532,99,4476,91,4413,81,4294,66,4091,53,3534,36,2943,26,2515,23"/>
-<area shape="rect" id="Node000008" href="$d9/d39/a00257.html" title="Example of features for basic edition." alt="" coords="2396,519,2591,544"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="2324,23,1034,41,353,59,131,69,66,75,39,81,21,98,12,115,8,137,8,163,8,386,8,413,12,434,21,452,39,468,67,474,134,480,363,491,1066,509,1844,520,2396,526,2396,532,1844,526,1066,514,363,497,134,486,67,480,36,473,16,455,7,436,3,413,3,386,3,163,3,136,7,114,16,94,36,76,66,70,131,64,353,53,1034,36,2324,18"/>
-<area shape="rect" id="Node000009" href="$d9/dd6/a00272.html" title="Example of features for basic edition." alt="" coords="818,152,979,177"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="2324,27,2020,48,1642,81,1463,107,1228,131,992,155,980,156,979,151,992,149,1227,126,1462,101,1641,76,2019,42,2324,22"/>
-<area shape="rect" id="Node000010" href="$df/da9/a00263.html" title="Example of features for basic edition." alt="" coords="1004,152,1151,177"/>
-<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="2325,27,2067,45,1912,61,1757,81,1699,94,1642,107,1508,125,1403,134,1298,141,1163,155,1151,156,1151,151,1162,149,1297,136,1402,129,1507,120,1641,101,1698,89,1756,76,1911,55,2067,40,2324,21"/>
-<area shape="rect" id="Node000011" href="$d7/d40/a00236.html" title="Example of features for basic edition." alt="" coords="1175,152,1327,177"/>
-<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="2325,26,2102,43,1970,59,1839,81,1798,94,1757,107,1640,127,1549,137,1457,143,1339,155,1327,156,1327,151,1338,149,1456,138,1548,131,1639,122,1755,101,1797,89,1838,76,1969,54,2101,38,2324,21"/>
-<area shape="rect" id="Node000012" href="$d6/de1/a00233.html" title="Example of features for basic edition." alt="" coords="1351,152,1537,177"/>
-<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="2324,31,2150,51,1950,81,1839,107,1677,134,1533,155,1532,149,1676,129,1838,101,1949,76,2149,46,2324,26"/>
-<area shape="rect" id="Node000013" href="$dd/dd7/a00248.html" title="Example of features for basic edition." alt="" coords="1561,152,1738,177"/>
-<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="2341,36,2087,81,1707,155,1706,149,2086,76,2340,30"/>
-<area shape="rect" id="Node000014" href="$d5/d42/a00269.html" title="Example of features for basic edition." alt="" coords="1763,152,1901,177"/>
-<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="2361,37,1879,155,1878,149,2360,31"/>
-<area shape="rect" id="Node000015" href="$d5/d35/a00266.html" title="Example of features for basic edition." alt="" coords="1926,152,2093,177"/>
-<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="2375,38,2043,154,2041,149,2374,33"/>
-<area shape="rect" id="Node000016" href="$d1/da8/a00230.html" title="Example of features for basic edition." alt="" coords="2117,152,2288,177"/>
-<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="2393,40,2222,154,2219,150,2390,36"/>
-<area shape="rect" id="Node000017" href="$d2/d04/a00281.html" title="Example of features for basic edition." alt="" coords="2312,152,2528,177"/>
-<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="2423,45,2423,152,2417,152,2417,45"/>
-<area shape="rect" id="Node000018" href="$d6/d22/a00245.html" title="Protocol for speed test." alt="" coords="3585,152,3767,177"/>
-<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="2516,20,2831,38,3027,54,3223,76,3448,113,3626,149,3625,155,3447,118,3222,81,3026,60,2831,44,2516,26"/>
-<area shape="rect" id="Node000019" href="$dd/dd7/a00260.html" title="Example of features for fast edition." alt="" coords="3791,152,4017,177"/>
-<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="2516,21,2869,40,3093,55,3318,76,3608,113,3838,149,3837,155,3607,119,3317,81,3092,61,2869,45,2516,26"/>
-<area shape="rect" id="Node000020" href="$d2/dc8/a00242.html" title="Protocol for speed test." alt="" coords="4151,152,4350,177"/>
-<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="2516,19,2976,37,3277,53,3582,76,3914,113,4176,149,4175,155,3913,118,3581,81,3276,58,2975,42,2516,24"/>
-<area shape="rect" id="Node000021" href="$dc/d9a/a00218.html" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="2654,445,2847,471"/>
-<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="2324,23,1793,31,1430,40,1052,54,693,72,392,97,274,111,185,128,128,146,114,155,109,164,109,312,115,323,131,333,197,354,301,372,438,387,787,412,1202,430,1639,442,2055,449,2654,454,2654,459,2055,455,1639,448,1202,436,787,418,437,393,301,377,196,359,129,338,111,326,104,313,104,163,110,151,126,141,183,122,273,106,391,91,693,67,1051,48,1430,35,1793,26,2324,18"/>
-<area shape="rect" id="Node000022" href="$d5/db1/a00140.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="2889,372,3039,397"/>
-<area shape="poly" id="edge24_Node000001_Node000022" title=" " alt="" coords="2516,21,2765,39,2886,55,2936,65,2973,76,3013,93,3045,112,3057,124,3065,139,3069,157,3068,178,3054,255,3041,287,3021,325,3001,353,2979,374,2976,370,2997,349,3016,323,3037,285,3048,253,3063,177,3064,157,3060,141,3053,128,3042,116,3010,98,2971,81,2934,70,2885,60,2764,44,2516,26"/>
-<area shape="rect" id="Node000023" href="$de/db1/a00197.html" title="Basic GUI with text and button." alt="" coords="2923,445,3005,471"/>
-<area shape="poly" id="edge75_Node000001_Node000023" title=" " alt="" coords="2516,16,2882,17,3390,24,3655,31,3902,42,4114,56,4275,76,4321,81,4367,81,4452,80,4488,85,4516,99,4527,110,4535,124,4541,163,4541,313,4537,322,4525,330,4484,344,4419,357,4335,370,4120,393,3866,413,3351,443,3006,458,3006,452,3350,437,3866,407,4119,387,4334,364,4418,352,4482,339,4523,325,4533,318,4536,312,4536,164,4530,126,4523,113,4513,103,4486,90,4452,85,4367,86,4321,86,4274,81,4114,62,3901,47,3654,36,3390,29,2882,22,2516,22"/>
-<area shape="rect" id="Node000024" href="$d7/d9a/a00152.html" title="Driver for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="2957,152,3053,177"/>
-<area shape="poly" id="edge28_Node000001_Node000024" title=" " alt="" coords="2516,19,2627,24,2750,34,2862,51,2906,63,2940,76,2962,93,2979,113,3002,150,2998,153,2975,116,2958,97,2937,81,2905,68,2861,56,2749,40,2626,30,2516,24"/>
-<area shape="rect" id="Node000025" href="$d3/db1/a00200.html" title="Driver for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="2856,225,3005,251"/>
-<area shape="poly" id="edge78_Node000001_Node000025" title=" " alt="" coords="2516,24,2599,37,2693,61,2741,77,2788,97,2833,121,2875,150,2893,168,2908,188,2928,224,2923,226,2904,191,2889,171,2872,154,2831,126,2786,102,2739,82,2692,66,2598,42,2516,29"/>
-<area shape="rect" id="Node000026" href="$dd/dc1/a00212.html" title="Class Library for 5&#45;6&#45;5 coded colours." alt="" coords="3179,152,3309,177"/>
-<area shape="poly" id="edge32_Node000001_Node000026" title=" " alt="" coords="2516,19,2662,25,2833,36,2995,53,3060,64,3110,76,3147,92,3181,112,3232,150,3229,154,3178,116,3145,97,3109,81,3059,69,2994,58,2833,42,2662,31,2516,25"/>
-<area shape="rect" id="Node000027" href="$dc/d57/a00194.html" title="Shared low&#45;level libraries for the Pervasive Displays Library Suite." alt="" coords="3273,225,3391,251"/>
-<area shape="poly" id="edge36_Node000001_Node000027" title=" " alt="" coords="2516,20,2958,35,3560,63,3852,81,4102,101,4282,124,4337,137,4365,150,4371,165,4365,179,4348,186,4316,192,4214,202,3917,216,3460,228,3392,234,3391,228,3460,223,3917,211,4214,197,4316,187,4347,181,4361,175,4366,165,4361,154,4335,142,4281,130,4102,107,3852,86,3560,68,2957,40,2516,25"/>
-<area shape="rect" id="Node000028" href="$de/d76/a00134.html" title="Generic buffered screen class library." alt="" coords="3259,299,3405,324"/>
-<area shape="poly" id="edge76_Node000001_Node000028" title=" " alt="" coords="2516,17,2862,19,3338,27,3815,44,4013,58,4163,76,4238,82,4301,86,4329,91,4356,103,4382,122,4408,151,4413,165,4407,179,4387,193,4354,206,4254,230,4121,251,3968,268,3650,294,3406,309,3405,304,3650,289,3967,263,4120,245,4253,225,4352,201,4384,189,4403,176,4408,165,4403,153,4378,126,4353,107,4328,96,4300,91,4238,88,4162,81,4013,64,3814,50,3338,32,2862,24,2516,22"/>
-<area shape="rect" id="Node000029" href="$d5/df1/a00206.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="2518,79,2663,104"/>
-<area shape="poly" id="edge37_Node000001_Node000029" title=" " alt="" coords="2461,33,2564,76,2562,81,2459,38"/>
-<area shape="rect" id="Node000030" href="$d9/db6/a00146.html" title="Font structure." alt="" coords="4041,152,4127,177"/>
-<area shape="poly" id="edge73_Node000001_Node000030" title=" " alt="" coords="2516,20,2916,39,3174,55,3434,76,3732,106,4028,149,4041,152,4040,157,4028,155,3731,111,3433,81,3173,61,2916,45,2516,26"/>
-<area shape="rect" id="Node000031" href="$de/df3/a00185.html" title="hV_Font_Terminal" alt="" coords="3472,225,3621,251"/>
-<area shape="poly" id="edge74_Node000001_Node000031" title=" " alt="" coords="2516,16,2767,17,3124,24,3537,43,3750,57,3958,76,4026,79,4087,75,4196,65,4245,67,4293,79,4340,105,4386,150,4392,165,4386,179,4370,189,4345,198,4271,213,4172,223,4057,231,3816,238,3622,240,3622,234,3816,233,4057,225,4172,218,4270,207,4344,193,4368,185,4382,176,4387,165,4382,154,4336,110,4291,84,4245,72,4196,70,4088,81,4026,84,3957,81,3749,62,3537,48,3124,30,2767,22,2516,21"/>
-<area shape="rect" id="Node000032" href="$da/d15/a00188.html" title="Utilities for highView Library Suite." alt="" coords="3334,152,3509,177"/>
-<area shape="poly" id="edge77_Node000001_Node000032" title=" " alt="" coords="2516,18,2644,22,2804,31,2980,49,3155,76,3223,92,3290,112,3394,149,3392,154,3288,117,3222,97,3154,81,2979,54,2803,36,2644,27,2516,23"/>
-<area shape="poly" id="edge21_Node000021_Node000006" title=" " alt="" coords="2736,483,2708,520,2704,517,2732,480"/>
-<area shape="poly" id="edge22_Node000021_Node000007" title=" " alt="" coords="2792,473,2897,516,2895,521,2790,478"/>
-<area shape="poly" id="edge23_Node000021_Node000008" title=" " alt="" coords="2697,477,2536,521,2534,516,2696,472"/>
-<area shape="poly" id="edge25_Node000022_Node000021" title=" " alt="" coords="2918,404,2786,448,2784,443,2916,399"/>
-<area shape="poly" id="edge26_Node000022_Node000023" title=" " alt="" coords="2967,411,2967,445,2961,445,2961,411"/>
-<area shape="poly" id="edge27_Node000023_Node000007" title=" " alt="" coords="2953,484,2933,520,2928,517,2948,482"/>
-<area shape="poly" id="edge29_Node000024_Node000022" title=" " alt="" coords="3016,190,3021,219,3020,251,3010,287,2998,321,2973,373,2968,371,2993,319,3005,285,3015,250,3016,220,3011,191"/>
-<area shape="poly" id="edge30_Node000024_Node000025" title=" " alt="" coords="2985,189,2945,227,2941,223,2982,185"/>
-<area shape="poly" id="edge31_Node000025_Node000022" title=" " alt="" coords="2939,264,2964,371,2959,372,2934,265"/>
-<area shape="poly" id="edge33_Node000026_Node000027" title=" " alt="" coords="3270,184,3319,223,3316,227,3267,188"/>
-<area shape="poly" id="edge34_Node000026_Node000028" title=" " alt="" coords="3248,191,3252,220,3264,249,3287,276,3314,296,3310,301,3283,280,3259,252,3247,222,3242,192"/>
-<area shape="poly" id="edge35_Node000028_Node000022" title=" " alt="" coords="3260,329,3024,375,3023,369,3259,324"/>
-<area shape="poly" id="edge38_Node000029_Node000002" title=" " alt="" coords="2504,96,1429,113,776,131,503,142,296,155,285,156,285,150,296,149,503,137,776,125,1429,108,2504,91"/>
-<area shape="poly" id="edge39_Node000029_Node000003" title=" " alt="" coords="2504,95,2176,95,1676,101,1083,119,776,135,475,155,463,156,462,150,475,149,776,129,1083,114,1676,96,2176,90,2504,89"/>
-<area shape="poly" id="edge40_Node000029_Node000004" title=" " alt="" coords="2504,95,2198,95,1737,101,1192,119,911,134,635,155,623,156,622,151,634,149,911,129,1192,114,1737,95,2198,89,2504,89"/>
-<area shape="poly" id="edge41_Node000029_Node000005" title=" " alt="" coords="2505,95,2222,97,1803,105,1310,123,1055,137,806,155,794,156,793,150,805,149,1055,131,1309,117,1802,99,2222,92,2505,90"/>
-<area shape="poly" id="edge42_Node000029_Node000006" title=" " alt="" coords="2600,116,2612,171,2619,237,2619,386,2624,430,2644,469,2664,496,2685,516,2681,520,2660,499,2639,472,2619,431,2613,386,2613,237,2607,172,2595,118"/>
-<area shape="poly" id="edge43_Node000029_Node000007" title=" " alt="" coords="2613,113,2631,136,2650,166,2664,200,2669,236,2669,312,2674,344,2688,366,2708,380,2734,390,2796,408,2829,422,2860,443,2896,482,2919,517,2915,520,2891,485,2857,447,2827,427,2795,413,2732,395,2705,385,2684,369,2669,346,2664,313,2664,237,2659,202,2645,169,2627,139,2609,116"/>
-<area shape="poly" id="edge44_Node000029_Node000008" title=" " alt="" coords="2586,118,2574,172,2568,237,2568,386,2561,427,2544,465,2524,497,2506,520,2502,517,2520,494,2540,463,2556,426,2563,386,2563,237,2569,171,2581,116"/>
-<area shape="poly" id="edge45_Node000029_Node000009" title=" " alt="" coords="2504,96,2248,100,1874,109,1438,127,992,155,980,156,979,150,992,149,1437,121,1874,104,2248,94,2504,91"/>
-<area shape="poly" id="edge46_Node000029_Node000010" title=" " alt="" coords="2504,96,2272,100,1940,110,1555,127,1163,155,1151,156,1151,150,1162,149,1555,122,1940,105,2272,95,2504,91"/>
-<area shape="poly" id="edge47_Node000029_Node000011" title=" " alt="" coords="2504,97,2009,113,1677,130,1339,155,1327,156,1327,150,1338,149,1676,125,2009,108,2504,92"/>
-<area shape="poly" id="edge48_Node000029_Node000012" title=" " alt="" coords="2505,99,2092,118,1822,135,1548,155,1537,156,1537,150,1548,149,1822,129,2092,113,2504,93"/>
-<area shape="poly" id="edge49_Node000029_Node000013" title=" " alt="" coords="2504,100,2174,121,1751,155,1739,156,1738,151,1750,149,2173,116,2504,95"/>
-<area shape="poly" id="edge50_Node000029_Node000014" title=" " alt="" coords="2505,101,2240,123,1914,155,1902,156,1901,151,1913,149,2240,117,2504,96"/>
-<area shape="poly" id="edge51_Node000029_Node000015" title=" " alt="" coords="2505,106,2093,156,2093,151,2504,101"/>
-<area shape="poly" id="edge52_Node000029_Node000016" title=" " alt="" coords="2516,109,2266,155,2265,149,2515,104"/>
-<area shape="poly" id="edge53_Node000029_Node000017" title=" " alt="" coords="2552,112,2449,154,2447,149,2550,107"/>
-<area shape="poly" id="edge54_Node000029_Node000018" title=" " alt="" coords="2677,94,3062,115,3566,149,3585,151,3584,156,3565,155,3062,120,2677,99"/>
-<area shape="poly" id="edge55_Node000029_Node000019" title=" " alt="" coords="2677,93,3147,113,3779,149,3792,150,3791,156,3779,155,3147,118,2677,98"/>
-<area shape="poly" id="edge56_Node000029_Node000020" title=" " alt="" coords="2677,91,3288,107,3710,124,4140,149,4151,150,4151,155,4140,155,3709,130,3288,113,2677,97"/>
-<area shape="poly" id="edge57_Node000029_Node000022" title=" " alt="" coords="2648,106,2693,124,2738,150,2765,174,2781,197,2797,221,2819,249,2893,319,2952,370,2948,374,2889,323,2815,252,2792,224,2777,200,2761,178,2734,154,2691,129,2646,111"/>
-<area shape="poly" id="edge65_Node000029_Node000023" title=" " alt="" coords="2632,108,2661,126,2687,150,2703,171,2713,190,2719,210,2720,237,2720,312,2726,330,2743,349,2769,367,2800,386,2871,419,2932,443,2930,448,2869,424,2798,390,2766,372,2740,353,2722,333,2715,313,2715,237,2713,211,2708,192,2699,174,2683,154,2658,130,2630,113"/>
-<area shape="poly" id="edge58_Node000029_Node000024" title=" " alt="" coords="2671,104,2958,152,2957,158,2670,109"/>
-<area shape="poly" id="edge72_Node000029_Node000025" title=" " alt="" coords="2678,100,2758,118,2799,132,2839,150,2865,167,2889,187,2923,223,2919,227,2885,190,2862,171,2836,154,2797,137,2756,123,2677,105"/>
-<area shape="poly" id="edge59_Node000029_Node000026" title=" " alt="" coords="2677,98,3160,149,3179,152,3178,157,3160,155,2677,103"/>
-<area shape="poly" id="edge60_Node000029_Node000027" title=" " alt="" coords="2677,96,2857,115,2962,130,3066,149,3200,187,3303,223,3302,228,3198,192,3065,155,2961,135,2857,120,2677,101"/>
-<area shape="poly" id="edge66_Node000029_Node000028" title=" " alt="" coords="2678,102,2735,120,2763,133,2788,150,2801,162,2809,176,2817,202,2825,227,2833,238,2845,248,2877,263,2921,275,3032,292,3153,302,3258,306,3258,312,3153,307,3031,298,2919,280,2875,268,2843,253,2829,242,2820,229,2812,203,2804,178,2797,166,2785,154,2760,138,2733,125,2676,107"/>
-<area shape="poly" id="edge61_Node000029_Node000030" title=" " alt="" coords="2677,92,3355,111,3744,128,3905,138,4028,149,4041,151,4040,156,4028,155,3905,143,3743,133,3354,116,2677,97"/>
-<area shape="poly" id="edge64_Node000029_Node000031" title=" " alt="" coords="2677,90,2892,92,3156,101,3282,108,3392,119,3475,132,3503,140,3522,150,3536,167,3544,187,3550,225,3544,225,3539,189,3531,170,3518,154,3501,145,3473,137,3391,124,3282,114,3156,106,2892,98,2677,95"/>
-<area shape="poly" id="edge67_Node000029_Node000032" title=" " alt="" coords="2678,96,2964,118,3322,149,3334,151,3333,156,3321,155,2963,123,2677,101"/>
-<area shape="poly" id="edge62_Node000030_Node000031" title=" " alt="" coords="4028,180,3802,211,3622,232,3621,227,3802,206,4027,175"/>
-<area shape="poly" id="edge63_Node000031_Node000028" title=" " alt="" coords="3500,257,3368,301,3366,296,3498,252"/>
-<area shape="poly" id="edge71_Node000032_Node000025" title=" " alt="" coords="3329,182,3006,229,3005,223,3329,177"/>
-<area shape="poly" id="edge68_Node000032_Node000027" title=" " alt="" coords="3398,188,3348,227,3345,223,3395,184"/>
-<area shape="poly" id="edge70_Node000032_Node000028" title=" " alt="" coords="3423,192,3417,222,3405,252,3381,280,3354,301,3350,296,3377,276,3400,249,3412,220,3417,191"/>
-<area shape="poly" id="edge69_Node000032_Node000031" title=" " alt="" coords="3455,182,3528,223,3525,227,3452,186"/>
+<map id="Terminal12x16e.h" name="Terminal12x16e.h">
+<area shape="rect" id="Node000001" title="Font Terminal 12 x 16." alt="" coords="323,5,461,31"/>
+<area shape="rect" id="Node000002" href="$d3/db1/a00200.html" title="hV_Font_Terminal" alt="" coords="317,79,467,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="395,44,395,79,389,79,389,44"/>
+<area shape="rect" id="Node000003" href="$d7/d03/a00254.html" title="Generic buffered screen class library." alt="" coords="319,152,465,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="395,118,395,152,389,152,389,118"/>
+<area shape="rect" id="Node000004" href="$d3/d1a/a00251.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="317,225,467,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="395,191,395,225,389,225,389,191"/>
+<area shape="rect" id="Node000005" href="$de/d79/a00203.html" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="214,299,407,324"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="370,262,326,300,322,296,367,258"/>
+<area shape="rect" id="Node000009" href="$d5/ddf/a00224.html" title="Basic GUI with text and button." alt="" coords="441,299,524,324"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="419,257,469,296,466,301,416,261"/>
+<area shape="rect" id="Node000006" href="$da/d1e/a00149.html" title="Example of features for basic edition." alt="" coords="5,372,171,397"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="263,331,125,374,123,369,261,326"/>
+<area shape="rect" id="Node000007" href="$db/dd9/a00179.html" title="Example of features for Evaluation edition." alt="" coords="414,372,570,397"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="353,326,463,369,461,374,351,331"/>
+<area shape="rect" id="Node000008" href="$d6/d7d/a00161.html" title="Example of features for basic edition." alt="" coords="195,372,389,397"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="307,338,298,373,292,371,302,337"/>
+<area shape="poly" id="edge9_Node000009_Node000007" title=" " alt="" coords="489,337,493,372,488,372,483,338"/>
 </map>

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['getboard_0',['getBoard',['../d9/d39/a00257.html#a7c42eef2c68ee9028364f4e4a8f76d29',1,'Basic_Touch_TicTacToe.ino']]],
+  ['getboard_0',['getBoard',['../d6/d7d/a00161.html#a7c42eef2c68ee9028364f4e4a8f76d29',1,'Basic_Touch_TicTacToe.ino']]],
   ['getboardpins_1',['getBoardPins',['../d6/d82/a00293.html#aa09c84954d8d248199effc0ab5eeacc2',1,'hV_Board']]],
   ['getfont_2',['getFont',['../dd/d4e/a00329.html#a8112921e076ca85c2c8408dffee3c825',1,'hV_Screen_Buffer']]],
   ['getorientation_3',['getOrientation',['../dd/d4e/a00329.html#a8472556f5a3d34ac049929d574cfa942',1,'hV_Screen_Buffer']]],

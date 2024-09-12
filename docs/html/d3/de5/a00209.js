@@ -7,7 +7,6 @@ var a00209 =
     [ "MAX_FONT_SIZE", "d3/de5/a00209.html#a66b2ce216c9fb1c332b3f3a4dbc0882b", null ],
     [ "SRAM_MODE", "d3/de5/a00209.html#a1e2fdad38cc1a287c1119e44d94ca0fd", null ],
     [ "STORAGE_MODE", "d3/de5/a00209.html#ab9794b07ad5c45a1b1d2b29af9c81138", null ],
-    [ "STRING_MODE", "d3/de5/a00209.html#a772c0af3dc7e04934854547bc08ca6ed", null ],
     [ "TOUCH_MODE", "d3/de5/a00209.html#a11320f76b1b3395290d1e97bb7ac9c2a", null ],
     [ "USE_EXPANDER_NONE", "d3/de5/a00209.html#a860f4bce384204ab9821f3323ad37428", null ],
     [ "USE_FONT_TERMINAL", "d3/de5/a00209.html#a8957d8cdb41ab8149747bc778762044e", null ],
@@ -16,7 +15,6 @@ var a00209 =
     [ "USE_hV_SCREEN_SELF", "d3/de5/a00209.html#aab4e357f20ccd08a66b382176fdee38f", null ],
     [ "USE_INTERNAL_MCU", "d3/de5/a00209.html#a5ae3237253d77826843fc9d90700d5a1", null ],
     [ "USE_NONE", "d3/de5/a00209.html#a64a99352a7dde2b861163fdb8f8abd89", null ],
-    [ "USE_STRING_OBJECT", "d3/de5/a00209.html#a1aa630d1906e358b320b4e00fcd9d7d7", null ],
     [ "USE_TOUCH_NONE", "d3/de5/a00209.html#ac0b08ef537f6a6c42bceab5c3b8da75c", null ],
     [ "USE_TOUCH_YES", "d3/de5/a00209.html#af48880fea70dcb52dfb9c43d689bf6aa", null ]
 ];

@@ -1,6 +1,7 @@
 var a00239 =
 [
-    [ "loop", "d0/d27/a00239.html#afe461d27b9c48d5921c00d521181f12f", null ],
-    [ "setup", "d0/d27/a00239.html#a4fc01d736fe50cf5b977f755b675f11d", null ],
-    [ "wait", "d0/d27/a00239.html#a92d9142cd31b37b7b3944dc8d9c9f454", null ]
+    [ "FRAMEBUFFER_TYPE", "d0/d27/a00239.html#af6fd3138269f63a18c11b6fd9bf9cc37", null ],
+    [ "hV_CONFIGURATION_RELEASE", "d0/d27/a00239.html#a3bcfa67129cf269c0672a66e4705cc21", null ],
+    [ "STRING_CONST_TYPE", "d0/d27/a00239.html#a51812afad88d6a81feaa2dddada6e028", null ],
+    [ "STRING_TYPE", "d0/d27/a00239.html#ab5eb05d3b545c8fc57952cb4afb121ca", null ]
 ];

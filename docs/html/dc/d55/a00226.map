@@ -1,5 +1,5 @@
-<map id="hV_Documentation.h" name="hV_Documentation.h">
-<area shape="rect" id="Node000001" title="Documentation for the Pervasive Displays Library Suite." alt="" coords="5,5,164,31"/>
-<area shape="rect" id="Node000002" href="$dc/d57/a00194.html" title="Shared low&#45;level libraries for the Pervasive Displays Library Suite." alt="" coords="26,79,143,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,44,87,79,82,79,82,44"/>
+<map id="hV_GUI.h" name="hV_GUI.h">
+<area shape="rect" id="Node000001" title="Basic GUI with text and button." alt="" coords="42,5,125,31"/>
+<area shape="rect" id="Node000002" href="$db/dd9/a00179.html" title="Example of features for Evaluation edition." alt="" coords="5,79,161,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,44,86,79,81,79,81,44"/>
 </map>

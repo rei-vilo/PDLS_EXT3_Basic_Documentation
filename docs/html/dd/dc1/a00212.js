@@ -1,6 +1,6 @@
 var a00212 =
 [
-    [ "hV_Colours565", "d3/d4a/a00297.html", "d3/d4a/a00297" ],
-    [ "hV_COLOURS_RELEASE", "dd/dc1/a00212.html#ad04b95af5737630651211d49cf779995", null ],
-    [ "myColours", "dd/dc1/a00212.html#aa178466696f7432d6da667d514bee379", null ]
+    [ "width_s", "da/d50/a00301.html", "da/d50/a00301" ],
+    [ "font_s", "d3/d07/a00305.html", "d3/d07/a00305" ],
+    [ "hV_FONT_TERMINAL_STRUCTURE_RELEASE", "dd/dc1/a00212.html#a21e110034a8e11a7193543ea42f64e4b", null ]
 ];
