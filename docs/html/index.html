@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Reference Manual - Pervasive Displays Library Suite - Basic edition: Pervasive Displays Library Suite - Basic edition</title>
+<title>Pervasive Displays Library Suite - Basic edition: Pervasive Displays Library Suite - Basic edition</title>
 <link rel="icon" href="Logo-PDI-white.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Reference Manual - Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.5</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.7</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -109,20 +109,22 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 </div>
  <p>It provides a high-level interface to drive the e-paper screens with global and fast update, supports capacitive touch and haptic feed-back.</p>
 <p><b>Variants</b> </p>
-<p>The basic edition includes different variants:</p>
+<p>The basic edition includes different variants and supports</p>
 <ul>
-<li><b>PDLS_EXT3_Basic_Global</b> for <a href="https://www.pervasivedisplays.com/products/?_sft_product_colour=black-white">monochrome</a> and <a href="https://www.pervasivedisplays.com/products/?_sft_product_colour=black-white-red">colour (black-white-red)</a> screens;</li>
-<li><b>PDLS_EXT3_Basic_Fast</b> for <a href="https://www.pervasivedisplays.com/product/2-71-e-ink-display-aurora-mb-v231/">monochrome screens with embedded fast update</a>;</li>
-<li><b>PDLS_EXT3_Basic_Touch</b> for <a href="https://www.pervasivedisplays.com/product/2-71-e-ink-display-aurora-mb-v231/">monochrome screens with capacitive touch</a>; and</li>
-<li><b>PDLS_EXT3_Basic_BWRY</b> for <a href="https://www.pervasivedisplays.com/product/">black-white-red-yellow screens</a>.</li>
+<li><b>PDLS_EXT3_Basic_Global</b> for <a href="https://www.pervasivedisplays.com/products-e-ink-display/?_sft_product_colour=black-white">monochrome screens</a> (film <code>C</code>) and <a href="https://www.pervasivedisplays.com/products-e-ink-display/?_sft_product_colour=black-white-red">colour (black-white-red)</a> (film <code>J</code>),</li>
+<li><b>PDLS_EXT3_Basic_Fast</b> for <a href="https://www.pervasivedisplays.com/products-e-ink-display/?_sft_etc_itc=pu">monochrome screens with embedded fast update</a> (film <code>P</code>),</li>
+<li><b>PDLS_EXT3_Basic_Wide</b> for <a href="https://www.pervasivedisplays.com/products-e-ink-display/?_sft_etc_itc=pu&amp;_sft_temperature_range=m15c-to-p60c">monochrome screens with wide temperature and embedded fast update</a> (film <code>K</code>),</li>
+<li><b>PDLS_EXT3_Basic_Touch</b> for <a href="https://www.pervasivedisplays.com/products-e-ink-display/?_sft_etc_itc=tp">monochrome screens with capacitive touch</a>,</li>
+<li><b>PDLS_EXT3_Basic_BWRY</b> for <a href="https://www.pervasivedisplays.com/products-e-ink-display/?_sft_product_colour=black-white-red-yellow">black-white-red-yellow screens</a> (film <code>Q</code>);</li>
 </ul>
-<p>The screens are connected to the boards:</p>
+<p>the boards</p>
 <ul>
-<li><a href="https://www.pervasivedisplays.com/product/epd-extension-kit-gen-3-EXT3/">EPD Extension Kit Gen 3 (EXT3 or EXT3-1)</a> and <a href="https://www.pervasivedisplays.com/product/touch-expansion-board-ext3-touch/">Touch Expansion Board for EXT3 (EXT3-Touch)</a>;</li>
+<li><a href="https://www.pervasivedisplays.com/product/epd-extension-kit-gen-3-EXT3/">EPD Extension Kit Gen 3 (EXT3 or EXT3-1)</a>,</li>
+<li><a href="https://www.pervasivedisplays.com/product/touch-expansion-board-ext3-touch/">Touch Expansion Board for EXT3 (EXT3-Touch)</a>;</li>
 </ul>
-<p>Two introductory kits are also available:</p>
+<p>the kits</p>
 <ul>
-<li><a href="https://www.pervasivedisplays.com/product/epd-pico-kit-epdk/">EPD Pico Kit (EPDK-266)</a>, which includes a Raspberry Pi Pico RP2040, an EXT3-1 extension board and a 2.66&quot; monochrome panel; and</li>
+<li><a href="https://www.pervasivedisplays.com/product/epd-pico-kit-epdk/">EPD Pico Kit (EPDK-266)</a>, which includes a Raspberry Pi Pico RP2040, an EXT3-1 extension board and a 2.66&quot; monochrome panel,</li>
 <li><a href="https://www.pervasivedisplays.com/product/touch-expansion-board-ext3-touch/#tab-3">EPD Pico Kit Touch (EPDK-271-Touch)</a>, which includes a Raspberry Pi Pico RP2040, an EXT3-1 and EXT3-Touch boards and a 2.71&quot;-Touch monochrome panel with embedded fast update.</li>
 </ul>
 <p><b>Documentation</b> </p>
@@ -133,8 +135,8 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 </ul>
 <p>Additionally, the <b><a href="https://docs.pervasivedisplays.com/">Wiki</a></b> provides a gradual introduction to the e-paper technology and how to use it.</p>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>21 Aug 2024 </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>805</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>21 Oct 2024 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>807</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2024 </dd>
 <dd>
 All rights reserved </dd>

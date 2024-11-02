@@ -1,9 +1,5 @@
-<map id="PDLS_EXT3_Basic_Touch.h" name="PDLS_EXT3_Basic_Touch.h">
-<area shape="rect" id="Node000001" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="177,5,370,31"/>
-<area shape="rect" id="Node000002" href="$d6/d7d/a00161.html" title="Example of features for basic edition." alt="" coords="5,79,171,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,38,119,81,117,76,230,33"/>
-<area shape="rect" id="Node000003" href="$dc/de6/a00167.html" title="Example of features for Evaluation edition." alt="" coords="195,79,351,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="276,44,276,79,271,79,271,44"/>
-<area shape="rect" id="Node000004" href="$d7/d9a/a00152.html" title="Example of features for basic edition." alt="" coords="376,79,571,104"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="319,33,442,76,440,81,318,38"/>
+<map id="hV_Documentation.h" name="hV_Documentation.h">
+<area shape="rect" id="Node000001" title="Documentation for the Pervasive Displays Library Suite." alt="" coords="5,5,164,31"/>
+<area shape="rect" id="Node000002" href="$dd/d52/a00221.html" title="Shared low&#45;level libraries for the Pervasive Displays Library Suite." alt="" coords="26,79,143,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,44,87,79,82,79,82,44"/>
 </map>

@@ -1,4 +1,4 @@
-# Pervasive Displays Library Suite - Basic Edition - Documentation
+# Pervasive Displays Library Suite - Basic edition - Documentation
 
 [![Release](https://img.shields.io/github/v/release/rei-vilo/PDLS_EXT3_Basic_Documentation)](https://rei-vilo.github.io/PDLS_EXT3_Basic_Documentation/html/index.html) [![GitHub issues](https://img.shields.io/github/issues/rei-vilo/PDLS_EXT3_Basic)](https://github.com/rei-vilo/PDLS_EXT3_Basic/issues) 
 
@@ -10,13 +10,15 @@ The Pervasive Displays Library Suite is specifically designed for the [Pervasive
 
 The documentation covers the different variants of the library:
 
-* [**PDLS_EXT3_Basic_Global**](https://github.com/rei-vilo/PDLS_EXT3_Basic_Global) for monochrome (film `CS`) and colour black-white-red (film `JS`) screens;
+* [**PDLS_EXT3_Basic_Global**](https://github.com/rei-vilo/PDLS_EXT3_Basic_Global) for monochrome (film `C`) and colour black-white-red (film `J`) screens;
 
-* [**PDLS_EXT3_Basic_Fast**](https://github.com/rei-vilo/PDLS_EXT3_Basic_Fast) for monochrome screens with embedded fast update (film `PS`) and monochrome screens with embedded fast update  and wide temperature (film `KS`);
+* [**PDLS_EXT3_Basic_Fast**](https://github.com/rei-vilo/PDLS_EXT3_Basic_Fast) for monochrome screens with embedded fast update (film `P`);
+
+* [**PDLS_EXT3_Basic_Wide**](https://github.com/rei-vilo/PDLS_EXT3_Basic_Wide) for monochrome screens with wide temperature and embedded fast update (film `K`);
 
 * [**PDLS_EXT3_Basic_Touch**](https://github.com/rei-vilo/PDLS_EXT3_Basic_Touch) for monochrome screens with capacitive touch;
 
-* [**PDLS_EXT3_Basic_BWRY**](https://github.com/rei-vilo/PDLS_EXT3_Basic_BWRY) for colour black-white-red-yellow screens (file `QS`).
+* [**PDLS_EXT3_Basic_BWRY**](https://github.com/rei-vilo/PDLS_EXT3_Basic_BWRY) for colour black-white-red-yellow screens (file `Q`).
 
 ## Support
 

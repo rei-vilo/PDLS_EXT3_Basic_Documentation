@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: PDLS_EXT3_Basic_Touch.h File Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: hV_Configuration.h File Reference</title>
 <link rel="icon" href="../../Logo-PDI-white.png" type="image/x-icon" />
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.5</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.7</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -102,121 +102,160 @@ $(function(){initNavTree('dc/d9a/a00218.html','../../'); initResizable(true); })
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a>  </div>
-  <div class="headertitle"><div class="title">PDLS_EXT3_Basic_Touch.h File Reference</div></div>
+  <div class="headertitle"><div class="title">hV_Configuration.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Driver for Pervasive Displays iTC screens and EXT3 extension board.  
+<p>Configuration of the options for Pervasive Displays Library Suite.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d9/dd0/a00191.html">hV_HAL_Peripherals.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/db1/a00140.html">Screen_EPD_EXT3.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d3/d1a/a00251.html">hV_HAL_Peripherals.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d15/a00188.html">hV_List_Options.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d01/a00227.html">hV_List_Constants.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d39/a00257.html">hV_List_Boards.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/dd5/a00215.html">hV_List_Screens.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for PDLS_EXT3_Basic_Touch.h:</div>
+Include dependency graph for hV_Configuration.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/df3/a00219.png" border="0" usemap="#aPDLS__EXT3__Basic__Touch_8h" alt=""/></div>
-<map name="aPDLS__EXT3__Basic__Touch_8h" id="aPDLS__EXT3__Basic__Touch_8h">
-<area shape="rect" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="1353,5,1546,31"/>
-<area shape="rect" href="../../d9/dd0/a00191.html" title="Light hardware abstraction layer for peripherals." alt="" coords="1115,445,1279,471"/>
-<area shape="poly" title=" " alt="" coords="1463,29,1482,52,1503,84,1521,122,1528,163,1528,313,1522,349,1505,378,1479,402,1447,421,1410,435,1371,445,1293,456,1293,451,1370,440,1408,430,1444,416,1476,398,1501,375,1517,347,1523,312,1523,164,1516,124,1499,87,1477,55,1459,33"/>
-<area shape="rect" href="../../d5/db1/a00140.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="1318,79,1469,104"/>
-<area shape="poly" title=" " alt="" coords="1442,33,1413,69,1409,66,1438,29"/>
-<area shape="rect" title=" " alt="" coords="1155,519,1239,544"/>
-<area shape="poly" title=" " alt="" coords="1200,471,1200,505,1195,505,1195,471"/>
-<area shape="rect" title=" " alt="" coords="1263,519,1318,544"/>
-<area shape="poly" title=" " alt="" coords="1214,469,1266,508,1263,512,1211,473"/>
-<area shape="rect" title=" " alt="" coords="1343,519,1407,544"/>
-<area shape="poly" title=" " alt="" coords="1227,468,1334,511,1332,516,1225,473"/>
-<area shape="rect" title=" " alt="" coords="758,519,829,544"/>
-<area shape="poly" title=" " alt="" coords="1133,473,843,524,842,519,1132,468"/>
-<area shape="rect" title=" " alt="" coords="965,519,1032,544"/>
-<area shape="poly" title=" " alt="" coords="1166,473,1045,516,1043,511,1165,468"/>
-<area shape="rect" title=" " alt="" coords="1056,519,1131,544"/>
-<area shape="poly" title=" " alt="" coords="1182,473,1123,513,1120,508,1179,468"/>
-<area shape="poly" title=" " alt="" coords="1407,102,1428,125,1451,157,1470,195,1477,236,1477,313,1473,343,1460,369,1440,390,1415,408,1356,434,1293,449,1292,444,1354,429,1412,403,1436,386,1455,366,1468,341,1472,312,1472,237,1464,197,1446,159,1424,128,1403,106"/>
-<area shape="rect" href="../../d5/df1/a00206.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="667,372,813,397"/>
-<area shape="poly" title=" " alt="" coords="1318,95,1116,100,830,118,668,135,500,158,333,189,170,228,78,248,44,265,28,279,13,300,8,312,13,322,24,330,44,337,104,350,185,360,279,367,481,376,653,380,653,385,481,382,279,373,184,365,103,355,42,342,22,335,9,326,3,312,8,297,24,276,41,260,77,243,169,223,332,183,499,153,667,129,829,113,1116,95,1318,90"/>
-<area shape="rect" href="../../de/d76/a00134.html" title="Generic buffered screen class library." alt="" coords="889,152,1036,177"/>
-<area shape="poly" title=" " alt="" coords="1325,107,1046,152,1045,147,1324,101"/>
-<area shape="rect" href="../../d7/d9a/a00152.html" title="Driver for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="1341,299,1437,324"/>
-<area shape="poly" title=" " alt="" coords="1397,104,1398,167,1397,251,1395,285,1389,285,1392,251,1393,167,1391,104"/>
-<area shape="rect" href="../../d3/db1/a00200.html" title="Driver for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="1233,225,1383,251"/>
-<area shape="poly" title=" " alt="" coords="1389,106,1324,215,1320,212,1384,103"/>
-<area shape="poly" title=" " alt="" coords="813,395,1111,441,1110,446,813,400"/>
-<area shape="rect" href="../../d5/de9/a00176.html" title="List of options for Pervasive Displays Library Suite." alt="" coords="775,445,913,471"/>
-<area shape="poly" title=" " alt="" coords="758,395,817,435,814,439,755,400"/>
-<area shape="rect" href="../../db/ddf/a00164.html" title="List of constants for Pervasive Displays Library Suite." alt="" coords="938,445,1091,471"/>
-<area shape="poly" title=" " alt="" coords="785,395,958,439,956,444,783,400"/>
-<area shape="rect" href="../../d6/db8/a00158.html" title="List of boards for Pervasive Displays Library Suite." alt="" coords="455,445,588,471"/>
-<area shape="poly" title=" " alt="" coords="706,400,571,444,569,438,704,395"/>
-<area shape="rect" href="../../dc/de6/a00167.html" title="List of supported Pervasive Displays screens." alt="" coords="612,445,751,471"/>
-<area shape="poly" title=" " alt="" coords="732,399,701,437,697,433,728,396"/>
-<area shape="poly" title=" " alt="" coords="980,473,842,517,841,512,978,468"/>
-<area shape="poly" title=" " alt="" coords="566,468,746,515,744,520,564,473"/>
-<area shape="poly" title=" " alt="" coords="701,468,765,509,762,513,698,473"/>
-<area shape="poly" title=" " alt="" coords="1000,175,1042,192,1091,218,1139,253,1160,274,1178,297,1194,331,1202,368,1203,432,1198,432,1196,368,1189,333,1174,300,1156,277,1136,257,1089,223,1040,197,998,180"/>
-<area shape="poly" title=" " alt="" coords="889,174,672,190,397,218,265,236,152,256,67,277,39,289,23,300,18,311,23,322,35,330,54,337,113,349,192,359,285,367,484,376,653,380,653,385,484,382,285,372,192,365,112,355,52,342,32,335,19,326,13,311,19,297,37,284,65,272,150,250,264,231,397,213,672,185,889,168"/>
-<area shape="rect" href="../../dd/dc1/a00212.html" title="Class Library for 5&#45;6&#45;5 coded colours." alt="" coords="784,299,915,324"/>
-<area shape="poly" title=" " alt="" coords="955,179,869,290,865,286,951,176"/>
-<area shape="rect" href="../../da/d15/a00188.html" title="Utilities for highView Library Suite." alt="" coords="990,299,1165,324"/>
-<area shape="poly" title=" " alt="" coords="974,176,1062,286,1058,290,970,179"/>
-<area shape="rect" href="../../de/df3/a00185.html" title="hV_Font_Terminal" alt="" coords="512,225,661,251"/>
-<area shape="poly" title=" " alt="" coords="903,180,661,225,660,220,902,175"/>
-<area shape="poly" title=" " alt="" coords="859,322,890,359,911,379,935,395,966,407,1011,420,1113,440,1112,446,1009,425,964,412,932,400,907,383,886,362,855,326"/>
-<area shape="poly" title=" " alt="" coords="833,326,771,367,768,362,830,322"/>
-<area shape="poly" title=" " alt="" coords="1089,323,1181,433,1177,436,1085,326"/>
-<area shape="poly" title=" " alt="" coords="1024,327,809,372,808,366,1023,321"/>
-<area shape="poly" title=" " alt="" coords="662,242,788,260,859,275,928,296,1033,355,1168,436,1166,440,1031,359,926,301,857,280,787,265,661,247"/>
-<area shape="poly" title=" " alt="" coords="512,242,358,246,186,258,113,269,58,283,40,292,30,301,29,311,35,322,46,330,65,337,123,349,292,366,487,376,654,380,653,385,487,381,291,372,122,354,64,342,44,334,31,326,23,312,26,299,37,287,56,278,111,263,185,253,358,240,512,237"/>
-<area shape="poly" title=" " alt="" coords="662,248,986,294,985,299,661,253"/>
-<area shape="rect" href="../../d9/db6/a00146.html" title="Font structure." alt="" coords="673,299,759,324"/>
-<area shape="poly" title=" " alt="" coords="609,248,684,289,681,294,606,253"/>
-<area shape="rect" href="../../d2/df5/a00137.html" title="Font Terminal 6 x 8." alt="" coords="525,299,648,324"/>
-<area shape="poly" title=" " alt="" coords="589,251,589,285,584,285,584,251"/>
-<area shape="rect" href="../../da/d1e/a00149.html" title="Font Terminal 8 x 12." alt="" coords="45,299,176,324"/>
-<area shape="poly" title=" " alt="" coords="512,253,190,301,189,296,511,248"/>
-<area shape="rect" href="../../d7/d25/a00182.html" title="Font Terminal 12 x 16." alt="" coords="200,299,339,324"/>
-<area shape="poly" title=" " alt="" coords="536,253,334,298,333,293,535,248"/>
-<area shape="rect" href="../../de/d79/a00203.html" title="Font Terminal 16 x 24." alt="" coords="363,299,501,324"/>
-<area shape="poly" title=" " alt="" coords="563,253,471,295,469,290,561,248"/>
-<area shape="poly" title=" " alt="" coords="737,322,806,358,896,395,1001,423,1102,442,1101,447,1000,428,894,400,804,362,734,326"/>
-<area shape="poly" title=" " alt="" coords="722,323,734,358,729,360,717,325"/>
-<area shape="poly" title=" " alt="" coords="1385,326,1361,361,1324,399,1286,424,1246,443,1244,438,1283,420,1321,395,1356,358,1380,323"/>
-<area shape="poly" title=" " alt="" coords="1341,321,826,377,826,371,1341,315"/>
-<area shape="poly" title=" " alt="" coords="1311,251,1304,317,1293,359,1274,399,1255,422,1232,440,1228,436,1251,418,1270,396,1288,357,1298,316,1305,251"/>
-<area shape="poly" title=" " alt="" coords="1296,253,1246,290,1213,310,1177,326,1086,353,992,371,903,381,826,385,826,380,902,375,991,365,1084,348,1175,322,1210,305,1243,286,1293,249"/>
-<area shape="poly" title=" " alt="" coords="1272,253,1128,297,1127,292,1270,248"/>
-<area shape="poly" title=" " alt="" coords="1323,249,1368,288,1364,292,1319,253"/>
+<div class="center"><img src="../../dd/df3/a00219.png" border="0" usemap="#ahV__Configuration_8h" alt=""/></div>
+<map name="ahV__Configuration_8h" id="ahV__Configuration_8h">
+<area shape="rect" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="505,5,651,31"/>
+<area shape="rect" href="../../d3/d1a/a00251.html" title="Light hardware abstraction layer for peripherals." alt="" coords="143,79,307,104"/>
+<area shape="poly" title=" " alt="" coords="522,33,296,79,295,73,521,28"/>
+<area shape="rect" href="../../da/d15/a00188.html" title="List of options for Pervasive Displays Library Suite." alt="" coords="721,152,859,177"/>
+<area shape="poly" title=" " alt="" coords="652,25,750,44,792,59,819,77,825,93,825,110,810,141,805,139,819,109,820,94,815,80,790,63,749,49,651,30"/>
+<area shape="rect" href="../../d9/d01/a00227.html" title="List of constants for Pervasive Displays Library Suite." alt="" coords="331,79,484,104"/>
+<area shape="poly" title=" " alt="" coords="552,33,449,76,447,71,550,28"/>
+<area shape="rect" href="../../d9/d39/a00257.html" title="List of boards for Pervasive Displays Library Suite." alt="" coords="671,79,805,104"/>
+<area shape="poly" title=" " alt="" coords="605,28,700,71,698,75,603,33"/>
+<area shape="rect" href="../../d3/dd5/a00215.html" title="List of supported Pervasive Displays screens." alt="" coords="509,79,647,104"/>
+<area shape="poly" title=" " alt="" coords="581,31,581,65,575,65,575,31"/>
+<area shape="rect" title=" " alt="" coords="5,152,89,177"/>
+<area shape="poly" title=" " alt="" coords="197,106,90,149,88,144,195,102"/>
+<area shape="rect" title=" " alt="" coords="113,152,168,177"/>
+<area shape="poly" title=" " alt="" coords="213,106,167,145,163,141,209,102"/>
+<area shape="rect" title=" " alt="" coords="193,152,257,177"/>
+<area shape="poly" title=" " alt="" coords="227,104,227,138,222,138,222,104"/>
+<area shape="rect" title=" " alt="" coords="507,152,577,177"/>
+<area shape="poly" title=" " alt="" coords="276,101,494,150,492,155,275,107"/>
+<area shape="rect" title=" " alt="" coords="281,152,347,177"/>
+<area shape="poly" title=" " alt="" coords="241,102,290,141,287,145,237,106"/>
+<area shape="rect" title=" " alt="" coords="371,152,446,177"/>
+<area shape="poly" title=" " alt="" coords="255,102,367,144,365,149,253,107"/>
+<area shape="poly" title=" " alt="" coords="430,102,509,143,507,148,428,106"/>
+<area shape="poly" title=" " alt="" coords="707,107,588,150,586,145,706,102"/>
+<area shape="poly" title=" " alt="" coords="749,103,776,139,771,142,744,106"/>
+<area shape="poly" title=" " alt="" coords="574,106,556,141,552,138,570,103"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/d0b/a00220.png" border="0" usemap="#aPDLS__EXT3__Basic__Touch_8hdep" alt=""/></div>
-<map name="aPDLS__EXT3__Basic__Touch_8hdep" id="aPDLS__EXT3__Basic__Touch_8hdep">
-<area shape="rect" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="177,5,370,31"/>
-<area shape="rect" href="../../dc/d5d/a00278.html" title="Example of features for basic edition." alt="" coords="5,79,171,104"/>
-<area shape="poly" title=" " alt="" coords="232,38,119,81,117,76,230,33"/>
-<area shape="rect" href="../../d3/d5e/a00275.html" title="Example of features for Evaluation edition." alt="" coords="195,79,351,104"/>
-<area shape="poly" title=" " alt="" coords="276,44,276,79,271,79,271,44"/>
-<area shape="rect" href="../../d9/d39/a00257.html" title="Example of features for basic edition." alt="" coords="376,79,571,104"/>
-<area shape="poly" title=" " alt="" coords="319,33,442,76,440,81,318,38"/>
+<div class="center"><img src="../../d5/d0b/a00220.png" border="0" usemap="#ahV__Configuration_8hdep" alt=""/></div>
+<map name="ahV__Configuration_8hdep" id="ahV__Configuration_8hdep">
+<area shape="rect" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="1856,5,2001,31"/>
+<area shape="rect" href="../../d2/df5/a00137.html" title="Example of features for basic edition." alt="" coords="5,79,167,104"/>
+<area shape="poly" title=" " alt="" coords="1842,22,1564,25,1154,34,672,51,423,65,180,81,167,82,167,77,179,76,423,59,672,46,1154,28,1564,20,1842,17"/>
+<area shape="rect" href="../../de/d76/a00134.html" title="Example of features for basic edition." alt="" coords="191,79,338,104"/>
+<area shape="poly" title=" " alt="" coords="1842,22,1589,26,1220,34,789,52,350,81,338,82,338,77,350,76,789,47,1220,29,1589,20,1842,17"/>
+<area shape="rect" href="../../da/d1e/a00149.html" title="Example of features for basic edition." alt="" coords="362,79,514,104"/>
+<area shape="poly" title=" " alt="" coords="1842,23,1288,38,910,55,526,81,515,82,514,77,526,76,910,49,1288,32,1842,18"/>
+<area shape="rect" href="../../d7/d06/a00131.html" title="Example of features for basic edition." alt="" coords="539,79,724,104"/>
+<area shape="poly" title=" " alt="" coords="1842,25,1370,43,1055,59,736,81,725,82,724,77,735,76,1055,54,1370,38,1842,19"/>
+<area shape="rect" href="../../d7/d9a/a00152.html" title="Example of features for basic edition." alt="" coords="748,79,925,104"/>
+<area shape="poly" title=" " alt="" coords="1843,26,1451,46,1196,62,938,81,926,82,925,77,938,76,1196,56,1451,40,1842,20"/>
+<area shape="rect" href="../../d7/dce/a00143.html" title="Protocol for speed test." alt="" coords="950,79,1102,104"/>
+<area shape="poly" title=" " alt="" coords="1842,27,1522,47,1114,81,1103,83,1102,77,1114,76,1521,42,1842,21"/>
+<area shape="rect" href="../../d9/db6/a00146.html" title="Example of features for basic edition." alt="" coords="1126,79,1265,104"/>
+<area shape="poly" title=" " alt="" coords="1842,29,1589,50,1277,81,1265,83,1265,77,1276,76,1588,45,1842,23"/>
+<area shape="rect" href="../../d5/db1/a00140.html" title="Example of features for basic edition." alt="" coords="1289,79,1456,104"/>
+<area shape="poly" title=" " alt="" coords="1843,33,1457,82,1456,77,1842,28"/>
+<area shape="rect" href="../../d6/db8/a00158.html" title="Example of features for basic edition." alt="" coords="1481,79,1587,104"/>
+<area shape="poly" title=" " alt="" coords="1852,36,1588,83,1587,78,1851,30"/>
+<area shape="rect" href="../../db/ddf/a00164.html" title="Example of features for basic edition." alt="" coords="1611,79,1763,104"/>
+<area shape="poly" title=" " alt="" coords="1877,37,1727,81,1726,76,1876,32"/>
+<area shape="rect" href="../../d6/d7d/a00161.html" title="Protocol for speed test." alt="" coords="1788,79,1907,104"/>
+<area shape="poly" title=" " alt="" coords="1907,42,1862,80,1859,76,1904,38"/>
+<area shape="rect" href="../../d3/df8/a00155.html" title="Example of features for fast edition." alt="" coords="1931,79,2092,104"/>
+<area shape="poly" title=" " alt="" coords="1954,38,2000,76,1996,80,1951,42"/>
+<area shape="rect" href="../../d1/da8/a00230.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="2415,299,2565,324"/>
+<area shape="poly" title=" " alt="" coords="2015,19,2529,38,2776,55,2856,65,2881,70,2894,77,2911,99,2918,120,2917,141,2908,160,2893,178,2873,195,2819,225,2753,251,2683,272,2555,301,2554,296,2681,267,2751,246,2816,220,2870,191,2890,174,2904,157,2912,140,2913,121,2906,101,2891,81,2880,75,2855,70,2775,60,2529,43,2015,24"/>
+<area shape="rect" href="../../de/d79/a00203.html" title="Basic GUI with text and button." alt="" coords="2770,372,2853,397"/>
+<area shape="poly" title=" " alt="" coords="2015,17,2241,21,2524,30,2778,47,2868,60,2900,68,2921,76,2944,93,2960,112,2969,134,2971,163,2971,240,2968,265,2957,287,2942,308,2924,326,2882,355,2842,374,2840,370,2879,350,2920,322,2938,304,2953,285,2963,263,2966,239,2966,163,2964,136,2956,115,2941,97,2918,81,2898,73,2867,65,2778,53,2524,35,2241,26,2015,23"/>
+<area shape="rect" href="../../d6/d22/a00245.html" title="Driver for Pervasive Displays EXT3, EXT3.1 and EXT3&#45;Touch boards." alt="" coords="2117,79,2213,104"/>
+<area shape="poly" title=" " alt="" coords="1980,32,2127,76,2126,81,1979,37"/>
+<area shape="rect" href="../../d3/de5/a00209.html" title="Driver for Pervasive Displays EXT3, EXT3.1 and EXT3&#45;Touch boards." alt="" coords="2175,152,2325,177"/>
+<area shape="poly" title=" " alt="" coords="2015,24,2138,43,2191,58,2226,77,2240,94,2248,115,2253,151,2247,152,2242,116,2235,97,2223,81,2189,63,2136,48,2014,29"/>
+<area shape="rect" href="../../dc/de6/a00167.html" title="Class Library for 5&#45;6&#45;5 coded colours." alt="" coords="2750,79,2881,104"/>
+<area shape="poly" title=" " alt="" coords="2015,21,2331,42,2732,76,2750,78,2750,83,2731,81,2331,47,2015,27"/>
+<area shape="rect" href="../../dd/d52/a00221.html" title="Shared low&#45;level libraries for the Pervasive Displays Library Suite." alt="" coords="2654,152,2771,177"/>
+<area shape="poly" title=" " alt="" coords="2016,19,2185,26,2385,38,2561,54,2623,65,2659,76,2679,93,2694,113,2711,150,2706,153,2689,116,2675,96,2657,81,2622,70,2560,60,2384,43,2185,32,2015,25"/>
+<area shape="rect" href="../../d6/de1/a00233.html" title="Generic buffered screen class library." alt="" coords="2417,225,2563,251"/>
+<area shape="poly" title=" " alt="" coords="2015,23,2130,41,2192,56,2252,76,2323,111,2389,153,2479,223,2475,227,2385,158,2321,116,2250,81,2191,61,2129,46,2014,28"/>
+<area shape="rect" href="../../d9/dd0/a00191.html" title="Font structure." alt="" coords="2537,79,2624,104"/>
+<area shape="poly" title=" " alt="" coords="2015,23,2246,42,2525,76,2538,78,2537,83,2524,81,2245,48,2015,28"/>
+<area shape="rect" href="../../db/dd9/a00179.html" title="hV_Font_Terminal" alt="" coords="2473,152,2622,177"/>
+<area shape="poly" title=" " alt="" coords="2015,18,2182,21,2377,31,2547,48,2605,61,2625,68,2637,77,2644,88,2644,100,2630,121,2604,140,2576,154,2574,149,2601,135,2626,118,2639,99,2639,90,2633,80,2622,73,2603,66,2546,54,2377,36,2182,27,2015,23"/>
+<area shape="rect" href="../../d5/ddf/a00224.html" title="Utilities for highView Library Suite." alt="" coords="2339,79,2513,104"/>
+<area shape="poly" title=" " alt="" coords="2015,29,2346,76,2346,81,2014,34"/>
+<area shape="rect" href="../../d7/d25/a00182.html" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="2393,372,2587,397"/>
+<area shape="poly" title=" " alt="" coords="2493,338,2493,372,2487,372,2487,338"/>
+<area shape="poly" title=" " alt="" coords="2555,324,2770,372,2769,377,2554,330"/>
+<area shape="poly" title=" " alt="" coords="2160,117,2157,147,2159,162,2166,176,2189,204,2217,228,2248,248,2282,264,2351,288,2415,300,2414,306,2350,293,2280,269,2245,253,2214,232,2185,208,2161,179,2154,164,2152,148,2155,117"/>
+<area shape="poly" title=" " alt="" coords="2190,110,2238,150,2234,154,2187,115"/>
+<area shape="poly" title=" " alt="" coords="2282,182,2472,296,2469,301,2280,187"/>
+<area shape="poly" title=" " alt="" coords="2789,114,2731,154,2728,150,2786,110"/>
+<area shape="poly" title=" " alt="" coords="2815,119,2805,150,2797,166,2785,179,2747,199,2690,213,2564,233,2563,227,2689,208,2745,194,2782,175,2793,163,2801,148,2810,117"/>
+<area shape="poly" title=" " alt="" coords="2493,264,2493,299,2487,299,2487,264"/>
+<area shape="poly" title=" " alt="" coords="2572,118,2555,153,2550,151,2567,115"/>
+<area shape="poly" title=" " alt="" coords="2532,190,2501,227,2497,224,2527,186"/>
+<area shape="poly" title=" " alt="" coords="2386,112,2280,154,2278,149,2384,107"/>
+<area shape="poly" title=" " alt="" coords="2486,105,2667,149,2666,154,2485,110"/>
+<area shape="poly" title=" " alt="" coords="2438,116,2463,176,2486,224,2482,226,2458,178,2433,118"/>
+<area shape="poly" title=" " alt="" coords="2459,109,2529,149,2526,154,2456,113"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:aef06e3e2890823292ed604629c3bad41" id="r_aef06e3e2890823292ed604629c3bad41"><td class="memItemLeft" align="right" valign="top"><a id="aef06e3e2890823292ed604629c3bad41" name="aef06e3e2890823292ed604629c3bad41"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>PDLS_EXT3_BASIC_FAST_RELEASE</b>&#160;&#160;&#160;801</td></tr>
-<tr class="memdesc:aef06e3e2890823292ed604629c3bad41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Library release number. <br /></td></tr>
-<tr class="separator:aef06e3e2890823292ed604629c3bad41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bcfa67129cf269c0672a66e4705cc21" id="r_a3bcfa67129cf269c0672a66e4705cc21"><td class="memItemLeft" align="right" valign="top"><a id="a3bcfa67129cf269c0672a66e4705cc21" name="a3bcfa67129cf269c0672a66e4705cc21"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>hV_CONFIGURATION_RELEASE</b>&#160;&#160;&#160;805</td></tr>
+<tr class="memdesc:a3bcfa67129cf269c0672a66e4705cc21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release. <br /></td></tr>
+<tr class="separator:a3bcfa67129cf269c0672a66e4705cc21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">12. Set debug options</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><dl class="section see"><dt>See also</dt><dd><a class="el" href="../../da/d15/a00188.html" title="List of options for Pervasive Displays Library Suite.">hV_List_Options.h</a> </dd></dl>
+</div></td></tr>
+<tr class="memitem:af6fd3138269f63a18c11b6fd9bf9cc37" id="r_af6fd3138269f63a18c11b6fd9bf9cc37"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6fd3138269f63a18c11b6fd9bf9cc37">FRAMEBUFFER_TYPE</a>&#160;&#160;&#160;uint8_t *</td></tr>
+<tr class="memdesc:af6fd3138269f63a18c11b6fd9bf9cc37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type for frame-buffer.  <br /></td></tr>
+<tr class="separator:af6fd3138269f63a18c11b6fd9bf9cc37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5eb05d3b545c8fc57952cb4afb121ca" id="r_ab5eb05d3b545c8fc57952cb4afb121ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5eb05d3b545c8fc57952cb4afb121ca">STRING_TYPE</a>&#160;&#160;&#160;String</td></tr>
+<tr class="memdesc:ab5eb05d3b545c8fc57952cb4afb121ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type for string.  <br /></td></tr>
+<tr class="separator:ab5eb05d3b545c8fc57952cb4afb121ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51812afad88d6a81feaa2dddada6e028" id="r_a51812afad88d6a81feaa2dddada6e028"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51812afad88d6a81feaa2dddada6e028">STRING_CONST_TYPE</a>&#160;&#160;&#160;String</td></tr>
+<tr class="memdesc:a51812afad88d6a81feaa2dddada6e028"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type for frame-buffer.  <br /></td></tr>
+<tr class="separator:a51812afad88d6a81feaa2dddada6e028"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Driver for Pervasive Displays iTC screens and EXT3 extension board. </p>
+<div class="textblock"><p>Configuration of the options for Pervasive Displays Library Suite. </p>
 <p>Project Pervasive Displays Library Suite <br  />
  Based on highView technology</p>
+<p><br  />
+ Content</p><ul>
+<li>1- List of supported Pervasive Displays screens</li>
+<li>2- List of pre-configured boards</li>
+<li>3- Font mode, internal MCU for basic edition</li>
+<li>4- Maximum number of fonts</li>
+<li>5- SRAM memory, internal MCU for basic edition</li>
+<li>6- Use self for basic edition</li>
+<li>7- Touch mode, activated or not</li>
+<li>8- Haptic feedback mode, not implemented</li>
+<li>9. Set GPIO expander mode, not implemented</li>
+<li>10. String object for basic edition</li>
+<li>11. Set storage mode, not implemented</li>
+<li>12. Set debug options</li>
+</ul>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>21 Mar 2024 </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>801</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>21 Aug 2024 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>805</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2024 </dd>
 <dd>
 All rights reserved </dd>
@@ -236,13 +275,65 @@ For exclusive use with Pervasive Displays screens</dd></dl>
 <li>Documentation <br  />
  All rights reserved </li>
 </ul>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="af6fd3138269f63a18c11b6fd9bf9cc37" name="af6fd3138269f63a18c11b6fd9bf9cc37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6fd3138269f63a18c11b6fd9bf9cc37">&#9670;&#160;</a></span>FRAMEBUFFER_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FRAMEBUFFER_TYPE&#160;&#160;&#160;uint8_t *</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type for frame-buffer. </p>
+<p>Based on SRAM_MODE selection </p>
+
+</div>
+</div>
+<a id="a51812afad88d6a81feaa2dddada6e028" name="a51812afad88d6a81feaa2dddada6e028"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51812afad88d6a81feaa2dddada6e028">&#9670;&#160;</a></span>STRING_CONST_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STRING_CONST_TYPE&#160;&#160;&#160;String</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type for frame-buffer. </p>
+<p>Based on SRAM_MODE selection </p>
+
+</div>
+</div>
+<a id="ab5eb05d3b545c8fc57952cb4afb121ca" name="ab5eb05d3b545c8fc57952cb4afb121ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5eb05d3b545c8fc57952cb4afb121ca">&#9670;&#160;</a></span>STRING_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STRING_TYPE&#160;&#160;&#160;String</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type for string. </p>
+<p>Based on STRING_MODE selection </p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dc/d9a/a00218.html">PDLS_EXT3_Basic_Touch.h</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dc/d9a/a00218.html">hV_Configuration.h</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.11.0 </li>

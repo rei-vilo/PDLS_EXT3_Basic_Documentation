@@ -1,6 +1,4 @@
 var a00185 =
 [
-    [ "loop", "de/df3/a00185.html#afe461d27b9c48d5921c00d521181f12f", null ],
-    [ "setup", "de/df3/a00185.html#a4fc01d736fe50cf5b977f755b675f11d", null ],
-    [ "wait", "de/df3/a00185.html#a92d9142cd31b37b7b3944dc8d9c9f454", null ]
+    [ "TERMINAL6E_FONT_RELEASE", "de/df3/a00185.html#ae334fa4c1c475b47ca1f6e86589b5510", null ]
 ];

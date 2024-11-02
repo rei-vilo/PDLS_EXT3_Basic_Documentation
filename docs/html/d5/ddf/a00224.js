@@ -1,13 +1,18 @@
 var a00224 =
 [
-    [ "GUI", "d2/d71/a00309.html", "d2/d71/a00309" ],
-    [ "Text", "dd/db3/a00313.html", "dd/db3/a00313" ],
-    [ "Button", "da/de0/a00317.html", "da/de0/a00317" ],
-    [ "checkInstant", "d5/ddf/a00224.html#ada270c7144643ff2b7d50a564a3dbdc0", null ],
-    [ "checkNormal", "d5/ddf/a00224.html#a436b4a5140acee407da61a0097dca9c0", null ],
-    [ "hV_GUI_BASIC_RELEASE", "d5/ddf/a00224.html#a2071496e55eb3c5e00faed997f19654c", null ],
-    [ "fsmGUI_e", "d5/ddf/a00224.html#ad98973f41a35ca658799fbd07a8fb82b", [
-      [ "fsmReleased", "d5/ddf/a00224.html#ad98973f41a35ca658799fbd07a8fb82bae88708812c4ed26e1a35fc58fa103d7c", null ],
-      [ "fsmTouched", "d5/ddf/a00224.html#ad98973f41a35ca658799fbd07a8fb82bac02bae32a14b2f2024c9f32f2a0e0c45", null ]
-    ] ]
+    [ "hV_UTILITIES_RELEASE", "d5/ddf/a00224.html#a9181b73f355c545c61257008ed6515c1", null ],
+    [ "ORIENTATION_LANDSCAPE", "d5/ddf/a00224.html#accc06995e9834c793d2cc9e96ded0560", null ],
+    [ "ORIENTATION_PORTRAIT", "d5/ddf/a00224.html#a0f166aa542c69097847cfc189cd48057", null ],
+    [ "checkRange", "d5/ddf/a00224.html#a86af3529c58c3ba135667030a75a5917", null ],
+    [ "cos32x100", "d5/ddf/a00224.html#ae5fee0ae2d4737a35b38f31aa48ece9f", null ],
+    [ "delay_ms", "d5/ddf/a00224.html#ab7cce8122024d7ba47bf10f434956de4", null ],
+    [ "formatString", "d5/ddf/a00224.html#aa405c9a5b808e428554e540028085dd3", null ],
+    [ "roundUp", "d5/ddf/a00224.html#a9e10a8bc35f3b1ae121655e335de4513", null ],
+    [ "setMinMax", "d5/ddf/a00224.html#ac8a17fff09aa92a8b27434044c138bc0", null ],
+    [ "sin32x100", "d5/ddf/a00224.html#a6843a856b41ae0c0fbe919efb535aa9f", null ],
+    [ "swap", "d5/ddf/a00224.html#a149f55c1d6b6336ef751e247856198ce", null ],
+    [ "swap", "d5/ddf/a00224.html#a7989671d14dda7f19b8d289e359404e9", null ],
+    [ "swap", "d5/ddf/a00224.html#a46562f812c731ac4a846ee4bb29b0397", null ],
+    [ "trimString", "d5/ddf/a00224.html#a311c694a8a5722683dd6739c55323036", null ],
+    [ "utf2iso", "d5/ddf/a00224.html#a3051dd153db86ba3b56a69e93f1ca22a", null ]
 ];

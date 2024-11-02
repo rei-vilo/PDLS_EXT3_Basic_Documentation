@@ -1,8 +1,28 @@
 var searchData=
 [
-  ['rectangle_0',['rectangle',['../dd/d4e/a00329.html#a714b2263f8fa3d26959d7e7f86e8a8d7',1,'hV_Screen_Buffer']]],
-  ['regenerate_1',['regenerate',['../d4/dce/a00337.html#ac0350adf562ad504aceafc7bbf608841',1,'Screen_EPD_EXT3_Fast']]],
-  ['resetgame_2',['resetGame',['../d6/d7d/a00161.html#af1de076469d08f717d537d1b6b028566',1,'Basic_Touch_TicTacToe.ino']]],
-  ['resume_3',['resume',['../d4/dce/a00337.html#ad7d3fb651d0f679390a75fa1eb067e2e',1,'Screen_EPD_EXT3_Fast']]],
-  ['roundup_4',['roundUp',['../d6/d22/a00245.html#a9e10a8bc35f3b1ae121655e335de4513',1,'hV_Utilities_Common.cpp']]]
+  ['screen_5fepd_5fext3_5ffast_0',['Screen_EPD_EXT3_Fast',['../d7/df2/a00312.html#a2679cd1110004399a42696ca01638394',1,'Screen_EPD_EXT3_Fast']]],
+  ['screencolourbits_1',['screenColourBits',['../d8/d17/a00304.html#a239629de5e63476e5430b918387ebdd3',1,'hV_Screen_Buffer']]],
+  ['screencolours_2',['screenColours',['../d5/d0f/a00308.html#a8f6fd5574dd12584012bdf7c7d136cd1',1,'hV_Utilities_PDLS']]],
+  ['screendiagonal_3',['screenDiagonal',['../d8/d17/a00304.html#a405585d083d94d692e21dd2018e0c93f',1,'hV_Screen_Buffer']]],
+  ['screennumber_4',['screenNumber',['../d5/d0f/a00308.html#a98e0eebcf4d6fc9aa57584bfdae2ee1e',1,'hV_Utilities_PDLS']]],
+  ['screensizex_5',['screenSizeX',['../d8/d17/a00304.html#af604876aaef2df66b73315e8b02d05fc',1,'hV_Screen_Buffer']]],
+  ['screensizey_6',['screenSizeY',['../d8/d17/a00304.html#abb6cf35dc0a6ee1d3177db1d348c788e',1,'hV_Screen_Buffer']]],
+  ['selectfont_7',['selectFont',['../d8/d17/a00304.html#aa3090849f2b98dd8da86e461f530c272',1,'hV_Screen_Buffer']]],
+  ['setcolours_8',['setColours',['../db/dc3/a00284.html#a9e8e77eeccc1f4ed053d4e6de04fcb81',1,'GUI']]],
+  ['setfontsolid_9',['setFontSolid',['../d8/d17/a00304.html#a0e1b72e02ee7a15821f672d6566ee192',1,'hV_Screen_Buffer']]],
+  ['setfontspacex_10',['setFontSpaceX',['../d8/d17/a00304.html#a144753a36ca4d295b424453752184270',1,'hV_Screen_Buffer']]],
+  ['setfontspacey_11',['setFontSpaceY',['../d8/d17/a00304.html#a2c5ddd54d0f8ec9d16938eedc7ee141c',1,'hV_Screen_Buffer']]],
+  ['setminmax_12',['setMinMax',['../d5/ddf/a00224.html#ac8a17fff09aa92a8b27434044c138bc0',1,'hV_Utilities_Common.cpp']]],
+  ['setorientation_13',['setOrientation',['../d8/d17/a00304.html#a88c272606f53beccde7bf56dba49e6cd',1,'hV_Screen_Buffer']]],
+  ['setpanelpowerpin_14',['setPanelPowerPin',['../db/d12/a00268.html#ac08019c284c511de77b2412892d2f2f7',1,'hV_Board']]],
+  ['setpensolid_15',['setPenSolid',['../d8/d17/a00304.html#a47a658506d4fa24d80c93b78676c1b9b',1,'hV_Screen_Buffer']]],
+  ['setpowerprofile_16',['setPowerProfile',['../d5/d0f/a00308.html#aad6ecf0fa6bc72ce36dcc4ee035a919a',1,'hV_Utilities_PDLS']]],
+  ['settemperaturec_17',['setTemperatureC',['../d5/d0f/a00308.html#ad876220c2938cf70b50c351e5ebb9c25',1,'hV_Utilities_PDLS']]],
+  ['settemperaturef_18',['setTemperatureF',['../d5/d0f/a00308.html#ac6204311e42a29539047e2efb081de9e',1,'hV_Utilities_PDLS']]],
+  ['setup_19',['setup',['../d2/df5/a00137.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Common_Colours.ino'],['../de/d76/a00134.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Common_Fonts.ino'],['../da/d1e/a00149.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Common_Forms.ino'],['../d7/d06/a00131.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Common_Orientation.ino'],['../d7/d9a/a00152.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Common_Persistent.ino'],['../d7/dce/a00143.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Common_Speed.ino'],['../d9/db6/a00146.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Common_Text.ino'],['../d5/db1/a00140.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Common_WhoAmI.ino'],['../d6/db8/a00158.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Fast_Line.ino'],['../db/ddf/a00164.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Fast_Orientation.ino'],['../d6/d7d/a00161.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Fast_Speed.ino'],['../d3/df8/a00155.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Fast_Temperature.ino']]],
+  ['sin32x100_20',['sin32x100',['../d5/ddf/a00224.html#a6843a856b41ae0c0fbe919efb535aa9f',1,'hV_Utilities_Common.cpp']]],
+  ['stringlengthtofitx_21',['stringLengthToFitX',['../d8/d17/a00304.html#a0ab408f66bd602703b017fe41de0d606',1,'hV_Screen_Buffer']]],
+  ['stringsizex_22',['stringSizeX',['../d8/d17/a00304.html#afe8e348e115eafc88b02e292d3852de3',1,'hV_Screen_Buffer']]],
+  ['suspend_23',['suspend',['../d7/df2/a00312.html#a9324bbb7e8151505ef925dc1e326b4b0',1,'Screen_EPD_EXT3_Fast']]],
+  ['swap_24',['swap',['../d5/ddf/a00224.html#a149f55c1d6b6336ef751e247856198ce',1,'swap(int16_t &amp;a, int16_t &amp;b):&#160;hV_Utilities_Common.cpp'],['../d5/ddf/a00224.html#a7989671d14dda7f19b8d289e359404e9',1,'swap(uint16_t &amp;a, uint16_t &amp;b):&#160;hV_Utilities_Common.cpp'],['../d5/ddf/a00224.html#a46562f812c731ac4a846ee4bb29b0397',1,'swap(uint8_t &amp;a, uint8_t &amp;b):&#160;hV_Utilities_Common.cpp']]]
 ];

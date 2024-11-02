@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['performtest_0',['performTest',['../d3/df8/a00155.html#a5ead2ecbed56fc3642b497dd06184234',1,'performTest():&#160;Example_Fast_Speed.ino'],['../d7/d9a/a00152.html#a5ead2ecbed56fc3642b497dd06184234',1,'performTest():&#160;Example_Global_Speed.ino']]],
-  ['playgame_1',['playGame',['../d6/d7d/a00161.html#a4cbfdb17bf51e00546880626f7e80429',1,'Basic_Touch_TicTacToe.ino']]],
-  ['point_2',['point',['../dd/d4e/a00329.html#af56437354e69149a2da933a458b05f04',1,'hV_Screen_Buffer']]],
-  ['printboard_3',['printBoard',['../d6/d7d/a00161.html#a8310d6d1e915cb179f834d9ca017950a',1,'Basic_Touch_TicTacToe.ino']]]
+  ['rectangle_0',['rectangle',['../d8/d17/a00304.html#a714b2263f8fa3d26959d7e7f86e8a8d7',1,'hV_Screen_Buffer']]],
+  ['regenerate_1',['regenerate',['../d7/df2/a00312.html#ac0350adf562ad504aceafc7bbf608841',1,'Screen_EPD_EXT3_Fast']]],
+  ['resume_2',['resume',['../d7/df2/a00312.html#ad7d3fb651d0f679390a75fa1eb067e2e',1,'Screen_EPD_EXT3_Fast']]],
+  ['roundup_3',['roundUp',['../d5/ddf/a00224.html#a9e10a8bc35f3b1ae121655e335de4513',1,'hV_Utilities_Common.cpp']]]
 ];

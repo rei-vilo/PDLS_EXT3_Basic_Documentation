@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Reference Manual - Pervasive Displays Library Suite - Basic edition: Screen_EPD_EXT3.h File Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: hV_HAL_Peripherals.h File Reference</title>
 <link rel="icon" href="../../Logo-PDI-white.png" type="image/x-icon" />
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Reference Manual - Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.5</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.7</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -101,167 +101,204 @@ $(function(){initNavTree('d3/d1a/a00251.html','../../'); initResizable(true); })
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Data Structures</a> &#124;
-<a href="#define-members">Macros</a>  </div>
-  <div class="headertitle"><div class="title">Screen_EPD_EXT3.h File Reference</div></div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">hV_HAL_Peripherals.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Driver for Pervasive Displays iTC monochrome touch screens with EXT3-1 and EXT3-Touch boards.  
+<p>Light hardware abstraction layer for peripherals.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d9/dd6/a00272.html">hV_HAL_Peripherals.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d27/a00239.html">hV_Configuration.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d03/a00254.html">hV_Screen_Buffer.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d35/a00266.html">hV_Board.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/da8/a00230.html">hV_Utilities_PDLS.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;Arduino.h&gt;</code><br />
+<code>#include &lt;SPI.h&gt;</code><br />
+<code>#include &lt;Wire.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdarg.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Screen_EPD_EXT3.h:</div>
+Include dependency graph for hV_HAL_Peripherals.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dc/ded/a00252.png" border="0" usemap="#aScreen__EPD__EXT3_8h" alt=""/></div>
-<map name="aScreen__EPD__EXT3_8h" id="aScreen__EPD__EXT3_8h">
-<area shape="rect" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="1205,5,1355,31"/>
-<area shape="rect" href="../../d9/dd6/a00272.html" title="Light hardware abstraction layer for peripherals." alt="" coords="837,372,1001,397"/>
-<area shape="poly" title=" " alt="" coords="1205,23,902,29,705,37,502,50,313,68,155,93,93,108,47,125,18,144,10,153,8,164,8,239,11,263,20,280,34,291,53,299,100,309,154,321,210,334,285,345,468,362,661,373,823,378,823,384,661,378,467,368,284,351,210,340,153,327,99,315,51,304,32,296,16,283,6,265,3,240,3,163,6,151,14,140,44,120,92,103,154,87,312,63,502,45,705,32,902,24,1204,17"/>
-<area shape="rect" href="../../d0/d27/a00239.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="1301,299,1446,324"/>
-<area shape="poly" title=" " alt="" coords="1300,29,1329,49,1358,77,1389,114,1410,145,1426,179,1440,225,1443,238,1440,252,1425,275,1405,293,1402,289,1421,271,1435,250,1437,238,1435,226,1421,181,1406,148,1384,117,1354,80,1326,53,1297,33"/>
-<area shape="rect" href="../../d7/d03/a00254.html" title="Generic buffered screen class library." alt="" coords="880,79,1027,104"/>
-<area shape="poly" title=" " alt="" coords="1228,33,1020,78,1019,73,1227,28"/>
-<area shape="rect" href="../../d5/d35/a00266.html" title="Driver for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="1288,225,1384,251"/>
-<area shape="poly" title=" " alt="" coords="1293,29,1333,79,1354,114,1369,151,1371,168,1368,185,1355,215,1350,213,1363,184,1366,168,1364,153,1349,116,1328,82,1289,33"/>
-<area shape="rect" href="../../d1/da8/a00230.html" title="Driver for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="1205,152,1355,177"/>
-<area shape="poly" title=" " alt="" coords="1283,31,1283,138,1277,138,1277,31"/>
-<area shape="rect" title=" " alt="" coords="783,445,867,471"/>
-<area shape="poly" title=" " alt="" coords="905,399,853,439,850,435,902,395"/>
-<area shape="rect" title=" " alt="" coords="891,445,946,471"/>
-<area shape="poly" title=" " alt="" coords="921,398,921,432,916,432,916,398"/>
-<area shape="rect" title=" " alt="" coords="971,445,1035,471"/>
-<area shape="poly" title=" " alt="" coords="934,395,980,434,977,438,930,399"/>
-<area shape="rect" title=" " alt="" coords="1194,445,1265,471"/>
-<area shape="poly" title=" " alt="" coords="969,395,1181,443,1180,448,968,400"/>
-<area shape="rect" title=" " alt="" coords="1059,445,1125,471"/>
-<area shape="poly" title=" " alt="" coords="948,395,1052,438,1050,442,946,400"/>
-<area shape="rect" title=" " alt="" coords="684,445,759,471"/>
-<area shape="poly" title=" " alt="" coords="888,400,767,443,766,438,886,395"/>
-<area shape="poly" title=" " alt="" coords="1301,327,1006,373,1005,367,1300,321"/>
-<area shape="rect" href="../../d3/de5/a00209.html" title="List of options for Pervasive Displays Library Suite." alt="" coords="1415,445,1553,471"/>
-<area shape="poly" title=" " alt="" coords="1438,322,1479,339,1498,353,1513,371,1519,387,1517,404,1504,435,1499,433,1512,403,1513,387,1508,373,1494,357,1477,344,1436,326"/>
-<area shape="rect" href="../../dd/dd7/a00248.html" title="List of constants for Pervasive Displays Library Suite." alt="" coords="1025,372,1178,397"/>
-<area shape="poly" title=" " alt="" coords="1330,327,1159,371,1158,366,1329,321"/>
-<area shape="rect" href="../../dc/d5d/a00278.html" title="List of boards for Pervasive Displays Library Suite." alt="" coords="1365,372,1499,397"/>
-<area shape="poly" title=" " alt="" coords="1385,323,1416,360,1412,363,1381,326"/>
-<area shape="rect" href="../../d7/d40/a00236.html" title="List of supported Pervasive Displays screens." alt="" coords="1203,372,1341,397"/>
-<area shape="poly" title=" " alt="" coords="1359,326,1301,366,1298,362,1356,322"/>
-<area shape="poly" title=" " alt="" coords="1123,395,1197,436,1195,441,1121,400"/>
-<area shape="poly" title=" " alt="" coords="1400,400,1276,443,1274,438,1399,395"/>
-<area shape="poly" title=" " alt="" coords="1443,396,1470,433,1465,436,1438,399"/>
-<area shape="poly" title=" " alt="" coords="1267,399,1245,435,1241,432,1263,396"/>
-<area shape="poly" title=" " alt="" coords="880,100,667,118,398,146,269,163,158,183,75,204,48,216,33,227,22,248,27,266,45,283,76,299,118,313,170,325,294,345,435,360,579,370,823,379,823,384,579,375,435,365,293,350,169,330,117,318,74,304,42,287,22,269,17,247,29,224,46,211,74,199,157,178,268,158,397,140,667,112,880,95"/>
-<area shape="poly" title=" " alt="" coords="1027,94,1116,100,1215,111,1305,127,1341,138,1368,150,1396,170,1416,192,1424,219,1420,251,1410,272,1397,290,1392,287,1405,269,1415,250,1419,219,1411,195,1393,174,1365,154,1339,143,1304,132,1214,116,1115,105,1027,99"/>
-<area shape="rect" href="../../da/d15/a00188.html" title="Class Library for 5&#45;6&#45;5 coded colours." alt="" coords="43,225,173,251"/>
-<area shape="poly" title=" " alt="" coords="887,107,187,226,186,221,886,101"/>
-<area shape="rect" href="../../d6/d22/a00245.html" title="Utilities for highView Library Suite." alt="" coords="1038,225,1213,251"/>
-<area shape="poly" title=" " alt="" coords="969,102,1103,214,1099,218,966,106"/>
-<area shape="rect" href="../../d3/db1/a00200.html" title="hV_Font_Terminal" alt="" coords="707,152,856,177"/>
-<area shape="poly" title=" " alt="" coords="927,106,823,149,821,144,925,102"/>
-<area shape="poly" title=" " alt="" coords="118,250,148,287,169,306,193,322,244,339,313,352,484,370,667,379,823,381,823,386,667,384,484,375,312,357,243,344,191,326,166,311,144,291,113,253"/>
-<area shape="poly" title=" " alt="" coords="174,243,236,248,837,283,1286,304,1286,309,836,289,236,253,174,248"/>
-<area shape="poly" title=" " alt="" coords="1110,253,948,366,945,362,1107,249"/>
-<area shape="poly" title=" " alt="" coords="1166,248,1321,292,1319,297,1164,253"/>
-<area shape="poly" title=" " alt="" coords="707,174,423,199,296,214,255,221,238,227,233,238,238,249,254,265,277,279,336,304,410,325,493,342,670,365,823,377,823,382,669,370,493,347,408,330,334,309,274,284,251,269,234,252,228,238,234,223,254,216,295,209,422,193,706,169"/>
-<area shape="poly" title=" " alt="" coords="825,175,896,195,974,223,1000,236,1026,248,1093,267,1163,281,1288,300,1287,305,1162,287,1092,272,1024,253,998,241,972,228,894,201,824,180"/>
-<area shape="poly" title=" " alt="" coords="837,175,1057,220,1056,225,836,180"/>
-<area shape="rect" href="../../dd/dc1/a00212.html" title="Font structure." alt="" coords="875,225,962,251"/>
-<area shape="poly" title=" " alt="" coords="805,175,885,217,883,221,802,180"/>
-<area shape="rect" href="../../d5/df1/a00206.html" title="Font Terminal 6 x 8." alt="" coords="411,225,533,251"/>
-<area shape="poly" title=" " alt="" coords="732,180,536,225,535,220,731,175"/>
-<area shape="rect" href="../../dd/dd7/a00260.html" title="Font Terminal 8 x 12." alt="" coords="557,225,688,251"/>
-<area shape="poly" title=" " alt="" coords="757,180,662,222,660,217,755,175"/>
-<area shape="rect" href="../../d9/dd0/a00191.html" title="Font Terminal 12 x 16." alt="" coords="712,225,851,251"/>
-<area shape="poly" title=" " alt="" coords="784,178,784,212,779,212,779,178"/>
-<area shape="rect" href="../../d9/d01/a00227.html" title="Font Terminal 16 x 24." alt="" coords="248,225,387,251"/>
-<area shape="poly" title=" " alt="" coords="707,180,401,227,400,221,706,175"/>
-<area shape="poly" title=" " alt="" coords="921,251,921,358,916,358,916,251"/>
-<area shape="poly" title=" " alt="" coords="963,245,982,248,1288,295,1287,300,981,253,962,250"/>
-<area shape="poly" title=" " alt="" coords="1327,253,1288,290,1261,310,1232,326,1193,340,1138,352,1015,373,1014,368,1137,347,1191,334,1230,322,1258,305,1285,285,1324,249"/>
-<area shape="poly" title=" " alt="" coords="1345,250,1363,285,1359,288,1340,252"/>
-<area shape="poly" title=" " alt="" coords="1277,179,1258,214,1243,235,1226,253,1166,295,1100,328,1036,353,980,371,978,366,1034,348,1098,323,1163,290,1222,249,1239,231,1254,211,1273,176"/>
-<area shape="poly" title=" " alt="" coords="1328,175,1367,193,1384,207,1398,224,1404,240,1403,257,1391,288,1386,286,1398,256,1398,241,1394,227,1381,211,1364,198,1326,180"/>
-<area shape="poly" title=" " alt="" coords="1256,180,1164,222,1162,217,1254,175"/>
-<area shape="poly" title=" " alt="" coords="1291,176,1321,213,1316,216,1287,179"/>
+<div class="center"><img src="../../dc/ded/a00252.png" border="0" usemap="#ahV__HAL__Peripherals_8h" alt=""/></div>
+<map name="ahV__HAL__Peripherals_8h" id="ahV__HAL__Peripherals_8h">
+<area shape="rect" title="Light hardware abstraction layer for peripherals." alt="" coords="188,5,352,31"/>
+<area shape="rect" title=" " alt="" coords="5,79,89,104"/>
+<area shape="poly" title=" " alt="" coords="235,33,97,77,95,72,233,28"/>
+<area shape="rect" title=" " alt="" coords="113,79,168,104"/>
+<area shape="poly" title=" " alt="" coords="250,33,175,74,173,69,248,28"/>
+<area shape="rect" title=" " alt="" coords="193,79,257,104"/>
+<area shape="poly" title=" " alt="" coords="265,32,242,69,237,66,260,30"/>
+<area shape="rect" title=" " alt="" coords="281,79,352,104"/>
+<area shape="poly" title=" " alt="" coords="280,30,304,66,299,69,275,32"/>
+<area shape="rect" title=" " alt="" coords="377,79,443,104"/>
+<area shape="poly" title=" " alt="" coords="294,28,376,70,374,75,291,33"/>
+<area shape="rect" title=" " alt="" coords="467,79,542,104"/>
+<area shape="poly" title=" " alt="" coords="308,28,455,72,453,77,307,33"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d0/d3e/a00253.png" border="0" usemap="#aScreen__EPD__EXT3_8hdep" alt=""/></div>
-<map name="aScreen__EPD__EXT3_8hdep" id="aScreen__EPD__EXT3_8hdep">
-<area shape="rect" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="317,5,467,31"/>
-<area shape="rect" href="../../de/d79/a00203.html" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="214,79,407,104"/>
-<area shape="poly" title=" " alt="" coords="370,42,326,80,322,76,367,38"/>
-<area shape="rect" href="../../d5/ddf/a00224.html" title="Basic GUI with text and button." alt="" coords="441,79,524,104"/>
-<area shape="poly" title=" " alt="" coords="419,37,469,76,466,81,416,41"/>
-<area shape="rect" href="../../da/d1e/a00149.html" title="Example of features for basic edition." alt="" coords="5,152,171,177"/>
-<area shape="poly" title=" " alt="" coords="263,111,125,154,123,149,261,106"/>
-<area shape="rect" href="../../db/dd9/a00179.html" title="Example of features for Evaluation edition." alt="" coords="414,152,570,177"/>
-<area shape="poly" title=" " alt="" coords="353,106,463,149,461,154,351,111"/>
-<area shape="rect" href="../../d6/d7d/a00161.html" title="Example of features for basic edition." alt="" coords="195,152,389,177"/>
-<area shape="poly" title=" " alt="" coords="307,118,298,153,292,151,302,117"/>
-<area shape="poly" title=" " alt="" coords="489,117,493,152,488,152,483,118"/>
+<div class="center"><img src="../../d0/d3e/a00253.png" border="0" usemap="#ahV__HAL__Peripherals_8hdep" alt=""/></div>
+<map name="ahV__HAL__Peripherals_8hdep" id="ahV__HAL__Peripherals_8hdep">
+<area shape="rect" title="Light hardware abstraction layer for peripherals." alt="" coords="1845,5,2009,31"/>
+<area shape="rect" href="../../d2/df5/a00137.html" title="Example of features for basic edition." alt="" coords="43,152,205,177"/>
+<area shape="poly" title=" " alt="" coords="1831,23,1616,26,1321,35,982,53,639,81,510,98,382,118,180,155,179,149,381,112,509,92,638,76,982,47,1321,30,1616,21,1831,17"/>
+<area shape="rect" href="../../de/d76/a00134.html" title="Example of features for basic edition." alt="" coords="229,152,376,177"/>
+<area shape="poly" title=" " alt="" coords="1831,24,1399,40,1118,57,835,81,702,98,570,118,362,155,361,149,569,113,701,93,834,76,1118,51,1399,34,1831,19"/>
+<area shape="rect" href="../../da/d1e/a00149.html" title="Example of features for basic edition." alt="" coords="400,152,552,177"/>
+<area shape="poly" title=" " alt="" coords="1831,25,1474,44,1248,60,1020,81,751,118,538,155,537,149,750,113,1020,76,1248,54,1474,38,1831,20"/>
+<area shape="rect" href="../../d7/d06/a00131.html" title="Example of features for basic edition." alt="" coords="577,152,762,177"/>
+<area shape="poly" title=" " alt="" coords="1831,27,1549,47,1202,81,939,119,731,155,731,149,939,114,1201,76,1548,42,1831,22"/>
+<area shape="rect" href="../../d7/d9a/a00152.html" title="Example of features for basic edition." alt="" coords="786,152,963,177"/>
+<area shape="poly" title=" " alt="" coords="1831,30,1619,51,1370,81,1128,120,934,155,933,149,1127,114,1369,76,1619,46,1831,25"/>
+<area shape="rect" href="../../d7/dce/a00143.html" title="Protocol for speed test." alt="" coords="988,152,1140,177"/>
+<area shape="poly" title=" " alt="" coords="1832,34,1508,81,1293,120,1119,155,1118,149,1292,115,1508,76,1831,29"/>
+<area shape="rect" href="../../d9/db6/a00146.html" title="Example of features for basic edition." alt="" coords="1164,152,1303,177"/>
+<area shape="poly" title=" " alt="" coords="1857,36,1634,81,1287,155,1286,149,1633,76,1856,31"/>
+<area shape="rect" href="../../d5/db1/a00140.html" title="Example of features for basic edition." alt="" coords="1327,152,1494,177"/>
+<area shape="poly" title=" " alt="" coords="1873,37,1452,154,1451,149,1872,32"/>
+<area shape="rect" href="../../d6/db8/a00158.html" title="Example of features for basic edition." alt="" coords="1519,152,1625,177"/>
+<area shape="poly" title=" " alt="" coords="1887,38,1601,154,1599,149,1885,34"/>
+<area shape="rect" href="../../db/ddf/a00164.html" title="Example of features for basic edition." alt="" coords="1649,152,1801,177"/>
+<area shape="poly" title=" " alt="" coords="1901,41,1743,154,1740,150,1898,36"/>
+<area shape="rect" href="../../d6/d7d/a00161.html" title="Protocol for speed test." alt="" coords="1826,152,1945,177"/>
+<area shape="poly" title=" " alt="" coords="1916,43,1900,79,1892,119,1888,152,1883,151,1886,118,1895,78,1911,41"/>
+<area shape="rect" href="../../d3/df8/a00155.html" title="Example of features for fast edition." alt="" coords="2755,152,2917,177"/>
+<area shape="poly" title=" " alt="" coords="2023,26,2207,46,2420,76,2625,114,2787,149,2786,155,2624,119,2420,81,2207,52,2022,31"/>
+<area shape="rect" href="../../d7/d25/a00182.html" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="947,445,1141,471"/>
+<area shape="poly" title=" " alt="" coords="1831,21,1588,23,1246,30,851,48,648,63,449,81,373,83,295,75,152,56,93,57,69,62,48,71,31,85,19,104,11,130,8,163,8,312,15,328,37,343,71,357,117,371,236,393,380,412,691,438,947,451,947,456,691,443,379,417,235,399,116,376,69,362,34,348,11,331,3,313,3,163,6,129,14,102,27,81,45,66,67,56,93,51,153,51,296,70,373,78,449,76,648,57,851,43,1246,25,1588,17,1831,16"/>
+<area shape="rect" href="../../d1/da8/a00230.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="2121,372,2271,397"/>
+<area shape="poly" title=" " alt="" coords="2022,16,2267,16,2582,23,2741,31,2889,42,3016,57,3111,76,3166,87,3214,98,3234,106,3250,119,3260,138,3264,163,3264,240,3255,259,3230,276,3192,291,3141,305,3013,329,2858,347,2692,362,2529,372,2271,384,2271,378,2528,367,2691,356,2857,342,3012,323,3140,300,3190,286,3228,271,3251,256,3259,239,3259,164,3255,139,3246,122,3232,111,3213,103,3165,93,3110,81,3015,62,2889,47,2741,36,2582,29,2267,22,2022,21"/>
+<area shape="rect" href="../../de/d79/a00203.html" title="Basic GUI with text and button." alt="" coords="2155,445,2237,471"/>
+<area shape="poly" title=" " alt="" coords="2022,18,2304,24,2666,35,2996,52,3116,63,3186,76,3233,89,3274,101,3290,110,3303,123,3312,140,3315,163,3315,313,3312,324,3304,334,3275,353,3231,369,3173,384,3026,408,2851,426,2666,440,2491,450,2237,458,2237,453,2490,444,2666,435,2850,421,3025,403,3172,378,3229,364,3273,348,3300,330,3307,322,3309,312,3309,164,3307,142,3299,126,3287,115,3272,106,3232,94,3185,81,3115,69,2996,58,2666,41,2304,30,2022,24"/>
+<area shape="rect" href="../../d6/d22/a00245.html" title="Driver for Pervasive Displays EXT3, EXT3.1 and EXT3&#45;Touch boards." alt="" coords="2172,152,2268,177"/>
+<area shape="poly" title=" " alt="" coords="1970,33,2068,76,2202,150,2200,154,2065,81,1968,38"/>
+<area shape="rect" href="../../d3/de5/a00209.html" title="Driver for Pervasive Displays EXT3, EXT3.1 and EXT3&#45;Touch boards." alt="" coords="2197,225,2347,251"/>
+<area shape="poly" title=" " alt="" coords="2023,23,2091,35,2163,59,2198,75,2230,96,2258,121,2282,151,2289,170,2290,191,2280,226,2275,224,2284,190,2284,171,2278,153,2254,125,2227,100,2195,80,2161,64,2090,41,2022,28"/>
+<area shape="rect" href="../../dc/de6/a00167.html" title="Class Library for 5&#45;6&#45;5 coded colours." alt="" coords="2992,152,3123,177"/>
+<area shape="poly" title=" " alt="" coords="2022,18,2261,24,2557,34,2823,51,2918,63,2974,76,3000,92,3022,112,3052,150,3048,154,3018,116,2997,96,2972,81,2917,68,2823,57,2556,40,2261,29,2022,24"/>
+<area shape="rect" href="../../dd/d52/a00221.html" title="Shared low&#45;level libraries for the Pervasive Displays Library Suite." alt="" coords="2720,225,2837,251"/>
+<area shape="poly" title=" " alt="" coords="2022,16,2248,18,2533,25,2677,33,2810,43,2924,58,3010,76,3051,88,3084,99,3112,118,3137,151,3142,165,3137,179,3116,195,3086,207,3007,225,2917,234,2837,238,2837,233,2917,229,3006,219,3084,202,3114,190,3133,176,3137,165,3132,153,3108,121,3082,104,3050,93,3009,81,2923,63,2810,49,2677,38,2533,31,2247,23,2022,22"/>
+<area shape="rect" href="../../d6/de1/a00233.html" title="Generic buffered screen class library." alt="" coords="2463,299,2609,324"/>
+<area shape="poly" title=" " alt="" coords="2022,18,2280,24,2605,35,2899,52,3005,63,3067,76,3099,89,3122,103,3141,122,3157,151,3161,171,3154,189,3139,205,3115,220,3050,245,2966,265,2871,281,2775,294,2610,308,2609,303,2774,288,2871,276,2965,260,3048,240,3113,215,3135,201,3150,186,3156,170,3152,153,3136,125,3119,107,3096,94,3066,81,3004,68,2899,57,2605,40,2280,29,2022,24"/>
+<area shape="rect" href="../../dc/d9a/a00218.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="1910,79,2055,104"/>
+<area shape="poly" title=" " alt="" coords="1947,40,1976,77,1972,80,1942,43"/>
+<area shape="rect" href="../../d9/dd0/a00191.html" title="Font structure." alt="" coords="2394,152,2481,177"/>
+<area shape="poly" title=" " alt="" coords="2023,18,2091,23,2168,33,2248,50,2325,76,2356,93,2385,113,2428,150,2424,154,2382,117,2354,97,2323,81,2247,56,2167,39,2090,28,2022,23"/>
+<area shape="rect" href="../../db/dd9/a00179.html" title="hV_Font_Terminal" alt="" coords="2405,225,2555,251"/>
+<area shape="poly" title=" " alt="" coords="2023,22,2257,38,2544,65,2680,83,2797,102,2884,125,2914,137,2931,150,2938,165,2931,179,2912,190,2878,199,2779,215,2555,235,2555,229,2778,209,2877,194,2910,185,2927,176,2932,165,2927,154,2911,142,2883,130,2796,108,2680,88,2544,71,2257,44,2022,27"/>
+<area shape="rect" href="../../d5/ddf/a00224.html" title="Utilities for highView Library Suite." alt="" coords="2505,152,2679,177"/>
+<area shape="poly" title=" " alt="" coords="2022,24,2184,42,2275,57,2365,76,2479,113,2568,149,2566,154,2478,118,2363,81,2274,62,2183,47,2022,29"/>
+<area shape="poly" title=" " alt="" coords="2107,394,1141,453,1141,448,2107,389"/>
+<area shape="poly" title=" " alt="" coords="2199,411,2199,445,2193,445,2193,411"/>
+<area shape="poly" title=" " alt="" coords="2205,190,2188,226,2182,267,2184,308,2195,371,2190,372,2178,309,2177,267,2183,225,2201,187"/>
+<area shape="poly" title=" " alt="" coords="2239,187,2266,224,2261,227,2234,190"/>
+<area shape="poly" title=" " alt="" coords="2262,264,2204,373,2200,371,2257,262"/>
+<area shape="poly" title=" " alt="" coords="3000,183,2824,228,2823,223,2999,178"/>
+<area shape="poly" title=" " alt="" coords="3022,186,2944,220,2850,253,2724,283,2610,303,2609,298,2723,278,2849,248,2942,215,3020,181"/>
+<area shape="poly" title=" " alt="" coords="2469,329,2252,375,2251,369,2468,324"/>
+<area shape="poly" title=" " alt="" coords="1896,96,1616,98,1202,107,715,125,464,138,218,155,205,156,205,150,217,149,464,133,715,119,1202,102,1616,93,1896,90"/>
+<area shape="poly" title=" " alt="" coords="1896,96,1640,99,1268,107,832,125,388,155,376,156,376,150,388,149,832,120,1268,102,1640,93,1896,90"/>
+<area shape="poly" title=" " alt="" coords="1896,96,1336,111,954,128,564,155,553,156,552,150,564,149,953,123,1336,105,1896,91"/>
+<area shape="poly" title=" " alt="" coords="1896,98,1418,116,1098,133,774,155,763,156,762,150,773,149,1098,127,1418,111,1896,92"/>
+<area shape="poly" title=" " alt="" coords="1896,99,1498,119,1239,135,976,155,964,156,963,150,976,149,1239,129,1498,113,1896,94"/>
+<area shape="poly" title=" " alt="" coords="1896,100,1569,120,1152,155,1141,156,1140,151,1152,149,1569,115,1896,95"/>
+<area shape="poly" title=" " alt="" coords="1897,102,1636,123,1315,155,1303,156,1303,151,1314,149,1636,117,1896,96"/>
+<area shape="poly" title=" " alt="" coords="1896,106,1495,156,1494,150,1896,101"/>
+<area shape="poly" title=" " alt="" coords="1903,109,1638,155,1626,157,1625,151,1637,149,1902,104"/>
+<area shape="poly" title=" " alt="" coords="1929,110,1768,154,1766,149,1928,105"/>
+<area shape="poly" title=" " alt="" coords="1957,114,1903,154,1900,150,1954,110"/>
+<area shape="poly" title=" " alt="" coords="2069,96,2365,118,2736,149,2756,151,2755,157,2736,155,2364,123,2069,101"/>
+<area shape="poly" title=" " alt="" coords="2001,113,2190,370,2185,373,1997,117"/>
+<area shape="poly" title=" " alt="" coords="1990,117,2004,171,2028,244,2063,323,2085,361,2110,396,2140,423,2173,443,2170,447,2137,428,2106,399,2080,364,2058,325,2023,246,1999,173,1985,118"/>
+<area shape="poly" title=" " alt="" coords="2035,105,2182,149,2181,154,2033,110"/>
+<area shape="poly" title=" " alt="" coords="2019,108,2104,150,2250,223,2248,228,2101,154,2017,112"/>
+<area shape="poly" title=" " alt="" coords="2069,95,2443,116,2930,149,2992,155,2991,160,2929,155,2443,122,2069,100"/>
+<area shape="poly" title=" " alt="" coords="2069,90,2221,93,2402,101,2572,119,2641,133,2693,150,2719,165,2742,185,2773,223,2769,226,2738,189,2716,170,2691,154,2640,138,2571,125,2401,107,2220,98,2069,95"/>
+<area shape="poly" title=" " alt="" coords="2009,111,2109,192,2187,248,2257,273,2331,290,2401,300,2463,305,2462,311,2401,305,2330,295,2256,278,2184,253,2106,196,2006,115"/>
+<area shape="poly" title=" " alt="" coords="2069,102,2375,149,2394,153,2393,158,2374,155,2068,108"/>
+<area shape="poly" title=" " alt="" coords="2070,103,2171,122,2281,149,2381,187,2458,223,2456,228,2379,192,2279,155,2170,127,2069,108"/>
+<area shape="poly" title=" " alt="" coords="2069,100,2505,151,2504,156,2069,105"/>
+<area shape="poly" title=" " alt="" coords="2454,188,2475,224,2471,227,2449,191"/>
+<area shape="poly" title=" " alt="" coords="2500,260,2529,297,2525,300,2496,263"/>
+<area shape="poly" title=" " alt="" coords="2528,183,2324,228,2323,223,2527,178"/>
+<area shape="poly" title=" " alt="" coords="2635,180,2749,223,2747,228,2634,185"/>
+<area shape="poly" title=" " alt="" coords="2588,192,2569,252,2545,300,2540,297,2564,250,2583,190"/>
+<area shape="poly" title=" " alt="" coords="2564,187,2500,227,2497,223,2561,183"/>
 </map>
 </div>
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dce/a00337.html">Screen_EPD_EXT3_Fast</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for Pervasive Displays iTC monochrome touch screens with embedded fast update.  <a href="../../d4/dce/a00337.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ab75eb2c0ba5e190f5c52fcddd3f64ccb" id="r_ab75eb2c0ba5e190f5c52fcddd3f64ccb"><td class="memItemLeft" align="right" valign="top"><a id="ab75eb2c0ba5e190f5c52fcddd3f64ccb" name="ab75eb2c0ba5e190f5c52fcddd3f64ccb"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SCREEN_EPD_EXT3_RELEASE</b>&#160;&#160;&#160;805</td></tr>
-<tr class="memdesc:ab75eb2c0ba5e190f5c52fcddd3f64ccb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Library release number. <br /></td></tr>
-<tr class="separator:ab75eb2c0ba5e190f5c52fcddd3f64ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad6aa3af845addf339c09eed7494c29a" id="r_aad6aa3af845addf339c09eed7494c29a"><td class="memItemLeft" align="right" valign="top"><a id="aad6aa3af845addf339c09eed7494c29a" name="aad6aa3af845addf339c09eed7494c29a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SCREEN_EPD_EXT3_VARIANT</b>&#160;&#160;&#160;&quot;Basic-Touch&quot;</td></tr>
-<tr class="memdesc:aad6aa3af845addf339c09eed7494c29a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Library variant. <br /></td></tr>
-<tr class="separator:aad6aa3af845addf339c09eed7494c29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Constants for features</div></td></tr>
-<tr class="memitem:af82a624c2531f5e26bf234bc39ae07bd" id="r_af82a624c2531f5e26bf234bc39ae07bd"><td class="memItemLeft" align="right" valign="top"><a id="af82a624c2531f5e26bf234bc39ae07bd" name="af82a624c2531f5e26bf234bc39ae07bd"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WITH_FAST</b></td></tr>
-<tr class="memdesc:af82a624c2531f5e26bf234bc39ae07bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast update capability. <br /></td></tr>
-<tr class="separator:af82a624c2531f5e26bf234bc39ae07bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af96d5516b99a2caf5f9a04e449b4e346" id="r_af96d5516b99a2caf5f9a04e449b4e346"><td class="memItemLeft" align="right" valign="top"><a id="af96d5516b99a2caf5f9a04e449b4e346" name="af96d5516b99a2caf5f9a04e449b4e346"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WITH_FAST_FRIENDS</b></td></tr>
-<tr class="memdesc:af96d5516b99a2caf5f9a04e449b4e346"><td class="mdescLeft">&#160;</td><td class="mdescRight">File and serial access. <br /></td></tr>
-<tr class="separator:af96d5516b99a2caf5f9a04e449b4e346"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a946da185296da9a5250179b0628882d4" id="r_a946da185296da9a5250179b0628882d4"><td class="memItemLeft" align="right" valign="top"><a id="a946da185296da9a5250179b0628882d4" name="a946da185296da9a5250179b0628882d4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>hV_HAL_PERIPHERALS_RELEASE</b>&#160;&#160;&#160;806</td></tr>
+<tr class="memdesc:a946da185296da9a5250179b0628882d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release. <br /></td></tr>
+<tr class="separator:a946da185296da9a5250179b0628882d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae12a427d2269d669b541099ff80eb882" id="r_ae12a427d2269d669b541099ff80eb882"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae12a427d2269d669b541099ff80eb882">mySerial</a>&#160;&#160;&#160;Serial</td></tr>
+<tr class="memdesc:ae12a427d2269d669b541099ff80eb882"><td class="mdescLeft">&#160;</td><td class="mdescRight">SDK library.  <br /></td></tr>
+<tr class="separator:ae12a427d2269d669b541099ff80eb882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a1ea3ccdc3aaf13fa200c400a47cf0ce9" id="r_a1ea3ccdc3aaf13fa200c400a47cf0ce9"><td class="memItemLeft" align="right" valign="top"><a id="a1ea3ccdc3aaf13fa200c400a47cf0ce9" name="a1ea3ccdc3aaf13fa200c400a47cf0ce9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>hV_HAL_begin</b> ()</td></tr>
+<tr class="memdesc:a1ea3ccdc3aaf13fa200c400a47cf0ce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">General initialisation. <br /></td></tr>
+<tr class="separator:a1ea3ccdc3aaf13fa200c400a47cf0ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43dddee959415b5a6aeed32cc7eff463" id="r_a43dddee959415b5a6aeed32cc7eff463"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43dddee959415b5a6aeed32cc7eff463">waitFor</a> (uint8_t pin, uint8_t state=HIGH)</td></tr>
+<tr class="memdesc:a43dddee959415b5a6aeed32cc7eff463"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait for.  <br /></td></tr>
+<tr class="separator:a43dddee959415b5a6aeed32cc7eff463"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86a8edea73da61416f04ba10c6db2eda" id="r_a86a8edea73da61416f04ba10c6db2eda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86a8edea73da61416f04ba10c6db2eda">hV_HAL_SPI_begin</a> (uint32_t speed=8000000)</td></tr>
+<tr class="memdesc:a86a8edea73da61416f04ba10c6db2eda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure and start SPI.  <br /></td></tr>
+<tr class="separator:a86a8edea73da61416f04ba10c6db2eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2a6191cc0740c1b16f6a148c9d4e909" id="r_ae2a6191cc0740c1b16f6a148c9d4e909"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2a6191cc0740c1b16f6a148c9d4e909">hV_HAL_SPI_end</a> ()</td></tr>
+<tr class="memdesc:ae2a6191cc0740c1b16f6a148c9d4e909"><td class="mdescLeft">&#160;</td><td class="mdescRight">End SPI.  <br /></td></tr>
+<tr class="separator:ae2a6191cc0740c1b16f6a148c9d4e909"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c57bf40d60d766ea1b3cd4af9a00f76" id="r_a6c57bf40d60d766ea1b3cd4af9a00f76"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c57bf40d60d766ea1b3cd4af9a00f76">hV_HAL_SPI_transfer</a> (uint8_t data)</td></tr>
+<tr class="memdesc:a6c57bf40d60d766ea1b3cd4af9a00f76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combined write and read of a single byte.  <br /></td></tr>
+<tr class="separator:a6c57bf40d60d766ea1b3cd4af9a00f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">3-wire SPI bus</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><dl class="section warning"><dt>Warning</dt><dd><ul>
+<li>Arduino does not support 3-wire SPI, bit-bang simulation</li>
+<li>Viewer: For compatibility only, not implemented in Linux </li>
+</ul>
+</dd></dl>
+<dl class="section note"><dt>Note</dt><dd><a class="el" href="#aeece4d74df7b5756325239c50d064dda" title="Configure 3-wire SPI.">hV_HAL_SPI3_begin()</a> sets the pins for 3-wire SPI. </dd></dl>
+</div></td></tr>
+<tr class="memitem:aeece4d74df7b5756325239c50d064dda" id="r_aeece4d74df7b5756325239c50d064dda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeece4d74df7b5756325239c50d064dda">hV_HAL_SPI3_begin</a> ()</td></tr>
+<tr class="memdesc:aeece4d74df7b5756325239c50d064dda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure 3-wire SPI.  <br /></td></tr>
+<tr class="separator:aeece4d74df7b5756325239c50d064dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f6305cf305e198ff032ea6e4596b6d5" id="r_a4f6305cf305e198ff032ea6e4596b6d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f6305cf305e198ff032ea6e4596b6d5">hV_HAL_SPI3_define</a> (uint8_t pinClock=SCK, uint8_t pinData=MOSI)</td></tr>
+<tr class="memdesc:a4f6305cf305e198ff032ea6e4596b6d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the 3-wire SPI pins.  <br /></td></tr>
+<tr class="separator:a4f6305cf305e198ff032ea6e4596b6d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68c0f9bd262c134bc4c24f94fdb8b832" id="r_a68c0f9bd262c134bc4c24f94fdb8b832"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68c0f9bd262c134bc4c24f94fdb8b832">hV_HAL_SPI3_read</a> ()</td></tr>
+<tr class="memdesc:a68c0f9bd262c134bc4c24f94fdb8b832"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a single byte.  <br /></td></tr>
+<tr class="separator:a68c0f9bd262c134bc4c24f94fdb8b832"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab54333ecb2eb6ff8e2af6c0351bcc141" id="r_ab54333ecb2eb6ff8e2af6c0351bcc141"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab54333ecb2eb6ff8e2af6c0351bcc141">hV_HAL_SPI3_write</a> (uint8_t value)</td></tr>
+<tr class="memdesc:ab54333ecb2eb6ff8e2af6c0351bcc141"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a single byte.  <br /></td></tr>
+<tr class="separator:ab54333ecb2eb6ff8e2af6c0351bcc141"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Wire bus</div></td></tr>
+<tr class="memitem:a67cece691860c0c622d26f9fbcdfe372" id="r_a67cece691860c0c622d26f9fbcdfe372"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67cece691860c0c622d26f9fbcdfe372">hV_HAL_Wire_begin</a> ()</td></tr>
+<tr class="memdesc:a67cece691860c0c622d26f9fbcdfe372"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure and start Wire bus.  <br /></td></tr>
+<tr class="separator:a67cece691860c0c622d26f9fbcdfe372"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac34d69538615f9e8b9421d5a10253e00" id="r_ac34d69538615f9e8b9421d5a10253e00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac34d69538615f9e8b9421d5a10253e00">hV_HAL_Wire_end</a> ()</td></tr>
+<tr class="memdesc:ac34d69538615f9e8b9421d5a10253e00"><td class="mdescLeft">&#160;</td><td class="mdescRight">End Wire bus.  <br /></td></tr>
+<tr class="separator:ac34d69538615f9e8b9421d5a10253e00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0108a3280f39f1050b00c514fcca5a1" id="r_aa0108a3280f39f1050b00c514fcca5a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0108a3280f39f1050b00c514fcca5a1">hV_HAL_Wire_transfer</a> (uint8_t address, uint8_t *dataWrite, size_t sizeWrite, uint8_t *dataRead=0, size_t sizeRead=0)</td></tr>
+<tr class="memdesc:aa0108a3280f39f1050b00c514fcca5a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combined write and read.  <br /></td></tr>
+<tr class="separator:aa0108a3280f39f1050b00c514fcca5a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Driver for Pervasive Displays iTC monochrome touch screens with EXT3-1 and EXT3-Touch boards. </p>
+<div class="textblock"><p>Light hardware abstraction layer for peripherals. </p>
 <p>Project Pervasive Displays Library Suite <br  />
  Based on highView technology</p>
-<p><br  />
- <b>A-T-F</b> </p><ul>
-<li>Edition: Basic</li>
-<li>Family: Touch 2.71 3.43 3.70</li>
-<li>Update: Fast</li>
-<li>Feature: none</li>
-</ul>
-<p><br  />
- Supported screens with touch</p><ul>
-<li>2.71"-Touch reference xTP271PGH0x
-* 3.70"-Touch reference xTP370PGH0x</li>
-</ul>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>21 Aug 2024 </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>805</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>21 Oct 2024 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>806</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2024 </dd>
 <dd>
 All rights reserved </dd>
 <dd>
-For exclusive use with Pervasive Displays screens </dd>
-<dd>
-Portions (c) Pervasive Displays, 2010-2024</dd></dl>
+For exclusive use with Pervasive Displays screens</dd></dl>
 <ul>
 <li>Basic edition: for hobbyists and for basic usage <br  />
  Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) <dl class="section see"><dt>See also</dt><dd><a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></dd></dl>
@@ -276,13 +313,343 @@ Portions (c) Pervasive Displays, 2010-2024</dd></dl>
 <li>Documentation <br  />
  All rights reserved </li>
 </ul>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ae12a427d2269d669b541099ff80eb882" name="ae12a427d2269d669b541099ff80eb882"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae12a427d2269d669b541099ff80eb882">&#9670;&#160;</a></span>mySerial</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define mySerial&#160;&#160;&#160;Serial</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SDK library. </p>
+<dl class="section see"><dt>See also</dt><dd>References<ul>
+<li>Arduino SDK <a href="https://www.arduino.cc/reference/en/">https://www.arduino.cc/reference/en/</a></li>
+<li>Energia SDK <a href="https://energia.nu/reference/">https://energia.nu/reference/</a></li>
+</ul>
+</dd></dl>
+<p>SDK other libraries</p>
+<p>Other libraries </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aeece4d74df7b5756325239c50d064dda" name="aeece4d74df7b5756325239c50d064dda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeece4d74df7b5756325239c50d064dda">&#9670;&#160;</a></span>hV_HAL_SPI3_begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void hV_HAL_SPI3_begin </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure 3-wire SPI. </p>
+<dl class="section note"><dt>Note</dt><dd>Select default SCK as clock and MOSI as data (SDIO) </dd></dl>
+
+</div>
+</div>
+<a id="a4f6305cf305e198ff032ea6e4596b6d5" name="a4f6305cf305e198ff032ea6e4596b6d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f6305cf305e198ff032ea6e4596b6d5">&#9670;&#160;</a></span>hV_HAL_SPI3_define()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void hV_HAL_SPI3_define </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>pinClock</em></span><span class="paramdefsep"> = </span><span class="paramdefval">SCK</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>pinData</em></span><span class="paramdefsep"> = </span><span class="paramdefval">MOSI</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the 3-wire SPI pins. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pinClock</td><td>clock, default = SCK </td></tr>
+    <tr><td class="paramname">pinData</td><td>combined data, default = MOSI </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>For manual configuration only </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>SCK and MOSI provided by Arduino SDK<ul>
+<li>Some boards require manual configuration </li>
+</ul>
+</dd></dl>
+
+</div>
+</div>
+<a id="a68c0f9bd262c134bc4c24f94fdb8b832" name="a68c0f9bd262c134bc4c24f94fdb8b832"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68c0f9bd262c134bc4c24f94fdb8b832">&#9670;&#160;</a></span>hV_HAL_SPI3_read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t hV_HAL_SPI3_read </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read a single byte. </p>
+<dl class="section return"><dt>Returns</dt><dd>read byte </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Configure the clock pin as output and data pin as input. </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>/CS to be managed externally. </dd></dl>
+
+</div>
+</div>
+<a id="ab54333ecb2eb6ff8e2af6c0351bcc141" name="ab54333ecb2eb6ff8e2af6c0351bcc141"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab54333ecb2eb6ff8e2af6c0351bcc141">&#9670;&#160;</a></span>hV_HAL_SPI3_write()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void hV_HAL_SPI3_write </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write a single byte. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>byte </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Configure the clock and data pins as output. </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>/CS to be managed externally. </dd></dl>
+
+</div>
+</div>
+<a id="a86a8edea73da61416f04ba10c6db2eda" name="a86a8edea73da61416f04ba10c6db2eda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86a8edea73da61416f04ba10c6db2eda">&#9670;&#160;</a></span>hV_HAL_SPI_begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void hV_HAL_SPI_begin </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>speed</em></span><span class="paramdefsep"> = </span><span class="paramdefval">8000000</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure and start SPI. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">speed</td><td>SPI speed in Hz, 8000000 = default </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Other parameters are<ul>
+<li>Bit order: MSBFIRST</li>
+<li>Data mode: SPI_MODE0 </li>
+</ul>
+</dd>
+<dd>
+With check for unique initialisation </dd></dl>
+
+</div>
+</div>
+<a id="ae2a6191cc0740c1b16f6a148c9d4e909" name="ae2a6191cc0740c1b16f6a148c9d4e909"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2a6191cc0740c1b16f6a148c9d4e909">&#9670;&#160;</a></span>hV_HAL_SPI_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void hV_HAL_SPI_end </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>End SPI. </p>
+<dl class="section note"><dt>Note</dt><dd>With check for unique deinitialisation </dd></dl>
+
+</div>
+</div>
+<a id="a6c57bf40d60d766ea1b3cd4af9a00f76" name="a6c57bf40d60d766ea1b3cd4af9a00f76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c57bf40d60d766ea1b3cd4af9a00f76">&#9670;&#160;</a></span>hV_HAL_SPI_transfer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t hV_HAL_SPI_transfer </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Combined write and read of a single byte. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>byte </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>read byte </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>No check for previous initialisation </dd></dl>
+
+</div>
+</div>
+<a id="a67cece691860c0c622d26f9fbcdfe372" name="a67cece691860c0c622d26f9fbcdfe372"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67cece691860c0c622d26f9fbcdfe372">&#9670;&#160;</a></span>hV_HAL_Wire_begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void hV_HAL_Wire_begin </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure and start Wire bus. </p>
+<dl class="section note"><dt>Note</dt><dd>Master mode only </dd>
+<dd>
+With check for unique initialisation </dd></dl>
+
+</div>
+</div>
+<a id="ac34d69538615f9e8b9421d5a10253e00" name="ac34d69538615f9e8b9421d5a10253e00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac34d69538615f9e8b9421d5a10253e00">&#9670;&#160;</a></span>hV_HAL_Wire_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void hV_HAL_Wire_end </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>End Wire bus. </p>
+<dl class="section note"><dt>Note</dt><dd>With check for unique deinitialisation </dd></dl>
+
+</div>
+</div>
+<a id="aa0108a3280f39f1050b00c514fcca5a1" name="aa0108a3280f39f1050b00c514fcca5a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0108a3280f39f1050b00c514fcca5a1">&#9670;&#160;</a></span>hV_HAL_Wire_transfer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void hV_HAL_Wire_transfer </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>address</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *</td>          <td class="paramname"><span class="paramname"><em>dataWrite</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>sizeWrite</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *</td>          <td class="paramname"><span class="paramname"><em>dataRead</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>sizeRead</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Combined write and read. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>I2C device address </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dataWrite</td><td>buffer to write </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sizeWrite</td><td>number of bytes </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">dataRead</td><td>buffer to read </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sizeRead</td><td>number of bytes </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>If sizeRead = 0, no read performed </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>No check for previous initialisation </dd></dl>
+
+</div>
+</div>
+<a id="a43dddee959415b5a6aeed32cc7eff463" name="a43dddee959415b5a6aeed32cc7eff463"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43dddee959415b5a6aeed32cc7eff463">&#9670;&#160;</a></span>waitFor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void waitFor </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>pin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>state</em></span><span class="paramdefsep"> = </span><span class="paramdefval">HIGH</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Wait for. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pin</td><td>pin number </td></tr>
+    <tr><td class="paramname">state</td><td>state to reach, default = HIGH </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../d3/d1a/a00251.html">Screen_EPD_EXT3.h</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../d3/d1a/a00251.html">hV_HAL_Peripherals.h</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.11.0 </li>
