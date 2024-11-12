@@ -1,7 +1,0 @@
-<map id="Screen_EPD_EXT3.h" name="Screen_EPD_EXT3.h">
-<area shape="rect" id="Node000001" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="108,5,259,31"/>
-<area shape="rect" id="Node000002" href="$d7/d25/a00182.html" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="5,79,199,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,42,117,80,114,76,158,38"/>
-<area shape="rect" id="Node000003" href="$de/d79/a00203.html" title="Basic GUI with text and button." alt="" coords="223,79,306,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,38,253,76,250,80,205,42"/>
-</map>

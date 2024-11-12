@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: hV_List_Options.h File Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: hV_Font_Terminal.h File Reference</title>
 <link rel="icon" href="../../Logo-PDI-white.png" type="image/x-icon" />
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.7</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.8</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -101,258 +101,147 @@ $(function(){initNavTree('da/d15/a00188.html','../../'); initResizable(true); })
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a>  </div>
-  <div class="headertitle"><div class="title">hV_List_Options.h File Reference</div></div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">hV_Font_Terminal.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>List of options for Pervasive Displays Library Suite.  
+<p>hV_Font_Terminal  
 <a href="#details">More...</a></p>
-<div class="textblock"><div class="dynheader">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../dd/dd7/a00260.html">hV_HAL_Peripherals.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d01/a00227.html">hV_Configuration.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/de1/a00233.html">hV_Utilities_Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/db1/a00200.html">hV_Font.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d57/a00194.html">Terminal6x8e.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/dd7/a00248.html">Terminal8x12e.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/dd9/a00179.html">Terminal12x16e.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/dd5/a00215.html">Terminal16x24e.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for hV_Font_Terminal.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/deb/a00189.png" border="0" usemap="#ahV__Font__Terminal_8h" alt=""/></div>
+<map name="ahV__Font__Terminal_8h" id="ahV__Font__Terminal_8h">
+<area shape="rect" title="hV_Font_Terminal" alt="" coords="494,5,643,31"/>
+<area shape="rect" href="../../dd/dd7/a00260.html" title="Light hardware abstraction layer for peripherals." alt="" coords="124,225,288,251"/>
+<area shape="poly" title=" " alt="" coords="494,22,408,26,316,36,235,53,205,65,185,80,176,95,171,111,172,147,182,182,195,212,190,214,177,184,167,148,166,111,171,93,181,77,202,61,233,48,315,30,408,21,494,17"/>
+<area shape="rect" href="../../d9/d01/a00227.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="393,152,539,177"/>
+<area shape="poly" title=" " alt="" coords="562,33,484,142,480,139,558,30"/>
+<area shape="rect" href="../../d6/de1/a00233.html" title="Utilities for highView Library Suite." alt="" coords="196,79,371,104"/>
+<area shape="poly" title=" " alt="" coords="523,33,343,78,342,73,522,28"/>
+<area shape="rect" href="../../d3/db1/a00200.html" title="Font structure." alt="" coords="395,79,481,104"/>
+<area shape="poly" title=" " alt="" coords="549,33,472,74,470,70,546,28"/>
+<area shape="rect" href="../../dc/d57/a00194.html" title="Font Terminal 6 x 8." alt="" coords="557,79,679,104"/>
+<area shape="poly" title=" " alt="" coords="579,29,604,66,600,69,575,33"/>
+<area shape="rect" href="../../dd/dd7/a00248.html" title="Font Terminal 8 x 12." alt="" coords="703,79,834,104"/>
+<area shape="poly" title=" " alt="" coords="602,28,724,71,722,76,600,33"/>
+<area shape="rect" href="../../db/dd9/a00179.html" title="Font Terminal 12 x 16." alt="" coords="858,79,997,104"/>
+<area shape="poly" title=" " alt="" coords="627,28,856,73,855,79,626,33"/>
+<area shape="rect" href="../../d3/dd5/a00215.html" title="Font Terminal 16 x 24." alt="" coords="1021,79,1159,104"/>
+<area shape="poly" title=" " alt="" coords="644,27,1007,76,1006,81,643,32"/>
+<area shape="rect" title=" " alt="" coords="363,299,447,324"/>
+<area shape="poly" title=" " alt="" coords="239,248,360,291,358,296,237,253"/>
+<area shape="rect" title=" " alt="" coords="5,299,60,324"/>
+<area shape="poly" title=" " alt="" coords="179,253,74,296,72,291,177,248"/>
+<area shape="rect" title=" " alt="" coords="85,299,149,324"/>
+<area shape="poly" title=" " alt="" coords="193,253,144,292,140,288,190,249"/>
+<area shape="rect" title=" " alt="" coords="497,299,568,324"/>
+<area shape="poly" title=" " alt="" coords="259,248,484,297,483,302,258,253"/>
+<area shape="rect" title=" " alt="" coords="173,299,239,324"/>
+<area shape="poly" title=" " alt="" coords="209,251,209,285,203,285,203,251"/>
+<area shape="rect" title=" " alt="" coords="263,299,338,324"/>
+<area shape="poly" title=" " alt="" coords="223,249,276,288,273,292,220,253"/>
+<area shape="poly" title=" " alt="" coords="425,180,262,224,261,219,424,175"/>
+<area shape="rect" href="../../de/db1/a00197.html" title="List of options for Pervasive Displays Library Suite." alt="" coords="702,299,841,324"/>
+<area shape="poly" title=" " alt="" coords="539,166,612,171,690,182,757,198,783,210,800,224,807,239,806,257,791,288,787,286,801,255,802,240,796,227,780,214,755,203,689,187,612,177,539,171"/>
+<area shape="rect" href="../../d7/d40/a00236.html" title="List of constants for Pervasive Displays Library Suite." alt="" coords="312,225,465,251"/>
+<area shape="poly" title=" " alt="" coords="455,179,413,218,410,214,452,175"/>
+<area shape="rect" href="../../d5/d35/a00266.html" title="List of boards for Pervasive Displays Library Suite." alt="" coords="653,225,786,251"/>
+<area shape="poly" title=" " alt="" coords="507,175,666,219,664,224,506,180"/>
+<area shape="rect" href="../../d5/ddf/a00224.html" title="List of supported Pervasive Displays screens." alt="" coords="490,225,629,251"/>
+<area shape="poly" title=" " alt="" coords="483,175,535,215,532,219,479,179"/>
+<area shape="poly" title=" " alt="" coords="413,248,498,290,496,295,411,253"/>
+<area shape="poly" title=" " alt="" coords="690,253,577,296,575,291,688,248"/>
+<area shape="poly" title=" " alt="" coords="730,249,757,286,753,289,726,253"/>
+<area shape="poly" title=" " alt="" coords="557,252,544,287,539,285,552,250"/>
+<area shape="poly" title=" " alt="" coords="279,106,221,215,216,212,275,103"/>
+<area shape="poly" title=" " alt="" coords="314,102,424,144,422,149,312,107"/>
+<area shape="poly" title=" " alt="" coords="421,106,238,220,235,215,418,102"/>
+<area shape="poly" title=" " alt="" coords="445,103,459,138,454,140,440,105"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d7/d6e/a00190.png" border="0" usemap="#ahV__List__Options_8hdep" alt=""/></div>
-<map name="ahV__List__Options_8hdep" id="ahV__List__Options_8hdep">
-<area shape="rect" title="List of options for Pervasive Displays Library Suite." alt="" coords="2659,5,2797,31"/>
-<area shape="rect" href="../../dd/d52/a00221.html" title="Shared low&#45;level libraries for the Pervasive Displays Library Suite." alt="" coords="2663,299,2780,324"/>
-<area shape="poly" title=" " alt="" coords="2771,34,2845,70,2885,95,2922,122,2952,152,2971,184,2975,201,2975,218,2970,235,2959,252,2948,263,2931,272,2885,287,2781,306,2780,301,2884,282,2928,267,2945,258,2955,249,2965,233,2970,217,2970,202,2966,186,2948,155,2919,126,2882,99,2842,75,2768,39"/>
-<area shape="rect" href="../../dc/d9a/a00218.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="1869,152,2014,177"/>
-<area shape="poly" title=" " alt="" coords="2653,36,2004,155,2003,149,2652,31"/>
-<area shape="rect" href="../../d9/d39/a00257.html" title="List of boards for Pervasive Displays Library Suite." alt="" coords="2661,79,2795,104"/>
-<area shape="poly" title=" " alt="" coords="2731,44,2731,79,2725,79,2725,44"/>
-<area shape="poly" title=" " alt="" coords="2028,165,2204,170,2413,180,2597,197,2661,209,2698,223,2712,240,2720,261,2724,298,2719,299,2715,262,2707,243,2695,227,2660,214,2596,202,2413,185,2204,175,2028,170"/>
-<area shape="rect" href="../../d2/df5/a00137.html" title="Example of features for basic edition." alt="" coords="2759,225,2921,251"/>
-<area shape="poly" title=" " alt="" coords="2028,169,2342,190,2740,223,2760,225,2759,230,2740,228,2342,195,2028,174"/>
-<area shape="rect" href="../../de/d76/a00134.html" title="Example of features for basic edition." alt="" coords="44,225,191,251"/>
-<area shape="poly" title=" " alt="" coords="1855,169,1579,171,1171,179,692,197,445,210,203,228,191,229,191,224,203,223,445,205,692,191,1171,173,1579,165,1855,163"/>
-<area shape="rect" href="../../da/d1e/a00149.html" title="Example of features for basic edition." alt="" coords="215,225,367,251"/>
-<area shape="poly" title=" " alt="" coords="1855,169,1603,173,1239,182,813,199,379,228,367,229,367,224,379,223,813,194,1238,177,1603,167,1855,164"/>
-<area shape="rect" href="../../d7/d06/a00131.html" title="Example of features for basic edition." alt="" coords="391,225,577,251"/>
-<area shape="poly" title=" " alt="" coords="1855,171,1320,187,958,204,588,228,577,229,577,224,588,223,957,199,1320,182,1855,165"/>
-<area shape="rect" href="../../d7/d9a/a00152.html" title="Example of features for basic edition." alt="" coords="601,225,778,251"/>
-<area shape="poly" title=" " alt="" coords="1855,171,1400,190,1098,206,791,228,779,229,778,224,791,223,1097,201,1399,185,1855,166"/>
-<area shape="rect" href="../../d7/dce/a00143.html" title="Protocol for speed test." alt="" coords="803,225,955,251"/>
-<area shape="poly" title=" " alt="" coords="1855,172,1470,191,1220,207,967,228,955,229,955,224,967,223,1220,202,1470,186,1855,167"/>
-<area shape="rect" href="../../d9/db6/a00146.html" title="Example of features for basic edition." alt="" coords="979,225,1117,251"/>
-<area shape="poly" title=" " alt="" coords="1855,173,1536,193,1130,228,1118,229,1117,224,1129,223,1535,188,1855,168"/>
-<area shape="rect" href="../../d5/db1/a00140.html" title="Example of features for basic edition." alt="" coords="1142,225,1309,251"/>
-<area shape="poly" title=" " alt="" coords="1855,176,1322,228,1309,229,1309,224,1321,223,1855,171"/>
-<area shape="rect" href="../../d6/db8/a00158.html" title="Example of features for basic edition." alt="" coords="1333,225,1440,251"/>
-<area shape="poly" title=" " alt="" coords="1856,178,1670,199,1452,228,1441,230,1440,225,1452,223,1670,194,1855,172"/>
-<area shape="rect" href="../../db/ddf/a00164.html" title="Example of features for basic edition." alt="" coords="1464,225,1616,251"/>
-<area shape="poly" title=" " alt="" coords="1864,182,1606,228,1605,223,1863,177"/>
-<area shape="rect" href="../../d6/d7d/a00161.html" title="Protocol for speed test." alt="" coords="1641,225,1759,251"/>
-<area shape="poly" title=" " alt="" coords="1890,184,1740,228,1738,223,1889,179"/>
-<area shape="rect" href="../../d3/df8/a00155.html" title="Example of features for fast edition." alt="" coords="1783,225,1945,251"/>
-<area shape="poly" title=" " alt="" coords="1921,189,1879,227,1875,223,1917,185"/>
-<area shape="rect" href="../../d1/da8/a00230.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="1997,445,2147,471"/>
-<area shape="poly" title=" " alt="" coords="2028,165,2264,172,2558,184,2812,201,2896,211,2922,217,2935,223,2948,247,2944,270,2924,291,2892,310,2848,328,2796,345,2670,376,2527,402,2384,424,2148,452,2147,447,2383,418,2527,397,2669,371,2794,340,2847,323,2889,305,2921,286,2939,267,2943,248,2932,227,2920,222,2895,216,2812,206,2557,189,2264,177,2028,171"/>
-<area shape="rect" href="../../de/d79/a00203.html" title="Basic GUI with text and button." alt="" coords="932,519,1015,544"/>
-<area shape="poly" title=" " alt="" coords="1855,169,1427,170,835,177,545,184,297,195,117,209,61,218,34,228,17,245,10,262,9,310,9,385,17,401,40,417,77,431,126,445,251,468,400,487,709,513,932,526,932,531,709,519,400,492,250,473,125,450,75,436,38,421,13,405,4,387,4,310,5,261,13,242,31,223,60,213,116,204,297,190,545,179,835,172,1427,165,1855,163"/>
-<area shape="rect" href="../../d6/d22/a00245.html" title="Driver for Pervasive Displays EXT3, EXT3.1 and EXT3&#45;Touch boards." alt="" coords="1969,225,2065,251"/>
-<area shape="poly" title=" " alt="" coords="1965,185,2007,223,2003,227,1962,189"/>
-<area shape="rect" href="../../d3/de5/a00209.html" title="Driver for Pervasive Displays EXT3, EXT3.1 and EXT3&#45;Touch boards." alt="" coords="1997,299,2147,324"/>
-<area shape="poly" title=" " alt="" coords="2018,179,2052,197,2080,224,2087,243,2088,264,2079,299,2074,298,2082,264,2082,244,2075,227,2049,201,2016,184"/>
-<area shape="rect" href="../../dc/de6/a00167.html" title="Class Library for 5&#45;6&#45;5 coded colours." alt="" coords="2553,225,2684,251"/>
-<area shape="poly" title=" " alt="" coords="2028,171,2260,192,2542,223,2554,224,2553,230,2541,228,2260,197,2028,176"/>
-<area shape="rect" href="../../d6/de1/a00233.html" title="Generic buffered screen class library." alt="" coords="2205,372,2352,397"/>
-<area shape="poly" title=" " alt="" coords="1998,179,2050,197,2101,223,2155,260,2204,302,2271,370,2267,374,2200,306,2152,265,2099,228,2048,202,1997,184"/>
-<area shape="rect" href="../../d9/dd0/a00191.html" title="Font structure." alt="" coords="2442,225,2529,251"/>
-<area shape="poly" title=" " alt="" coords="2028,173,2210,194,2423,223,2442,226,2442,231,2422,228,2210,199,2028,178"/>
-<area shape="rect" href="../../db/dd9/a00179.html" title="hV_Font_Terminal" alt="" coords="2323,299,2472,324"/>
-<area shape="poly" title=" " alt="" coords="2028,164,2123,167,2227,177,2320,195,2355,207,2381,223,2393,241,2399,261,2401,298,2396,298,2394,262,2388,243,2377,227,2353,212,2318,200,2226,182,2123,173,2028,169"/>
-<area shape="rect" href="../../d5/ddf/a00224.html" title="Utilities for highView Library Suite." alt="" coords="2191,225,2366,251"/>
-<area shape="poly" title=" " alt="" coords="2010,178,2225,223,2224,228,2009,183"/>
-<area shape="rect" href="../../d7/d25/a00182.html" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="1975,519,2169,544"/>
-<area shape="poly" title=" " alt="" coords="2075,484,2075,519,2069,519,2069,484"/>
-<area shape="poly" title=" " alt="" coords="1983,468,1015,530,1015,525,1983,462"/>
-<area shape="poly" title=" " alt="" coords="2002,264,1989,293,1986,308,1988,323,2003,360,2024,394,2063,443,2059,447,2019,397,1998,362,1983,325,1981,308,1984,291,1997,262"/>
-<area shape="poly" title=" " alt="" coords="2037,260,2065,297,2061,300,2033,263"/>
-<area shape="poly" title=" " alt="" coords="2075,338,2075,445,2069,445,2069,338"/>
-<area shape="poly" title=" " alt="" coords="2648,256,2706,296,2703,301,2645,261"/>
-<area shape="poly" title=" " alt="" coords="2594,261,2545,294,2485,326,2407,355,2334,375,2333,369,2405,350,2483,322,2542,289,2591,256"/>
-<area shape="poly" title=" " alt="" coords="2234,404,2106,448,2105,443,2232,399"/>
-<area shape="poly" title=" " alt="" coords="2462,261,2414,301,2410,296,2459,257"/>
-<area shape="poly" title=" " alt="" coords="2368,333,2300,374,2297,369,2365,329"/>
-<area shape="poly" title=" " alt="" coords="2364,250,2663,298,2662,303,2363,255"/>
-<area shape="poly" title=" " alt="" coords="2234,258,2106,301,2105,296,2232,253"/>
-<area shape="poly" title=" " alt="" coords="2281,265,2281,372,2276,372,2276,265"/>
-<area shape="poly" title=" " alt="" coords="2311,255,2379,296,2377,301,2308,260"/>
-<area shape="poly" title=" " alt="" coords="2783,106,2846,129,2906,162,2929,182,2944,203,2947,227,2936,252,2911,270,2872,284,2781,304,2780,299,2870,279,2908,265,2931,249,2942,226,2939,205,2925,185,2903,166,2844,134,2781,111"/>
-<area shape="poly" title=" " alt="" coords="2648,103,2015,159,2014,154,2648,97"/>
+<div class="center"><img src="../../d7/d6e/a00190.png" border="0" usemap="#ahV__Font__Terminal_8hdep" alt=""/></div>
+<map name="ahV__Font__Terminal_8hdep" id="ahV__Font__Terminal_8hdep">
+<area shape="rect" title="hV_Font_Terminal" alt="" coords="681,5,830,31"/>
+<area shape="rect" href="../../d2/dc8/a00242.html" title="Generic buffered screen class library." alt="" coords="682,79,829,104"/>
+<area shape="poly" title=" " alt="" coords="758,44,758,79,753,79,753,44"/>
+<area shape="rect" href="../../d0/d27/a00239.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3.1 and EXT3&#45;Touch boards." alt="" coords="680,152,831,177"/>
+<area shape="poly" title=" " alt="" coords="758,118,758,152,753,152,753,118"/>
+<area shape="rect" href="../../d9/dd0/a00191.html" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="1227,225,1420,251"/>
+<area shape="poly" title=" " alt="" coords="845,174,1232,223,1232,228,844,180"/>
+<area shape="rect" href="../../dd/dc1/a00212.html" title="Basic GUI with text and button." alt="" coords="633,225,715,251"/>
+<area shape="poly" title=" " alt="" coords="734,188,689,227,686,223,730,184"/>
+<area shape="rect" href="../../dc/de6/a00167.html" title="Example of features for basic edition." alt="" coords="186,299,351,324"/>
+<area shape="poly" title=" " alt="" coords="1213,247,836,267,364,301,352,302,352,297,363,296,836,261,1213,241"/>
+<area shape="rect" href="../../d5/dcb/a00170.html" title="Example of features for Evaluation edition." alt="" coords="5,299,161,324"/>
+<area shape="poly" title=" " alt="" coords="1213,245,759,263,468,279,174,301,162,303,161,297,174,296,468,274,759,258,1212,240"/>
+<area shape="rect" href="../../d7/d3f/a00173.html" title="Example of features for basic edition." alt="" coords="375,299,570,324"/>
+<area shape="poly" title=" " alt="" coords="1213,250,584,301,571,303,570,297,583,296,1212,245"/>
+<area shape="rect" href="../../d2/df5/a00137.html" title="Example of features for basic edition." alt="" coords="595,299,756,324"/>
+<area shape="poly" title=" " alt="" coords="1214,253,769,301,757,303,756,297,768,296,1213,248"/>
+<area shape="rect" href="../../de/d76/a00134.html" title="Example of features for basic edition." alt="" coords="781,299,927,324"/>
+<area shape="poly" title=" " alt="" coords="1235,255,928,302,927,296,1234,250"/>
+<area shape="rect" href="../../da/d1e/a00149.html" title="Example of features for basic edition." alt="" coords="951,299,1103,324"/>
+<area shape="poly" title=" " alt="" coords="1263,256,1076,301,1075,296,1262,251"/>
+<area shape="rect" href="../../d7/d06/a00131.html" title="Example of features for basic edition." alt="" coords="1128,299,1313,324"/>
+<area shape="poly" title=" " alt="" coords="1297,261,1239,301,1236,296,1294,256"/>
+<area shape="rect" href="../../d7/d9a/a00152.html" title="Example of features for basic edition." alt="" coords="1337,299,1515,324"/>
+<area shape="poly" title=" " alt="" coords="1353,256,1411,296,1408,301,1350,261"/>
+<area shape="rect" href="../../d7/dce/a00143.html" title="Protocol for speed test." alt="" coords="1539,299,1691,324"/>
+<area shape="poly" title=" " alt="" coords="1384,251,1569,296,1567,301,1383,256"/>
+<area shape="rect" href="../../d9/db6/a00146.html" title="Example of features for basic edition." alt="" coords="1715,299,1854,324"/>
+<area shape="poly" title=" " alt="" coords="1411,250,1716,297,1715,302,1410,255"/>
+<area shape="rect" href="../../d5/db1/a00140.html" title="Example of features for basic edition." alt="" coords="1879,299,2045,324"/>
+<area shape="poly" title=" " alt="" coords="1434,248,1866,296,1879,297,1878,303,1866,301,1434,254"/>
+<area shape="rect" href="../../d6/db8/a00158.html" title="Example of features for basic edition." alt="" coords="2070,299,2177,324"/>
+<area shape="poly" title=" " alt="" coords="1434,242,1718,262,1888,277,2058,296,2070,298,2070,303,2058,301,1888,282,1717,267,1434,248"/>
+<area shape="rect" href="../../db/ddf/a00164.html" title="Example of features for basic edition." alt="" coords="2201,299,2353,324"/>
+<area shape="poly" title=" " alt="" coords="1434,242,1772,262,2189,296,2201,297,2200,303,2188,301,1771,268,1434,247"/>
+<area shape="rect" href="../../d6/d7d/a00161.html" title="Protocol for speed test." alt="" coords="2377,299,2496,324"/>
+<area shape="poly" title=" " alt="" coords="1434,239,1844,256,2103,273,2365,296,2377,297,2377,303,2364,301,2103,278,1843,261,1433,245"/>
+<area shape="rect" href="../../d3/df8/a00155.html" title="Example of features for fast edition." alt="" coords="2520,299,2681,324"/>
+<area shape="poly" title=" " alt="" coords="1434,240,1902,257,2204,274,2509,296,2520,297,2520,302,2508,301,2204,279,1902,263,1434,245"/>
+<area shape="poly" title=" " alt="" coords="619,248,174,301,162,303,161,298,174,296,619,243"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a60e884327071b24efbc11ca1d3ae16f1" id="r_a60e884327071b24efbc11ca1d3ae16f1"><td class="memItemLeft" align="right" valign="top"><a id="a60e884327071b24efbc11ca1d3ae16f1" name="a60e884327071b24efbc11ca1d3ae16f1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>hV_LIST_OPTIONS_RELEASE</b>&#160;&#160;&#160;805</td></tr>
-<tr class="memdesc:a60e884327071b24efbc11ca1d3ae16f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release. <br /></td></tr>
-<tr class="separator:a60e884327071b24efbc11ca1d3ae16f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66b2ce216c9fb1c332b3f3a4dbc0882b" id="r_a66b2ce216c9fb1c332b3f3a4dbc0882b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66b2ce216c9fb1c332b3f3a4dbc0882b">MAX_FONT_SIZE</a>&#160;&#160;&#160;4</td></tr>
-<tr class="memdesc:a66b2ce216c9fb1c332b3f3a4dbc0882b"><td class="mdescLeft">&#160;</td><td class="mdescRight">4- Maximum number of fonts  <br /></td></tr>
-<tr class="separator:a66b2ce216c9fb1c332b3f3a4dbc0882b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">3- Set font mode</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>From header files or from external flash</p><ul>
-<li>Basic edition: Terminal font</li>
-<li>Evaluation edition: DejaVu font as header</li>
-<li>Commercial edition: DejaVu font as either header or external SPI Flash</li>
-<li>Viewer edition: DejaVu font as header</li>
-</ul>
-<dl class="section note"><dt>Note</dt><dd>USE_FONT_HEADER requires addFont() </dd>
-<dd>
-Font Manager requires USE_FONT_HEADER </dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>8- and 16-bit MCUs may limit the size of the fonts. Use 32-bit MCUs for optimal performance. </dd></dl>
-</div></td></tr>
-<tr class="memitem:a8957d8cdb41ab8149747bc778762044e" id="r_a8957d8cdb41ab8149747bc778762044e"><td class="memItemLeft" align="right" valign="top"><a id="a8957d8cdb41ab8149747bc778762044e" name="a8957d8cdb41ab8149747bc778762044e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_FONT_TERMINAL</b>&#160;&#160;&#160;1</td></tr>
-<tr class="memdesc:a8957d8cdb41ab8149747bc778762044e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use default Terminal fonts. <br /></td></tr>
-<tr class="separator:a8957d8cdb41ab8149747bc778762044e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7790c7c49429aaa3e6bfba18956447e" id="r_ac7790c7c49429aaa3e6bfba18956447e"><td class="memItemLeft" align="right" valign="top"><a id="ac7790c7c49429aaa3e6bfba18956447e" name="ac7790c7c49429aaa3e6bfba18956447e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>FONT_MODE</b>&#160;&#160;&#160;<a class="el" href="#a8957d8cdb41ab8149747bc778762044e">USE_FONT_TERMINAL</a></td></tr>
-<tr class="memdesc:ac7790c7c49429aaa3e6bfba18956447e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selected option. <br /></td></tr>
-<tr class="separator:ac7790c7c49429aaa3e6bfba18956447e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">5- Set SRAM memory</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>From internal MCU or external SPI</p><ul>
-<li>Basic edition: MCU internal SRAM</li>
-<li>Commercial edition: MCU internal SRAM</li>
-<li>Evaluation edition: MCU internal or SPI external SRAM</li>
-<li>Viewer edition: MCU internal SRAM </li>
-</ul>
-</div></td></tr>
-<tr class="memitem:a5ae3237253d77826843fc9d90700d5a1" id="r_a5ae3237253d77826843fc9d90700d5a1"><td class="memItemLeft" align="right" valign="top"><a id="a5ae3237253d77826843fc9d90700d5a1" name="a5ae3237253d77826843fc9d90700d5a1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_INTERNAL_MCU</b>&#160;&#160;&#160;1</td></tr>
-<tr class="memdesc:a5ae3237253d77826843fc9d90700d5a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use MCU internal. <br /></td></tr>
-<tr class="separator:a5ae3237253d77826843fc9d90700d5a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e2fdad38cc1a287c1119e44d94ca0fd" id="r_a1e2fdad38cc1a287c1119e44d94ca0fd"><td class="memItemLeft" align="right" valign="top"><a id="a1e2fdad38cc1a287c1119e44d94ca0fd" name="a1e2fdad38cc1a287c1119e44d94ca0fd"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>SRAM_MODE</b>&#160;&#160;&#160;<a class="el" href="#a5ae3237253d77826843fc9d90700d5a1">USE_INTERNAL_MCU</a></td></tr>
-<tr class="memdesc:a1e2fdad38cc1a287c1119e44d94ca0fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selected option. <br /></td></tr>
-<tr class="separator:a1e2fdad38cc1a287c1119e44d94ca0fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">6- Use virtual object</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>From hV_Screen_Virtual.h for extended compability </p><dl class="section note"><dt>Note</dt><dd>Declare additional variables if USE_hV_SCREEN_SELF <br  />
- Virtual object requires ~1 kB bytes.<ul>
-<li>Basic edition: self option</li>
-<li>Evaluation edition: virtual option</li>
-<li>Commercial edition: self and virtual options</li>
-<li>Viewer edition: virtual option</li>
-</ul>
-</dd>
-<dd>
-Recommended: USE_hV_SCREEN_VIRTUAL </dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>Issues with virtual function on arm-none-eabi-g++ 4.9.3: use USE_hV_SCREEN_SELF instead. </dd></dl>
-</div></td></tr>
-<tr class="memitem:aab4e357f20ccd08a66b382176fdee38f" id="r_aab4e357f20ccd08a66b382176fdee38f"><td class="memItemLeft" align="right" valign="top"><a id="aab4e357f20ccd08a66b382176fdee38f" name="aab4e357f20ccd08a66b382176fdee38f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_hV_SCREEN_SELF</b>&#160;&#160;&#160;2</td></tr>
-<tr class="memdesc:aab4e357f20ccd08a66b382176fdee38f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do not use virtual object. <br /></td></tr>
-<tr class="separator:aab4e357f20ccd08a66b382176fdee38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add4d69b5067bbc2cf56d4fb522dd6541" id="r_add4d69b5067bbc2cf56d4fb522dd6541"><td class="memItemLeft" align="right" valign="top"><a id="add4d69b5067bbc2cf56d4fb522dd6541" name="add4d69b5067bbc2cf56d4fb522dd6541"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_hV_SCREEN</b>&#160;&#160;&#160;<a class="el" href="#aab4e357f20ccd08a66b382176fdee38f">USE_hV_SCREEN_SELF</a></td></tr>
-<tr class="memdesc:add4d69b5067bbc2cf56d4fb522dd6541"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selected option. <br /></td></tr>
-<tr class="separator:add4d69b5067bbc2cf56d4fb522dd6541"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">7- Set touch mode</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>Only two screens are ready for touch</p><ul>
-<li>Basic edition: iTC 2.71 BW and iTC 3.70 BW</li>
-<li>Evaluation edition: iTC 2.71 BW and iTC 3.70 BW</li>
-<li>Commercial edition: iTC 2.71 BW and iTC 3.70 BW</li>
-<li>Viewer edition: iTC 2.71 BW and iTC 3.70 BW</li>
-</ul>
-<dl class="section note"><dt>Note</dt><dd>Touch uses I2C and polling over interrupt </dd></dl>
-</div></td></tr>
-<tr class="memitem:ac0b08ef537f6a6c42bceab5c3b8da75c" id="r_ac0b08ef537f6a6c42bceab5c3b8da75c"><td class="memItemLeft" align="right" valign="top"><a id="ac0b08ef537f6a6c42bceab5c3b8da75c" name="ac0b08ef537f6a6c42bceab5c3b8da75c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_TOUCH_NONE</b>&#160;&#160;&#160;0</td></tr>
-<tr class="memdesc:ac0b08ef537f6a6c42bceab5c3b8da75c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do not use touch. <br /></td></tr>
-<tr class="separator:ac0b08ef537f6a6c42bceab5c3b8da75c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af48880fea70dcb52dfb9c43d689bf6aa" id="r_af48880fea70dcb52dfb9c43d689bf6aa"><td class="memItemLeft" align="right" valign="top"><a id="af48880fea70dcb52dfb9c43d689bf6aa" name="af48880fea70dcb52dfb9c43d689bf6aa"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_TOUCH_YES</b>&#160;&#160;&#160;1</td></tr>
-<tr class="memdesc:af48880fea70dcb52dfb9c43d689bf6aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use touch. <br /></td></tr>
-<tr class="separator:af48880fea70dcb52dfb9c43d689bf6aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11320f76b1b3395290d1e97bb7ac9c2a" id="r_a11320f76b1b3395290d1e97bb7ac9c2a"><td class="memItemLeft" align="right" valign="top"><a id="a11320f76b1b3395290d1e97bb7ac9c2a" name="a11320f76b1b3395290d1e97bb7ac9c2a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>TOUCH_MODE</b>&#160;&#160;&#160;<a class="el" href="#af48880fea70dcb52dfb9c43d689bf6aa">USE_TOUCH_YES</a></td></tr>
-<tr class="memdesc:a11320f76b1b3395290d1e97bb7ac9c2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selected option. <br /></td></tr>
-<tr class="separator:a11320f76b1b3395290d1e97bb7ac9c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">8- Set haptic feedback mode</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><ul>
-<li>Basic edition: no haptic feedback</li>
-<li>Evaluation edition: ERM or LRA</li>
-<li>Commercial edition: ERM or LRA</li>
-<li>Viewer edition: no haptic feedback </li>
-</ul>
-</div></td></tr>
-<tr class="memitem:a2c0c9d99d443328964c910321320b517" id="r_a2c0c9d99d443328964c910321320b517"><td class="memItemLeft" align="right" valign="top"><a id="a2c0c9d99d443328964c910321320b517" name="a2c0c9d99d443328964c910321320b517"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_HAPTICS_NONE</b>&#160;&#160;&#160;0</td></tr>
-<tr class="memdesc:a2c0c9d99d443328964c910321320b517"><td class="mdescLeft">&#160;</td><td class="mdescRight">No motor. <br /></td></tr>
-<tr class="separator:a2c0c9d99d443328964c910321320b517"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8fd9379451a6d714941f9d07f23f49d" id="r_ac8fd9379451a6d714941f9d07f23f49d"><td class="memItemLeft" align="right" valign="top"><a id="ac8fd9379451a6d714941f9d07f23f49d" name="ac8fd9379451a6d714941f9d07f23f49d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HAPTICS_MODE</b>&#160;&#160;&#160;<a class="el" href="#a2c0c9d99d443328964c910321320b517">USE_HAPTICS_NONE</a></td></tr>
-<tr class="memdesc:ac8fd9379451a6d714941f9d07f23f49d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selected option. <br /></td></tr>
-<tr class="separator:ac8fd9379451a6d714941f9d07f23f49d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">9- Set GPIO expander mode</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><ul>
-<li>Basic edition: no expander</li>
-<li>Evaluation edition: PCF8574 or PCA9536</li>
-<li>Commercial edition: PCF8574 or PCA9536</li>
-<li>Viewer edition: no expander </li>
-</ul>
-</div></td></tr>
-<tr class="memitem:a860f4bce384204ab9821f3323ad37428" id="r_a860f4bce384204ab9821f3323ad37428"><td class="memItemLeft" align="right" valign="top"><a id="a860f4bce384204ab9821f3323ad37428" name="a860f4bce384204ab9821f3323ad37428"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_EXPANDER_NONE</b>&#160;&#160;&#160;0</td></tr>
-<tr class="memdesc:a860f4bce384204ab9821f3323ad37428"><td class="mdescLeft">&#160;</td><td class="mdescRight">No I2C expander. <br /></td></tr>
-<tr class="separator:a860f4bce384204ab9821f3323ad37428"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98b9d12915609bc5f10526b151be4e23" id="r_a98b9d12915609bc5f10526b151be4e23"><td class="memItemLeft" align="right" valign="top"><a id="a98b9d12915609bc5f10526b151be4e23" name="a98b9d12915609bc5f10526b151be4e23"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>EXPANDER_MODE</b>&#160;&#160;&#160;<a class="el" href="#a860f4bce384204ab9821f3323ad37428">USE_EXPANDER_NONE</a></td></tr>
-<tr class="memdesc:a98b9d12915609bc5f10526b151be4e23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selected option. <br /></td></tr>
-<tr class="separator:a98b9d12915609bc5f10526b151be4e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">10- Set string mode</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><ul>
-<li>Basic edition: String object</li>
-<li>Evaluation edition: char array</li>
-<li>Commercial edition: String object or char array</li>
-<li>Viewer edition: char array </li>
-</ul>
-</div></td></tr>
-<tr class="memitem:a1aa630d1906e358b320b4e00fcd9d7d7" id="r_a1aa630d1906e358b320b4e00fcd9d7d7"><td class="memItemLeft" align="right" valign="top"><a id="a1aa630d1906e358b320b4e00fcd9d7d7" name="a1aa630d1906e358b320b4e00fcd9d7d7"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_STRING_OBJECT</b>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:a1aa630d1906e358b320b4e00fcd9d7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a772c0af3dc7e04934854547bc08ca6ed" id="r_a772c0af3dc7e04934854547bc08ca6ed"><td class="memItemLeft" align="right" valign="top"><a id="a772c0af3dc7e04934854547bc08ca6ed" name="a772c0af3dc7e04934854547bc08ca6ed"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>STRING_MODE</b>&#160;&#160;&#160;USE_STRING_OBJECT</td></tr>
-<tr class="separator:a772c0af3dc7e04934854547bc08ca6ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">11- Storage mode</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><ul>
-<li>Basic edition: none</li>
-<li>Evaluation edition: none</li>
-<li>Commercial edition: option</li>
-<li>Viewer edition: option </li>
-</ul>
-</div></td></tr>
-<tr class="memitem:a64a99352a7dde2b861163fdb8f8abd89" id="r_a64a99352a7dde2b861163fdb8f8abd89"><td class="memItemLeft" align="right" valign="top"><a id="a64a99352a7dde2b861163fdb8f8abd89" name="a64a99352a7dde2b861163fdb8f8abd89"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>USE_NONE</b>&#160;&#160;&#160;0</td></tr>
-<tr class="memdesc:a64a99352a7dde2b861163fdb8f8abd89"><td class="mdescLeft">&#160;</td><td class="mdescRight">No storage. <br /></td></tr>
-<tr class="separator:a64a99352a7dde2b861163fdb8f8abd89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9794b07ad5c45a1b1d2b29af9c81138" id="r_ab9794b07ad5c45a1b1d2b29af9c81138"><td class="memItemLeft" align="right" valign="top"><a id="ab9794b07ad5c45a1b1d2b29af9c81138" name="ab9794b07ad5c45a1b1d2b29af9c81138"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>STORAGE_MODE</b>&#160;&#160;&#160;<a class="el" href="#a64a99352a7dde2b861163fdb8f8abd89">USE_NONE</a></td></tr>
-<tr class="memdesc:ab9794b07ad5c45a1b1d2b29af9c81138"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selected options. <br /></td></tr>
-<tr class="separator:ab9794b07ad5c45a1b1d2b29af9c81138"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c1b31917210e8dd59e9d780d3285e12" id="r_a2c1b31917210e8dd59e9d780d3285e12"><td class="memItemLeft" align="right" valign="top"><a id="a2c1b31917210e8dd59e9d780d3285e12" name="a2c1b31917210e8dd59e9d780d3285e12"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>hV_FONT_TERMINAL_RELEASE</b>&#160;&#160;&#160;801</td></tr>
+<tr class="memdesc:a2c1b31917210e8dd59e9d780d3285e12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release. <br /></td></tr>
+<tr class="separator:a2c1b31917210e8dd59e9d780d3285e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:afb304f88fec3d0fe39131d0aa83a0c1a" id="r_afb304f88fec3d0fe39131d0aa83a0c1a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb304f88fec3d0fe39131d0aa83a0c1a">fontNumber_e</a> { <b>Font_Terminal6x8</b>
+, <b>Font_Terminal8x12</b>
+, <b>Font_Terminal12x16</b>
+, <b>Font_Terminal16x24</b>
+ }</td></tr>
+<tr class="memdesc:afb304f88fec3d0fe39131d0aa83a0c1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Biggest font size.  <a href="#afb304f88fec3d0fe39131d0aa83a0c1a">More...</a><br /></td></tr>
+<tr class="separator:afb304f88fec3d0fe39131d0aa83a0c1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>List of options for Pervasive Displays Library Suite. </p>
+<div class="textblock"><p>hV_Font_Terminal </p>
 <p>Project Pervasive Displays Library Suite <br  />
  Based on highView technology</p>
-<p><br  />
- Content</p><ul>
-<li>3- Font mode, internal MCU for basic edition</li>
-<li>4- Maximum number of fonts</li>
-<li>5- SRAM memory, internal MCU for basic edition</li>
-<li>6- Use self for basic edition</li>
-<li>7- Touch mode, activated or not</li>
-<li>8- Haptic feedback mode, not implemented</li>
-<li>9. Set GPIO expander mode, not implemented</li>
-<li>10. String object for basic edition</li>
-<li>11. Set storage mode, not implemented</li>
-<li>12. Set debug options</li>
-</ul>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>21 Aug 2024 </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>805</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>21 May 2024 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>803</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2024 </dd>
 <dd>
 All rights reserved </dd>
@@ -370,29 +259,25 @@ For exclusive use with Pervasive Displays screens</dd></dl>
 <li>Viewer edition: for professionals or organisations <br  />
  All rights reserved</li>
 <li>Documentation <br  />
- All rights reserved </li>
+ All rights reserved</li>
 </ul>
-</div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a66b2ce216c9fb1c332b3f3a4dbc0882b" name="a66b2ce216c9fb1c332b3f3a4dbc0882b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66b2ce216c9fb1c332b3f3a4dbc0882b">&#9670;&#160;</a></span>MAX_FONT_SIZE</h2>
+<dl class="section see"><dt>See also</dt><dd>Font generated with MikroElektronika GLCD Font Creator 1.2.0.0 and edited manually MikroeElektronika 2011 <a href="http://www.mikroe.com">http://www.mikroe.com</a> </dd></dl>
+</div><h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="afb304f88fec3d0fe39131d0aa83a0c1a" name="afb304f88fec3d0fe39131d0aa83a0c1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb304f88fec3d0fe39131d0aa83a0c1a">&#9670;&#160;</a></span>fontNumber_e</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MAX_FONT_SIZE&#160;&#160;&#160;4</td>
+          <td class="memname">enum <a class="el" href="#afb304f88fec3d0fe39131d0aa83a0c1a">fontNumber_e</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>4- Maximum number of fonts </p>
-<p>With MCU Flash, based on available memory, check performed at compilation</p><ul>
-<li>USE_FONT_TERMINAL: 1..4</li>
-<li>USE_FONT_HEADER: 1..64</li>
-</ul>
-<p>With SPI Flash, based on the fonts previously uploaded</p><ul>
-<li>USE_FONT_FLASH: eg. 64 </li>
-</ul>
+<p>Biggest font size. </p>
+<p>Based on the MCU, by default = 0</p>
+<p>Font enumeration </p><dl class="section note"><dt>Note</dt><dd>Generated by hV_FontsFlash_Manage2 </dd></dl>
 
 </div>
 </div>
@@ -402,7 +287,7 @@ For exclusive use with Pervasive Displays screens</dd></dl>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../da/d15/a00188.html">hV_List_Options.h</a></li>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../da/d15/a00188.html">hV_Font_Terminal.h</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.11.0 </li>

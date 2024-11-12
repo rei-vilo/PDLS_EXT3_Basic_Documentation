@@ -1,13 +1,20 @@
 var a00197 =
 [
-    [ "GUI", "d2/d71/a00309.html", "d2/d71/a00309" ],
-    [ "Text", "dd/db3/a00313.html", "dd/db3/a00313" ],
-    [ "Button", "da/de0/a00317.html", "da/de0/a00317" ],
-    [ "checkInstant", "de/db1/a00197.html#ada270c7144643ff2b7d50a564a3dbdc0", null ],
-    [ "checkNormal", "de/db1/a00197.html#a436b4a5140acee407da61a0097dca9c0", null ],
-    [ "hV_GUI_BASIC_RELEASE", "de/db1/a00197.html#a2071496e55eb3c5e00faed997f19654c", null ],
-    [ "fsmGUI_e", "de/db1/a00197.html#ad98973f41a35ca658799fbd07a8fb82b", [
-      [ "fsmReleased", "de/db1/a00197.html#ad98973f41a35ca658799fbd07a8fb82bae88708812c4ed26e1a35fc58fa103d7c", null ],
-      [ "fsmTouched", "de/db1/a00197.html#ad98973f41a35ca658799fbd07a8fb82bac02bae32a14b2f2024c9f32f2a0e0c45", null ]
-    ] ]
+    [ "EXPANDER_MODE", "de/db1/a00197.html#a98b9d12915609bc5f10526b151be4e23", null ],
+    [ "FONT_MODE", "de/db1/a00197.html#ac7790c7c49429aaa3e6bfba18956447e", null ],
+    [ "HAPTICS_MODE", "de/db1/a00197.html#ac8fd9379451a6d714941f9d07f23f49d", null ],
+    [ "hV_LIST_OPTIONS_RELEASE", "de/db1/a00197.html#a60e884327071b24efbc11ca1d3ae16f1", null ],
+    [ "MAX_FONT_SIZE", "de/db1/a00197.html#a66b2ce216c9fb1c332b3f3a4dbc0882b", null ],
+    [ "SRAM_MODE", "de/db1/a00197.html#a1e2fdad38cc1a287c1119e44d94ca0fd", null ],
+    [ "STORAGE_MODE", "de/db1/a00197.html#ab9794b07ad5c45a1b1d2b29af9c81138", null ],
+    [ "TOUCH_MODE", "de/db1/a00197.html#a11320f76b1b3395290d1e97bb7ac9c2a", null ],
+    [ "USE_EXPANDER_NONE", "de/db1/a00197.html#a860f4bce384204ab9821f3323ad37428", null ],
+    [ "USE_FONT_TERMINAL", "de/db1/a00197.html#a8957d8cdb41ab8149747bc778762044e", null ],
+    [ "USE_HAPTICS_NONE", "de/db1/a00197.html#a2c0c9d99d443328964c910321320b517", null ],
+    [ "USE_hV_SCREEN", "de/db1/a00197.html#add4d69b5067bbc2cf56d4fb522dd6541", null ],
+    [ "USE_hV_SCREEN_SELF", "de/db1/a00197.html#aab4e357f20ccd08a66b382176fdee38f", null ],
+    [ "USE_INTERNAL_MCU", "de/db1/a00197.html#a5ae3237253d77826843fc9d90700d5a1", null ],
+    [ "USE_NONE", "de/db1/a00197.html#a64a99352a7dde2b861163fdb8f8abd89", null ],
+    [ "USE_TOUCH_NONE", "de/db1/a00197.html#ac0b08ef537f6a6c42bceab5c3b8da75c", null ],
+    [ "USE_TOUCH_YES", "de/db1/a00197.html#af48880fea70dcb52dfb9c43d689bf6aa", null ]
 ];

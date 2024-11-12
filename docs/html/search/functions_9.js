@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['performtest_0',['performTest',['../d7/dce/a00143.html#a5ead2ecbed56fc3642b497dd06184234',1,'performTest():&#160;Common_Speed.ino'],['../d6/d7d/a00161.html#a5ead2ecbed56fc3642b497dd06184234',1,'performTest():&#160;Fast_Speed.ino']]],
-  ['point_1',['point',['../d8/d17/a00304.html#af56437354e69149a2da933a458b05f04',1,'hV_Screen_Buffer']]]
+  ['movehuman_0',['moveHuman',['../d7/d3f/a00173.html#acea0796956ea2a8f46c845e6bf96c77a',1,'Basic_Touch_TicTacToe.ino']]],
+  ['movemcu_1',['moveMCU',['../d7/d3f/a00173.html#ad9713f29c890b87e62b7cccf52ec97b4',1,'Basic_Touch_TicTacToe.ino']]]
 ];

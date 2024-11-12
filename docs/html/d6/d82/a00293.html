@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: hV_Board Class Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: font_s Struct Reference</title>
 <link rel="icon" href="../../Logo-PDI-white.png" type="image/x-icon" />
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.5</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.8</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -101,69 +101,70 @@ $(function(){initNavTree('d6/d82/a00293.html','../../'); initResizable(true); })
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a>  </div>
-  <div class="headertitle"><div class="title">hV_Board Class Reference</div></div>
+<a href="#pub-attribs">Data Fields</a>  </div>
+  <div class="headertitle"><div class="title">font_s Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Class for Pervasive Displays EXT3, EXT3-1 and EXT3-Touch boards.  
+<p>Structure for font.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;hV_Board.h&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for hV_Board:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d8/d0a/a00292.png" border="0" usemap="#ahV__Board_inherit__map" alt="Inheritance graph"/></div>
-<map name="ahV__Board_inherit__map" id="ahV__Board_inherit__map">
-<area shape="rect" title="Class for Pervasive Displays EXT3, EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="49,5,133,31"/>
-<area shape="rect" href="../../d2/d0a/a00333.html" title="Class for Pervasive Displays e&#45;paper displays." alt="" coords="23,79,160,104"/>
-<area shape="poly" title=" " alt="" coords="94,44,94,79,89,79,89,44"/>
-<area shape="rect" href="../../d4/dce/a00337.html" title="Class for Pervasive Displays iTC monochrome touch screens with embedded fast update." alt="" coords="5,152,177,177"/>
-<area shape="poly" title=" " alt="" coords="94,118,94,152,89,152,89,118"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
+<p><code>#include &lt;hV_Font.h&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a60a6e929802c94fd41432d2fb098109b" id="r_a60a6e929802c94fd41432d2fb098109b"><td class="memItemLeft" align="right" valign="top"><a id="a60a6e929802c94fd41432d2fb098109b" name="a60a6e929802c94fd41432d2fb098109b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>hV_Board</b> ()</td></tr>
-<tr class="memdesc:a60a6e929802c94fd41432d2fb098109b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
-<tr class="separator:a60a6e929802c94fd41432d2fb098109b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa09c84954d8d248199effc0ab5eeacc2" id="r_aa09c84954d8d248199effc0ab5eeacc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dc8/a00325.html">pins_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa09c84954d8d248199effc0ab5eeacc2">getBoardPins</a> ()</td></tr>
-<tr class="memdesc:aa09c84954d8d248199effc0ab5eeacc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the pins of the board.  <br /></td></tr>
-<tr class="separator:aa09c84954d8d248199effc0ab5eeacc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Data Fields</h2></td></tr>
+<tr class="memitem:acbe14f6295f4d4f0e92df32d54a2c105" id="r_acbe14f6295f4d4f0e92df32d54a2c105"><td class="memItemLeft" align="right" valign="top"><a id="acbe14f6295f4d4f0e92df32d54a2c105" name="acbe14f6295f4d4f0e92df32d54a2c105"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>kind</b></td></tr>
+<tr class="memdesc:acbe14f6295f4d4f0e92df32d54a2c105"><td class="mdescLeft">&#160;</td><td class="mdescRight">font description <br /></td></tr>
+<tr class="separator:acbe14f6295f4d4f0e92df32d54a2c105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63f8837d47ae05b6ae7f446cf379824c" id="r_a63f8837d47ae05b6ae7f446cf379824c"><td class="memItemLeft" align="right" valign="top"><a id="a63f8837d47ae05b6ae7f446cf379824c" name="a63f8837d47ae05b6ae7f446cf379824c"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>height</b></td></tr>
+<tr class="memdesc:a63f8837d47ae05b6ae7f446cf379824c"><td class="mdescLeft">&#160;</td><td class="mdescRight">general height in pixels <br /></td></tr>
+<tr class="separator:a63f8837d47ae05b6ae7f446cf379824c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4b2baeedd0e11a46ed1bc48b2ba672b" id="r_ac4b2baeedd0e11a46ed1bc48b2ba672b"><td class="memItemLeft" align="right" valign="top"><a id="ac4b2baeedd0e11a46ed1bc48b2ba672b" name="ac4b2baeedd0e11a46ed1bc48b2ba672b"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxWidth</b></td></tr>
+<tr class="memdesc:ac4b2baeedd0e11a46ed1bc48b2ba672b"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum width in pixels from *width array <br /></td></tr>
+<tr class="separator:ac4b2baeedd0e11a46ed1bc48b2ba672b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17f5e4b07589c6fedf9c10719a3ccad0" id="r_a17f5e4b07589c6fedf9c10719a3ccad0"><td class="memItemLeft" align="right" valign="top"><a id="a17f5e4b07589c6fedf9c10719a3ccad0" name="a17f5e4b07589c6fedf9c10719a3ccad0"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>first</b></td></tr>
+<tr class="memdesc:a17f5e4b07589c6fedf9c10719a3ccad0"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of first character, usually 32 <br /></td></tr>
+<tr class="separator:a17f5e4b07589c6fedf9c10719a3ccad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83b66eec3d0f585fcba2521812d8e669" id="r_a83b66eec3d0f585fcba2521812d8e669"><td class="memItemLeft" align="right" valign="top"><a id="a83b66eec3d0f585fcba2521812d8e669" name="a83b66eec3d0f585fcba2521812d8e669"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>number</b></td></tr>
+<tr class="memdesc:a83b66eec3d0f585fcba2521812d8e669"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of characters, usually 96 or 224 <br /></td></tr>
+<tr class="separator:a83b66eec3d0f585fcba2521812d8e669"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class for Pervasive Displays EXT3, EXT3-1 and EXT3-Touch boards. </p>
-<p>Functions for EXT3-1 board</p><ul>
-<li>GPIO</li>
-<li>SPI for LCD and external Flash and SRAM memory</li>
-<li>I2C for touch and haptic feedback </li>
+<div class="textblock"><p>Structure for font. </p>
+<p>Fonts read from header file in internal MCU Flash </p><dl class="section note"><dt>Note</dt><dd><ul>
+<li>Kind of font: see details below</li>
+<li>Height: set during font generation</li>
+<li>Width: *width array: characters index and length</li>
+<li>maxWidth: to be calculated</li>
+<li>Bytes per character: see *width array</li>
+<li>Character definition: see *table array</li>
 </ul>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa09c84954d8d248199effc0ab5eeacc2" name="aa09c84954d8d248199effc0ab5eeacc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa09c84954d8d248199effc0ab5eeacc2">&#9670;&#160;</a></span>getBoardPins()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/dc8/a00325.html">pins_t</a> hV_Board::getBoardPins </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the pins of the board. </p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../de/dc8/a00325.html" title="Board configuration structure.">pins_t</a> pins of the board </dd></dl>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="../../d7/d9a/a00152.html">hV_Board.h</a></li>
-<li><b>hV_Board.cpp</b></li>
+</dd></dl>
+<p><br  />
+ Font kind</p><ul>
+<li>0x4-..0x1- 0b7654<ul>
+<li>b7 = 0x8- = high definition, 2 bits per pixel</li>
+<li>b6 = 0x4- = Monospace</li>
+<li>b5 = 0x2- = Sans Serif</li>
+<li>b4 = 0x1- = Serif</li>
+</ul>
+</li>
+<li>0x-1..0x-f 0b3210<ul>
+<li>b3 = 0x-8 = d8 = italic</li>
+<li>b2 = 0x-4 = d4 = bold</li>
+<li>b10 = 0x-0..0x-3 = d0..d3 = variant number</li>
+</ul>
+</li>
+</ul>
+<dl class="section warning"><dt>Warning</dt><dd>font_s.table needs to be uint8_t instead of unsigned short <br  />
+ Otherwise on TM4C129, font_s.table written as uint16_t </dd></dl>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<li><a class="el" href="../../d3/db1/a00200.html">hV_Font.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -171,7 +172,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d6/d82/a00293.html">hV_Board</a></li>
+    <li class="navelem"><a class="el" href="../../d6/d82/a00293.html">font_s</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.11.0 </li>

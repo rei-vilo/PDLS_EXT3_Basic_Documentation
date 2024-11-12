@@ -1,9 +1,5 @@
-<map id="hV_Utilities_PDLS.h" name="hV_Utilities_PDLS.h">
-<area shape="rect" id="Node000001" title="Driver for Pervasive Displays EXT3, EXT3.1 and EXT3&#45;Touch boards." alt="" coords="109,5,258,31"/>
-<area shape="rect" id="Node000002" href="$d1/da8/a00230.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="108,79,259,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,44,186,79,181,79,181,44"/>
-<area shape="rect" id="Node000003" href="$d7/d25/a00182.html" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="5,152,199,177"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="162,115,117,154,114,150,158,111"/>
-<area shape="rect" id="Node000004" href="$de/d79/a00203.html" title="Basic GUI with text and button." alt="" coords="223,152,306,177"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="208,111,253,150,250,154,205,115"/>
+<map id="hV_List_Screens_Legacy.h" name="hV_List_Screens_Legacy.h">
+<area shape="rect" id="Node000001" title="List of supported Pervasive Displays screens." alt="" coords="5,5,196,31"/>
+<area shape="rect" id="Node000002" href="$d1/da8/a00230.html" title="Shared low&#45;level libraries for the Pervasive Displays Library Suite." alt="" coords="42,79,159,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,44,103,79,98,79,98,44"/>
 </map>

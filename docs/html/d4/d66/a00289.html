@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pervasive Displays Library Suite - Basic edition: coordinates_s Struct Reference</title>
+<title>Pervasive Displays Library Suite - Basic edition: width_s Struct Reference</title>
 <link rel="icon" href="../../Logo-PDI-white.png" type="image/x-icon" />
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.5</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.8</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -102,21 +102,32 @@ $(function(){initNavTree('d4/d66/a00289.html','../../'); initResizable(true); })
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Data Fields</a>  </div>
-  <div class="headertitle"><div class="title">coordinates_s Struct Reference</div></div>
+  <div class="headertitle"><div class="title">width_s Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Structure for character width.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;hV_Font.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:adb4176078dd6bae78b14fadd23d58938" id="r_adb4176078dd6bae78b14fadd23d58938"><td class="memItemLeft" align="right" valign="top"><a id="adb4176078dd6bae78b14fadd23d58938" name="adb4176078dd6bae78b14fadd23d58938"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>i</b></td></tr>
-<tr class="separator:adb4176078dd6bae78b14fadd23d58938"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36071aa1dd3b130d8241ce816226ddfc" id="r_a36071aa1dd3b130d8241ce816226ddfc"><td class="memItemLeft" align="right" valign="top"><a id="a36071aa1dd3b130d8241ce816226ddfc" name="a36071aa1dd3b130d8241ce816226ddfc"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>j</b></td></tr>
-<tr class="separator:a36071aa1dd3b130d8241ce816226ddfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68591191be4ff122ee2a26f8b977f2e7" id="r_a68591191be4ff122ee2a26f8b977f2e7"><td class="memItemLeft" align="right" valign="top"><a id="a68591191be4ff122ee2a26f8b977f2e7" name="a68591191be4ff122ee2a26f8b977f2e7"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>pixel</b></td></tr>
+<tr class="memdesc:a68591191be4ff122ee2a26f8b977f2e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">width in pixel <br /></td></tr>
+<tr class="separator:a68591191be4ff122ee2a26f8b977f2e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac184b0b599bdb4d0fc278b52bb9211c5" id="r_ac184b0b599bdb4d0fc278b52bb9211c5"><td class="memItemLeft" align="right" valign="top"><a id="ac184b0b599bdb4d0fc278b52bb9211c5" name="ac184b0b599bdb4d0fc278b52bb9211c5"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>index</b></td></tr>
+<tr class="memdesc:ac184b0b599bdb4d0fc278b52bb9211c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">relative address <br /></td></tr>
+<tr class="separator:ac184b0b599bdb4d0fc278b52bb9211c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="../../d9/d39/a00257.html">Basic_Touch_TicTacToe.ino</a></li>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Structure for character width. </p>
+<dl class="deprecated"><dt><b><a class="el" href="../../d9/dd6/a00272.html#_deprecated000001">Deprecated</a></b></dt><dd>uint16_t index (8.0.0) </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>uint32_t index (8.0.0) </dd></dl>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<li><a class="el" href="../../d3/db1/a00200.html">hV_Font.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -124,7 +135,7 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>j</b></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d4/d66/a00289.html">coordinates_s</a></li>
+    <li class="navelem"><a class="el" href="../../d4/d66/a00289.html">width_s</a></li>
     <li class="footer"><b>&copy; Rei Vilo, 2010-2023 &bullet; All rights reserved &bullet;</b> Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.11.0 </li>

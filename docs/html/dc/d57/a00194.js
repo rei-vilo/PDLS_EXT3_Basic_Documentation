@@ -1,4 +1,4 @@
 var a00194 =
 [
-    [ "hV_COMMON_RELEASE", "dc/d57/a00194.html#a50d1720c6f3e76c3a468dec128391a48", null ]
+    [ "TERMINAL6E_FONT_RELEASE", "dc/d57/a00194.html#ae334fa4c1c475b47ca1f6e86589b5510", null ]
 ];
