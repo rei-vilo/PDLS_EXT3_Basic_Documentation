@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['not_5fconnected_0',['NOT_CONNECTED',['../d5/d35/a00266.html#a0e9795e3bb758850785e6ebc676ab01b',1,'hV_List_Boards.h']]]
+  ['max_5ffont_5fsize_0',['MAX_FONT_SIZE',['../de/db1/a00197.html#a66b2ce216c9fb1c332b3f3a4dbc0882b',1,'hV_List_Options.h']]],
+  ['myserial_1',['mySerial',['../dd/dd7/a00260.html#ae12a427d2269d669b541099ff80eb882',1,'hV_HAL_Peripherals.h']]]
 ];

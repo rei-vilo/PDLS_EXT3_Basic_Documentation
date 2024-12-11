@@ -1,5 +1,5 @@
 <map id="hV_Utilities_PDLS.h" name="hV_Utilities_PDLS.h">
-<area shape="rect" id="Node000001" title="Driver for Pervasive Displays EXT3, EXT3.1 and EXT3&#45;Touch boards." alt="" coords="266,5,415,31"/>
+<area shape="rect" id="Node000001" title="Driver for Pervasive Displays EXT3, EXT3.1, EXT3&#45;Touch and EXT4 boards." alt="" coords="266,5,415,31"/>
 <area shape="rect" id="Node000002" href="$dd/dd7/a00260.html" title="Light hardware abstraction layer for peripherals." alt="" coords="124,225,288,251"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="276,33,235,51,217,64,203,80,190,113,188,148,192,183,200,212,195,213,187,184,182,148,185,111,198,77,214,60,232,46,274,28"/>
 <area shape="rect" id="Node000009" href="$d9/d01/a00227.html" title="Configuration of the options for Pervasive Displays Library Suite." alt="" coords="360,152,505,177"/>

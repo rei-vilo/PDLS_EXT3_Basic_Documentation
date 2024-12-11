@@ -1,5 +1,7 @@
 var a00197 =
 [
+    [ "BOARD_EXT3", "de/db1/a00197.html#aba78ef56bf80a3b49d36078be28e2ee9", null ],
+    [ "BOARD_EXT4", "de/db1/a00197.html#adf188037d6a34ad5dbc1c1df1fa409dc", null ],
     [ "EXPANDER_MODE", "de/db1/a00197.html#a98b9d12915609bc5f10526b151be4e23", null ],
     [ "FONT_MODE", "de/db1/a00197.html#ac7790c7c49429aaa3e6bfba18956447e", null ],
     [ "HAPTICS_MODE", "de/db1/a00197.html#ac8fd9379451a6d714941f9d07f23f49d", null ],
@@ -9,6 +11,7 @@ var a00197 =
     [ "STORAGE_MODE", "de/db1/a00197.html#ab9794b07ad5c45a1b1d2b29af9c81138", null ],
     [ "TOUCH_MODE", "de/db1/a00197.html#a11320f76b1b3395290d1e97bb7ac9c2a", null ],
     [ "USE_EXPANDER_NONE", "de/db1/a00197.html#a860f4bce384204ab9821f3323ad37428", null ],
+    [ "USE_EXT_BOARD", "de/db1/a00197.html#a42be4417a0c4bfee9378270a85c94d82", null ],
     [ "USE_FONT_TERMINAL", "de/db1/a00197.html#a8957d8cdb41ab8149747bc778762044e", null ],
     [ "USE_HAPTICS_NONE", "de/db1/a00197.html#a2c0c9d99d443328964c910321320b517", null ],
     [ "USE_hV_SCREEN", "de/db1/a00197.html#add4d69b5067bbc2cf56d4fb522dd6541", null ],

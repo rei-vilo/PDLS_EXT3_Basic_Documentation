@@ -1,6 +1,9 @@
 var a00260 =
 [
+    [ "hV_HAL_max", "dd/dd7/a00260.html#a1cea553bd627381f42427248bd232073", null ],
+    [ "hV_HAL_min", "dd/dd7/a00260.html#a58d1982ab48a49fd2130625b917b89b3", null ],
     [ "hV_HAL_PERIPHERALS_RELEASE", "dd/dd7/a00260.html#a946da185296da9a5250179b0628882d4", null ],
+    [ "hV_HAL_swap", "dd/dd7/a00260.html#afb52669231ed83007446183ad046ea6d", null ],
     [ "mySerial", "dd/dd7/a00260.html#ae12a427d2269d669b541099ff80eb882", null ],
     [ "hV_HAL_begin", "dd/dd7/a00260.html#a1ea3ccdc3aaf13fa200c400a47cf0ce9", null ],
     [ "hV_HAL_SPI3_begin", "dd/dd7/a00260.html#aeece4d74df7b5756325239c50d064dda", null ],

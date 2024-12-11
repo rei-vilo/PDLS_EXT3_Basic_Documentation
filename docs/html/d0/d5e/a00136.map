@@ -1,0 +1,16 @@
+<map id="hV_Screen_Buffer.h" name="hV_Screen_Buffer.h">
+<area shape="rect" id="Node000001" title="Generic buffered screen class library." alt="" coords="319,5,465,31"/>
+<area shape="rect" id="Node000002" href="$d5/db1/a00140.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3&#45;1 and EXT3&#45;Touch boards." alt="" coords="317,79,467,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="395,44,395,79,389,79,389,44"/>
+<area shape="rect" id="Node000003" href="$dc/d9a/a00218.html" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="214,152,407,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="370,115,326,154,322,150,367,111"/>
+<area shape="rect" id="Node000007" href="$de/db1/a00197.html" title="Basic GUI with text and button." alt="" coords="441,152,524,177"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="419,110,469,150,466,154,416,115"/>
+<area shape="rect" id="Node000004" href="$dc/d5d/a00278.html" title="Example of features for basic edition." alt="" coords="5,225,171,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="263,184,125,228,123,223,261,179"/>
+<area shape="rect" id="Node000005" href="$d3/d5e/a00275.html" title="Example of features for Evaluation edition." alt="" coords="414,225,570,251"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="353,180,463,223,461,228,351,185"/>
+<area shape="rect" id="Node000006" href="$d9/d39/a00257.html" title="Example of features for basic edition." alt="" coords="195,225,389,251"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="307,191,298,226,292,225,302,190"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="489,191,493,225,488,226,483,191"/>
+</map>

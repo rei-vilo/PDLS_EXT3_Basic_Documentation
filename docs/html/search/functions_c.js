@@ -24,6 +24,5 @@ var searchData=
   ['sin32x100_21',['sin32x100',['../d6/de1/a00233.html#a6843a856b41ae0c0fbe919efb535aa9f',1,'hV_Utilities_Common.cpp']]],
   ['stringlengthtofitx_22',['stringLengthToFitX',['../da/de0/a00317.html#a0ab408f66bd602703b017fe41de0d606',1,'hV_Screen_Buffer']]],
   ['stringsizex_23',['stringSizeX',['../da/de0/a00317.html#afe8e348e115eafc88b02e292d3852de3',1,'hV_Screen_Buffer']]],
-  ['suspend_24',['suspend',['../de/dc8/a00325.html#a9324bbb7e8151505ef925dc1e326b4b0',1,'Screen_EPD_EXT3_Fast']]],
-  ['swap_25',['swap',['../d6/de1/a00233.html#a149f55c1d6b6336ef751e247856198ce',1,'swap(int16_t &amp;a, int16_t &amp;b):&#160;hV_Utilities_Common.cpp'],['../d6/de1/a00233.html#a7989671d14dda7f19b8d289e359404e9',1,'swap(uint16_t &amp;a, uint16_t &amp;b):&#160;hV_Utilities_Common.cpp'],['../d6/de1/a00233.html#a46562f812c731ac4a846ee4bb29b0397',1,'swap(uint8_t &amp;a, uint8_t &amp;b):&#160;hV_Utilities_Common.cpp']]]
+  ['suspend_24',['suspend',['../de/dc8/a00325.html#a9324bbb7e8151505ef925dc1e326b4b0',1,'Screen_EPD_EXT3_Fast']]]
 ];

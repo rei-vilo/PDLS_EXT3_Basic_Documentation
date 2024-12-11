@@ -2,7 +2,7 @@
 <area shape="rect" id="Node000001" title="Driver for Pervasive Displays EXT3, EXT3.1 and EXT3&#45;Touch boards." alt="" coords="707,5,803,31"/>
 <area shape="rect" id="Node000002" href="$d0/d27/a00239.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3.1 and EXT3&#45;Touch boards." alt="" coords="680,152,831,177"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="741,44,729,72,726,88,727,103,737,129,750,150,745,153,732,131,722,105,721,88,724,71,737,41"/>
-<area shape="rect" id="Node000020" href="$dc/d9a/a00218.html" title="Driver for Pervasive Displays EXT3, EXT3.1 and EXT3&#45;Touch boards." alt="" coords="737,79,886,104"/>
+<area shape="rect" id="Node000020" href="$dc/d9a/a00218.html" title="Driver for Pervasive Displays EXT3, EXT3.1, EXT3&#45;Touch and EXT4 boards." alt="" coords="737,79,886,104"/>
 <area shape="poly" id="edge20_Node000001_Node000020" title=" " alt="" coords="775,40,804,77,800,80,771,43"/>
 <area shape="rect" id="Node000003" href="$d9/dd0/a00191.html" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="1227,225,1420,251"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="845,174,1232,223,1232,228,844,180"/>

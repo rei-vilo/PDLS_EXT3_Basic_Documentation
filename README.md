@@ -8,7 +8,6 @@ The Pervasive Displays Library Suite is specifically designed for the [Pervasive
 
 ![](https://pdls.pervasivedisplays.com/userguide/img/Logo_PDI_text_320.png)
 
-
 The documentation covers the different variants of the library:
 
 * [**PDLS_EXT3_Basic_Global**](https://github.com/rei-vilo/PDLS_EXT3_Basic_Global) for monochrome (film `C`) and colour black-white-red (film `J`) screens;
@@ -19,7 +18,9 @@ The documentation covers the different variants of the library:
 
 * [**PDLS_EXT3_Basic_Touch**](https://github.com/rei-vilo/PDLS_EXT3_Basic_Touch) for monochrome screens with capacitive touch;
 
-* [**PDLS_EXT3_Basic_BWRY**](https://github.com/rei-vilo/PDLS_EXT3_Basic_BWRY) for colour black-white-red-yellow screens (file `Q`).
+* [**PDLS_EXT3_Basic_BWRY**](https://github.com/rei-vilo/PDLS_EXT3_Basic_BWRY) for colour black-white-red-yellow screens (file `Q`);
+
+* [**PDLS_EXT4_Basic_Matter**](https://github.com/rei-vilo/PDLS_EXT4_Basic_Matter) for the E_Paper Development Kit for Matter (EPDK-Matter).
 
 ## Support
 

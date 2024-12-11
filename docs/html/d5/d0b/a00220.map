@@ -1,5 +1,5 @@
 <map id="hV_Utilities_PDLS.h" name="hV_Utilities_PDLS.h">
-<area shape="rect" id="Node000001" title="Driver for Pervasive Displays EXT3, EXT3.1 and EXT3&#45;Touch boards." alt="" coords="681,5,830,31"/>
+<area shape="rect" id="Node000001" title="Driver for Pervasive Displays EXT3, EXT3.1, EXT3&#45;Touch and EXT4 boards." alt="" coords="681,5,830,31"/>
 <area shape="rect" id="Node000002" href="$d0/d27/a00239.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3.1 and EXT3&#45;Touch boards." alt="" coords="680,79,831,104"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="758,44,758,79,753,79,753,44"/>
 <area shape="rect" id="Node000003" href="$d9/dd0/a00191.html" title="Driver for Pervasive Displays iTC screens and EXT3 extension board." alt="" coords="1227,152,1420,177"/>

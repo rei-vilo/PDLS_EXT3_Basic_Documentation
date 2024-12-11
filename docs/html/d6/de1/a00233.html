@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo-PDI-white.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.0.8</span>
+   <div id="projectname">Pervasive Displays Library Suite - Basic edition<span id="projectnumber">&#160;8.1.0</span>
    </div>
    <div id="projectbrief">Library for Pervasive Displays e-paper screens and EXT3 extension board</div>
   </td>
@@ -159,7 +159,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="poly" title=" " alt="" coords="710,43,681,80,677,77,706,40"/>
 <area shape="rect" href="../../d2/dc8/a00242.html" title="Generic buffered screen class library." alt="" coords="597,152,743,177"/>
 <area shape="poly" title=" " alt="" coords="746,40,761,71,764,88,759,105,748,122,733,135,701,154,698,150,730,131,744,118,754,103,758,88,756,73,742,43"/>
-<area shape="rect" href="../../dc/d9a/a00218.html" title="Driver for Pervasive Displays EXT3, EXT3.1 and EXT3&#45;Touch boards." alt="" coords="767,152,917,177"/>
+<area shape="rect" href="../../dc/d9a/a00218.html" title="Driver for Pervasive Displays EXT3, EXT3.1, EXT3&#45;Touch and EXT4 boards." alt="" coords="767,152,917,177"/>
 <area shape="poly" title=" " alt="" coords="748,39,780,77,836,150,831,153,776,80,744,43"/>
 <area shape="poly" title=" " alt="" coords="673,118,673,152,667,152,667,118"/>
 <area shape="rect" href="../../d0/d27/a00239.html" title="Driver for Pervasive Displays iTC monochrome touch screens with EXT3.1 and EXT3&#45;Touch boards." alt="" coords="680,225,831,251"/>
@@ -206,15 +206,9 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a9181b73f355c545c61257008ed6515c1" id="r_a9181b73f355c545c61257008ed6515c1"><td class="memItemLeft" align="right" valign="top"><a id="a9181b73f355c545c61257008ed6515c1" name="a9181b73f355c545c61257008ed6515c1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>hV_UTILITIES_RELEASE</b>&#160;&#160;&#160;806</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>hV_UTILITIES_RELEASE</b>&#160;&#160;&#160;810</td></tr>
 <tr class="memdesc:a9181b73f355c545c61257008ed6515c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Library release number. <br /></td></tr>
 <tr class="separator:a9181b73f355c545c61257008ed6515c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6afabdc09a49a433ee19d8a9486056d" id="r_ac6afabdc09a49a433ee19d8a9486056d"><td class="memItemLeft" align="right" valign="top"><a id="ac6afabdc09a49a433ee19d8a9486056d" name="ac6afabdc09a49a433ee19d8a9486056d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>min</b>(a,  b)&#160;&#160;&#160;((a) &lt; (b) ? (a) : (b))</td></tr>
-<tr class="separator:ac6afabdc09a49a433ee19d8a9486056d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affe776513b24d84b39af8ab0930fef7f" id="r_affe776513b24d84b39af8ab0930fef7f"><td class="memItemLeft" align="right" valign="top"><a id="affe776513b24d84b39af8ab0930fef7f" name="affe776513b24d84b39af8ab0930fef7f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>max</b>(a,  b)&#160;&#160;&#160;((a) &gt; (b) ? (a) : (b))</td></tr>
-<tr class="separator:affe776513b24d84b39af8ab0930fef7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Orientation constants</div></td></tr>
 <tr class="memitem:a0f166aa542c69097847cfc189cd48057" id="r_a0f166aa542c69097847cfc189cd48057"><td class="memItemLeft" align="right" valign="top"><a id="a0f166aa542c69097847cfc189cd48057" name="a0f166aa542c69097847cfc189cd48057"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>ORIENTATION_PORTRAIT</b>&#160;&#160;&#160;6</td></tr>
@@ -258,23 +252,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a9e10a8bc35f3b1ae121655e335de4513" id="r_a9e10a8bc35f3b1ae121655e335de4513"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e10a8bc35f3b1ae121655e335de4513">roundUp</a> (uint32_t value, uint16_t modulo)</td></tr>
 <tr class="memdesc:a9e10a8bc35f3b1ae121655e335de4513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Round-up.  <br /></td></tr>
 <tr class="separator:a9e10a8bc35f3b1ae121655e335de4513"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a149f55c1d6b6336ef751e247856198ce" id="r_a149f55c1d6b6336ef751e247856198ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a149f55c1d6b6336ef751e247856198ce">swap</a> (int16_t &amp;a, int16_t &amp;b)</td></tr>
-<tr class="memdesc:a149f55c1d6b6336ef751e247856198ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swap number, int16_t.  <br /></td></tr>
-<tr class="separator:a149f55c1d6b6336ef751e247856198ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7989671d14dda7f19b8d289e359404e9" id="r_a7989671d14dda7f19b8d289e359404e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7989671d14dda7f19b8d289e359404e9">swap</a> (uint16_t &amp;a, uint16_t &amp;b)</td></tr>
-<tr class="memdesc:a7989671d14dda7f19b8d289e359404e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swap number, uint16_t.  <br /></td></tr>
-<tr class="separator:a7989671d14dda7f19b8d289e359404e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46562f812c731ac4a846ee4bb29b0397" id="r_a46562f812c731ac4a846ee4bb29b0397"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46562f812c731ac4a846ee4bb29b0397">swap</a> (uint8_t &amp;a, uint8_t &amp;b)</td></tr>
-<tr class="memdesc:a46562f812c731ac4a846ee4bb29b0397"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swap number, uint8_t.  <br /></td></tr>
-<tr class="separator:a46562f812c731ac4a846ee4bb29b0397"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Utilities for highView Library Suite. </p>
 <p>Project Pervasive Displays Library Suite <br  />
  Based on highView technology</p>
 <dl class="section author"><dt>Author</dt><dd>Rei Vilo </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>21 Sep 2024 </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>806</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>21 Nov 2024 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>810</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(c) Rei Vilo, 2010-2024 </dd>
 <dd>
 All rights reserved </dd>
@@ -520,96 +505,6 @@ For exclusive use with Pervasive Displays screens</dd></dl>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>sinus value, x100 </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This function uses integers only. </dd></dl>
-
-</div>
-</div>
-<a id="a149f55c1d6b6336ef751e247856198ce" name="a149f55c1d6b6336ef751e247856198ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a149f55c1d6b6336ef751e247856198ce">&#9670;&#160;</a></span>swap() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void swap </td>
-          <td>(</td>
-          <td class="paramtype">int16_t &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int16_t &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Swap number, int16_t. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">a</td><td>first number </td></tr>
-    <tr><td class="paramname">b</td><td>second number </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a7989671d14dda7f19b8d289e359404e9" name="a7989671d14dda7f19b8d289e359404e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7989671d14dda7f19b8d289e359404e9">&#9670;&#160;</a></span>swap() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void swap </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Swap number, uint16_t. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">a</td><td>first number </td></tr>
-    <tr><td class="paramname">b</td><td>second number </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a46562f812c731ac4a846ee4bb29b0397" name="a46562f812c731ac4a846ee4bb29b0397"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46562f812c731ac4a846ee4bb29b0397">&#9670;&#160;</a></span>swap() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void swap </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Swap number, uint8_t. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">a</td><td>first number </td></tr>
-    <tr><td class="paramname">b</td><td>second number </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
