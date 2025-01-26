@@ -6,41 +6,19 @@ The Pervasive Displays Library Suite is specifically designed for the [Pervasive
 
 ![](https://pdls.pervasivedisplays.com/userguide/img/Logo_PDI_text_320.png)
 
+## New releases
+
 Release 9 inaugurates a new structure based on drivers developed by Pervasive Displays.
 
-The **PDLS_Basic** edition supports the screens
-
-* iTC [monochrome with wide temperature and embedded fast update](https://www.pervasivedisplays.com/products/?_sft_etc_itc=pu&_sft_temperature_range=m15c-to-p60c) (film `K`),
-* iTC monochrome [with touch](https://www.pervasivedisplays.com/products/?_sft_etc_itc=tp), 
-* iTC [black-white-red-yellow colour](https://www.pervasivedisplays.com/products/?_sft_product_colour=black-white-red-yellow) screens (film `Q`);
-
-the extension boards
-
-* [EPD Extension Kit Gen 3 (EXT3 or EXT3.1)](https://www.pervasivedisplays.com/product/epd-extension-kit-gen-3-EXT3/),
-* [Touch Expansion Board for EXT3 (EXT3-Touch)](https://www.pervasivedisplays.com/product/touch-expansion-board-ext3-touch/) for EXT3.1,
-* ![](https://img.shields.io/badge/-New-orange) Pervasive Displays [EPD Extension Kit Gen 4 (EXT4)](https://www.pervasivedisplays.com/product/epd-extension-kit-gen-4-EXT4/) and EXT4-to-Nano adapter boards;
-
-and the development kits
-
-* [EPD Pico Kit (EPDK)](https://www.pervasivedisplays.com/product/epd-pico-kit-epdk/), which includes a Raspberry Pi Pico RP2040, an EXT3-1 extension board and a 2.66" monochrome panel,
-* [EPD Pico Kit Touch (EPDK-271-Touch)](https://www.pervasivedisplays.com/product/touch-expansion-board-ext3-touch/#tab-3), which includes an EXT3.1 extension board, an EXT3-Touch expansion board, and a 2.71"-Touch monochrome panel with embedded fast update and capacitive touch,
-* ![](https://img.shields.io/badge/-New-orange) [E-Paper Development Kit for Matter (EPDK-Matter)](https://www.pervasivedisplays.com), which includes a Pervasive Displays [EPD Extension Kit Gen 4 (EXT4)](https://www.pervasivedisplays.com/product/epd-extension-kit-gen-4-EXT4/) and a Pervasive Displays EXT4-to-Nano adapter boards, a Pervasive Displays [2.9″ 384x168 E-ink monochrome high-definition](https://www.pervasivedisplays.com/product/2-9-e-ink-displays/) with embedded fast update and wide temperature display, an [Arduino Nano Matter](https://store.arduino.cc/pages/nano-matter) board based on [Silicon Labs MGM240S](https://www.silabs.com/wireless/zigbee/efr32mg24-series-2-modules).
-
-Legacy release 8 supports the screens
-
-* iTC monochrome [with normal update](https://www.pervasivedisplays.com/products/?_sft_product_colour=black-white) (film `C`), 
-* iTC monochrome [with embedded fast update](https://www.pervasivedisplays.com/products/?_sft_etc_itc=pu&_sft_product_colour=black-white) (film `P`), and
-* iTC colour [black-white-red](https://www.pervasivedisplays.com/products/?_sft_product_colour=black-white-red) (film `J`).
-
-## Documentation
+Documentation includes
 
 * [Technical Wiki](https://docs.pervasivedisplays.com/) 
 * [User Guide](https://pdls.pervasivedisplays.com/userguide/index.html) with commented examples
 * [Reference Manual](https://pdls.pervasivedisplays.com/reference/html/index.html) 
 
-## Support
+## Legacy releases
 
-* Please refer to the [PDLS_Basic](https://github.com/rei-vilo/PDLS_Basic/issues) repository for reporting issues and contributing pull requests.
+The [Releases](https://github.com/rei-vilo/PDLS_EXT3_Basic_Documentation/releases) page provides access to the documentation for legacy release 8.
 
 ## Licence
 
