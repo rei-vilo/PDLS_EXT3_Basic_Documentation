@@ -1,8 +1,0 @@
-<map id="hV_List_Screens_Legacy.h" name="hV_List_Screens_Legacy.h">
-<area shape="rect" id="Node000001" title="List of supported Pervasive Displays screens." alt="" coords="5,5,196,31"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="65,152,136,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,32,79,65,74,84,75,103,89,139,84,141,70,105,69,83,74,63,90,30"/>
-<area shape="rect" id="Node000003" href="$d5/ddf/a00224.html" title="List of supported Pervasive Displays screens." alt="" coords="85,79,223,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="112,29,139,66,135,69,107,33"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="147,106,120,143,115,140,143,103"/>
-</map>
